@@ -145,3 +145,13 @@ h2 {
 }
 .site-footer p { margin: 4px 0; }
 .site-footer a { color: var(--accent); }
+
+/* 関連サイト（ポチシリーズ）。折り返すチップ。375px幅でも横スクロールしない */
+.site-footer nav.sites { margin-top: 12px; display: flex; gap: 8px; flex-wrap: wrap; align-items: baseline; }
+.site-footer nav.sites .lbl { font-size: 0.75rem; color: var(--muted); }
+.site-footer nav.sites a {
+  font-size: 0.78rem; padding: 3px 10px; border: 1px solid var(--line); border-radius: 999px;
+  background: var(--card); color: var(--text); text-decoration: none; overflow-wrap: anywhere;
+}
+.site-footer nav.sites a:hover { border-color: var(--accent); background: var(--accent-soft); }
+.site-footer nav.sites a .lbl { color: var(--muted); }

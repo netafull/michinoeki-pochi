@@ -27,6 +27,25 @@ DESCRIPTION = ("全国の道の駅について、住所・電話・営業時間�
                "各駅の公式サイトや道の駅連絡会などの一次情報で確認してまとめています。")
 SITE_URL = os.environ.get("SITE_URL", "https://michinoeki.netaful.jp").rstrip("/")
 
+# 共通ページテンプレート・文言を最後に変えた日（sitemap.xml の lastmod の下限）。テンプレートや文言を変えたら手で更新する
+PAGES_UPDATED = "2026-11-16"
+
+# フッターの関連サイト（ポチシリーズ。道の駅ポチ自身は載せない。名前・説明は他のポチの config.json と同じ）
+SERIES_SITES = (
+    ("電書ポチ", "Kindle本セール", "https://book.netaful.jp/"),
+    ("家電ポチ", "ガジェット・家電セール", "https://kaden.netaful.jp/"),
+    ("林檎ポチ", "Apple整備済製品", "https://apple.netaful.jp/"),
+    ("漫画ポチ", "Webマンガ横断検索", "https://manga.netaful.jp/"),
+    ("コンビニポチ", "コンビニ新商品アーカイブ", "https://conbini.netaful.jp/"),
+    ("ファストフードポチ", "ファストフード限定メニュー", "https://fastfood.netaful.jp/"),
+    ("カフェポチ", "カフェ季節限定メニュー", "https://cafe.netaful.jp/"),
+    ("回転寿司ポチ", "回転寿司の期間限定ネタ", "https://sushi.netaful.jp/"),
+    ("カップ麺ポチ", "カップ麺の新商品", "https://cupmen.netaful.jp/"),
+    ("ホテルポチ", "空室ホテルを安い順に検索", "https://hotel.netaful.jp/"),
+    ("温泉宿ポチ", "温泉地の空室を、すぐ探す", "https://onsen.netaful.jp/"),
+    ("離島宿ポチ", "島の空室を、すぐ探す", "https://ritou.netaful.jp/"),
+)
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_PATH = os.path.join(BASE_DIR, "data", "michinoeki.json")
 
@@ -57,6 +76,14 @@ SLUG_RE = re.compile(r"^[a-z0-9][a-z0-9-]*$")
 
 def _is_url(v):
     return isinstance(v, str) and (v.startswith("https://") or v.startswith("http://"))
+
+
+def _is_date(value):
+    """YYYY-MM-DD の実在する日付か。"""
+    try:
+        return isinstance(value, str) and datetime.date.fromisoformat(value).isoformat() == value
+    except ValueError:
+        return False
 
 
 class StationStore:
@@ -178,11 +205,19 @@ BASE_TEMPLATE = """<!DOCTYPE html>
 {{CONTENT}}</main>
 <footer class="site-footer">
 <p>{{SITE_NAME}}は、道の駅の情報を各駅の公式サイトや道の駅連絡会などの一次情報で確認してまとめています。</p>
-<p><a href="/">トップ</a></p>
-</footer>
+<p>当サイトは各道の駅・国土交通省・全国道の駅連絡会とは関係のない非公式サイトです。営業時間・駐車台数・設備は確認日時点のものです。最新の情報は各駅の公式サイトでご確認ください。</p>
+<p><a href="/">トップ</a> ｜ <a href="https://netaful.jp/policy.html">メディアポリシー</a></p>
+{{SERIES_NAV}}</footer>
 </body>
 </html>
 """
+
+
+def _series_nav():
+    """フッターの関連サイト（チップ表示）。"""
+    links = "\n".join('<a href="%s">%s<span class="lbl"> %s</span></a>'
+                      % (html.escape(u, quote=True), html.escape(n), html.escape(d)) for n, d, u in SERIES_SITES)
+    return '<nav class="sites"><span class="lbl">関連サイト</span>\n%s\n</nav>\n' % links
 
 
 def _site_head(is_top):
@@ -197,7 +232,8 @@ def _render(title, description, canonical, content, jsonld="", is_top=False):
     vals = {"PAGE_TITLE": html.escape(title, quote=True), "DESCRIPTION": html.escape(description, quote=True),
             "CANONICAL": html.escape(canonical, quote=True), "SITE_NAME": html.escape(SITE_NAME),
             "TAGLINE": html.escape(TAGLINE), "CONTENT": content, "JSONLD": jsonld,
-            "OGP_IMAGE": html.escape(SITE_URL + "/static/assets/ogp.jpg", quote=True), "SITE_HEAD": _site_head(is_top)}
+            "OGP_IMAGE": html.escape(SITE_URL + "/static/assets/ogp.jpg", quote=True), "SITE_HEAD": _site_head(is_top),
+            "SERIES_NAV": _series_nav()}
     return re.sub(r"\{\{([A-Z_]+)\}\}", lambda m: vals.get(m.group(1), m.group(0)), BASE_TEMPLATE)
 
 
@@ -424,14 +460,21 @@ def genre(genre_slug):
 
 @app.route("/sitemap.xml")
 def sitemap():
-    urls = [SITE_URL + "/"]
-    for pref_slug in STORE.prefectures:
-        urls.append("%s/%s/" % (SITE_URL, pref_slug))
+    # lastmod: 共通テンプレートの更新日（PAGES_UPDATED）と、そのページに載る駅の確認日（checked）の新しいほう
+    def newest(*dates):
+        return max(d for d in dates if d)
+
+    all_checked = [st["checked"] for _p, st in STORE.all_stations()]
+    urls = [(SITE_URL + "/", newest(PAGES_UPDATED, STORE.updated if _is_date(STORE.updated) else None, *all_checked))]
+    for pref_slug, pref in STORE.prefectures.items():
+        urls.append(("%s/%s/" % (SITE_URL, pref_slug),
+                     newest(PAGES_UPDATED, *(st["checked"] for st in pref["stations"]))))
     for _p, st in STORE.all_stations():
-        urls.append("%s/station/%s/" % (SITE_URL, st["slug"]))
+        urls.append(("%s/station/%s/" % (SITE_URL, st["slug"]), newest(PAGES_UPDATED, st["checked"])))
     for slug in STORE.live_genres():
-        urls.append("%s/genre/%s/" % (SITE_URL, slug))
-    body = "".join("<url><loc>%s</loc></url>" % html.escape(u) for u in urls)
+        urls.append(("%s/genre/%s/" % (SITE_URL, slug),
+                     newest(PAGES_UPDATED, *(st["checked"] for _p, st in STORE.genre_stations(slug)))))
+    body = "".join("<url><loc>%s</loc><lastmod>%s</lastmod></url>" % (html.escape(u), m) for u, m in urls)
     return Response('<?xml version="1.0" encoding="UTF-8"?>\n'
                     '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">%s</urlset>' % body,
                     mimetype="application/xml")

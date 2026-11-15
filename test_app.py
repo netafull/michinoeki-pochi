@@ -1,6 +1,7 @@
 """道の駅ポチのテスト。ネットワーク不要。実データ（埼玉県21駅）で確認する。"""
 import json
 import os
+import re
 import tempfile
 import unittest
 
@@ -131,6 +132,44 @@ class Rendering(unittest.TestCase):
         code, text = self.get("/robots.txt")
         self.assertEqual(code, 200)
         self.assertIn("sitemap.xml", text)
+
+    def test_sitemap_every_url_has_lastmod(self):
+        _code, text = self.get("/sitemap.xml")
+        urls = re.findall(r"<url>(.*?)</url>", text)
+        self.assertGreater(len(urls), 20)
+        for u in urls:
+            self.assertRegex(u, r"^<loc>[^<]+</loc><lastmod>\d{4}-\d{2}-\d{2}</lastmod>$")
+
+    def test_sitemap_lastmod_rules(self):
+        _code, text = self.get("/sitemap.xml")
+        lm = dict(re.findall(r"<loc>([^<]+)</loc><lastmod>([^<]+)</lastmod>", text))
+        base = appmod.SITE_URL
+        newest = max(appmod.PAGES_UPDATED, appmod.STORE.updated,
+                     *(st["checked"] for _p, st in appmod.STORE.all_stations()))
+        self.assertEqual(lm[base + "/"], newest)
+        _p, st = appmod.STORE.get("arakawa")
+        self.assertEqual(lm[base + "/station/arakawa/"], max(appmod.PAGES_UPDATED, st["checked"]))
+        for pref_slug, pref in appmod.STORE.prefectures.items():
+            self.assertEqual(lm["%s/%s/" % (base, pref_slug)],
+                             max(appmod.PAGES_UPDATED, *(s["checked"] for s in pref["stations"])))
+        for slug in appmod.STORE.live_genres():
+            self.assertEqual(lm["%s/genre/%s/" % (base, slug)],
+                             max(appmod.PAGES_UPDATED, *(s["checked"] for _p, s in appmod.STORE.genre_stations(slug))))
+
+    def test_footer_notice_and_series_links(self):
+        for path in ("/", "/saitama/", "/station/arakawa/", "/genre/ev/"):
+            _code, text = self.get(path)
+            foot = text.split('<footer class="site-footer">', 1)[1]
+            self.assertIn("非公式サイトです", foot)
+            self.assertIn("最新の情報は各駅の公式サイトでご確認ください", foot)
+            self.assertIn('<a href="https://netaful.jp/policy.html">メディアポリシー</a>', foot)
+            nav = foot.split('<nav class="sites">', 1)[1].split("</nav>", 1)[0]
+            hosts = re.findall(r'href="https://([a-z]+)\.netaful\.jp/"', nav)
+            self.assertEqual(hosts, ["book", "kaden", "apple", "manga", "conbini", "fastfood", "cafe",
+                                     "sushi", "cupmen", "hotel", "onsen", "ritou"])
+            self.assertNotIn("michinoeki.netaful.jp", nav)
+            self.assertNotIn("道の駅ポチ", nav)
+            self.assertIn('<a href="https://ritou.netaful.jp/">離島宿ポチ<span class="lbl"> 島の空室を、すぐ探す</span></a>', nav)
 
 
 class FeatureFilter(unittest.TestCase):
