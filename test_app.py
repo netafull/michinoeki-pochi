@@ -133,6 +133,38 @@ class Rendering(unittest.TestCase):
         self.assertIn("sitemap.xml", text)
 
 
+class FeatureFilter(unittest.TestCase):
+    """県ページの設備フィルタ（バー表示・data属性・スクリプト配信）。絞り込み自体はJS側の責務。"""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.client = appmod.app.test_client()
+
+    def test_filter_bar_on_prefecture_page(self):
+        text = self.client.get("/saitama/").get_data(as_text=True)
+        self.assertIn('class="ms-filter"', text)
+        self.assertIn("設備で絞り込む", text)
+        self.assertEqual(text.count('class="ms-filter-input"'), 5)
+        for value in ("ev", "onsen_ashiyu", "dogrun", "restaurant", "shop"):
+            self.assertIn('value="%s"' % value, text)
+        self.assertIn("21駅が該当", text)  # 初期表示は全件（JSがライブ更新する）
+        self.assertIn("条件に合う駅がありません", text)
+        self.assertIn('class="ms-filter-reset"', text)
+        self.assertIn("/static/app.js", text)
+
+    def test_cards_have_data_feats(self):
+        text = self.client.get("/saitama/").get_data(as_text=True)
+        self.assertEqual(text.count("data-feats="), 21)
+        self.assertIn('data-feats="ev restaurant shop"', text)               # あらかわ等
+        self.assertIn('data-feats="ev onsen_ashiyu restaurant shop"', text)  # みなの
+        self.assertIn('data-feats="dogrun restaurant shop"', text)           # はなぞの等
+
+    def test_filter_script_is_served(self):
+        r = self.client.get("/static/app.js")
+        self.assertEqual(r.status_code, 200)
+        self.assertIn("data-feats", r.get_data(as_text=True))
+
+
 class ZeroGenre(unittest.TestCase):
     def test_zero_count_genre_is_404_and_unlinked(self):
         with tempfile.TemporaryDirectory() as tmp:

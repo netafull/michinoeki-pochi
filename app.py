@@ -228,10 +228,12 @@ def _parking_html(st, big=False):
 
 
 def _station_card(pref_slug, st, show_pref=False):
-    """駅カード。名前を大きく、駐車台数を目立たせ、設備チップと公式サイトボタンを付ける。"""
+    """駅カード。名前を大きく、駐車台数を目立たせ、設備チップと公式サイトボタンを付ける。
+    True の設備キーは data-feats に空白区切りで持たせ、県ページのJSフィルタが使う。"""
     e = html.escape
     url = "/station/%s/" % st["slug"]
-    out = '<li class="ms-card">'
+    feats = " ".join(k for k in FEATURE_KEYS if st[k] is True)
+    out = '<li class="ms-card" data-feats="%s">' % feats
     out += '<div class="ms-card-head"><h3><a href="%s">%s</a></h3>' % (e(url, True), e(st["name"]))
     if show_pref:
         out += '<span class="ms-pref">%s</span>' % e(STORE.prefectures[pref_slug]["name"])
@@ -257,6 +259,22 @@ def _sources_block(st):
             '一次情報で確認しています（%s確認）。%s</p>'
             '<p class="ms-source-link">出典: <a href="%s" target="_blank" rel="noopener">%s</a></p></section>\n'
             % (e(_fmt_checked(st["checked"])), e(CAUTION), e(st["source_url"], True), e(st["source_url"])))
+
+
+def _filter_bar(total):
+    """県ページの設備フィルタバー。チェックした設備をすべて持つ駅だけをJSが表示する（AND条件）。
+    JS無効時は絞り込みが働かず全カードが見えるのが既定。件数はサーバー側でも総数を出しておき、JSが更新する。"""
+    e = html.escape
+    boxes = "".join(
+        '<label class="ms-filter-chip"><input type="checkbox" class="ms-filter-input" value="%s"> %s</label>'
+        % (k, e(FEATURE_LABELS[k])) for k in FEATURE_KEYS)
+    return ('<section class="ms-filter" aria-label="設備で絞り込む">'
+            '<h2 class="ms-filter-title">設備で絞り込む</h2>'
+            '<div class="ms-filter-checks">%s</div>'
+            '<p class="ms-filter-status"><span class="ms-filter-count" aria-live="polite">%d駅が該当</span>'
+            '<button type="button" class="ms-filter-reset">リセット</button></p>'
+            '<p class="ms-filter-empty" hidden>条件に合う駅がありません。条件をゆるめてみてください。</p>'
+            '</section>\n' % (boxes, total))
 
 
 def _genre_links():
@@ -306,9 +324,11 @@ def prefecture(pref_slug):
     canonical = "%s/%s/" % (SITE_URL, pref_slug)
     content = ('<section class="hero"><h1>%s</h1>\n%s'
                '<p class="intro">%sにある道の駅%d駅の一覧です。%s</p></section>\n'
-               '<ul class="ms-cards">%s</ul>\n'
                % (e(title), _crumbs_nav((title, "/%s/" % pref_slug)), e(pref["name"]),
-                  len(pref["stations"]), e(CAUTION), cards))
+                  len(pref["stations"]), e(CAUTION)))
+    content += _filter_bar(len(pref["stations"]))
+    content += '<ul class="ms-cards">%s</ul>\n' % cards
+    content += '<script src="/static/app.js" defer></script>\n'
     return _render("%s | %s" % (title, SITE_NAME), desc, canonical, content,
                    _crumbs((title, canonical)))
 
