@@ -7,7 +7,8 @@
 - `app.py` — Flaskアプリ本体。ページは `/`（トップ）、`/<都道府県slug>/`（県ページ）、`/station/<slug>/`（駅ページ）、`/genre/<slug>/`（ジャンルページ）、`/sitemap.xml`、`/robots.txt`。
 - `data/michinoeki.json` — 駅データ。`{"updated": ..., "prefectures": {"<都道府県slug>": {"name": ..., "stations": [...]}}}` の形で都道府県ごとに束ねる。表示とは分離して持つ。
 - `static/style.css` — 緑系アクセント（温泉宿ポチと区別）。カードは「名前を大きく、数字（駐車台数）を目立たせる」階層。
-- `test_app.py` — unittest（ローダーの検証・各ページのレンダリング・404）。
+- `test_app.py` — unittest（ローダーの検証・各ページのレンダリング・404・静的書き出し）。
+- `scripts/build_static.py` — GitHub Pages 公開用の静的書き出し（下記）。
 
 ## 起動とテスト
 
@@ -17,6 +18,19 @@
 ```
 
 Flask はプロジェクト内の `.venv` に入っている（システムの Python には入れない）。
+
+## 公開（GitHub Pages）
+
+公開は、他のポチ系静的サイト（林檎ポチ等）と同じく **GitHub Pages** で行う。Flask アプリ自体は本番サーバーではなく、**プレビューと静的ページの生成のための道具**という位置づけ。
+
+```
+.venv/bin/python scripts/build_static.py   # docs/ に全ページを書き出す
+```
+
+- スクリプトは Flask の test_client で全ルート（トップ・県ページ・全駅ページ・該当駅のあるジャンルページ・`sitemap.xml`・`robots.txt`）をレンダリングし、`docs/<パス>/index.html` の形で書き出す。`/static/` 配下のファイルも `docs/static/` にコピーする。
+- ルート一覧は `data/michinoeki.json` とアプリのジャンル定義から導出する。どれか1つでも 200 以外が返ったら書き出しを中止し、`docs/` には触れない。
+- `docs/CNAME`（michinoeki.netaful.jp）と `docs/.nojekyll` もあわせて生成する。実行のたびに `docs/` は再生成されるので、手で編集しない。
+- 生成した `docs/` をコミットすると GitHub Pages に公開される。データを更新したら、書き出し→コミット、の順で反映する。
 
 ## データの決まり
 
@@ -36,4 +50,4 @@ Flask はプロジェクト内の `.venv` に入っている（システムの P
 
 - 都道府県単位でデータを追加していく（`data/michinoeki.json` の `prefectures` に足すだけで県ページが増える）。
 - ジャンルは ev（EV充電あり）、onsen（温泉・足湯あり）、dogrun（ドッグランあり）、restaurant（レストランあり）、shop（物産・直売所あり）。
-- 本番化のときにやること：リポジトリのGitHub化、ドメイン（michinoeki.netaful.jp 想定）の用意、Cloud Run へのデプロイ、帯（divider）画像の作成。
+- 本番化のときにやること：ドメイン（michinoeki.netaful.jp）のDNS設定とGitHub Pagesの有効化、帯（divider）画像の作成。公開方式は上記「公開（GitHub Pages）」のとおり（Cloud Run は使わない）。

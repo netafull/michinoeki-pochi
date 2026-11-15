@@ -180,5 +180,38 @@ class ZeroGenre(unittest.TestCase):
                 appmod.STORE = old
 
 
+class StaticBuild(unittest.TestCase):
+    """静的書き出し（scripts/build_static.py）が全ルート分そろうこと。"""
+
+    def test_build_static_produces_all_pages(self):
+        import subprocess
+        import sys
+        root = os.path.dirname(os.path.abspath(__file__))
+        with tempfile.TemporaryDirectory() as tmp:
+            out = os.path.join(tmp, "docs")
+            r = subprocess.run([sys.executable, os.path.join(root, "scripts", "build_static.py"),
+                                "--out", out], capture_output=True, text=True)
+            self.assertEqual(r.returncode, 0, r.stderr)
+
+            def exists(*parts):
+                return os.path.isfile(os.path.join(out, *parts))
+
+            self.assertTrue(exists("index.html"))
+            self.assertTrue(exists("saitama", "index.html"))
+            station_dirs = sorted(os.listdir(os.path.join(out, "station")))
+            self.assertEqual(len(station_dirs), 21)
+            for d in station_dirs:
+                self.assertTrue(exists("station", d, "index.html"), d)
+            for g in ("ev", "onsen", "dogrun", "restaurant", "shop"):
+                self.assertTrue(exists("genre", g, "index.html"), g)
+            self.assertTrue(exists("sitemap.xml"))
+            self.assertTrue(exists("robots.txt"))
+            self.assertTrue(exists("static", "style.css"))
+            self.assertTrue(exists("static", "app.js"))
+            self.assertTrue(exists(".nojekyll"))
+            with open(os.path.join(out, "CNAME"), encoding="utf-8") as f:
+                self.assertEqual(f.read().strip(), "michinoeki.netaful.jp")
+
+
 if __name__ == "__main__":
     unittest.main()
