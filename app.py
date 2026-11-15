@@ -150,6 +150,8 @@ BASE_TEMPLATE = """<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JLZ2CJH787"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-JLZ2CJH787');</script>
 <title>{{PAGE_TITLE}}</title>
 <meta name="description" content="{{DESCRIPTION}}">
 <link rel="canonical" href="{{CANONICAL}}">
