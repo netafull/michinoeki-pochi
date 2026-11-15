@@ -110,7 +110,7 @@ class Rendering(unittest.TestCase):
     def test_station_page_omits_null_rows(self):
         code, text = self.get("/station/chichibu/")  # closed が null
         self.assertEqual(code, 200)
-        self.assertNotIn("<th>休館日</th>", text)
+        self.assertNotIn("<dt>休館日</dt>", text)
 
     def test_genre_pages(self):
         for slug, count in (("ev", 7), ("onsen", 3), ("dogrun", 2), ("restaurant", 21), ("shop", 21)):

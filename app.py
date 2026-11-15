@@ -153,10 +153,25 @@ BASE_TEMPLATE = """<!DOCTYPE html>
 <title>{{PAGE_TITLE}}</title>
 <meta name="description" content="{{DESCRIPTION}}">
 <link rel="canonical" href="{{CANONICAL}}">
+<link rel="icon" type="image/png" sizes="96x96" href="/static/assets/favicon.png">
+<link rel="apple-touch-icon" href="/static/assets/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{PAGE_TITLE}}">
+<meta property="og:description" content="{{DESCRIPTION}}">
+<meta property="og:url" content="{{CANONICAL}}">
+<meta property="og:site_name" content="{{SITE_NAME}}">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="{{OGP_IMAGE}}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="/static/style.css">
 {{JSONLD}}</head>
 <body>
-<header class="site-header"><a class="brand" href="/">{{SITE_NAME}}</a><span class="tagline">{{TAGLINE}}</span></header>
+<header class="site-header">
+{{SITE_HEAD}}
+<p class="tagline">{{TAGLINE}}</p>
+</header>
 <main>
 {{CONTENT}}</main>
 <footer class="site-footer">
@@ -168,11 +183,19 @@ BASE_TEMPLATE = """<!DOCTYPE html>
 """
 
 
-def _render(title, description, canonical, content, jsonld=""):
+def _site_head(is_top):
+    """ヘッダーのサイト名。h1 になるのはトップだけ（ほかのページはそのページの主題が h1）。"""
+    name = ('<a href="/"><img src="/static/assets/logo.png" alt="" width="44" height="44">%s</a>'
+            % html.escape(SITE_NAME))
+    return '<h1 class="site-title">%s</h1>' % name if is_top else '<div class="site-title">%s</div>' % name
+
+
+def _render(title, description, canonical, content, jsonld="", is_top=False):
     """{{NAME}} を1回の置換で差し替える。通常の値は html.escape、content/jsonld は組み立て済みHTML。"""
     vals = {"PAGE_TITLE": html.escape(title, quote=True), "DESCRIPTION": html.escape(description, quote=True),
             "CANONICAL": html.escape(canonical, quote=True), "SITE_NAME": html.escape(SITE_NAME),
-            "TAGLINE": html.escape(TAGLINE), "CONTENT": content, "JSONLD": jsonld}
+            "TAGLINE": html.escape(TAGLINE), "CONTENT": content, "JSONLD": jsonld,
+            "OGP_IMAGE": html.escape(SITE_URL + "/static/assets/ogp.jpg", quote=True), "SITE_HEAD": _site_head(is_top)}
     return re.sub(r"\{\{([A-Z_]+)\}\}", lambda m: vals.get(m.group(1), m.group(0)), BASE_TEMPLATE)
 
 
@@ -238,10 +261,10 @@ def _station_card(pref_slug, st, show_pref=False):
     if show_pref:
         out += '<span class="ms-pref">%s</span>' % e(STORE.prefectures[pref_slug]["name"])
     out += "</div>"
-    if st["address"]:
-        out += '<p class="ms-address">%s</p>' % e(st["address"])
     out += _parking_html(st)
     out += _chips(st)
+    if st["address"]:
+        out += ('<dl class="ms-facts-list"><div><dt>住所</dt><dd>%s</dd></div></dl>' % e(st["address"]))
     links = '<p class="ms-card-links"><a class="ms-detail" href="%s">駅の詳細</a>' % e(url, True)
     if st["official_url"]:
         links += ('<a class="ms-official" href="%s" target="_blank" rel="noopener">公式サイト</a>'
@@ -298,7 +321,7 @@ def index():
         '<li><a href="/%s/">%s<small>%d駅</small></a></li>' % (slug, e(p["name"]), len(p["stations"]))
         for slug, p in STORE.prefectures.items())
     content = (
-        '<section class="hero"><h1>%s</h1>'
+        '<section class="hero">'
         '<p class="intro">ドライブの休憩に立ち寄る道の駅について、駐車場の台数やEV充電・温泉などの設備を、'
         '公式の案内をもとにまとめました。現在は%sの%d駅を掲載しています。%s</p></section>\n'
         '<section><h2>都道府県から探す</h2><ul class="ms-nav-chips">%s</ul></section>\n'
@@ -306,9 +329,9 @@ def index():
         '<section class="ms-about"><h2>このサイトの情報について</h2>'
         '<p>掲載している情報は、国土交通省の道の駅登録一覧・全国道の駅連絡会・各駅の公式サイトなどの'
         '一次情報で確認したものだけです。各駅のページに出典と確認日を明記し、確認できなかった項目は載せていません。%s</p></section>\n'
-        % (e(SITE_NAME), e("・".join(p["name"] for p in STORE.prefectures.values())), total, e(CAUTION),
+        % (e("・".join(p["name"] for p in STORE.prefectures.values())), total, e(CAUTION),
            pref_items, _genre_links(), e(CAUTION)))
-    return _render(SITE_NAME, DESCRIPTION, SITE_URL + "/", content)
+    return _render(SITE_NAME, DESCRIPTION, SITE_URL + "/", content, is_top=True)
 
 
 @app.route("/<pref_slug>/")
@@ -349,28 +372,27 @@ def station(slug):
     rows = ""
     if st["address"]:
         maps = "https://www.google.com/maps/search/?api=1&query=" + urllib.parse.quote(st["address"])
-        rows += ('<tr><th>住所</th><td><a href="%s" target="_blank" rel="noopener">📍 %s</a></td></tr>'
+        rows += ('<div><dt>住所</dt><dd><a href="%s" target="_blank" rel="noopener">📍 %s</a></dd></div>'
                  % (e(maps, True), e(st["address"])))
     if st["tel"]:
-        rows += '<tr><th>電話</th><td><a href="tel:%s">📞 %s</a></td></tr>' % (e(st["tel"], True), e(st["tel"]))
+        rows += '<div><dt>電話</dt><dd><a href="tel:%s">📞 %s</a></dd></div>' % (e(st["tel"], True), e(st["tel"]))
     if st["hours"]:
-        rows += '<tr><th>営業時間</th><td>%s</td></tr>' % e(st["hours"])
+        rows += '<div><dt>営業時間</dt><dd>%s</dd></div>' % e(st["hours"])
     if st["closed"]:
-        rows += '<tr><th>休館日</th><td>%s</td></tr>' % e(st["closed"])
-    parking = _parking_html(st)
-    if parking:
-        rows += '<tr><th>駐車場</th><td>%s</td></tr>' % parking
+        rows += '<div><dt>休館日</dt><dd>%s</dd></div>' % e(st["closed"])
 
     content = ('<section class="hero"><h1>%s</h1>\n%s'
                '<p class="intro">%sの道の駅です。%s</p></section>\n'
                % (e(title), _crumbs_nav(("%sの道の駅" % pref_name, "/%s/" % pref_slug), (title, "/station/%s/" % slug)),
                   e(pref_name), e(CAUTION)))
-    content += _chips(st)
+    card = _parking_html(st, big=True) + _chips(st)
     if rows:
-        content += '<table class="ms-facts">%s</table>\n' % rows
+        card += '<dl class="ms-facts-list">%s</dl>' % rows
     if st["official_url"]:
-        content += ('<p class="ms-official-row"><a class="ms-official" href="%s" target="_blank" rel="noopener">公式サイト</a></p>\n'
-                    % e(st["official_url"], True))
+        card += ('<p class="ms-official-row"><a class="ms-official" href="%s" target="_blank" rel="noopener">公式サイト</a></p>'
+                 % e(st["official_url"], True))
+    if card:
+        content += '<div class="ms-card ms-card--station">%s</div>\n' % card
     content += _sources_block(st)
     return _render("%s | %s" % (title, SITE_NAME), desc, canonical, content,
                    _crumbs(("%sの道の駅" % pref_name, "%s/%s/" % (SITE_URL, pref_slug)), (title, canonical)))
