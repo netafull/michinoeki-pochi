@@ -1,0 +1,9 @@
+.git
+.gitignore
+.venv
+__pycache__
+*.pyc
+test_app.py
+README.md
+AGENTS.md
+CLAUDE.md
