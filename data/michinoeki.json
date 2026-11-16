@@ -977,7 +977,8 @@
      "shop": true,
      "slug": "hakone-toge",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19150",
-     "tel": "0460-83-7310"
+     "tel": "0460-83-7310",
+     "ev_source_url": "https://evsmart.net/spot/kanagawa/l143821/v30224/"
     },
     {
      "address": "神奈川県足柄上郡山北町湯触317",
@@ -995,7 +996,8 @@
      "shop": true,
      "slug": "yamakita",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19151",
-     "tel": "0465-77-2882"
+     "tel": "0465-77-2882",
+     "ev_source_url": "https://www.evsmart.net/spot/kanagawa/l143642/v35196"
     },
     {
      "address": "神奈川県愛甲郡清川村煤ヶ谷2129",
@@ -1013,7 +1015,8 @@
      "shop": true,
      "slug": "kiyokawa",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19846",
-     "tel": "080-7016-3549"
+     "tel": "080-7016-3549",
+     "ev_source_url": "https://www.evsmart.net/spot/kanagawa/l144029/v30225"
     },
     {
      "address": "神奈川県南足柄市竹松1117番地1",
@@ -1031,7 +1034,8 @@
      "shop": true,
      "slug": "ashigara-kintaro",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19946",
-     "tel": "0465-70-1815"
+     "tel": "0465-70-1815",
+     "ev_source_url": "https://www.michinoeki-ashigara.com/facility/"
     },
     {
      "address": "神奈川県茅ヶ崎市柳島1546番地1",
@@ -1049,7 +1053,8 @@
      "shop": true,
      "slug": "shonan-chigasaki",
      "source_url": "https://www.michi-no-eki.jp/stations/views/22687",
-     "tel": "0467-33-6360"
+     "tel": "0467-33-6360",
+     "ev_source_url": "https://evsmart.net/spot/kanagawa/l142077/v33720"
     },
     {
      "address": "神奈川県足柄上郡松田町寄3415番地",
@@ -1062,7 +1067,7 @@
      "official_url": "https://yadoriki.com/yadoriki-terrace/",
      "onsen_ashiyu": null,
      "parking_large": null,
-     "parking_normal": null,
+     "parking_normal": 13,
      "restaurant": true,
      "shop": true,
      "slug": "yadoriki-terrace",
