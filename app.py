@@ -12,6 +12,10 @@
 - 0件のジャンルはページ自体を作らない（リンクも出さない）。
 - 公開は都道府県単位。データの prefectures.<slug>.published が true の県だけを表示する
   （データの精査が終わった県から順次公開する運用。未公開の県はページ自体を作らない）。
+- EV充電の有無は、公式・自治体に加え、充電ネットワーク事業者の公表値や専門データベース
+  （EVsmart、EV Smart Charge）の登録でも裏付け可とする。その場合は ev_source_url に確認元の
+  URLを持ち、駅ページの出典ブロックに「EV充電の確認元」としてリンクを出す。
+  ユーザー投稿型サイト（GoGoEV等）の登録だけを根拠にはしない。
 """
 import datetime
 import html
@@ -72,7 +76,7 @@ FEATURE_LABELS = {"ev": "EV充電", "onsen_ashiyu": "温泉・足湯", "dogrun":
 KNOWN_KEYS = ("slug", "name", "address", "tel", "hours", "closed",
               "parking_normal", "parking_large",
               "ev", "onsen_ashiyu", "dogrun", "restaurant", "shop",
-              "official_url", "source_url", "checked")
+              "official_url", "source_url", "checked", "ev_source_url")
 SLUG_RE = re.compile(r"^[a-z0-9][a-z0-9-]*$")
 
 
@@ -148,6 +152,8 @@ class StationStore:
                 st[k] = None
         if not _is_url(st["official_url"]):
             st["official_url"] = None
+        if not _is_url(st["ev_source_url"]):
+            st["ev_source_url"] = None
         return st, None
 
     def all_stations(self):
@@ -332,11 +338,15 @@ def _sources_block(st):
     """出典ブロック。一次情報で確認していることと確認日だけを細く残す（リンク列は並べない）。
     出典URLは1本だけ「出典」として出す。"""
     e = html.escape
+    ev_link = ""
+    if st["ev"] is True and st["ev_source_url"]:
+        ev_link = ('<p class="ms-source-link">EV充電の確認元: <a href="%s" target="_blank" rel="noopener">%s</a></p>'
+                   % (e(st["ev_source_url"], True), e(st["ev_source_url"])))
     return ('<section class="ms-sources"><h2>出典について</h2>'
             '<p class="fact-checked">住所・営業時間などの情報は、各駅の公式サイトや全国道の駅連絡会などの'
             '一次情報で確認しています（%s確認）。</p>'
-            '<p class="ms-source-link">出典: <a href="%s" target="_blank" rel="noopener">%s</a></p></section>\n'
-            % (e(_fmt_checked(st["checked"])), e(st["source_url"], True), e(st["source_url"])))
+            '<p class="ms-source-link">出典: <a href="%s" target="_blank" rel="noopener">%s</a></p>%s</section>\n'
+            % (e(_fmt_checked(st["checked"])), e(st["source_url"], True), e(st["source_url"]), ev_link))
 
 
 def _filter_bar(total):
