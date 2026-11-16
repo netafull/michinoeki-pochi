@@ -250,7 +250,7 @@ class PublishingGate(unittest.TestCase):
         r = self.client.get("/")
         self.assertEqual(r.status_code, 200)
         text = r.get_data(as_text=True)
-        self.assertIn("精査が終わった都道府県から順次公開します", text)
+        self.assertIn("ただいま準備中です", text)
         self.assertNotIn('href="/saitama/"', text)
         self.assertNotIn("/genre/ev/", text)
 
@@ -288,7 +288,7 @@ class PublishingGate(unittest.TestCase):
                     self.assertEqual(client.get("/saitama/").status_code, 404)
                     self.assertEqual(client.get("/station/test-eki/").status_code, 404)
                     top = client.get("/").get_data(as_text=True)
-                    self.assertIn("精査が終わった都道府県から順次公開します", top)
+                    self.assertIn("ただいま準備中です", top)
                 finally:
                     appmod.STORE = old
 
