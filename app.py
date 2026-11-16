@@ -10,6 +10,8 @@
   各駅に source_url（出典）と checked（確認日）を必須とし、ローダーが検証する。
 - 確認できなかった項目は null のままにし、表示側では行・チップごと出さない（推測で埋めない）。
 - 0件のジャンルはページ自体を作らない（リンクも出さない）。
+- 公開は都道府県単位。データの prefectures.<slug>.published が true の県だけを表示する
+  （データの精査が終わった県から順次公開する運用。未公開の県はページ自体を作らない）。
 """
 import datetime
 import html
@@ -112,7 +114,8 @@ class StationStore:
                 stations.append(st)
                 self._by_slug[st["slug"]] = (pref_slug, st)
             if stations:
-                self.prefectures[pref_slug] = {"name": pref.get("name") or pref_slug, "stations": stations}
+                self.prefectures[pref_slug] = {"name": pref.get("name") or pref_slug, "stations": stations,
+                                               "published": pref.get("published") is True}
 
     @staticmethod
     def _validate(item, seen):
@@ -148,9 +151,23 @@ class StationStore:
         return st, None
 
     def all_stations(self):
-        """(都道府県slug, 駅) の一覧（データの並び順）。"""
+        """(都道府県slug, 駅) の一覧（データの並び順）。公開・未公開を問わない全データ。"""
         out = []
         for pref_slug, pref in self.prefectures.items():
+            for st in pref["stations"]:
+                out.append((pref_slug, st))
+        return out
+
+    def public_prefectures(self):
+        """公開中（published が true）の都道府県だけ。表示・書き出しはこちらを使う。"""
+        return {slug: p for slug, p in self.prefectures.items() if p["published"]}
+
+    def public_stations(self):
+        """公開中の都道府県の駅だけ。"""
+        out = []
+        for pref_slug, pref in self.prefectures.items():
+            if not pref["published"]:
+                continue
             for st in pref["stations"]:
                 out.append((pref_slug, st))
         return out
@@ -160,7 +177,7 @@ class StationStore:
 
     def genre_stations(self, genre_slug):
         key = GENRES[genre_slug][1]
-        return [(p, s) for p, s in self.all_stations() if s[key] is True]
+        return [(p, s) for p, s in self.public_stations() if s[key] is True]
 
     def live_genres(self):
         """1駅以上あるジャンルだけ（0件のジャンルはページもリンクも作らない）。"""
@@ -354,28 +371,37 @@ def _genre_links():
 @app.route("/")
 def index():
     e = html.escape
-    total = len(STORE.all_stations())
+    pubs = STORE.public_prefectures()
+    total = sum(len(p["stations"]) for p in pubs.values())
     pref_items = "".join(
         '<li><a href="/%s/">%s<small>%d駅</small></a></li>' % (slug, e(p["name"]), len(p["stations"]))
-        for slug, p in STORE.prefectures.items())
+        for slug, p in pubs.items())
+    if pubs:
+        intro = ('ドライブの休憩に立ち寄る道の駅について、駐車場の台数やEV充電・温泉などの設備を、'
+                 '公式の案内をもとにまとめました。現在は%sの%d駅を掲載しています。%s'
+                 % (e("・".join(p["name"] for p in pubs.values())), total, e(CAUTION)))
+        sections = ('<section><h2>都道府県から探す</h2><ul class="ms-nav-chips">%s</ul></section>\n'
+                    '<section><h2>設備から探す</h2>%s</section>\n' % (pref_items, _genre_links()))
+    else:
+        intro = ('ドライブの休憩に立ち寄る道の駅について、駐車場の台数やEV充電・温泉などの設備を、'
+                 '公式の案内をもとにまとめています。現在、掲載データの精査を行っており、'
+                 '精査が終わった都道府県から順次公開します。')
+        sections = ""
     content = (
         '<section class="hero">'
-        '<p class="intro">ドライブの休憩に立ち寄る道の駅について、駐車場の台数やEV充電・温泉などの設備を、'
-        '公式の案内をもとにまとめました。現在は%sの%d駅を掲載しています。%s</p></section>\n'
-        '<section><h2>都道府県から探す</h2><ul class="ms-nav-chips">%s</ul></section>\n'
-        '<section><h2>設備から探す</h2>%s</section>\n'
+        '<p class="intro">%s</p></section>\n'
+        '%s'
         '<section class="ms-about"><h2>このサイトの情報について</h2>'
         '<p>掲載している情報は、国土交通省の道の駅登録一覧・全国道の駅連絡会・各駅の公式サイトなどの'
         '一次情報で確認したものだけです。各駅のページに出典と確認日を明記し、確認できなかった項目は載せていません。%s</p></section>\n'
-        % (e("・".join(p["name"] for p in STORE.prefectures.values())), total, e(CAUTION),
-           pref_items, _genre_links(), e(CAUTION)))
+        % (intro, sections, e(CAUTION)))
     return _render(SITE_NAME, DESCRIPTION, SITE_URL + "/", content, is_top=True)
 
 
 @app.route("/<pref_slug>/")
 def prefecture(pref_slug):
     pref = STORE.prefectures.get(pref_slug)
-    if pref is None:
+    if pref is None or not pref["published"]:
         abort(404)
     e = html.escape
     title = "%sの道の駅" % pref["name"]
@@ -400,6 +426,8 @@ def station(slug):
     if found is None:
         abort(404)
     pref_slug, st = found
+    if not STORE.prefectures[pref_slug]["published"]:
+        abort(404)
     pref_name = STORE.prefectures[pref_slug]["name"]
     e = html.escape
     title = "道の駅 %s" % st["name"]
@@ -464,12 +492,12 @@ def sitemap():
     def newest(*dates):
         return max(d for d in dates if d)
 
-    all_checked = [st["checked"] for _p, st in STORE.all_stations()]
+    all_checked = [st["checked"] for _p, st in STORE.public_stations()]
     urls = [(SITE_URL + "/", newest(PAGES_UPDATED, STORE.updated if _is_date(STORE.updated) else None, *all_checked))]
-    for pref_slug, pref in STORE.prefectures.items():
+    for pref_slug, pref in STORE.public_prefectures().items():
         urls.append(("%s/%s/" % (SITE_URL, pref_slug),
                      newest(PAGES_UPDATED, *(st["checked"] for st in pref["stations"]))))
-    for _p, st in STORE.all_stations():
+    for _p, st in STORE.public_stations():
         urls.append(("%s/station/%s/" % (SITE_URL, st["slug"]), newest(PAGES_UPDATED, st["checked"])))
     for slug in STORE.live_genres():
         urls.append(("%s/genre/%s/" % (SITE_URL, slug),

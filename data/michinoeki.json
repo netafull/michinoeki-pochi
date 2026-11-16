@@ -3,6 +3,7 @@
  "prefectures": {
   "saitama": {
    "name": "埼玉県",
+   "published": false,
    "stations": [
     {
      "slug": "arakawa",
@@ -386,6 +387,7 @@
   },
   "chiba": {
    "name": "千葉県",
+   "published": false,
    "stations": [
     {
      "address": "千葉県南房総市富浦町青木123-1",
@@ -913,6 +915,7 @@
   },
   "tokyo": {
    "name": "東京都",
+   "published": false,
    "stations": [
     {
      "address": "東京都八王子市滝山町1-592-2",
@@ -936,6 +939,7 @@
   },
   "kanagawa": {
    "name": "神奈川県",
+   "published": false,
    "stations": [
     {
      "address": "神奈川県足柄下郡箱根町箱根381-22",
@@ -1049,6 +1053,7 @@
   },
   "ibaraki": {
    "name": "茨城県",
+   "published": false,
    "stations": [
     {
      "address": "茨城県東茨城郡城里町御前山50-10",
@@ -1342,6 +1347,7 @@
   },
   "tochigi": {
    "name": "栃木県",
+   "published": false,
    "stations": [
     {
      "address": "栃木県芳賀郡茂木町大字茂木1090-1",
@@ -1797,6 +1803,7 @@
   },
   "gunma": {
    "name": "群馬県",
+   "published": false,
    "stations": [
     {
      "address": "群馬県多野郡上野村大字勝山甲131",
@@ -2396,6 +2403,7 @@
   },
   "yamanashi": {
    "name": "山梨県",
+   "published": false,
    "stations": [
     {
      "slug": "tomizawa",
@@ -2797,6 +2805,7 @@
   },
   "niigata": {
    "name": "新潟県",
+   "published": false,
    "stations": [
     {
      "address": "新潟県新潟市北区木崎字切尾山3644-乙",
@@ -3558,6 +3567,7 @@
   },
   "nagano": {
    "name": "長野県",
+   "published": false,
    "stations": [
     {
      "address": "長野市信州新町水内4619",
@@ -4535,6 +4545,7 @@
   },
   "fukushima": {
    "name": "福島県",
+   "published": false,
    "stations": [
     {
      "address": "福島県福島市松川町水原字南沢41-2",
@@ -5206,6 +5217,7 @@
   },
   "toyama": {
    "name": "富山県",
+   "published": false,
    "stations": [
     {
      "address": "富山県富山市片掛3-5",
