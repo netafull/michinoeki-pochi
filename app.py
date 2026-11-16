@@ -338,15 +338,17 @@ def _sources_block(st):
     """出典ブロック。一次情報で確認していることと確認日だけを細く残す（リンク列は並べない）。
     出典URLは1本だけ「出典」として出す。"""
     e = html.escape
+    ev_note = ""
     ev_link = ""
     if st["ev"] is True and st["ev_source_url"]:
+        ev_note = "EV充電については、確認元の情報でも確認しています。"
         ev_link = ('<p class="ms-source-link">EV充電の確認元: <a href="%s" target="_blank" rel="noopener">%s</a></p>'
                    % (e(st["ev_source_url"], True), e(st["ev_source_url"])))
     return ('<section class="ms-sources"><h2>出典について</h2>'
             '<p class="fact-checked">住所・営業時間などの情報は、各駅の公式サイトや全国道の駅連絡会などの'
-            '一次情報で確認しています（%s確認）。</p>'
+            '一次情報で確認しています（%s確認）。%s</p>'
             '<p class="ms-source-link">出典: <a href="%s" target="_blank" rel="noopener">%s</a></p>%s</section>\n'
-            % (e(_fmt_checked(st["checked"])), e(st["source_url"], True), e(st["source_url"]), ev_link))
+            % (e(_fmt_checked(st["checked"])), e(ev_note), e(st["source_url"], True), e(st["source_url"]), ev_link))
 
 
 def _filter_bar(total):
