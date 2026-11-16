@@ -1398,7 +1398,7 @@
      "official_url": "https://www.motegiplaza.com/",
      "onsen_ashiyu": false,
      "parking_large": 5,
-     "parking_normal": 331,
+     "parking_normal": 327,
      "restaurant": true,
      "shop": true,
      "slug": "motegi",
@@ -1410,18 +1410,19 @@
      "checked": "2026-11-16",
      "closed": "第3火曜日（祝日の場合は翌日）、12月31日～1月1日",
      "dogrun": null,
-     "ev": null,
+     "ev": true,
      "hours": "9:00～17:00（季節により変更あり）",
      "name": "にのみや",
      "official_url": "http://michinoeki-ninomiya.jp/",
      "onsen_ashiyu": null,
      "parking_large": 15,
-     "parking_normal": 104,
+     "parking_normal": 98,
      "restaurant": true,
      "shop": true,
      "slug": "ninomiya",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19055",
-     "tel": "0285-73-1110"
+     "tel": "0285-73-1110",
+     "ev_source_url": "https://www.evsmart.net/spot/tochigi/l92096/v37687"
     },
     {
      "address": "栃木県那須塩原市関谷442",
@@ -1434,12 +1435,13 @@
      "official_url": "http://www.agripal-shiobara.com/",
      "onsen_ashiyu": false,
      "parking_large": 9,
-     "parking_normal": 221,
+     "parking_normal": 214,
      "restaurant": true,
      "shop": true,
      "slug": "yunoka-shiobara",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19056",
-     "tel": "0287-35-4401"
+     "tel": "0287-35-4401",
+     "ev_source_url": "https://www.evsmart.net/spot/tochigi/l92134/v32695"
     },
     {
      "address": "栃木県那須郡那須町大字高久乙593-8",
@@ -1452,12 +1454,13 @@
      "official_url": "http://www.yuainomori.com/",
      "onsen_ashiyu": false,
      "parking_large": 9,
-     "parking_normal": 269,
+     "parking_normal": 260,
      "restaurant": true,
      "shop": true,
      "slug": "nasu-kogen-yuai-no-mori",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19057",
-     "tel": "0287-78-0233"
+     "tel": "0287-78-0233",
+     "ev_source_url": "http://www.yuainomori.com/"
     },
     {
      "address": "栃木県那須塩原市青木27",
@@ -1475,7 +1478,8 @@
      "shop": true,
      "slug": "meiji-no-mori-kuroiso",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19058",
-     "tel": "0287-63-0399"
+     "tel": "0287-63-0399",
+     "ev_source_url": "https://www.evsmart.net/spot/tochigi/l92134/v12868"
     },
     {
      "address": "栃木県那須郡那珂川町北向田181-2",
@@ -1483,12 +1487,12 @@
      "closed": "毎月第3木曜日、1月1日（施設により異なる）",
      "dogrun": null,
      "ev": true,
-     "hours": "8:00～18:00（4月～10月）、8:00～17:00（11月～3月）〔直売所。施設により異なる〕",
+     "hours": "8:00～17:00（4月～10月の土日祝は18:00まで）〔直売所。施設により異なる〕",
      "name": "ばとう",
      "official_url": "https://www.michinoeki-bato.jp",
      "onsen_ashiyu": false,
-     "parking_large": 5,
-     "parking_normal": 60,
+     "parking_large": 6,
+     "parking_normal": 56,
      "restaurant": true,
      "shop": true,
      "slug": "bato",
@@ -1506,7 +1510,7 @@
      "official_url": "http://michinoeki-tosando.jp/",
      "onsen_ashiyu": null,
      "parking_large": 5,
-     "parking_normal": 132,
+     "parking_normal": 130,
      "restaurant": true,
      "shop": true,
      "slug": "tosando-iono",
@@ -1524,12 +1528,13 @@
      "official_url": "https://michinoeki-kitsuregawa.jp",
      "onsen_ashiyu": true,
      "parking_large": 17,
-     "parking_normal": 242,
+     "parking_normal": 238,
      "restaurant": true,
      "shop": true,
      "slug": "kitsuregawa",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19061",
-     "tel": "028-686-8180"
+     "tel": "028-686-8180",
+     "ev_source_url": "https://michinoeki-kitsuregawa.jp/news/4582"
     },
     {
      "address": "栃木県佐野市吉水町366-2",
@@ -1560,12 +1565,13 @@
      "official_url": "http://www.michinoeki-haga.gr.jp/",
      "onsen_ashiyu": true,
      "parking_large": 13,
-     "parking_normal": 404,
+     "parking_normal": 400,
      "restaurant": true,
      "shop": true,
      "slug": "haga",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19063",
-     "tel": "028-677-6000"
+     "tel": "028-677-6000",
+     "ev_source_url": "https://www.evsmart.net/spot/tochigi/l93459/v38057"
     },
     {
      "address": "栃木県大田原市南金丸1584-6",
@@ -1578,7 +1584,7 @@
      "official_url": "https://www.nasuno-yoichi.jp/",
      "onsen_ashiyu": false,
      "parking_large": 12,
-     "parking_normal": 294,
+     "parking_normal": 283,
      "restaurant": true,
      "shop": true,
      "slug": "nasu-yoichi-no-sato",
@@ -1614,7 +1620,7 @@
      "official_url": "https://www.michinoeki-mikamo.jp/",
      "onsen_ashiyu": false,
      "parking_large": 39,
-     "parking_normal": 93,
+     "parking_normal": 90,
      "restaurant": true,
      "shop": true,
      "slug": "mikamo",
@@ -1637,12 +1643,13 @@
      "shop": true,
      "slug": "omoigawa",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19067",
-     "tel": "0285-38-0201"
+     "tel": "0285-38-0201",
+     "ev_source_url": "https://www.evsmart.net/spot/tochigi/l92088/v483"
     },
     {
      "address": "栃木県日光市西川478-1",
      "checked": "2026-11-16",
-     "closed": "毎週火曜日（8月・10月・11月・年末・祝日・かまくら祭り期間中は営業）",
+     "closed": "毎週火曜日（2月・8月・10月・11月・祝日は営業）",
      "dogrun": null,
      "ev": true,
      "hours": "9:00～17:00（施設により異なる）",
@@ -1650,12 +1657,13 @@
      "official_url": "https://www.michinoeki-yunishigawa.jp/",
      "onsen_ashiyu": true,
      "parking_large": 3,
-     "parking_normal": 49,
+     "parking_normal": 52,
      "restaurant": true,
      "shop": true,
      "slug": "yunishigawa",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19068",
-     "tel": "0288-78-1222"
+     "tel": "0288-78-1222",
+     "ev_source_url": "https://www.michinoeki-yunishigawa.jp/michinoeki-yunishigawa"
     },
     {
      "address": "栃木県下都賀郡壬生町大字国谷1532-1",
@@ -1668,12 +1676,13 @@
      "official_url": "https://michinoeki-mibu.jp/",
      "onsen_ashiyu": false,
      "parking_large": 3,
-     "parking_normal": 239,
+     "parking_normal": 223,
      "restaurant": true,
      "shop": true,
      "slug": "mibu",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19069",
-     "tel": "0282-82-3591"
+     "tel": "0282-82-3591",
+     "ev_source_url": "https://www.evsmart.net/spot/tochigi/l93611/v35854"
     },
     {
      "address": "栃木県栃木市西方町元369-1",
@@ -1691,7 +1700,8 @@
      "shop": true,
      "slug": "nishikata",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19070",
-     "tel": "0282-92-0990"
+     "tel": "0282-92-0990",
+     "ev_source_url": "https://www.city.tochigi.lg.jp/site/tourism/1451.html"
     },
     {
      "address": "栃木県下野市薬師寺3720-1",
@@ -1722,7 +1732,7 @@
      "official_url": "http://www.michinoeki-yaita.com/",
      "onsen_ashiyu": false,
      "parking_large": 8,
-     "parking_normal": 91,
+     "parking_normal": 87,
      "restaurant": true,
      "shop": true,
      "slug": "yaita",
@@ -1734,13 +1744,13 @@
      "checked": "2026-11-16",
      "closed": "年末年始",
      "dogrun": null,
-     "ev": false,
+     "ev": null,
      "hours": "8:30～17:00（施設により異なる）",
      "name": "湧水の郷しおや",
      "official_url": "https://michinoeki-shioya.com/",
      "onsen_ashiyu": false,
      "parking_large": 6,
-     "parking_normal": 96,
+     "parking_normal": 93,
      "restaurant": true,
      "shop": true,
      "slug": "yusui-no-sato-shioya",
@@ -1776,7 +1786,7 @@
      "official_url": "http://michinoeki-ichikai.jp/",
      "onsen_ashiyu": false,
      "parking_large": 12,
-     "parking_normal": 164,
+     "parking_normal": 161,
      "restaurant": true,
      "shop": true,
      "slug": "sashiba-no-sato-ichikai",
@@ -1786,7 +1796,7 @@
     {
      "address": "栃木県日光市今市719-1",
      "checked": "2026-11-16",
-     "closed": null,
+     "closed": "毎月第3火曜日（祝日の場合は翌日）",
      "dogrun": null,
      "ev": true,
      "hours": "9:00～22:00（施設により異なる）",
@@ -1794,12 +1804,13 @@
      "official_url": "http://www.nikko-honjin.jp/",
      "onsen_ashiyu": false,
      "parking_large": null,
-     "parking_normal": 74,
+     "parking_normal": 71,
      "restaurant": true,
      "shop": true,
      "slug": "nikko",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19824",
-     "tel": "0288-25-7771"
+     "tel": "0288-25-7771",
+     "ev_source_url": "https://www.nikko-honjin.jp/access/"
     },
     {
      "address": "栃木県芳賀郡益子町大字長堤2271",
@@ -1812,7 +1823,7 @@
      "official_url": "http://m-mashiko.com/",
      "onsen_ashiyu": false,
      "parking_large": 12,
-     "parking_normal": 131,
+     "parking_normal": 124,
      "restaurant": true,
      "shop": true,
      "slug": "mashiko",
