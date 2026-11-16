@@ -1852,7 +1852,7 @@
   },
   "gunma": {
    "name": "群馬県",
-   "published": false,
+   "published": true,
    "stations": [
     {
      "address": "群馬県多野郡上野村大字勝山甲131",
