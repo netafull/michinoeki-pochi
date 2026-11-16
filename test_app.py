@@ -86,6 +86,14 @@ class LoaderValidation(unittest.TestCase):
             self.assertIsNone(st["parking_normal"])
             self.assertIsNone(st["ev"])
 
+    def test_ev_source_url_normalized(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            store = _write_store(tmp, [_station(ev_source_url="https://example.jp/ev"),
+                                       _station(slug="bad-ev", ev_source_url="not-a-url")])
+            by_slug = {s["slug"]: s for _p, s in store.all_stations()}
+            self.assertEqual(by_slug["test-eki"]["ev_source_url"], "https://example.jp/ev")
+            self.assertIsNone(by_slug["bad-ev"]["ev_source_url"])
+
     def test_one_bad_station_does_not_sink_others(self):
         with tempfile.TemporaryDirectory() as tmp:
             store = _write_store(tmp, [_station(slug="a"), _station(slug="b", source_url=None),
@@ -143,7 +151,7 @@ class Rendering(unittest.TestCase):
         self.assertNotIn("<dt>休館日</dt>", text)
 
     def test_genre_pages(self):
-        for slug, count in (("ev", 116), ("onsen", 50), ("dogrun", 22), ("restaurant", 279), ("shop", 295)):
+        for slug, count in (("ev", 123), ("onsen", 50), ("dogrun", 23), ("restaurant", 281), ("shop", 295)):
             code, text = self.get("/genre/%s/" % slug)
             self.assertEqual(code, 200, slug)
             self.assertEqual(text.count('class="ms-card"'), count, slug)
@@ -232,7 +240,7 @@ class FeatureFilter(unittest.TestCase):
         self.assertIn('data-feats="ev restaurant shop"', text)               # あらかわ等
         self.assertIn('data-feats="ev dogrun restaurant shop"', text)        # すぎと
         self.assertIn('data-feats="onsen_ashiyu restaurant shop"', text)     # 大滝温泉・両神
-        self.assertIn('data-feats="dogrun restaurant shop"', text)           # はなぞの等
+        self.assertIn('data-feats="ev onsen_ashiyu restaurant shop"', text)  # 両神
 
     def test_filter_script_is_served(self):
         r = self.client.get("/static/app.js")
@@ -241,7 +249,7 @@ class FeatureFilter(unittest.TestCase):
 
 
 class PublishingGate(unittest.TestCase):
-    """公開ゲートの挙動。実データは埼玉県だけ published=true（精査済み）として確認する。"""
+    """公開ゲートの挙動。実データは埼玉・千葉だけ published=true（精査済み）として確認する。"""
 
     @classmethod
     def setUpClass(cls):
@@ -252,20 +260,22 @@ class PublishingGate(unittest.TestCase):
         self.assertEqual(r.status_code, 200)
         text = r.get_data(as_text=True)
         self.assertIn('href="/saitama/"', text)
-        self.assertNotIn('href="/chiba/"', text)
+        self.assertIn('href="/chiba/"', text)
+        self.assertNotIn('href="/tokyo/"', text)
         self.assertNotIn("ただいま準備中です", text)
 
     def test_unpublished_pages_are_404(self):
-        self.assertEqual(self.client.get("/saitama/").status_code, 200)
-        self.assertEqual(self.client.get("/chiba/").status_code, 404)
-        self.assertEqual(self.client.get("/station/furari-tomiyama/").status_code, 404)
+        self.assertEqual(self.client.get("/chiba/").status_code, 200)
+        self.assertEqual(self.client.get("/tokyo/").status_code, 404)
+        self.assertEqual(self.client.get("/station/hachioji-takiyama/").status_code, 404)
 
     def test_sitemap_includes_only_published(self):
         text = self.client.get("/sitemap.xml").get_data(as_text=True)
         self.assertIn("<loc>%s/saitama/</loc>" % appmod.SITE_URL, text)
-        self.assertIn("<loc>%s/station/arakawa/</loc>" % appmod.SITE_URL, text)
-        self.assertNotIn("/chiba/", text)
-        self.assertNotIn("furari-tomiyama", text)
+        self.assertIn("<loc>%s/chiba/</loc>" % appmod.SITE_URL, text)
+        self.assertIn("<loc>%s/station/furari-tomiyama/</loc>" % appmod.SITE_URL, text)
+        self.assertNotIn("/tokyo/", text)
+        self.assertNotIn("hachioji-takiyama", text)
 
     def test_fixture_published_prefecture_renders(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -276,6 +286,22 @@ class PublishingGate(unittest.TestCase):
                 client = appmod.app.test_client()
                 self.assertEqual(client.get("/saitama/").status_code, 200)
                 self.assertEqual(client.get("/station/test-eki/").status_code, 200)
+            finally:
+                appmod.STORE = old
+
+    def test_ev_source_link_on_station_page(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            store = _write_store(tmp, [_station(ev=True, ev_source_url="https://example.jp/ev"),
+                                       _station(slug="no-ev-src", ev=True)])
+            old = appmod.STORE
+            appmod.STORE = store
+            try:
+                client = appmod.app.test_client()
+                text = client.get("/station/test-eki/").get_data(as_text=True)
+                self.assertIn("EV充電の確認元", text)
+                self.assertIn('href="https://example.jp/ev"', text)
+                text2 = client.get("/station/no-ev-src/").get_data(as_text=True)
+                self.assertNotIn("EV充電の確認元", text2)
             finally:
                 appmod.STORE = old
 
@@ -328,11 +354,12 @@ class StaticBuild(unittest.TestCase):
                 return os.path.isfile(os.path.join(out, *parts))
 
             self.assertTrue(exists("index.html"))
-            # 実データで公開中なのは埼玉県だけ。県を公開したら、その県の分だけここに期待値を足すこと。
+            # 実データで公開中なのは埼玉・千葉だけ。県を公開したら、その県の分だけここに期待値を足すこと。
             self.assertTrue(exists("saitama", "index.html"))
-            self.assertFalse(os.path.exists(os.path.join(out, "chiba")))
+            self.assertTrue(exists("chiba", "index.html"))
+            self.assertFalse(os.path.exists(os.path.join(out, "tokyo")))
             station_dirs = sorted(os.listdir(os.path.join(out, "station")))
-            self.assertEqual(len(station_dirs), 21)
+            self.assertEqual(len(station_dirs), 50)
             for d in station_dirs:
                 self.assertTrue(exists("station", d, "index.html"), d)
             for g in ("ev", "onsen", "dogrun", "restaurant", "shop"):

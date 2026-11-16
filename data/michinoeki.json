@@ -83,7 +83,7 @@
      "checked": "2026-11-16",
      "closed": "年中無休",
      "dogrun": null,
-     "ev": null,
+     "ev": true,
      "hours": "8:00～19:00〔店舗により異なる〕",
      "name": "おかべ",
      "official_url": "https://www.michinoeki-okabe.jp/",
@@ -93,7 +93,8 @@
      "restaurant": true,
      "shop": true,
      "source_url": "https://www.michi-no-eki.jp/stations/views/19110",
-     "tel": "048-585-5001"
+     "tel": "048-585-5001",
+     "ev_source_url": "https://www.evsmart.net/spot/saitama/l112186/v31772"
     },
     {
      "slug": "ryusei-kaikan",
@@ -137,7 +138,7 @@
      "checked": "2026-11-16",
      "closed": "年中無休（ベーカリーズキッチン オハナは月曜定休、JA花園農産物直売所は12月31日～1月4日）",
      "dogrun": true,
-     "ev": null,
+     "ev": true,
      "hours": "8:00～19:00〔施設により異なる〕",
      "name": "はなぞの",
      "official_url": "https://www.michinoeki-hanazono.jp/",
@@ -147,7 +148,8 @@
      "restaurant": true,
      "shop": true,
      "source_url": "https://www.michi-no-eki.jp/stations/views/19113",
-     "tel": "048-584-5225"
+     "tel": "048-584-5225",
+     "ev_source_url": "https://evsmart.net/spot/saitama/l112186/v31773"
     },
     {
      "slug": "ryokami-onsen-yakushi-no-yu",
@@ -155,7 +157,7 @@
      "checked": "2026-11-16",
      "closed": "火曜日（祝日の場合は翌日）および年末年始",
      "dogrun": null,
-     "ev": null,
+     "ev": true,
      "hours": "9:00～20:00〔施設により異なる。温泉「薬師の湯」は10:00～20:00〕",
      "name": "両神温泉薬師の湯",
      "official_url": "https://kabushikigaishachiikishoushaogano.jimdosite.com/",
@@ -165,7 +167,8 @@
      "restaurant": true,
      "shop": true,
      "source_url": "https://www.michi-no-eki.jp/stations/views/19114",
-     "tel": "0494-79-1533"
+     "tel": "0494-79-1533",
+     "ev_source_url": "https://www.evsmart.net/spot/saitama/l113654/v37876"
     },
     {
      "slug": "kawamoto",
@@ -201,7 +204,8 @@
      "restaurant": true,
      "shop": true,
      "source_url": "https://www.michi-no-eki.jp/stations/views/19116",
-     "tel": "048-567-1212"
+     "tel": "048-567-1212",
+     "ev_source_url": "https://www.city.kumagaya.lg.jp/shisetsu/kurashi/mitinoeki_menuma.html"
     },
     {
      "slug": "chichibu",
@@ -237,7 +241,8 @@
      "restaurant": true,
      "shop": true,
      "source_url": "https://www.michi-no-eki.jp/stations/views/19118",
-     "tel": "0480-38-4189"
+     "tel": "0480-38-4189",
+     "ev_source_url": "https://www.evsmart.net/spot/saitama/l114642/v35223"
     },
     {
      "slug": "kaju-koen-ashigakubo",
@@ -363,7 +368,8 @@
      "restaurant": true,
      "shop": true,
      "source_url": "https://www.michi-no-eki.jp/stations/views/19880",
-     "tel": "0493-82-1710"
+     "tel": "0493-82-1710",
+     "ev_source_url": "https://www.vill.higashichichibu.saitama.jp/soshiki/01/electricvehiclecharge.html"
     },
     {
      "slug": "benibana-no-sato-okegawa",
@@ -387,12 +393,12 @@
   },
   "chiba": {
    "name": "千葉県",
-   "published": false,
+   "published": true,
    "stations": [
     {
      "address": "千葉県南房総市富浦町青木123-1",
      "checked": "2026-11-16",
-     "closed": null,
+     "closed": "年中無休",
      "dogrun": null,
      "ev": true,
      "hours": "9:15～17:00",
@@ -412,7 +418,7 @@
      "checked": "2026-11-16",
      "closed": null,
      "dogrun": null,
-     "ev": null,
+     "ev": true,
      "hours": "9:00～17:00",
      "name": "三芳村",
      "official_url": "https://hinanosato.jp/",
@@ -423,7 +429,8 @@
      "shop": true,
      "slug": "miyoshimura",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19126",
-     "tel": "0470-36-4116"
+     "tel": "0470-36-4116",
+     "ev_source_url": "https://www.evsmart.net/spot/chiba/l122343/v34437"
     },
     {
      "address": "千葉県八千代市島田2076",
@@ -464,15 +471,15 @@
     {
      "address": "千葉県鴨川市江見太夫崎22",
      "checked": "2026-11-16",
-     "closed": null,
+     "closed": "年中無休",
      "dogrun": true,
      "ev": true,
      "hours": "9:00～17:00",
      "name": "鴨川オーシャンパーク",
      "official_url": "https://kamogawaocean-park.com/",
      "onsen_ashiyu": true,
-     "parking_large": 5,
-     "parking_normal": 87,
+     "parking_large": 3,
+     "parking_normal": 74,
      "restaurant": true,
      "shop": true,
      "slug": "kamogawa-ocean-park",
@@ -536,7 +543,7 @@
     {
      "address": "千葉県夷隅郡大多喜町石神855",
      "checked": "2026-11-16",
-     "closed": null,
+     "closed": "12月31日～1月3日",
      "dogrun": null,
      "ev": true,
      "hours": "9:00～18:00",
@@ -544,7 +551,7 @@
      "official_url": "https://takeyura.net/",
      "onsen_ashiyu": false,
      "parking_large": 5,
-     "parking_normal": 113,
+     "parking_normal": 95,
      "restaurant": true,
      "shop": true,
      "slug": "takeyura-otaki",
@@ -554,7 +561,7 @@
     {
      "address": "千葉県香取郡多古町多古1069-1",
      "checked": "2026-11-16",
-     "closed": "12月31日～1月2日",
+     "closed": "1月1日～1月2日",
      "dogrun": null,
      "ev": null,
      "hours": "9:00～18:00",
@@ -572,16 +579,16 @@
     {
      "address": "千葉県市原市浅井小向492-1",
      "checked": "2026-11-16",
-     "closed": null,
+     "closed": "第2火曜日（祝日の場合は翌日）、1月1日～1月3日",
      "dogrun": null,
      "ev": null,
      "hours": "9:00～18:00",
      "name": "あずの里いちはら",
-     "official_url": "https://www.ichihara-kankou.or.jp/azunosato/",
+     "official_url": "https://azunosato.tsukahara-ri.com/",
      "onsen_ashiyu": null,
      "parking_large": 9,
      "parking_normal": 57,
-     "restaurant": null,
+     "restaurant": true,
      "shop": true,
      "slug": "azu-no-sato-ichihara",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19135",
@@ -592,7 +599,7 @@
      "checked": "2026-11-16",
      "closed": "年末年始（12月31日～1月3日）",
      "dogrun": null,
-     "ev": null,
+     "ev": true,
      "hours": "9:00～18:00",
      "name": "くりもと",
      "official_url": "https://benikomachi.jp/",
@@ -603,33 +610,35 @@
      "shop": true,
      "slug": "kurimoto",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19136",
-     "tel": "0478-70-5151"
+     "tel": "0478-70-5151",
+     "ev_source_url": "https://www.ev-smart.net/charging/chiba/d2ef4190d659"
     },
     {
      "address": "千葉県南房総市千倉町千田1051",
      "checked": "2026-11-16",
-     "closed": null,
+     "closed": "水曜日（1月～3月・8月は無休）",
      "dogrun": null,
-     "ev": null,
+     "ev": true,
      "hours": "9:00～17:00",
      "name": "ちくら・潮風王国",
      "official_url": "https://www.shiokaze-oukoku.jp/",
      "onsen_ashiyu": null,
      "parking_large": 13,
      "parking_normal": 177,
-     "restaurant": null,
+     "restaurant": true,
      "shop": true,
      "slug": "shiokaze-oukoku",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19137",
-     "tel": "0470-43-1811"
+     "tel": "0470-43-1811",
+     "ev_source_url": "https://maruchiba.jp/spot/detail_10406.html"
     },
     {
      "address": "千葉県南房総市二部2211",
      "checked": "2026-11-16",
      "closed": null,
      "dogrun": null,
-     "ev": null,
-     "hours": "9:00～18:00〔施設により異なる〕",
+     "ev": true,
+     "hours": "9:00～18:00（土日祝日は8:30～18:00）〔施設により異なる〕",
      "name": "富楽里とみやま",
      "official_url": "https://furaritomiyama.jp/",
      "onsen_ashiyu": null,
@@ -639,7 +648,8 @@
      "shop": true,
      "slug": "furari-tomiyama",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19138",
-     "tel": "0470-57-2601"
+     "tel": "0470-57-2601",
+     "ev_source_url": "https://www.furaritomiyama.jp/facility/index.html"
     },
     {
      "address": "千葉県南房総市富浦町大津320",
@@ -842,7 +852,7 @@
     {
      "address": "千葉県東金市田間1300-3",
      "checked": "2026-11-16",
-     "closed": null,
+     "closed": "1月1日～1月3日",
      "dogrun": null,
      "ev": true,
      "hours": "9:00～18:00",
@@ -897,7 +907,7 @@
      "address": "千葉県館山市稲274",
      "checked": "2026-11-16",
      "closed": "年中無休",
-     "dogrun": null,
+     "dogrun": true,
      "ev": true,
      "hours": "9:00～17:00",
      "name": "グリーンファーム館山",
