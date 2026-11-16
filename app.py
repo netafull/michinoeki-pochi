@@ -384,8 +384,7 @@ def index():
                     '<section><h2>設備から探す</h2>%s</section>\n' % (pref_items, _genre_links()))
     else:
         intro = ('ドライブの休憩に立ち寄る道の駅について、駐車場の台数やEV充電・温泉などの設備を'
-                 'まとめています。現在、掲載データの精査を行っており、'
-                 '精査が終わった都道府県から順次公開します。')
+                 'まとめています。ただいま準備中です。')
         sections = ""
     content = (
         '<section class="hero">'
