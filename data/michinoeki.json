@@ -934,7 +934,7 @@
   },
   "tokyo": {
    "name": "東京都",
-   "published": false,
+   "published": true,
    "stations": [
     {
      "address": "東京都八王子市滝山町1-592-2",
@@ -952,7 +952,8 @@
      "shop": true,
      "slug": "hachioji-takiyama",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19149",
-     "tel": "042-696-1201"
+     "tel": "042-696-1201",
+     "ev_source_url": "https://www.michinoeki-hachioji.net/"
     }
    ]
   },

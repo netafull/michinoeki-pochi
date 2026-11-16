@@ -249,7 +249,7 @@ class FeatureFilter(unittest.TestCase):
 
 
 class PublishingGate(unittest.TestCase):
-    """公開ゲートの挙動。実データは埼玉・千葉だけ published=true（精査済み）として確認する。"""
+    """公開ゲートの挙動。実データは埼玉・千葉・東京だけ published=true（精査済み）として確認する。"""
 
     @classmethod
     def setUpClass(cls):
@@ -261,21 +261,26 @@ class PublishingGate(unittest.TestCase):
         text = r.get_data(as_text=True)
         self.assertIn('href="/saitama/"', text)
         self.assertIn('href="/chiba/"', text)
-        self.assertNotIn('href="/tokyo/"', text)
+        self.assertIn('href="/tokyo/"', text)
+        self.assertNotIn('href="/kanagawa/"', text)
         self.assertNotIn("ただいま準備中です", text)
 
     def test_unpublished_pages_are_404(self):
         self.assertEqual(self.client.get("/chiba/").status_code, 200)
-        self.assertEqual(self.client.get("/tokyo/").status_code, 404)
-        self.assertEqual(self.client.get("/station/hachioji-takiyama/").status_code, 404)
+        self.assertEqual(self.client.get("/tokyo/").status_code, 200)
+        self.assertEqual(self.client.get("/station/hachioji-takiyama/").status_code, 200)
+        self.assertEqual(self.client.get("/kanagawa/").status_code, 404)
+        self.assertEqual(self.client.get("/station/hakone-toge/").status_code, 404)
 
     def test_sitemap_includes_only_published(self):
         text = self.client.get("/sitemap.xml").get_data(as_text=True)
         self.assertIn("<loc>%s/saitama/</loc>" % appmod.SITE_URL, text)
         self.assertIn("<loc>%s/chiba/</loc>" % appmod.SITE_URL, text)
+        self.assertIn("<loc>%s/tokyo/</loc>" % appmod.SITE_URL, text)
         self.assertIn("<loc>%s/station/furari-tomiyama/</loc>" % appmod.SITE_URL, text)
-        self.assertNotIn("/tokyo/", text)
-        self.assertNotIn("hachioji-takiyama", text)
+        self.assertIn("hachioji-takiyama", text)
+        self.assertNotIn("/kanagawa/", text)
+        self.assertNotIn("hakone-toge", text)
 
     def test_fixture_published_prefecture_renders(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -379,12 +384,13 @@ class StaticBuild(unittest.TestCase):
                 return os.path.isfile(os.path.join(out, *parts))
 
             self.assertTrue(exists("index.html"))
-            # 実データで公開中なのは埼玉・千葉だけ。県を公開したら、その県の分だけここに期待値を足すこと。
+            # 実データで公開中なのは埼玉・千葉・東京だけ。県を公開したら、その県の分だけここに期待値を足すこと。
             self.assertTrue(exists("saitama", "index.html"))
             self.assertTrue(exists("chiba", "index.html"))
-            self.assertFalse(os.path.exists(os.path.join(out, "tokyo")))
+            self.assertTrue(exists("tokyo", "index.html"))
+            self.assertFalse(os.path.exists(os.path.join(out, "kanagawa")))
             station_dirs = sorted(os.listdir(os.path.join(out, "station")))
-            self.assertEqual(len(station_dirs), 50)
+            self.assertEqual(len(station_dirs), 51)
             for d in station_dirs:
                 self.assertTrue(exists("station", d, "index.html"), d)
             for g in ("ev", "onsen", "dogrun", "restaurant", "shop"):
