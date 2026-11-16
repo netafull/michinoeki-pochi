@@ -1078,7 +1078,7 @@
   },
   "ibaraki": {
    "name": "茨城県",
-   "published": false,
+   "published": true,
    "stations": [
     {
      "address": "茨城県東茨城郡城里町御前山50-10",
