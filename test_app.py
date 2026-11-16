@@ -1,4 +1,4 @@
-"""道の駅ポチのテスト。ネットワーク不要。実データ（9県195駅）で確認する。"""
+"""道の駅ポチのテスト。ネットワーク不要。実データ（10県249駅）で確認する。"""
 import json
 import os
 import re
@@ -30,8 +30,8 @@ def _write_store(tmp, stations):
 class LoaderValidation(unittest.TestCase):
     def test_real_data_all_stations_load(self):
         store = appmod.StationStore()
-        self.assertEqual(len(store.all_stations()), 195)
-        self.assertEqual(list(store.prefectures), ["saitama", "chiba", "tokyo", "kanagawa", "ibaraki", "tochigi", "gunma", "yamanashi", "niigata"])
+        self.assertEqual(len(store.all_stations()), 249)
+        self.assertEqual(list(store.prefectures), ["saitama", "chiba", "tokyo", "kanagawa", "ibaraki", "tochigi", "gunma", "yamanashi", "niigata", "nagano"])
 
     def test_missing_source_url_excluded(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -114,7 +114,7 @@ class Rendering(unittest.TestCase):
         self.assertNotIn("<dt>休館日</dt>", text)
 
     def test_genre_pages(self):
-        for slug, count in (("ev", 82), ("onsen", 35), ("dogrun", 15), ("restaurant", 179), ("shop", 191)):
+        for slug, count in (("ev", 94), ("onsen", 43), ("dogrun", 17), ("restaurant", 228), ("shop", 242)):
             code, text = self.get("/genre/%s/" % slug)
             self.assertEqual(code, 200, slug)
             self.assertEqual(text.count('class="ms-card"'), count, slug)
@@ -238,7 +238,7 @@ class StaticBuild(unittest.TestCase):
             self.assertTrue(exists("index.html"))
             self.assertTrue(exists("saitama", "index.html"))
             station_dirs = sorted(os.listdir(os.path.join(out, "station")))
-            self.assertEqual(len(station_dirs), 195)
+            self.assertEqual(len(station_dirs), 249)
             for d in station_dirs:
                 self.assertTrue(exists("station", d, "index.html"), d)
             for g in ("ev", "onsen", "dogrun", "restaurant", "shop"):
