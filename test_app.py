@@ -313,6 +313,9 @@ class PublishingGate(unittest.TestCase):
                 self.assertIn('<span class="ms-parking-label">大型車</span>'
                               '<span class="ms-parking-unknown">未確認</span>', text)
                 self.assertIn("確認できた設備だけを表示しています。", text)
+                # 注記は基本情報の表の下に出る
+                self.assertGreater(text.index("確認できた設備だけを表示しています。"),
+                                   text.index("<dt>休館日</dt>"))
                 card_text = client.get("/saitama/").get_data(as_text=True)
                 self.assertNotIn("未確認", card_text)
             finally:

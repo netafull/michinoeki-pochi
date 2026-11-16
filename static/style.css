@@ -117,7 +117,7 @@ h2 {
 .ms-facts-list dd { margin: 0; line-height: 1.6; overflow-wrap: anywhere; }
 .ms-facts-list dd a { text-underline-offset: 3px; }
 .ms-unknown { color: var(--muted); }
-.ms-chips-note { margin: 2px 0 6px; font-size: 0.8rem; color: var(--muted); }
+.ms-chips-note { margin: 8px 0 4px; font-size: 0.8rem; color: var(--muted); }
 
 /* ボタン */
 .ms-card-links { margin: 12px 0 0; display: flex; gap: 8px; flex-wrap: wrap; }

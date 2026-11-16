@@ -470,10 +470,10 @@ def station(slug):
                '<p class="intro">%sの道の駅です。%s</p></section>\n'
                % (e(title), _crumbs_nav(("%sの道の駅" % pref_name, "/%s/" % pref_slug), (title, "/station/%s/" % slug)),
                   e(pref_name), e(CAUTION)))
-    card = (_parking_html(st, big=True) + _chips(st)
-            + '<p class="ms-chips-note">確認できた設備だけを表示しています。</p>')
+    card = _parking_html(st, big=True) + _chips(st)
     if rows:
         card += '<dl class="ms-facts-list">%s</dl>' % rows
+    card += '<p class="ms-chips-note">確認できた設備だけを表示しています。</p>'
     if st["official_url"]:
         card += ('<p class="ms-official-row"><a class="ms-official" href="%s" target="_blank" rel="noopener">公式サイト</a></p>'
                  % e(st["official_url"], True))
