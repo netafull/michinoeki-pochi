@@ -2116,7 +2116,8 @@
      "shop": true,
      "slug": "myogi",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19089",
-     "tel": "0274-73-3991"
+     "tel": "0274-73-3991",
+     "ev_source_url": "https://www.evsmart.net/spot/gunma/l102105/v18818"
     },
     {
      "address": "群馬県多野郡神流町大字黒田742-1",
@@ -2223,8 +2224,8 @@
      "name": "よしおか温泉",
      "official_url": "http://www.yoshioka-onsen.jp/",
      "onsen_ashiyu": true,
-     "parking_large": 8,
-     "parking_normal": 156,
+     "parking_large": 15,
+     "parking_normal": 250,
      "restaurant": true,
      "shop": true,
      "slug": "yoshioka-onsen",
@@ -2454,7 +2455,8 @@
      "shop": true,
      "slug": "oze-katashina",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19904",
-     "tel": "0278-25-4644"
+     "tel": "0278-25-4644",
+     "ev_source_url": "https://www.evsmart.net/spot/gunma/l104434/v563"
     },
     {
      "address": "群馬県前橋市田口町36番地",
