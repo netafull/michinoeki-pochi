@@ -364,11 +364,8 @@ def index():
         '公式の案内をもとにまとめました。現在は%sの%d駅を掲載しています。%s</p></section>\n'
         '<section><h2>都道府県から探す</h2><ul class="ms-nav-chips">%s</ul></section>\n'
         '<section><h2>設備から探す</h2>%s</section>\n'
-        '<section class="ms-about"><h2>このサイトの情報について</h2>'
-        '<p>掲載している情報は、国土交通省の道の駅登録一覧・全国道の駅連絡会・各駅の公式サイトなどの'
-        '一次情報で確認したものだけです。各駅のページに出典と確認日を明記し、確認できなかった項目は載せていません。%s</p></section>\n'
         % (e("・".join(p["name"] for p in STORE.prefectures.values())), total, e(CAUTION),
-           pref_items, _genre_links(), e(CAUTION)))
+           pref_items, _genre_links()))
     return _render(SITE_NAME, DESCRIPTION, SITE_URL + "/", content, is_top=True)
 
 
