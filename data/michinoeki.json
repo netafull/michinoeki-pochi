@@ -1083,7 +1083,7 @@
     {
      "address": "茨城県東茨城郡城里町御前山50-10",
      "checked": "2026-11-16",
-     "closed": null,
+     "closed": "年中無休（年始除く）",
      "dogrun": null,
      "ev": null,
      "hours": "9:00～17:00",
@@ -1101,15 +1101,15 @@
     {
      "address": "茨城県常陸大宮市鷲子272",
      "checked": "2026-11-16",
-     "closed": "毎週月曜日（月曜日が祝日の場合は翌日）",
+     "closed": "毎週月曜日（月曜日が祝日の場合は翌日）、元旦",
      "dogrun": null,
      "ev": true,
      "hours": "9:00～18:00",
      "name": "みわ",
      "official_url": "http://miwa.s55.biz/",
      "onsen_ashiyu": false,
-     "parking_large": 4,
-     "parking_normal": 70,
+     "parking_large": 5,
+     "parking_normal": 80,
      "restaurant": true,
      "shop": true,
      "slug": "miwa",
@@ -1159,7 +1159,7 @@
      "address": "茨城県久慈郡大子町大字池田2830-1",
      "checked": "2026-11-16",
      "closed": "1月1日（温泉浴場は毎月第1・第3水曜日休み、8月は無休）",
-     "dogrun": true,
+     "dogrun": null,
      "ev": true,
      "hours": "9:00～18:00",
      "name": "奥久慈だいご",
@@ -1216,7 +1216,7 @@
      "address": "茨城県潮来市前川1326-1",
      "checked": "2026-11-16",
      "closed": "年中無休",
-     "dogrun": true,
+     "dogrun": null,
      "ev": null,
      "hours": "9:00～19:00",
      "name": "いたこ",
@@ -1304,7 +1304,7 @@
      "slug": "hitachi-omiya",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19843",
      "tel": "0295-58-5038",
-     "ev_source_url": "http://www.michieki-hitachiomiya.jp/"
+     "ev_source_url": "https://www.michieki-hitachiomiya.jp/shisetsu/parking/"
     },
     {
      "address": "茨城県常陸太田市下河合町1016-1",
@@ -1323,7 +1323,7 @@
      "slug": "hitachi-ota",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19844",
      "tel": "0294-85-6888",
-     "ev_source_url": "https://www.evsmart.net/spot/ibaraki/l83411/v33738"
+     "ev_source_url": "https://www.evsmart.net/spot/ibaraki/l82121/v33738"
     },
     {
      "address": "茨城県筑西市川澄1850",
@@ -1346,7 +1346,7 @@
     {
      "address": "茨城県笠間市手越22番地1",
      "checked": "2026-11-16",
-     "closed": "第2木曜日（9月～11月は休まず営業）",
+     "closed": "第2木曜日",
      "dogrun": false,
      "ev": true,
      "hours": "9:00～18:00〔施設により異なる〕",
