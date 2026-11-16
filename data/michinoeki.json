@@ -1390,10 +1390,10 @@
     {
      "address": "栃木県芳賀郡茂木町大字茂木1090-1",
      "checked": "2026-11-16",
-     "closed": "第1・第3火曜日（一部店舗は営業、行楽シーズンを除く）、1月1日",
+     "closed": "第1・第3火曜日（十石屋・おみやげ けやきは営業）、8月は無休",
      "dogrun": null,
      "ev": true,
-     "hours": "9:00～19:00（施設により異なる）〔10月～3月は18:00まで〕",
+     "hours": "8:00～18:00〔施設により異なる〕",
      "name": "もてぎ",
      "official_url": "https://www.motegiplaza.com/",
      "onsen_ashiyu": false,
@@ -1644,7 +1644,7 @@
      "slug": "omoigawa",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19067",
      "tel": "0285-38-0201",
-     "ev_source_url": "https://www.evsmart.net/spot/tochigi/l92088/v483"
+     "ev_source_url": "https://www.city.oyama.tochigi.jp/kurashi/shisetsu-koutsuu/koukyo_shisetsu/sonota/page001838.html"
     },
     {
      "address": "栃木県日光市西川478-1",
@@ -1709,12 +1709,12 @@
      "closed": "第1・第3水曜日、1月1日～3日",
      "dogrun": null,
      "ev": true,
-     "hours": "9:00～18:00",
+     "hours": "9:00～18:00（夏季6月～8月は19:00まで）",
      "name": "しもつけ",
      "official_url": "http://www.kanpi-shimotsuke.co.jp/",
      "onsen_ashiyu": false,
      "parking_large": 40,
-     "parking_normal": 296,
+     "parking_normal": 293,
      "restaurant": true,
      "shop": true,
      "slug": "shimotsuke",
@@ -1815,7 +1815,7 @@
     {
      "address": "栃木県芳賀郡益子町大字長堤2271",
      "checked": "2026-11-16",
-     "closed": "毎月第2火曜日、1月1日",
+     "closed": "毎月第2火曜日",
      "dogrun": null,
      "ev": true,
      "hours": "9:00～18:00",
