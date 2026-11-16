@@ -1090,8 +1090,8 @@
      "name": "かつら",
      "official_url": "https://www.m-katsura.com/",
      "onsen_ashiyu": false,
-     "parking_large": null,
-     "parking_normal": null,
+     "parking_large": 6,
+     "parking_normal": 110,
      "restaurant": true,
      "shop": true,
      "slug": "katsura",
@@ -1103,7 +1103,7 @@
      "checked": "2026-11-16",
      "closed": "毎週月曜日（月曜日が祝日の場合は翌日）",
      "dogrun": null,
-     "ev": null,
+     "ev": true,
      "hours": "9:00～18:00",
      "name": "みわ",
      "official_url": "http://miwa.s55.biz/",
@@ -1114,14 +1114,15 @@
      "shop": true,
      "slug": "miwa",
      "source_url": "https://www.michi-no-eki.jp/stations/views/21624",
-     "tel": "0295-58-3939"
+     "tel": "0295-58-3939",
+     "ev_source_url": "https://evsmart.net/spot/ibaraki/l82252/v6662"
     },
     {
      "address": "茨城県常陸太田市小菅町694-3",
      "checked": "2026-11-16",
      "closed": "毎週火曜日、1月1日",
      "dogrun": null,
-     "ev": null,
+     "ev": true,
      "hours": "9:00～17:00",
      "name": "さとみ",
      "official_url": "https://www.hitachiota-michinoeki.jp/page/dir000003.html",
@@ -1132,7 +1133,8 @@
      "shop": true,
      "slug": "satomi",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19045",
-     "tel": "0294-82-2100"
+     "tel": "0294-82-2100",
+     "ev_source_url": "https://www.evsmart.net/spot/ibaraki/l82121/v31991"
     },
     {
      "address": "茨城県猿島郡境町1341-1",
@@ -1150,7 +1152,8 @@
      "shop": true,
      "slug": "sakai",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19046",
-     "tel": "0280-87-5011"
+     "tel": "0280-87-5011",
+     "ev_source_url": "https://www.town.ibaraki-sakai.lg.jp/page/page003993.html"
     },
     {
      "address": "茨城県久慈郡大子町大字池田2830-1",
@@ -1168,14 +1171,15 @@
      "shop": true,
      "slug": "okukuji-daigo",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19047",
-     "tel": "0295-72-6111"
+     "tel": "0295-72-6111",
+     "ev_source_url": "https://www.town.daigo.ibaraki.jp/page/page008864.html"
     },
     {
      "address": "茨城県下妻市数須140",
      "checked": "2026-11-16",
      "closed": "毎月第3木曜日（祝祭日の場合は変更あり）",
      "dogrun": null,
-     "ev": null,
+     "ev": true,
      "hours": "9:30～17:30（平日）、9:00～18:00（土日祝日）〔店舗により異なる〕",
      "name": "しもつま",
      "official_url": "https://www.michinoeki-shimotsuma.jp/",
@@ -1186,14 +1190,15 @@
      "shop": true,
      "slug": "shimotsuma",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19048",
-     "tel": "0296-30-5294"
+     "tel": "0296-30-5294",
+     "ev_source_url": "https://www.evsmart.net/spot/ibaraki/l82104/v31532"
     },
     {
      "address": "茨城県行方市玉造甲1963-5",
      "checked": "2026-11-16",
      "closed": "年末年始",
      "dogrun": null,
-     "ev": null,
+     "ev": true,
      "hours": "9:00～18:00",
      "name": "たまつくり",
      "official_url": "http://www.namegata-koikoi.com/",
@@ -1204,7 +1209,8 @@
      "shop": true,
      "slug": "tamatsukuri",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19049",
-     "tel": "0299-36-2781"
+     "tel": "0299-36-2781",
+     "ev_source_url": "https://www.evsmart.net/spot/ibaraki/l82333/v31988"
     },
     {
      "address": "茨城県潮来市前川1326-1",
@@ -1235,12 +1241,13 @@
      "official_url": "https://www.michinoeki-goka.jp/",
      "onsen_ashiyu": false,
      "parking_large": 67,
-     "parking_normal": 130,
+     "parking_normal": 128,
      "restaurant": true,
      "shop": true,
      "slug": "goka",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19051",
-     "tel": "0280-84-1000"
+     "tel": "0280-84-1000",
+     "ev_source_url": "https://www.michinoeki-goka.jp/page/page000005.html"
     },
     {
      "address": "茨城県古河市大和田2623",
@@ -1252,13 +1259,14 @@
      "name": "まくらがの里こが",
      "official_url": "https://koga-michinoeki.com/",
      "onsen_ashiyu": false,
-     "parking_large": 37,
+     "parking_large": 34,
      "parking_normal": 349,
      "restaurant": true,
      "shop": true,
      "slug": "makuraga-no-sato-koga",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19052",
-     "tel": "0280-23-2661"
+     "tel": "0280-23-2661",
+     "ev_source_url": "https://koga-michinoeki.com/about"
     },
     {
      "address": "茨城県日立市みなと町5779-24",
@@ -1271,12 +1279,13 @@
      "official_url": "https://hitachi-osakana-center.com/",
      "onsen_ashiyu": false,
      "parking_large": 5,
-     "parking_normal": 86,
+     "parking_normal": 78,
      "restaurant": true,
      "shop": true,
      "slug": "hitachi-osakana-center",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19053",
-     "tel": "0294-54-0833"
+     "tel": "0294-54-0833",
+     "ev_source_url": "https://www.mlit.go.jp/sogoseisaku/kanminrenkei/content/001899473.pdf"
     },
     {
      "address": "茨城県常陸大宮市岩崎717-1",
@@ -1294,7 +1303,8 @@
      "shop": true,
      "slug": "hitachi-omiya",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19843",
-     "tel": "0295-58-5038"
+     "tel": "0295-58-5038",
+     "ev_source_url": "http://www.michieki-hitachiomiya.jp/"
     },
     {
      "address": "茨城県常陸太田市下河合町1016-1",
@@ -1312,14 +1322,15 @@
      "shop": true,
      "slug": "hitachi-ota",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19844",
-     "tel": "0294-85-6888"
+     "tel": "0294-85-6888",
+     "ev_source_url": "https://www.evsmart.net/spot/ibaraki/l83411/v33738"
     },
     {
      "address": "茨城県筑西市川澄1850",
      "checked": "2026-11-16",
      "closed": "毎月第3水曜日、1月1日",
      "dogrun": true,
-     "ev": true,
+     "ev": null,
      "hours": "9:00～18:00",
      "name": "グランテラス筑西",
      "official_url": "https://granterrace-chikusei.com/",
@@ -1348,7 +1359,8 @@
      "shop": true,
      "slug": "kasama",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19972",
-     "tel": "0296-71-5355"
+     "tel": "0296-71-5355",
+     "ev_source_url": "https://m-kasama.com/access"
     },
     {
      "address": "茨城県常総市むすびまち1番地",
@@ -1366,7 +1378,8 @@
      "shop": true,
      "slug": "joso",
      "source_url": "https://www.michi-no-eki.jp/stations/views/21975",
-     "tel": "0297-38-7570"
+     "tel": "0297-38-7570",
+     "ev_source_url": "https://www.michinoeki-joso.com/"
     }
    ]
   },
