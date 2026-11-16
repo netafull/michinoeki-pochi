@@ -98,6 +98,7 @@ h2 {
 .ms-parking-label { font-size: 0.85rem; font-weight: 700; color: var(--muted); }
 .ms-parking-num { font-size: 1.5rem; font-weight: 800; line-height: 1.2; color: var(--accent); }
 .ms-parking--big .ms-parking-num { font-size: 1.9rem; }
+.ms-parking-unknown { font-size: 0.95rem; color: var(--muted); }
 
 /* 設備チップ */
 .ms-chips { list-style: none; margin: 0 0 4px; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
@@ -115,6 +116,8 @@ h2 {
 .ms-facts-list dt { font-size: 0.82rem; font-weight: 700; color: var(--muted); line-height: 1.7; }
 .ms-facts-list dd { margin: 0; line-height: 1.6; overflow-wrap: anywhere; }
 .ms-facts-list dd a { text-underline-offset: 3px; }
+.ms-unknown { color: var(--muted); }
+.ms-chips-note { margin: 8px 0 4px; font-size: 0.8rem; color: var(--muted); }
 
 /* ボタン */
 .ms-card-links { margin: 12px 0 0; display: flex; gap: 8px; flex-wrap: wrap; }
