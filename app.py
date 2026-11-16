@@ -22,7 +22,7 @@ from flask import Flask, Response, abort
 
 # ---------- サイト名・基本設定 ----------
 SITE_NAME = "道の駅ポチ"
-TAGLINE = "道の駅の駐車場・設備を、公式情報でまとめて探す"
+TAGLINE = "道の駅の駐車場・設備を、まとめて探す"
 DESCRIPTION = ("全国の道の駅について、住所・電話・営業時間・駐車場台数・EV充電や温泉などの設備を、"
                "各駅の公式サイトや道の駅連絡会などの一次情報で確認してまとめています。")
 SITE_URL = os.environ.get("SITE_URL", "https://michinoeki.netaful.jp").rstrip("/")
@@ -360,8 +360,8 @@ def index():
         for slug, p in STORE.prefectures.items())
     content = (
         '<section class="hero">'
-        '<p class="intro">ドライブの休憩に立ち寄る道の駅について、駐車場の台数やEV充電・温泉などの設備を、'
-        '公式の案内をもとにまとめました。現在は%sの%d駅を掲載しています。%s</p></section>\n'
+        '<p class="intro">ドライブの休憩に立ち寄る道の駅について、駐車場の台数やEV充電・温泉などの設備を'
+        'まとめました。現在は%sの%d駅を掲載しています。%s</p></section>\n'
         '<section><h2>都道府県から探す</h2><ul class="ms-nav-chips">%s</ul></section>\n'
         '<section><h2>設備から探す</h2>%s</section>\n'
         % (e("・".join(p["name"] for p in STORE.prefectures.values())), total, e(CAUTION),
