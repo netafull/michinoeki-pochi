@@ -298,14 +298,21 @@ def _chips(st):
 
 
 def _parking_html(st, big=False):
-    """駐車場台数。ある項目だけ出す。"""
+    """駐車場台数。カードではある項目だけ出す。駅ページ（big）では未確認の項目も
+    小さめの文字で「未確認」と出す（数字と同じ書体だと同じ重さに見えるため）。"""
     parts = []
     if st["parking_normal"] is not None:
         parts.append('<span class="ms-parking-item"><span class="ms-parking-label">普通車</span>'
                      '<strong class="ms-parking-num">%d台</strong></span>' % st["parking_normal"])
+    elif big:
+        parts.append('<span class="ms-parking-item"><span class="ms-parking-label">普通車</span>'
+                     '<span class="ms-parking-unknown">未確認</span></span>')
     if st["parking_large"] is not None:
         parts.append('<span class="ms-parking-item"><span class="ms-parking-label">大型車</span>'
                      '<strong class="ms-parking-num">%d台</strong></span>' % st["parking_large"])
+    elif big:
+        parts.append('<span class="ms-parking-item"><span class="ms-parking-label">大型車</span>'
+                     '<span class="ms-parking-unknown">未確認</span></span>')
     if not parts:
         return ""
     return '<p class="ms-parking%s">%s</p>' % (" ms-parking--big" if big else "", "".join(parts))
@@ -452,14 +459,19 @@ def station(slug):
         rows += '<div><dt>電話</dt><dd><a href="tel:%s">📞 %s</a></dd></div>' % (e(st["tel"], True), e(st["tel"]))
     if st["hours"]:
         rows += '<div><dt>営業時間</dt><dd>%s</dd></div>' % e(st["hours"])
+    else:
+        rows += '<div><dt>営業時間</dt><dd class="ms-unknown">未確認</dd></div>'
     if st["closed"]:
         rows += '<div><dt>休館日</dt><dd>%s</dd></div>' % e(st["closed"])
+    else:
+        rows += '<div><dt>休館日</dt><dd class="ms-unknown">未確認</dd></div>' 
 
     content = ('<section class="hero"><h1>%s</h1>\n%s'
                '<p class="intro">%sの道の駅です。%s</p></section>\n'
                % (e(title), _crumbs_nav(("%sの道の駅" % pref_name, "/%s/" % pref_slug), (title, "/station/%s/" % slug)),
                   e(pref_name), e(CAUTION)))
-    card = _parking_html(st, big=True) + _chips(st)
+    card = (_parking_html(st, big=True) + _chips(st)
+            + '<p class="ms-chips-note">確認できた設備だけを表示しています。</p>')
     if rows:
         card += '<dl class="ms-facts-list">%s</dl>' % rows
     if st["official_url"]:

@@ -145,10 +145,10 @@ class Rendering(unittest.TestCase):
         self.assertIn("必ず各施設の公式ページで最新の情報をご確認ください", text)
         self.assertIn("BreadcrumbList", text)
 
-    def test_station_page_omits_null_rows(self):
+    def test_station_page_shows_unknown_for_null_closed(self):
         code, text = self.get("/station/chichibu/")  # closed が null
         self.assertEqual(code, 200)
-        self.assertNotIn("<dt>休館日</dt>", text)
+        self.assertIn('<dt>休館日</dt><dd class="ms-unknown">未確認</dd>', text)
 
     def test_genre_pages(self):
         for slug, count in (("ev", 131), ("onsen", 50), ("dogrun", 24), ("restaurant", 282), ("shop", 295)):
@@ -296,6 +296,25 @@ class PublishingGate(unittest.TestCase):
                 client = appmod.app.test_client()
                 self.assertEqual(client.get("/saitama/").status_code, 200)
                 self.assertEqual(client.get("/station/test-eki/").status_code, 200)
+            finally:
+                appmod.STORE = old
+
+    def test_station_page_unknown_display(self):
+        # 駅ページでは基本情報の null を「未確認」と出し、一覧カードでは出さない
+        with tempfile.TemporaryDirectory() as tmp:
+            store = _write_store(tmp, [_station(hours=None, parking_large=None)])  # closed も null
+            old = appmod.STORE
+            appmod.STORE = store
+            try:
+                client = appmod.app.test_client()
+                text = client.get("/station/test-eki/").get_data(as_text=True)
+                self.assertIn('<dt>営業時間</dt><dd class="ms-unknown">未確認</dd>', text)
+                self.assertIn('<dt>休館日</dt><dd class="ms-unknown">未確認</dd>', text)
+                self.assertIn('<span class="ms-parking-label">大型車</span>'
+                              '<span class="ms-parking-unknown">未確認</span>', text)
+                self.assertIn("確認できた設備だけを表示しています。", text)
+                card_text = client.get("/saitama/").get_data(as_text=True)
+                self.assertNotIn("未確認", card_text)
             finally:
                 appmod.STORE = old
 
