@@ -133,7 +133,7 @@ class Rendering(unittest.TestCase):
         self.assertIn("tel:0493-72-1220", text)
         self.assertIn("186台", text)
         self.assertIn("EV充電", text)
-        self.assertIn("2026年11月15日確認", text)
+        self.assertIn("2026年11月16日確認", text)
         self.assertIn("必ず各施設の公式ページで最新の情報をご確認ください", text)
         self.assertIn("BreadcrumbList", text)
 
@@ -143,7 +143,7 @@ class Rendering(unittest.TestCase):
         self.assertNotIn("<dt>休館日</dt>", text)
 
     def test_genre_pages(self):
-        for slug, count in (("ev", 113), ("onsen", 51), ("dogrun", 22), ("restaurant", 279), ("shop", 295)):
+        for slug, count in (("ev", 116), ("onsen", 50), ("dogrun", 22), ("restaurant", 279), ("shop", 295)):
             code, text = self.get("/genre/%s/" % slug)
             self.assertEqual(code, 200, slug)
             self.assertEqual(text.count('class="ms-card"'), count, slug)
@@ -230,7 +230,8 @@ class FeatureFilter(unittest.TestCase):
         text = self.client.get("/saitama/").get_data(as_text=True)
         self.assertEqual(text.count("data-feats="), 21)
         self.assertIn('data-feats="ev restaurant shop"', text)               # あらかわ等
-        self.assertIn('data-feats="ev onsen_ashiyu restaurant shop"', text)  # みなの
+        self.assertIn('data-feats="ev dogrun restaurant shop"', text)        # すぎと
+        self.assertIn('data-feats="onsen_ashiyu restaurant shop"', text)     # 大滝温泉・両神
         self.assertIn('data-feats="dogrun restaurant shop"', text)           # はなぞの等
 
     def test_filter_script_is_served(self):
@@ -240,29 +241,31 @@ class FeatureFilter(unittest.TestCase):
 
 
 class PublishingGate(unittest.TestCase):
-    """公開ゲートの挙動。実データは全県 published=false（精査中）として確認する。"""
+    """公開ゲートの挙動。実データは埼玉県だけ published=true（精査済み）として確認する。"""
 
     @classmethod
     def setUpClass(cls):
         cls.client = appmod.app.test_client()
 
-    def test_top_announces_review_in_progress(self):
+    def test_top_lists_only_published_prefectures(self):
         r = self.client.get("/")
         self.assertEqual(r.status_code, 200)
         text = r.get_data(as_text=True)
-        self.assertIn("ただいま準備中です", text)
-        self.assertNotIn('href="/saitama/"', text)
-        self.assertNotIn("/genre/ev/", text)
+        self.assertIn('href="/saitama/"', text)
+        self.assertNotIn('href="/chiba/"', text)
+        self.assertNotIn("ただいま準備中です", text)
 
     def test_unpublished_pages_are_404(self):
-        self.assertEqual(self.client.get("/saitama/").status_code, 404)
-        self.assertEqual(self.client.get("/station/arakawa/").status_code, 404)
-        self.assertEqual(self.client.get("/genre/ev/").status_code, 404)
+        self.assertEqual(self.client.get("/saitama/").status_code, 200)
+        self.assertEqual(self.client.get("/chiba/").status_code, 404)
+        self.assertEqual(self.client.get("/station/furari-tomiyama/").status_code, 404)
 
-    def test_sitemap_has_only_top(self):
+    def test_sitemap_includes_only_published(self):
         text = self.client.get("/sitemap.xml").get_data(as_text=True)
-        self.assertEqual(text.count("<url>"), 1)
-        self.assertIn("<loc>%s/</loc>" % appmod.SITE_URL, text)
+        self.assertIn("<loc>%s/saitama/</loc>" % appmod.SITE_URL, text)
+        self.assertIn("<loc>%s/station/arakawa/</loc>" % appmod.SITE_URL, text)
+        self.assertNotIn("/chiba/", text)
+        self.assertNotIn("furari-tomiyama", text)
 
     def test_fixture_published_prefecture_renders(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -325,11 +328,15 @@ class StaticBuild(unittest.TestCase):
                 return os.path.isfile(os.path.join(out, *parts))
 
             self.assertTrue(exists("index.html"))
-            # 実データは全県未公開（精査中）なので、県・駅・ジャンルのページは書き出されない。
-            # 県を公開したら、その県の分だけここに期待値を足すこと。
-            self.assertFalse(os.path.exists(os.path.join(out, "station")))
-            self.assertFalse(os.path.exists(os.path.join(out, "genre")))
-            self.assertFalse(os.path.exists(os.path.join(out, "saitama")))
+            # 実データで公開中なのは埼玉県だけ。県を公開したら、その県の分だけここに期待値を足すこと。
+            self.assertTrue(exists("saitama", "index.html"))
+            self.assertFalse(os.path.exists(os.path.join(out, "chiba")))
+            station_dirs = sorted(os.listdir(os.path.join(out, "station")))
+            self.assertEqual(len(station_dirs), 21)
+            for d in station_dirs:
+                self.assertTrue(exists("station", d, "index.html"), d)
+            for g in ("ev", "onsen", "dogrun", "restaurant", "shop"):
+                self.assertTrue(exists("genre", g, "index.html"), g)
             self.assertTrue(exists("sitemap.xml"))
             self.assertTrue(exists("robots.txt"))
             self.assertTrue(exists("static", "style.css"))
