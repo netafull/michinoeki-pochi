@@ -1385,7 +1385,7 @@
   },
   "tochigi": {
    "name": "栃木県",
-   "published": false,
+   "published": true,
    "stations": [
     {
      "address": "栃木県芳賀郡茂木町大字茂木1090-1",
