@@ -137,7 +137,6 @@ h2 {
 .ms-sources p { margin: 4px 0; }
 .ms-source-link { overflow-wrap: anywhere; color: var(--muted); font-size: 0.82rem; }
 
-.ms-about p { max-width: 46em; }
 
 .site-footer {
   border-top: 1px solid var(--line); padding: 16px; font-size: 0.8rem; color: var(--muted);

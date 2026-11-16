@@ -24,7 +24,7 @@ from flask import Flask, Response, abort
 
 # ---------- サイト名・基本設定 ----------
 SITE_NAME = "道の駅ポチ"
-TAGLINE = "道の駅の駐車場・設備を、公式情報でまとめて探す"
+TAGLINE = "道の駅の駐車場・設備を、まとめて探す"
 DESCRIPTION = ("全国の道の駅について、住所・電話・営業時間・駐車場台数・EV充電や温泉などの設備を、"
                "各駅の公式サイトや道の駅連絡会などの一次情報で確認してまとめています。")
 SITE_URL = os.environ.get("SITE_URL", "https://michinoeki.netaful.jp").rstrip("/")
@@ -377,24 +377,21 @@ def index():
         '<li><a href="/%s/">%s<small>%d駅</small></a></li>' % (slug, e(p["name"]), len(p["stations"]))
         for slug, p in pubs.items())
     if pubs:
-        intro = ('ドライブの休憩に立ち寄る道の駅について、駐車場の台数やEV充電・温泉などの設備を、'
-                 '公式の案内をもとにまとめました。現在は%sの%d駅を掲載しています。%s'
+        intro = ('ドライブの休憩に立ち寄る道の駅について、駐車場の台数やEV充電・温泉などの設備を'
+                 'まとめました。現在は%sの%d駅を掲載しています。%s'
                  % (e("・".join(p["name"] for p in pubs.values())), total, e(CAUTION)))
         sections = ('<section><h2>都道府県から探す</h2><ul class="ms-nav-chips">%s</ul></section>\n'
                     '<section><h2>設備から探す</h2>%s</section>\n' % (pref_items, _genre_links()))
     else:
-        intro = ('ドライブの休憩に立ち寄る道の駅について、駐車場の台数やEV充電・温泉などの設備を、'
-                 '公式の案内をもとにまとめています。現在、掲載データの精査を行っており、'
+        intro = ('ドライブの休憩に立ち寄る道の駅について、駐車場の台数やEV充電・温泉などの設備を'
+                 'まとめています。現在、掲載データの精査を行っており、'
                  '精査が終わった都道府県から順次公開します。')
         sections = ""
     content = (
         '<section class="hero">'
         '<p class="intro">%s</p></section>\n'
         '%s'
-        '<section class="ms-about"><h2>このサイトの情報について</h2>'
-        '<p>掲載している情報は、国土交通省の道の駅登録一覧・全国道の駅連絡会・各駅の公式サイトなどの'
-        '一次情報で確認したものだけです。各駅のページに出典と確認日を明記し、確認できなかった項目は載せていません。%s</p></section>\n'
-        % (intro, sections, e(CAUTION)))
+        % (intro, sections))
     return _render(SITE_NAME, DESCRIPTION, SITE_URL + "/", content, is_top=True)
 
 
