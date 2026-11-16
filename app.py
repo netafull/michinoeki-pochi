@@ -222,7 +222,7 @@ BASE_TEMPLATE = """<!DOCTYPE html>
 {{CONTENT}}</main>
 <footer class="site-footer">
 <p>{{SITE_NAME}}は、道の駅の情報を各駅の公式サイトや道の駅連絡会などの一次情報で確認してまとめています。</p>
-<p>当サイトは各道の駅・国土交通省・全国道の駅連絡会とは関係のない非公式サイトです。営業時間・駐車台数・設備は確認日時点のものです。最新の情報は各駅の公式サイトでご確認ください。</p>
+<p>当サイトは各道の駅・国土交通省・全国道の駅連絡会とは関係のない非公式サイトです。営業時間・駐車台数・設備は、各駅のページに書いた確認日の時点のものです。最新の情報は各駅の公式サイトでご確認ください。</p>
 <p><a href="/">トップ</a> ｜ <a href="https://netaful.jp/policy.html">メディアポリシー</a></p>
 {{SERIES_NAV}}</footer>
 </body>
@@ -334,9 +334,9 @@ def _sources_block(st):
     e = html.escape
     return ('<section class="ms-sources"><h2>出典について</h2>'
             '<p class="fact-checked">住所・営業時間などの情報は、各駅の公式サイトや全国道の駅連絡会などの'
-            '一次情報で確認しています（%s確認）。%s</p>'
+            '一次情報で確認しています（%s確認）。</p>'
             '<p class="ms-source-link">出典: <a href="%s" target="_blank" rel="noopener">%s</a></p></section>\n'
-            % (e(_fmt_checked(st["checked"])), e(CAUTION), e(st["source_url"], True), e(st["source_url"])))
+            % (e(_fmt_checked(st["checked"])), e(st["source_url"], True), e(st["source_url"])))
 
 
 def _filter_bar(total):
