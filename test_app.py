@@ -1,4 +1,9 @@
-"""道の駅ポチのテスト。ネットワーク不要。実データ（12県302駅）で確認する。"""
+"""道の駅ポチのテスト。ネットワーク不要。実データ（12県302駅）で確認する。
+
+公開は県単位のゲート（データの published）で制御する。表示系のテストは、
+実データを全県 published=true に読み替えたストアに差し替えて確認し、
+ゲート自体の挙動（未公開なら404・トップは精査中のお知らせ）は実データのまま確認する。
+"""
 import json
 import os
 import re
@@ -19,12 +24,30 @@ def _station(**kw):
     return st
 
 
-def _write_store(tmp, stations):
+def _write_store(tmp, stations, published=True):
+    pref = {"name": "埼玉県", "stations": stations}
+    if published is not None:
+        pref["published"] = published
     path = os.path.join(tmp, "data.json")
     with open(path, "w", encoding="utf-8") as f:
         json.dump({"updated": "2026-11-15",
-                   "prefectures": {"saitama": {"name": "埼玉県", "stations": stations}}}, f, ensure_ascii=False)
+                   "prefectures": {"saitama": pref}}, f, ensure_ascii=False)
     return appmod.StationStore(path)
+
+
+def _all_published_store():
+    """実データを全県 published=true で読み直したストア（公開後の表示を確認する用）。"""
+    with open(appmod.DATA_PATH, encoding="utf-8") as f:
+        raw = json.load(f)
+    for pref in raw["prefectures"].values():
+        pref["published"] = True
+    fd, path = tempfile.mkstemp(suffix=".json")
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as f:
+            json.dump(raw, f, ensure_ascii=False)
+        return appmod.StationStore(path)
+    finally:
+        os.unlink(path)
 
 
 class LoaderValidation(unittest.TestCase):
@@ -73,7 +96,13 @@ class LoaderValidation(unittest.TestCase):
 class Rendering(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
+        cls._old_store = appmod.STORE
+        appmod.STORE = _all_published_store()
         cls.client = appmod.app.test_client()
+
+    @classmethod
+    def tearDownClass(cls):
+        appmod.STORE = cls._old_store
 
     def get(self, path):
         r = self.client.get(path)
@@ -177,7 +206,13 @@ class FeatureFilter(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
+        cls._old_store = appmod.STORE
+        appmod.STORE = _all_published_store()
         cls.client = appmod.app.test_client()
+
+    @classmethod
+    def tearDownClass(cls):
+        appmod.STORE = cls._old_store
 
     def test_filter_bar_on_prefecture_page(self):
         text = self.client.get("/saitama/").get_data(as_text=True)
@@ -202,6 +237,60 @@ class FeatureFilter(unittest.TestCase):
         r = self.client.get("/static/app.js")
         self.assertEqual(r.status_code, 200)
         self.assertIn("data-feats", r.get_data(as_text=True))
+
+
+class PublishingGate(unittest.TestCase):
+    """公開ゲートの挙動。実データは全県 published=false（精査中）として確認する。"""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.client = appmod.app.test_client()
+
+    def test_top_announces_review_in_progress(self):
+        r = self.client.get("/")
+        self.assertEqual(r.status_code, 200)
+        text = r.get_data(as_text=True)
+        self.assertIn("精査が終わった都道府県から順次公開します", text)
+        self.assertNotIn('href="/saitama/"', text)
+        self.assertNotIn("/genre/ev/", text)
+
+    def test_unpublished_pages_are_404(self):
+        self.assertEqual(self.client.get("/saitama/").status_code, 404)
+        self.assertEqual(self.client.get("/station/arakawa/").status_code, 404)
+        self.assertEqual(self.client.get("/genre/ev/").status_code, 404)
+
+    def test_sitemap_has_only_top(self):
+        text = self.client.get("/sitemap.xml").get_data(as_text=True)
+        self.assertEqual(text.count("<url>"), 1)
+        self.assertIn("<loc>%s/</loc>" % appmod.SITE_URL, text)
+
+    def test_fixture_published_prefecture_renders(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            store = _write_store(tmp, [_station()], published=True)
+            old = appmod.STORE
+            appmod.STORE = store
+            try:
+                client = appmod.app.test_client()
+                self.assertEqual(client.get("/saitama/").status_code, 200)
+                self.assertEqual(client.get("/station/test-eki/").status_code, 200)
+            finally:
+                appmod.STORE = old
+
+    def test_fixture_unpublished_prefecture_is_404(self):
+        # published=false でも、キー自体が無くても、未公開として扱う
+        for published in (False, None):
+            with tempfile.TemporaryDirectory() as tmp:
+                store = _write_store(tmp, [_station()], published=published)
+                old = appmod.STORE
+                appmod.STORE = store
+                try:
+                    client = appmod.app.test_client()
+                    self.assertEqual(client.get("/saitama/").status_code, 404)
+                    self.assertEqual(client.get("/station/test-eki/").status_code, 404)
+                    top = client.get("/").get_data(as_text=True)
+                    self.assertIn("精査が終わった都道府県から順次公開します", top)
+                finally:
+                    appmod.STORE = old
 
 
 class ZeroGenre(unittest.TestCase):
@@ -236,13 +325,11 @@ class StaticBuild(unittest.TestCase):
                 return os.path.isfile(os.path.join(out, *parts))
 
             self.assertTrue(exists("index.html"))
-            self.assertTrue(exists("saitama", "index.html"))
-            station_dirs = sorted(os.listdir(os.path.join(out, "station")))
-            self.assertEqual(len(station_dirs), 302)
-            for d in station_dirs:
-                self.assertTrue(exists("station", d, "index.html"), d)
-            for g in ("ev", "onsen", "dogrun", "restaurant", "shop"):
-                self.assertTrue(exists("genre", g, "index.html"), g)
+            # 実データは全県未公開（精査中）なので、県・駅・ジャンルのページは書き出されない。
+            # 県を公開したら、その県の分だけここに期待値を足すこと。
+            self.assertFalse(os.path.exists(os.path.join(out, "station")))
+            self.assertFalse(os.path.exists(os.path.join(out, "genre")))
+            self.assertFalse(os.path.exists(os.path.join(out, "saitama")))
             self.assertTrue(exists("sitemap.xml"))
             self.assertTrue(exists("robots.txt"))
             self.assertTrue(exists("static", "style.css"))

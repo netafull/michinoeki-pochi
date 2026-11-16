@@ -27,9 +27,9 @@ CNAME = "michinoeki.netaful.jp"
 def collect_routes(store):
     """書き出すルートの一覧。データとジャンル定義から導出する（ハードコードしない）。"""
     routes = ["/"]
-    for pref_slug in store.prefectures:
+    for pref_slug in store.public_prefectures():
         routes.append("/%s/" % pref_slug)
-    for _pref, st in store.all_stations():
+    for _pref, st in store.public_stations():
         routes.append("/station/%s/" % st["slug"])
     for genre_slug in store.live_genres():
         routes.append("/genre/%s/" % genre_slug)
