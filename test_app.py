@@ -151,7 +151,7 @@ class Rendering(unittest.TestCase):
         self.assertNotIn("<dt>休館日</dt>", text)
 
     def test_genre_pages(self):
-        for slug, count in (("ev", 123), ("onsen", 50), ("dogrun", 23), ("restaurant", 281), ("shop", 295)):
+        for slug, count in (("ev", 122), ("onsen", 50), ("dogrun", 23), ("restaurant", 281), ("shop", 295)):
             code, text = self.get("/genre/%s/" % slug)
             self.assertEqual(code, 200, slug)
             self.assertEqual(text.count('class="ms-card"'), count, slug)
@@ -237,9 +237,9 @@ class FeatureFilter(unittest.TestCase):
     def test_cards_have_data_feats(self):
         text = self.client.get("/saitama/").get_data(as_text=True)
         self.assertEqual(text.count("data-feats="), 21)
-        self.assertIn('data-feats="ev restaurant shop"', text)               # あらかわ等
+        self.assertIn('data-feats="ev restaurant shop"', text)               # おかべ等
         self.assertIn('data-feats="ev dogrun restaurant shop"', text)        # すぎと
-        self.assertIn('data-feats="onsen_ashiyu restaurant shop"', text)     # 大滝温泉・両神
+        self.assertIn('data-feats="onsen_ashiyu restaurant shop"', text)     # 大滝温泉
         self.assertIn('data-feats="ev onsen_ashiyu restaurant shop"', text)  # 両神
 
     def test_filter_script_is_served(self):
@@ -292,7 +292,8 @@ class PublishingGate(unittest.TestCase):
     def test_ev_source_link_on_station_page(self):
         with tempfile.TemporaryDirectory() as tmp:
             store = _write_store(tmp, [_station(ev=True, ev_source_url="https://example.jp/ev"),
-                                       _station(slug="no-ev-src", ev=True)])
+                                       _station(slug="no-ev-src", ev=True),
+                                       _station(slug="ev-off", ev=False, ev_source_url="https://example.jp/ev")])
             old = appmod.STORE
             appmod.STORE = store
             try:
@@ -300,10 +301,34 @@ class PublishingGate(unittest.TestCase):
                 text = client.get("/station/test-eki/").get_data(as_text=True)
                 self.assertIn("EV充電の確認元", text)
                 self.assertIn('href="https://example.jp/ev"', text)
+                self.assertIn("EV充電については、確認元の情報でも確認しています", text)
                 text2 = client.get("/station/no-ev-src/").get_data(as_text=True)
                 self.assertNotIn("EV充電の確認元", text2)
+                text3 = client.get("/station/ev-off/").get_data(as_text=True)
+                self.assertNotIn("EV充電の確認元", text3)
             finally:
                 appmod.STORE = old
+
+    def test_ev_source_urls_follow_policy(self):
+        # 実データの ev_source_url は、方針で認めた先（自治体・公式・観光協会・
+        # EVsmart・EV Smart Charge）だけに限る。ev が true でない駅には付けない。
+        from urllib.parse import urlparse
+        allowed_hosts = {"evsmart.net", "www.evsmart.net", "ev-smart.net", "www.ev-smart.net",
+                         "maruchiba.jp"}  # 千葉県観光協会（ちば観光ナビ）
+        for _pref, st in appmod.STORE.all_stations():
+            url = st["ev_source_url"]
+            if not url:
+                continue
+            self.assertIs(st["ev"], True, st["slug"])
+            host = urlparse(url).hostname or ""
+            official_host = urlparse(st["official_url"]).hostname if st["official_url"] else None
+            if official_host:
+                official_host = official_host.removeprefix("www.")
+            host_bare = host.removeprefix("www.")
+            municipal = (host.endswith((".lg.jp", ".go.jp"))
+                         or ".vill." in host or ".town." in host or ".city." in host)
+            ok = municipal or host in allowed_hosts or host_bare == official_host
+            self.assertTrue(ok, "%s: %s" % (st["slug"], url))
 
     def test_fixture_unpublished_prefecture_is_404(self):
         # published=false でも、キー自体が無くても、未公開として扱う
