@@ -4684,7 +4684,7 @@
   },
   "fukushima": {
    "name": "福島県",
-   "published": false,
+   "published": true,
    "stations": [
     {
      "address": "福島県福島市松川町水原字南沢41-2",
