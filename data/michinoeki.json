@@ -1078,7 +1078,7 @@
   },
   "shizuoka": {
    "name": "静岡県",
-   "published": false,
+   "published": true,
    "stations": [
     {
      "address": "静岡県富士市五貫島669-1",
