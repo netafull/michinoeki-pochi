@@ -2979,13 +2979,14 @@
      "name": "新潟ふるさと村",
      "official_url": "http://furusatomura.pref.niigata.jp/",
      "onsen_ashiyu": false,
-     "parking_large": null,
+     "parking_large": 22,
      "parking_normal": 409,
      "restaurant": true,
      "shop": true,
      "slug": "niigata-furusato-mura",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19203",
-     "tel": "025-230-3030"
+     "tel": "025-230-3030",
+     "ev_source_url": "https://www.evsmart.net/spot/niigata/l151009/q151076/v34392"
     },
     {
      "address": "新潟県糸魚川市大字能生小泊3596-2",
@@ -3206,7 +3207,8 @@
      "shop": true,
      "slug": "echigo-ichiburi-no-seki",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19215",
-     "tel": "025-564-2922"
+     "tel": "025-564-2922",
+     "ev_source_url": "https://evsmart.net/spot/niigata/l152161/v35698"
     },
     {
      "address": "新潟県十日町市本町六の1-71-26",
@@ -3219,12 +3221,13 @@
      "official_url": "https://cross10.or.jp/",
      "onsen_ashiyu": true,
      "parking_large": 6,
-     "parking_normal": 362,
+     "parking_normal": 360,
      "restaurant": true,
      "shop": true,
      "slug": "cross10-tokamachi",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19216",
-     "tel": "025-757-2323"
+     "tel": "025-757-2323",
+     "ev_source_url": "https://evsmart.net/spot/niigata/l152102/v32010"
     },
     {
      "address": "新潟県三条市大字庭月451-1",
@@ -3495,7 +3498,8 @@
      "shop": true,
      "slug": "yoshikawa-toji-no-sato",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19231",
-     "tel": "025-548-2331"
+     "tel": "025-548-2331",
+     "ev_source_url": "https://evsmart.net/spot/niigata/l152226/v35194"
     },
     {
      "address": "新潟県上越市名立区名立大町4280-1",
