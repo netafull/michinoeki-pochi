@@ -1,4 +1,4 @@
-"""道の駅ポチのテスト。ネットワーク不要。実データ（15県376駅）で確認する。
+"""道の駅ポチのテスト。ネットワーク不要。実データ（16県431駅）で確認する。
 
 公開は県単位のゲート（データの published）で制御する。表示系のテストは、
 実データを全県 published=true に読み替えたストアに差し替えて確認し、
@@ -53,8 +53,8 @@ def _all_published_store():
 class LoaderValidation(unittest.TestCase):
     def test_real_data_all_stations_load(self):
         store = appmod.StationStore()
-        self.assertEqual(len(store.all_stations()), 376)
-        self.assertEqual(list(store.prefectures), ["saitama", "chiba", "tokyo", "kanagawa", "shizuoka", "ibaraki", "tochigi", "gunma", "yamanashi", "niigata", "nagano", "fukushima", "toyama", "ishikawa", "fukui"])
+        self.assertEqual(len(store.all_stations()), 431)
+        self.assertEqual(list(store.prefectures), ["saitama", "chiba", "tokyo", "kanagawa", "shizuoka", "ibaraki", "tochigi", "gunma", "yamanashi", "niigata", "nagano", "fukushima", "toyama", "ishikawa", "fukui", "gifu"])
 
     def test_missing_source_url_excluded(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -151,7 +151,7 @@ class Rendering(unittest.TestCase):
         self.assertIn('<dt>休館日</dt><dd class="ms-unknown">未確認</dd>', text)
 
     def test_genre_pages(self):
-        for slug, count in (("ev", 249), ("onsen", 63), ("dogrun", 28), ("restaurant", 339), ("shop", 369)):
+        for slug, count in (("ev", 268), ("onsen", 73), ("dogrun", 28), ("restaurant", 385), ("shop", 422)):
             code, text = self.get("/genre/%s/" % slug)
             self.assertEqual(code, 200, slug)
             self.assertEqual(text.count('class="ms-card"'), count, slug)
@@ -304,6 +304,7 @@ class PublishingGate(unittest.TestCase):
         self.assertEqual(self.client.get("/station/sakai-fukui/").status_code, 200)
         self.assertEqual(self.client.get("/gifu/").status_code, 404)
         self.assertEqual(self.client.get("/station/no-such-station/").status_code, 404)
+        self.assertEqual(self.client.get("/station/minami/").status_code, 404)
 
     def test_sitemap_includes_only_published(self):
         text = self.client.get("/sitemap.xml").get_data(as_text=True)
@@ -474,6 +475,7 @@ class StaticBuild(unittest.TestCase):
             self.assertTrue(exists("shizuoka", "index.html"))
             self.assertTrue(exists("ishikawa", "index.html"))
             self.assertTrue(exists("fukui", "index.html"))
+            self.assertFalse(exists("gifu", "index.html"))
             station_dirs = sorted(os.listdir(os.path.join(out, "station")))
             self.assertEqual(len(station_dirs), 376)
             for d in station_dirs:
