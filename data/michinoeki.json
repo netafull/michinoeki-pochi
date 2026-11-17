@@ -6660,7 +6660,7 @@
   },
   "fukui": {
    "name": "福井県",
-   "published": false,
+   "published": true,
    "stations": [
     {
      "address": "福井県南条郡南越前町大谷86-1-6",
