@@ -7699,7 +7699,7 @@
     {
      "address": "岐阜県加茂郡東白川村越原1061",
      "checked": "2026-11-17",
-     "closed": null,
+     "closed": "火曜日（祝日の場合は翌日）、年末年始",
      "dogrun": null,
      "ev": true,
      "hours": "9:30～16:00",
@@ -7712,7 +7712,7 @@
      "shop": true,
      "slug": "cha-no-sato-higashishirakawa",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19320",
-     "tel": "0574-78-3123",
+     "tel": "0574-78-3130",
      "ev_source_url": "https://www.ev-smart.net/charging/gifu/6520f62415bf"
     },
     {
