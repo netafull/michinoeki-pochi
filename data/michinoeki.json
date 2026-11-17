@@ -2481,7 +2481,7 @@
   },
   "yamanashi": {
    "name": "山梨県",
-   "published": false,
+   "published": true,
    "stations": [
     {
      "slug": "tomizawa",
