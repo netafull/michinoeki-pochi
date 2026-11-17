@@ -3671,7 +3671,7 @@
   },
   "nagano": {
    "name": "長野県",
-   "published": false,
+   "published": true,
    "stations": [
     {
      "address": "長野市信州新町水内4619",
