@@ -3818,7 +3818,8 @@
      "shop": true,
      "slug": "hakuba",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19178",
-     "tel": "0261-75-3880"
+     "tel": "0261-75-3880",
+     "ev_source_url": "https://www.ev-smart.net/charging/nagano/022dc705cb14"
     },
     {
      "address": "中野市大字永江2136",
@@ -3910,7 +3911,8 @@
      "shop": true,
      "slug": "azumino-matsukawa",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19183",
-     "tel": "0261-61-1200"
+     "tel": "0261-61-1200",
+     "ev_source_url": "https://www.ev-smart.net/charging/nagano/7ad142eff4b9"
     },
     {
      "address": "松本市安曇3528-1",
@@ -3928,7 +3930,8 @@
      "shop": true,
      "slug": "fuketsu-no-sato",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19184",
-     "tel": "0263-94-2200"
+     "tel": "0263-94-2200",
+     "ev_source_url": "https://www.ev-smart.net/charging/nagano/5c3915f9f6a0"
     },
     {
      "address": "山ノ内町大字佐野393-2",
@@ -4021,7 +4024,8 @@
      "shop": true,
      "slug": "otari",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19189",
-     "tel": "0261-71-6000"
+     "tel": "0261-71-6000",
+     "ev_source_url": "https://www.ev-smart.net/charging/nagano/43173e1c545f"
     },
     {
      "address": "筑北村坂北4340",
@@ -4039,7 +4043,8 @@
      "shop": true,
      "slug": "sakakita",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19190",
-     "tel": "0263-66-3080"
+     "tel": "0263-66-3080",
+     "ev_source_url": "https://www.ev-smart.net/charging/nagano/d1939b396f26"
     },
     {
      "address": "大町市美麻16784",
@@ -4217,7 +4222,7 @@
      "official_url": "http://www.healthyterrace-saku.jp/",
      "onsen_ashiyu": null,
      "parking_large": 30,
-     "parking_normal": 111,
+     "parking_normal": 105,
      "restaurant": true,
      "shop": true,
      "slug": "healthy-terrace-saku-minami",
@@ -4333,7 +4338,8 @@
      "shop": true,
      "slug": "hiyoshi-kiso-koma-kogen",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19273",
-     "tel": "0264-23-3644"
+     "tel": "0264-23-3644",
+     "ev_source_url": "https://www.ev-smart.net/charging/nagano/b301bb01a1c8"
     },
     {
      "address": "大桑村大字野尻160-27",
@@ -4558,7 +4564,8 @@
      "shop": true,
      "slug": "kisogawa-genryu-no-sato-kisomura",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19286",
-     "tel": "0264-36-1050"
+     "tel": "0264-36-1050",
+     "ev_source_url": "https://www.ev-smart.net/charging/nagano/b3e6053ad487"
     },
     {
      "address": "飯島町田切2598-1",
@@ -4590,7 +4597,7 @@
      "official_url": "https://toyooka-marche.jp/",
      "onsen_ashiyu": null,
      "parking_large": 7,
-     "parking_normal": 114,
+     "parking_normal": 92,
      "restaurant": true,
      "shop": true,
      "slug": "minami-shinshu-toyooka-marche",
