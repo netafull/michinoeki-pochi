@@ -2893,7 +2893,7 @@
   },
   "niigata": {
    "name": "新潟県",
-   "published": false,
+   "published": true,
    "stations": [
     {
      "address": "新潟県新潟市北区木崎字切尾山3644-乙",
