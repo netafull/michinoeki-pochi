@@ -6176,7 +6176,7 @@
   },
   "ishikawa": {
    "name": "石川県",
-   "published": false,
+   "published": true,
    "stations": [
     {
      "address": "石川県輪島市白米町ハ部99-5",
