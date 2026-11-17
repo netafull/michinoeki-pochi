@@ -53,8 +53,8 @@ def _all_published_store():
 class LoaderValidation(unittest.TestCase):
     def test_real_data_all_stations_load(self):
         store = appmod.StationStore()
-        self.assertEqual(len(store.all_stations()), 302)
-        self.assertEqual(list(store.prefectures), ["saitama", "chiba", "tokyo", "kanagawa", "ibaraki", "tochigi", "gunma", "yamanashi", "niigata", "nagano", "fukushima", "toyama"])
+        self.assertEqual(len(store.all_stations()), 329)
+        self.assertEqual(list(store.prefectures), ["saitama", "chiba", "tokyo", "kanagawa", "shizuoka", "ibaraki", "tochigi", "gunma", "yamanashi", "niigata", "nagano", "fukushima", "toyama"])
 
     def test_missing_source_url_excluded(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -151,7 +151,7 @@ class Rendering(unittest.TestCase):
         self.assertIn('<dt>休館日</dt><dd class="ms-unknown">未確認</dd>', text)
 
     def test_genre_pages(self):
-        for slug, count in (("ev", 208), ("onsen", 50), ("dogrun", 22), ("restaurant", 283), ("shop", 296)):
+        for slug, count in (("ev", 223), ("onsen", 54), ("dogrun", 22), ("restaurant", 302), ("shop", 320)):
             code, text = self.get("/genre/%s/" % slug)
             self.assertEqual(code, 200, slug)
             self.assertEqual(text.count('class="ms-card"'), count, slug)
@@ -270,7 +270,7 @@ class PublishingGate(unittest.TestCase):
         self.assertIn('href="/niigata/"', text)
         self.assertIn('href="/nagano/"', text)
         self.assertIn('href="/toyama/"', text)
-        self.assertNotIn('href="/ishikawa/"', text)
+        self.assertNotIn('href="/shizuoka/"', text)
         self.assertNotIn("ただいま準備中です", text)
 
     def test_unpublished_pages_are_404(self):
@@ -293,8 +293,8 @@ class PublishingGate(unittest.TestCase):
         self.assertEqual(self.client.get("/station/shinshu-shinmachi/").status_code, 200)
         self.assertEqual(self.client.get("/toyama/").status_code, 200)
         self.assertEqual(self.client.get("/station/hosoiri/").status_code, 200)
-        self.assertEqual(self.client.get("/ishikawa/").status_code, 404)
-        self.assertEqual(self.client.get("/station/no-such-station/").status_code, 404)
+        self.assertEqual(self.client.get("/shizuoka/").status_code, 404)
+        self.assertEqual(self.client.get("/station/fuji/").status_code, 404)
 
     def test_sitemap_includes_only_published(self):
         text = self.client.get("/sitemap.xml").get_data(as_text=True)
@@ -319,8 +319,8 @@ class PublishingGate(unittest.TestCase):
         self.assertIn("/station/shinshu-shinmachi/", text)
         self.assertIn("/toyama/", text)
         self.assertIn("/station/hosoiri/", text)
-        self.assertNotIn("/ishikawa/", text)
-        self.assertNotIn("/station/no-such-station/", text)
+        self.assertNotIn("/shizuoka/", text)
+        self.assertNotIn("/station/fuji/", text)
 
     def test_fixture_published_prefecture_renders(self):
         with tempfile.TemporaryDirectory() as tmp:
