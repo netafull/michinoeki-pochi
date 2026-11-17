@@ -2699,7 +2699,7 @@
      "name": "富士吉田",
      "official_url": "https://fujiyoshida.net/spot/index.php?p=11",
      "onsen_ashiyu": false,
-     "parking_large": 13,
+     "parking_large": null,
      "parking_normal": 207,
      "restaurant": true,
      "shop": true,
@@ -2748,7 +2748,7 @@
      "checked": "2026-11-16",
      "closed": "年中無休",
      "dogrun": null,
-     "ev": true,
+     "ev": null,
      "hours": "9:00～17:00〔施設により異なる〕",
      "name": "こぶちさわ",
      "official_url": "https://mkobuchisawa.jp/",
@@ -2758,8 +2758,7 @@
      "restaurant": true,
      "shop": true,
      "source_url": "https://www.michi-no-eki.jp/stations/views/19166",
-     "tel": "0551-36-3280",
-     "ev_source_url": "https://www.evsmart.net/spot/yamanashi/l192091/v38485"
+     "tel": "0551-36-3280"
     },
     {
      "slug": "minobu",
