@@ -7053,7 +7053,7 @@
   },
   "gifu": {
    "name": "岐阜県",
-   "published": false,
+   "published": true,
    "stations": [
     {
      "address": "岐阜県郡上市美並町上田2605",
