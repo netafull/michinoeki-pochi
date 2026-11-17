@@ -151,7 +151,7 @@ class Rendering(unittest.TestCase):
         self.assertIn('<dt>休館日</dt><dd class="ms-unknown">未確認</dd>', text)
 
     def test_genre_pages(self):
-        for slug, count in (("ev", 268), ("onsen", 73), ("dogrun", 28), ("restaurant", 385), ("shop", 422)):
+        for slug, count in (("ev", 269), ("onsen", 69), ("dogrun", 28), ("restaurant", 387), ("shop", 424)):
             code, text = self.get("/genre/%s/" % slug)
             self.assertEqual(code, 200, slug)
             self.assertEqual(text.count('class="ms-card"'), count, slug)
