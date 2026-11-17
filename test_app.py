@@ -269,7 +269,8 @@ class PublishingGate(unittest.TestCase):
         self.assertIn('href="/yamanashi/"', text)
         self.assertIn('href="/niigata/"', text)
         self.assertIn('href="/nagano/"', text)
-        self.assertNotIn('href="/toyama/"', text)
+        self.assertIn('href="/toyama/"', text)
+        self.assertNotIn('href="/ishikawa/"', text)
         self.assertNotIn("ただいま準備中です", text)
 
     def test_unpublished_pages_are_404(self):
@@ -290,8 +291,10 @@ class PublishingGate(unittest.TestCase):
         self.assertEqual(self.client.get("/station/toyosaka/").status_code, 200)
         self.assertEqual(self.client.get("/nagano/").status_code, 200)
         self.assertEqual(self.client.get("/station/shinshu-shinmachi/").status_code, 200)
-        self.assertEqual(self.client.get("/toyama/").status_code, 404)
-        self.assertEqual(self.client.get("/station/hosoiri/").status_code, 404)
+        self.assertEqual(self.client.get("/toyama/").status_code, 200)
+        self.assertEqual(self.client.get("/station/hosoiri/").status_code, 200)
+        self.assertEqual(self.client.get("/ishikawa/").status_code, 404)
+        self.assertEqual(self.client.get("/station/no-such-station/").status_code, 404)
 
     def test_sitemap_includes_only_published(self):
         text = self.client.get("/sitemap.xml").get_data(as_text=True)
@@ -314,8 +317,10 @@ class PublishingGate(unittest.TestCase):
         self.assertIn("/station/toyosaka/", text)
         self.assertIn("<loc>%s/nagano/</loc>" % appmod.SITE_URL, text)
         self.assertIn("/station/shinshu-shinmachi/", text)
-        self.assertNotIn("/toyama/", text)
-        self.assertNotIn("/station/hosoiri/", text)
+        self.assertIn("/toyama/", text)
+        self.assertIn("/station/hosoiri/", text)
+        self.assertNotIn("/ishikawa/", text)
+        self.assertNotIn("/station/no-such-station/", text)
 
     def test_fixture_published_prefecture_renders(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -452,9 +457,9 @@ class StaticBuild(unittest.TestCase):
             self.assertTrue(exists("yamanashi", "index.html"))
             self.assertTrue(exists("niigata", "index.html"))
             self.assertTrue(exists("nagano", "index.html"))
-            self.assertFalse(os.path.exists(os.path.join(out, "toyama")))
+            self.assertTrue(exists("toyama", "index.html"))
             station_dirs = sorted(os.listdir(os.path.join(out, "station")))
-            self.assertEqual(len(station_dirs), 286)
+            self.assertEqual(len(station_dirs), 302)
             for d in station_dirs:
                 self.assertTrue(exists("station", d, "index.html"), d)
             for g in ("ev", "onsen", "dogrun", "restaurant", "shop"):

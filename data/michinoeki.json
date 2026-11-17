@@ -5377,7 +5377,7 @@
   },
   "toyama": {
    "name": "富山県",
-   "published": false,
+   "published": true,
    "stations": [
     {
      "address": "富山県富山市片掛3-5",
