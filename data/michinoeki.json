@@ -6181,12 +6181,12 @@
     {
      "address": "石川県輪島市白米町ハ部99-5",
      "checked": "2026-11-17",
-     "closed": null,
+     "closed": "月曜日～木曜日（祝日を除く）",
      "dogrun": null,
-     "ev": true,
-     "hours": "8:30～17:00",
+     "ev": null,
+     "hours": "10:00～15:00（レストラン：11:00～14:00）",
      "name": "千枚田ポケットパーク",
-     "official_url": "http://wajimanavi.lg.jp/www/view/detail.jsp?id=1577",
+     "official_url": "https://wajimanavi.jp/tourism/senmaida-p",
      "onsen_ashiyu": false,
      "parking_large": 5,
      "parking_normal": 47,
@@ -6194,7 +6194,7 @@
      "shop": true,
      "slug": "senmaida-pocket-park",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19250",
-     "tel": "0768-34-1242"
+     "tel": "0768-34-1004"
     },
     {
      "address": "石川県かほく市二ツ屋フ16-3",
@@ -6206,13 +6206,14 @@
      "name": "高松",
      "official_url": "http://tak-rest.com/",
      "onsen_ashiyu": true,
-     "parking_large": 17,
-     "parking_normal": 287,
+     "parking_large": null,
+     "parking_normal": 92,
      "restaurant": true,
      "shop": true,
      "slug": "takamatsu",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19251",
-     "tel": "076-281-2221"
+     "tel": "076-281-2221",
+     "ev_source_url": "https://www.evsmart.net/spot/ishikawa/l172090/v21982"
     },
     {
      "address": "石川県七尾市庵町笹ヶ谷内3-1",
@@ -6292,7 +6293,7 @@
      "closed": "火曜日、年末年始",
      "dogrun": null,
      "ev": false,
-     "hours": "9:00～18:00",
+     "hours": "9:00～17:00（冬季時間変更あり）",
      "name": "赤神",
      "official_url": "https://www.hot-ishikawa.jp/spot/detail_1950.html",
      "onsen_ashiyu": false,
@@ -6328,9 +6329,9 @@
      "closed": "年中無休",
      "dogrun": null,
      "ev": false,
-     "hours": "8:00～19:00〔施設により異なる〕",
+     "hours": "8:30～17:00",
      "name": "輪島",
-     "official_url": "http://wajimanavi.lg.jp/www/view/detail.jsp?id=1660",
+     "official_url": "https://wajimanavi.jp/tourism/michinoekiwajima",
      "onsen_ashiyu": false,
      "parking_large": 8,
      "parking_normal": 16,
@@ -6356,7 +6357,8 @@
      "shop": true,
      "slug": "korogaki-no-sato-shika",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19259",
-     "tel": "0767-32-4831"
+     "tel": "0767-32-4831",
+     "ev_source_url": "https://www.evsmart.net/spot/ishikawa/l173843/v38612"
     },
     {
      "address": "石川県白山市瀬戸寅163-1",
@@ -6392,7 +6394,8 @@
      "shop": true,
      "slug": "ikko-ikki-no-sato",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19261",
-     "tel": "076-254-2888"
+     "tel": "076-254-2888",
+     "ev_source_url": "https://www.evsmart.net/spot/ishikawa/l172103/v34726"
     },
     {
      "address": "石川県輪島市三井町洲衛10-11-1",
@@ -6410,7 +6413,8 @@
      "shop": true,
      "slug": "noto-satoyama-kuko",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19262",
-     "tel": "0768-26-2000"
+     "tel": "0768-26-2000",
+     "ev_source_url": "https://www.evsmart.net/spot/ishikawa/l172049/v6271"
     },
     {
      "address": "石川県河北郡津幡町字竹橋西270",
@@ -6435,7 +6439,7 @@
      "checked": "2026-11-17",
      "closed": "休業中",
      "dogrun": null,
-     "ev": true,
+     "ev": null,
      "hours": "9:00～18:00",
      "name": "山中温泉 ゆけむり健康村",
      "official_url": "https://www.hot-ishikawa.jp/spot/detail_6675.html",
@@ -6482,7 +6486,8 @@
      "shop": true,
      "slug": "suzu-enden-mura",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19266",
-     "tel": "0768-87-2040"
+     "tel": "0768-87-2040",
+     "ev_source_url": "https://www.evsmart.net/spot/ishikawa/l172057/v33056"
     },
     {
      "address": "石川県河北郡内灘町字大学1-4-1",
@@ -6500,7 +6505,8 @@
      "shop": true,
      "slug": "uchinada-sunset-park",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19267",
-     "tel": "076-255-0007"
+     "tel": "076-255-0007",
+     "ev_source_url": "https://www.evsmart.net/spot/ishikawa/l173657/v34778"
     },
     {
      "address": "石川県七尾市府中町員外13-1",
@@ -6536,7 +6542,8 @@
      "shop": true,
      "slug": "komatsu-kibagata",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19269",
-     "tel": "0761-25-1188"
+     "tel": "0761-25-1188",
+     "ev_source_url": "https://www.evsmart.net/spot/ishikawa/l172031/v34259"
     },
     {
      "address": "石川県珠洲市狼煙町テ部11",
@@ -6572,7 +6579,8 @@
      "shop": true,
      "slug": "suzunari",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19271",
-     "tel": "0768-82-4688"
+     "tel": "0768-82-4688",
+     "ev_source_url": "https://www.evsmart.net/spot/ishikawa/l172057/v34435"
     },
     {
      "address": "石川県鹿島郡中能登町井田ぬ部10-1",
@@ -6590,14 +6598,15 @@
      "shop": true,
      "slug": "orihime-no-sato-nakanoto",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19272",
-     "tel": "0767-76-8000"
+     "tel": "0767-76-8000",
+     "ev_source_url": "https://www.evsmart.net/spot/ishikawa/l174076/v9140"
     },
     {
      "address": "石川県鳳珠郡穴水町字大町チ41-6",
      "checked": "2026-11-17",
      "closed": null,
      "dogrun": null,
-     "ev": true,
+     "ev": null,
      "hours": "9:00～17:30",
      "name": "あなみず",
      "official_url": "https://www.town.anamizu.lg.jp/page/100332.html",
@@ -6621,12 +6630,13 @@
      "official_url": "http://noto-chirihama.com/",
      "onsen_ashiyu": false,
      "parking_large": 6,
-     "parking_normal": 150,
+     "parking_normal": 155,
      "restaurant": true,
      "shop": true,
      "slug": "noto-chirihama",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19882",
-     "tel": "0767-22-3891"
+     "tel": "0767-22-3891",
+     "ev_source_url": "https://www.evsmart.net/spot/ishikawa/l172073/v34773"
     },
     {
      "address": "石川県白山市宮丸町2183",
