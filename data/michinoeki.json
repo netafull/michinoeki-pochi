@@ -4858,7 +4858,7 @@
      "checked": "2026-11-16",
      "closed": null,
      "dogrun": null,
-     "ev": true,
+     "ev": null,
      "hours": "9:00～18:00（12月～3月は17:00まで）",
      "name": "会津柳津",
      "official_url": "http://yanaizu-kousya.info/seiryu.shtml",
@@ -4869,8 +4869,7 @@
      "shop": true,
      "slug": "aizu-yanaizu",
      "source_url": "https://www.michi-no-eki.jp/stations/views/19025",
-     "tel": "0241-42-2324",
-     "ev_source_url": "https://www.evsmart.net/spot/fukushima/l74233/v9136"
+     "tel": "0241-42-2324"
     },
     {
      "address": "福島県二本松市太田字下田2-3",
