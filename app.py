@@ -69,25 +69,25 @@ PREFECTURE_REGIONS = (
 # 並び順は地方区分の表示順（PREFECTURE_REGIONS と同じ順）にそろえ、県内の順も表示順に合わせる
 # （トップの県リンクの出現順を変えないため）。配置は CSS grid の列・行で決まる。
 JAPAN_MAP_TILES = (
-    ("hokkaido", "北海道", 9, 1, 4),
-    ("aomori", "青森", 10, 2, 2), ("iwate", "岩手", 11, 3, 1), ("miyagi", "宮城", 11, 4, 1),
-    ("akita", "秋田", 10, 3, 1), ("yamagata", "山形", 10, 4, 1), ("fukushima", "福島", 10, 5, 2),
-    ("ibaraki", "茨城", 11, 6, 1), ("tochigi", "栃木", 10, 6, 1), ("gunma", "群馬", 9, 6, 1),
-    ("saitama", "埼玉", 10, 7, 1), ("chiba", "千葉", 11, 7, 1), ("tokyo", "東京", 10, 8, 1),
-    ("kanagawa", "神奈川", 9, 8, 1),
-    ("niigata", "新潟", 9, 5, 1), ("yamanashi", "山梨", 9, 7, 1), ("nagano", "長野", 8, 6, 1),
-    ("toyama", "富山", 8, 5, 1), ("ishikawa", "石川", 7, 5, 1), ("fukui", "福井", 6, 6, 1),
-    ("gifu", "岐阜", 7, 6, 1), ("shizuoka", "静岡", 8, 8, 1), ("aichi", "愛知", 8, 7, 1),
-    ("mie", "三重", 7, 8, 1),
-    ("shiga", "滋賀", 7, 7, 1), ("kyoto", "京都", 6, 7, 1), ("osaka", "大阪", 6, 8, 1),
-    ("hyogo", "兵庫", 5, 8, 1), ("nara", "奈良", 6, 9, 1), ("wakayama", "和歌山", 6, 10, 1),
-    ("tottori", "鳥取", 5, 7, 1), ("shimane", "島根", 4, 7, 1), ("okayama", "岡山", 4, 8, 1),
-    ("hiroshima", "広島", 3, 8, 1), ("yamaguchi", "山口", 3, 7, 1),
-    ("tokushima", "徳島", 4, 10, 1), ("kagawa", "香川", 4, 9, 1), ("ehime", "愛媛", 3, 9, 1),
-    ("kochi", "高知", 3, 10, 1),
-    ("fukuoka", "福岡", 2, 9, 1), ("saga", "佐賀", 1, 9, 1), ("nagasaki", "長崎", 1, 10, 1),
-    ("kumamoto", "熊本", 1, 11, 1), ("oita", "大分", 2, 10, 1), ("miyazaki", "宮崎", 2, 11, 1),
-    ("kagoshima", "鹿児島", 1, 12, 1), ("okinawa", "沖縄", 1, 13, 1),
+    ("hokkaido", "北海道", 11, 1, 2, 2),
+    ("aomori", "青森", 9, 2, 2, 1), ("iwate", "岩手", 11, 3, 1, 1), ("miyagi", "宮城", 11, 4, 1, 1),
+    ("akita", "秋田", 10, 3, 1, 1), ("yamagata", "山形", 10, 4, 1, 1), ("fukushima", "福島", 10, 5, 2, 1),
+    ("ibaraki", "茨城", 11, 6, 1, 1), ("tochigi", "栃木", 10, 6, 1, 1), ("gunma", "群馬", 9, 6, 1, 1),
+    ("saitama", "埼玉", 10, 7, 1, 1), ("chiba", "千葉", 11, 7, 1, 1), ("tokyo", "東京", 10, 8, 1, 1),
+    ("kanagawa", "神奈川", 9, 8, 1, 1),
+    ("niigata", "新潟", 9, 5, 1, 1), ("yamanashi", "山梨", 9, 7, 1, 1), ("nagano", "長野", 8, 6, 1, 1),
+    ("toyama", "富山", 8, 5, 1, 1), ("ishikawa", "石川", 7, 5, 1, 1), ("fukui", "福井", 6, 6, 1, 1),
+    ("gifu", "岐阜", 7, 6, 1, 1), ("shizuoka", "静岡", 8, 8, 1, 1), ("aichi", "愛知", 8, 7, 1, 1),
+    ("mie", "三重", 7, 8, 1, 1),
+    ("shiga", "滋賀", 7, 7, 1, 1), ("kyoto", "京都", 6, 7, 1, 1), ("osaka", "大阪", 6, 8, 1, 1),
+    ("hyogo", "兵庫", 5, 8, 1, 1), ("nara", "奈良", 6, 9, 1, 1), ("wakayama", "和歌山", 6, 10, 1, 1),
+    ("tottori", "鳥取", 5, 7, 1, 1), ("shimane", "島根", 4, 7, 1, 1), ("okayama", "岡山", 4, 8, 1, 1),
+    ("hiroshima", "広島", 3, 8, 1, 1), ("yamaguchi", "山口", 3, 7, 1, 1),
+    ("tokushima", "徳島", 4, 10, 1, 1), ("kagawa", "香川", 4, 9, 1, 1), ("ehime", "愛媛", 3, 9, 1, 1),
+    ("kochi", "高知", 3, 10, 1, 1),
+    ("fukuoka", "福岡", 2, 7, 1, 1), ("saga", "佐賀", 1, 7, 1, 1), ("nagasaki", "長崎", 1, 8, 1, 1),
+    ("kumamoto", "熊本", 1, 9, 1, 1), ("oita", "大分", 2, 8, 1, 1), ("miyazaki", "宮崎", 2, 9, 1, 1),
+    ("kagoshima", "鹿児島", 1, 10, 1, 1), ("okinawa", "沖縄", 1, 11, 1, 1),
 )
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -416,9 +416,9 @@ def _japan_map(pubs):
     """トップの日本地図タイル。公開済みの県だけをリンクにし、未公開の県はグレーで出す。"""
     e = html.escape
     tiles = ""
-    for slug, label, col, row, span in JAPAN_MAP_TILES:
-        style = "grid-column:%d / span %d;grid-row:%d" % (col, span, row)
-        wide = " ms-map-tile--wide" if span > 1 else ""
+    for slug, label, col, row, span, rspan in JAPAN_MAP_TILES:
+        style = "grid-column:%d / span %d;grid-row:%d / span %d" % (col, span, row, rspan)
+        wide = " ms-map-tile--wide" if span > 1 or rspan > 1 else ""
         if slug in pubs:
             tiles += ('<a class="ms-map-tile%s" style="%s" href="/%s/">%s<small>%d駅</small></a>'
                       % (wide, style, slug, e(label), len(pubs[slug]["stations"])))
