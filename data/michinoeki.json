@@ -8075,7 +8075,7 @@
      "official_url": "https://michieki-miyajima.jp/",
      "hours": "〈レストラン〉10:30～15:00（ラストオーダー14:30） 〈売店〉9:00～16:00",
      "closed": "水曜日（祝日の場合は翌日）、年末年始",
-     "parking_normal": 35,
+     "parking_normal": 36,
      "parking_large": 1,
      "lat": 35.1791637,
      "lng": 137.6826773,
@@ -8099,7 +8099,7 @@
      "parking_large": 2,
      "lat": 34.9025911,
      "lng": 137.6133931,
-     "ev": true,
+     "ev": null,
      "onsen_ashiyu": false,
      "dogrun": null,
      "restaurant": true,
@@ -8355,7 +8355,7 @@
      "official_url": "https://okazaki-kanko.jp/feature/michinoeki.hujikawa-juku/top",
      "hours": "9:00～18:00 （コンビニは24H）",
      "closed": "年中無休",
-     "parking_normal": 171,
+     "parking_normal": 162,
      "parking_large": 21,
      "lat": 34.9142483,
      "lng": 137.2168536,
@@ -8445,7 +8445,8 @@
      "restaurant": true,
      "shop": true,
      "source_url": "https://www.michi-no-eki.jp/stations/views/22526",
-     "checked": "2026-11-18"
+     "checked": "2026-11-18",
+     "ev_source_url": "https://www.evsmart.net/spot/aichi/l232301/v37619"
     }
    ]
   }
