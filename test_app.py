@@ -203,7 +203,7 @@ class Rendering(unittest.TestCase):
             nav = foot.split('<nav class="sites">', 1)[1].split("</nav>", 1)[0]
             hosts = re.findall(r'href="https://([a-z]+)\.netaful\.jp/"', nav)
             self.assertEqual(hosts, ["book", "kaden", "apple", "manga", "conbini", "fastfood", "cafe",
-                                     "sushi", "cupmen", "hotel", "onsen", "ritou"])
+                                     "sushi", "cupmen", "hotel", "onsen", "ritou", "shinhatsubai"])
             self.assertNotIn("michinoeki.netaful.jp", nav)
             self.assertNotIn("道の駅ポチ", nav)
             self.assertIn('<a href="https://ritou.netaful.jp/">離島宿ポチ<span class="lbl"> 島の空室を、すぐ探す</span></a>', nav)
@@ -275,7 +275,7 @@ class PublishingGate(unittest.TestCase):
         self.assertIn('href="/fukui/"', text)
         self.assertIn('href="/gifu/"', text)
         self.assertIn('href="/aichi/"', text)
-        self.assertNotIn('href="/mie/"', text)
+        self.assertIn('href="/mie/"', text)
         self.assertNotIn('href="/shiga/"', text)
         self.assertNotIn("ただいま準備中です", text)
 
@@ -309,8 +309,8 @@ class PublishingGate(unittest.TestCase):
         self.assertEqual(self.client.get("/station/minami/").status_code, 200)
         self.assertEqual(self.client.get("/aichi/").status_code, 200)
         self.assertEqual(self.client.get("/station/toyone-greenport-miyajima/").status_code, 200)
-        self.assertEqual(self.client.get("/mie/").status_code, 404)
-        self.assertEqual(self.client.get("/station/iitaka-eki/").status_code, 404)
+        self.assertEqual(self.client.get("/mie/").status_code, 200)
+        self.assertEqual(self.client.get("/station/iitaka-eki/").status_code, 200)
         self.assertEqual(self.client.get("/shiga/").status_code, 404)
         self.assertEqual(self.client.get("/station/no-such-station/").status_code, 404)
 
@@ -487,7 +487,7 @@ class StaticBuild(unittest.TestCase):
             self.assertTrue(exists("fukui", "index.html"))
             self.assertTrue(exists("gifu", "index.html"))
             station_dirs = sorted(os.listdir(os.path.join(out, "station")))
-            self.assertEqual(len(station_dirs), 450)
+            self.assertEqual(len(station_dirs), 468)
             for d in station_dirs:
                 self.assertTrue(exists("station", d, "index.html"), d)
             for g in ("ev", "onsen", "dogrun", "restaurant", "shop"):

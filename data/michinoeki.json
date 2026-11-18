@@ -8452,7 +8452,7 @@
   },
   "mie": {
    "name": "三重県",
-   "published": false,
+   "published": true,
    "stations": [
     {
      "slug": "iitaka-eki",

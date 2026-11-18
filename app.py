@@ -50,6 +50,7 @@ SERIES_SITES = (
     ("ホテルポチ", "空室ホテルを安い順に検索", "https://hotel.netaful.jp/"),
     ("温泉宿ポチ", "温泉地の空室を、すぐ探す", "https://onsen.netaful.jp/"),
     ("離島宿ポチ", "島の空室を、すぐ探す", "https://ritou.netaful.jp/"),
+    ("新発売ポチ", "新商品を発売日でまとめて", "https://shinhatsubai.netaful.jp/"),
 )
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
