@@ -9237,7 +9237,7 @@
   },
   "miyagi": {
    "name": "宮城県",
-   "published": false,
+   "published": true,
    "stations": [
     {
      "slug": "shichikashuku",
