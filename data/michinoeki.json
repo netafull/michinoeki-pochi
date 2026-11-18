@@ -9629,7 +9629,7 @@
   },
   "yamagata": {
    "name": "山形県",
-   "published": false,
+   "published": true,
    "stations": [
     {
      "slug": "gassan",
