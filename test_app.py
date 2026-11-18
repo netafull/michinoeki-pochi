@@ -274,7 +274,7 @@ class PublishingGate(unittest.TestCase):
         self.assertIn('href="/ishikawa/"', text)
         self.assertIn('href="/fukui/"', text)
         self.assertIn('href="/gifu/"', text)
-        self.assertNotIn('href="/aichi/"', text)
+        self.assertIn('href="/aichi/"', text)
         self.assertNotIn('href="/shiga/"', text)
         self.assertNotIn("ただいま準備中です", text)
 
@@ -306,8 +306,8 @@ class PublishingGate(unittest.TestCase):
         self.assertEqual(self.client.get("/station/sakai-fukui/").status_code, 200)
         self.assertEqual(self.client.get("/gifu/").status_code, 200)
         self.assertEqual(self.client.get("/station/minami/").status_code, 200)
-        self.assertEqual(self.client.get("/aichi/").status_code, 404)
-        self.assertEqual(self.client.get("/station/toyone-greenport-miyajima/").status_code, 404)
+        self.assertEqual(self.client.get("/aichi/").status_code, 200)
+        self.assertEqual(self.client.get("/station/toyone-greenport-miyajima/").status_code, 200)
         self.assertEqual(self.client.get("/shiga/").status_code, 404)
         self.assertEqual(self.client.get("/station/no-such-station/").status_code, 404)
 
@@ -484,7 +484,7 @@ class StaticBuild(unittest.TestCase):
             self.assertTrue(exists("fukui", "index.html"))
             self.assertTrue(exists("gifu", "index.html"))
             station_dirs = sorted(os.listdir(os.path.join(out, "station")))
-            self.assertEqual(len(station_dirs), 431)
+            self.assertEqual(len(station_dirs), 450)
             for d in station_dirs:
                 self.assertTrue(exists("station", d, "index.html"), d)
             for g in ("ev", "onsen", "dogrun", "restaurant", "shop"):
