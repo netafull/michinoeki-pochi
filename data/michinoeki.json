@@ -8506,13 +8506,14 @@
      "parking_large": 9,
      "lat": 33.7698186,
      "lng": 136.0284344,
-     "ev": false,
+     "ev": true,
      "onsen_ashiyu": false,
      "dogrun": null,
      "restaurant": true,
      "shop": true,
      "source_url": "https://www.michi-no-eki.jp/stations/views/19379",
-     "checked": "2026-11-18"
+     "checked": "2026-11-18",
+     "ev_source_url": "https://www.ev-smart.net/charging/mie/382ec37e4b4b"
     },
     {
      "slug": "park-shichiri-mihama",
@@ -8522,11 +8523,11 @@
      "official_url": "http://michinoeki-mihama.com/",
      "hours": "9:00～17:00",
      "closed": "年中無休",
-     "parking_normal": 200,
-     "parking_large": 4,
+     "parking_normal": 250,
+     "parking_large": 6,
      "lat": 33.8035647,
      "lng": 136.0431051,
-     "ev": true,
+     "ev": null,
      "onsen_ashiyu": false,
      "dogrun": true,
      "restaurant": true,
@@ -8538,7 +8539,7 @@
      "slug": "miyama",
      "name": "海山",
      "address": "三重県北牟婁郡紀北町海山区相賀1439-3",
-     "tel": "0597-32-1661",
+     "tel": "0597-32-3553",
      "official_url": "http://michinoeki-miyama.com/",
      "hours": "9:00～17:00",
      "closed": "1月1日",
@@ -8632,7 +8633,8 @@
      "restaurant": true,
      "shop": true,
      "source_url": "https://www.michi-no-eki.jp/stations/views/19385",
-     "checked": "2026-11-18"
+     "checked": "2026-11-18",
+     "ev_source_url": "https://www.ev-smart.net/charging/mie/fa2f679ca7ec"
     },
     {
      "slug": "misugi",
@@ -8646,13 +8648,14 @@
      "parking_large": 5,
      "lat": 34.5116756,
      "lng": 136.3068072,
-     "ev": false,
+     "ev": true,
      "onsen_ashiyu": false,
      "dogrun": null,
      "restaurant": false,
      "shop": true,
      "source_url": "https://www.michi-no-eki.jp/stations/views/19386",
-     "checked": "2026-11-18"
+     "checked": "2026-11-18",
+     "ev_source_url": "https://www.ev-smart.net/charging/mie/4a4db8796e50"
     },
     {
      "slug": "sekijuku",
@@ -8792,7 +8795,8 @@
      "restaurant": true,
      "shop": true,
      "source_url": "https://www.michi-no-eki.jp/stations/views/19865",
-     "checked": "2026-11-18"
+     "checked": "2026-11-18",
+     "ev_source_url": "https://www.ev-smart.net/charging/mie/aa5c0ac94512"
     },
     {
      "slug": "kumano-itaya-kurobei-no-sato",
