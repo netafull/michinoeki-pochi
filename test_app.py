@@ -1,4 +1,4 @@
-"""道の駅ポチのテスト。ネットワーク不要。実データ（24県632駅）で確認する。
+"""道の駅ポチのテスト。ネットワーク不要。実データ（25県760駅）で確認する。
 
 公開は県単位のゲート（データの published）で制御する。表示系のテストは、
 実データを全県 published=true に読み替えたストアに差し替えて確認し、
@@ -282,11 +282,12 @@ class PublishingGate(unittest.TestCase):
         self.assertIn('href="/akita/"', text)
         self.assertIn('href="/iwate/"', text)
         self.assertIn('href="/aomori/"', text)
+        self.assertIn('href="/hokkaido/"', text)
         self.assertNotIn("ただいま準備中です", text)
-        # 地方区分の見出しと並び（東北→関東→甲信越→北陸→東海→近畿）
-        for region in ("東北", "関東", "甲信越", "北陸", "東海", "近畿"):
+        # 地方区分の見出しと並び（北海道→東北→関東→甲信越→北陸→東海→近畿）
+        for region in ("北海道", "東北", "関東", "甲信越", "北陸", "東海", "近畿"):
             self.assertIn('<h3 class="ms-region">%s</h3>' % region, text)
-        order = ['href="/aomori/"', 'href="/iwate/"', 'href="/miyagi/"', 'href="/akita/"', 'href="/yamagata/"', 'href="/fukushima/"', 'href="/ibaraki/"', 'href="/kanagawa/"',
+        order = ['href="/hokkaido/"', 'href="/aomori/"', 'href="/iwate/"', 'href="/miyagi/"', 'href="/akita/"', 'href="/yamagata/"', 'href="/fukushima/"', 'href="/ibaraki/"', 'href="/kanagawa/"',
                  'href="/niigata/"', 'href="/nagano/"', 'href="/toyama/"',
                  'href="/fukui/"', 'href="/gifu/"', 'href="/mie/"', 'href="/shiga/"']
         positions = [text.index(o) for o in order]
@@ -294,7 +295,7 @@ class PublishingGate(unittest.TestCase):
         # 日本地図タイル：全県のタイルがあり、公開済みだけがリンクになる
         self.assertIn('class="ms-map"', text)
         self.assertIn('ms-map-tile--off', text)
-        self.assertNotIn('href="/hokkaido/"', text)
+        self.assertIn('href="/hokkaido/"', text)
         self.assertNotIn('href="/kyoto/"', text)
 
     def test_unpublished_pages_are_404(self):
@@ -341,7 +342,8 @@ class PublishingGate(unittest.TestCase):
         self.assertEqual(self.client.get("/station/morioka-shibutami/").status_code, 200)
         self.assertEqual(self.client.get("/aomori/").status_code, 200)
         self.assertEqual(self.client.get("/station/shichinohe/").status_code, 200)
-        self.assertEqual(self.client.get("/hokkaido/").status_code, 404)
+        self.assertEqual(self.client.get("/hokkaido/").status_code, 200)
+        self.assertEqual(self.client.get("/station/mikasa/").status_code, 200)
         self.assertEqual(self.client.get("/kyoto/").status_code, 404)
         self.assertEqual(self.client.get("/station/no-such-station/").status_code, 404)
 
@@ -517,8 +519,9 @@ class StaticBuild(unittest.TestCase):
             self.assertTrue(exists("ishikawa", "index.html"))
             self.assertTrue(exists("fukui", "index.html"))
             self.assertTrue(exists("gifu", "index.html"))
+            self.assertTrue(exists("hokkaido", "index.html"))
             station_dirs = sorted(os.listdir(os.path.join(out, "station")))
-            self.assertEqual(len(station_dirs), 632)
+            self.assertEqual(len(station_dirs), 760)
             for d in station_dirs:
                 self.assertTrue(exists("station", d, "index.html"), d)
             for g in ("ev", "onsen", "dogrun", "restaurant", "shop"):
