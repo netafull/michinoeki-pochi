@@ -12058,7 +12058,7 @@
      "lng": 141.2646116,
      "ev": false,
      "onsen_ashiyu": false,
-     "dogrun": true,
+     "dogrun": null,
      "restaurant": true,
      "shop": true,
      "source_url": "https://www.michi-no-eki.jp/stations/views/18921",
