@@ -12189,7 +12189,7 @@
   },
   "hokkaido": {
    "name": "北海道",
-   "published": false,
+   "published": true,
    "stations": [
     {
      "slug": "mikasa",
