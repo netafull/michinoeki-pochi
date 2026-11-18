@@ -10117,7 +10117,7 @@
   },
   "akita": {
    "name": "秋田県",
-   "published": false,
+   "published": true,
    "stations": [
     {
      "slug": "takanosu",
