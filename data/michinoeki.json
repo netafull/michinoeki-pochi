@@ -10816,7 +10816,7 @@
   },
   "iwate": {
    "name": "岩手県",
-   "published": false,
+   "published": true,
    "stations": [
     {
      "slug": "ishidoriya",
