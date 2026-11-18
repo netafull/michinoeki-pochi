@@ -15266,7 +15266,7 @@
      "ev": null,
      "onsen_ashiyu": false,
      "dogrun": true,
-     "restaurant": false,
+     "restaurant": null,
      "shop": true,
      "source_url": "https://cleankobo-michinoekihabikino.com/",
      "checked": "2026-11-18"
