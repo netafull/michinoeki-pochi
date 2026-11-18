@@ -53,6 +53,17 @@ SERIES_SITES = (
     ("新発売ポチ", "新商品を発売日でまとめて", "https://shinhatsubai.netaful.jp/"),
 )
 
+# トップの都道府県一覧の地方区分（各区分の中は北から南、JISの県コード順）。
+# 未公開の県も含めてよい（表示は公開済みの県だけ）。新しい県はここへ足す。
+PREFECTURE_REGIONS = (
+    ("東北", ("fukushima",)),
+    ("関東", ("ibaraki", "tochigi", "gunma", "saitama", "chiba", "tokyo", "kanagawa")),
+    ("甲信越", ("niigata", "yamanashi", "nagano")),
+    ("北陸", ("toyama", "ishikawa", "fukui")),
+    ("東海", ("gifu", "shizuoka", "aichi", "mie")),
+    ("近畿", ("shiga",)),
+)
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_PATH = os.path.join(BASE_DIR, "data", "michinoeki.json")
 
@@ -393,15 +404,33 @@ def index():
     e = html.escape
     pubs = STORE.public_prefectures()
     total = sum(len(p["stations"]) for p in pubs.values())
-    pref_items = "".join(
-        '<li><a href="/%s/">%s<small>%d駅</small></a></li>' % (slug, e(p["name"]), len(p["stations"]))
-        for slug, p in pubs.items())
+
+    def pref_item(slug):
+        p = pubs[slug]
+        return ('<li><a href="/%s/">%s<small>%d駅</small></a></li>'
+                % (slug, e(p["name"]), len(p["stations"])))
+
+    ordered = []   # 表示順（地方区分の順）の県スラッグ
+    groups = []    # (地方名, [県スラッグ])
+    for region, slugs in PREFECTURE_REGIONS:
+        members = [s for s in slugs if s in pubs]
+        if members:
+            groups.append((region, members))
+            ordered.extend(members)
+    leftovers = [s for s in pubs if s not in ordered]
+    if leftovers:  # 区分表にない公開県は落とさず最後に並べる
+        groups.append((None, leftovers))
+        ordered.extend(leftovers)
+    pref_groups = "".join(
+        (('<h3 class="ms-region">%s</h3>' % e(region)) if region else "")
+        + '<ul class="ms-nav-chips">%s</ul>' % "".join(pref_item(s) for s in members)
+        for region, members in groups)
     if pubs:
         intro = ('ドライブの休憩に立ち寄る道の駅について、駐車場の台数やEV充電・温泉などの設備を'
                  'まとめました。現在は%sの%d駅を掲載しています。%s'
-                 % (e("・".join(p["name"] for p in pubs.values())), total, e(CAUTION)))
-        sections = ('<section><h2>都道府県から探す</h2><ul class="ms-nav-chips">%s</ul></section>\n'
-                    '<section><h2>設備から探す</h2>%s</section>\n' % (pref_items, _genre_links()))
+                 % (e("・".join(pubs[s]["name"] for s in ordered)), total, e(CAUTION)))
+        sections = ('<section><h2>都道府県から探す</h2>%s</section>\n'
+                    '<section><h2>設備から探す</h2>%s</section>\n' % (pref_groups, _genre_links()))
     else:
         intro = ('ドライブの休憩に立ち寄る道の駅について、駐車場の台数やEV充電・温泉などの設備を'
                  'まとめています。ただいま準備中です。')

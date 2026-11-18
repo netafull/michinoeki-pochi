@@ -278,6 +278,14 @@ class PublishingGate(unittest.TestCase):
         self.assertIn('href="/mie/"', text)
         self.assertNotIn('href="/shiga/"', text)
         self.assertNotIn("ただいま準備中です", text)
+        # 地方区分の見出しと並び（東北→関東→甲信越→北陸→東海）
+        for region in ("東北", "関東", "甲信越", "北陸", "東海"):
+            self.assertIn('<h3 class="ms-region">%s</h3>' % region, text)
+        order = ['href="/fukushima/"', 'href="/ibaraki/"', 'href="/kanagawa/"',
+                 'href="/niigata/"', 'href="/nagano/"', 'href="/toyama/"',
+                 'href="/fukui/"', 'href="/gifu/"', 'href="/mie/"']
+        positions = [text.index(o) for o in order]
+        self.assertEqual(positions, sorted(positions))
 
     def test_unpublished_pages_are_404(self):
         self.assertEqual(self.client.get("/chiba/").status_code, 200)
