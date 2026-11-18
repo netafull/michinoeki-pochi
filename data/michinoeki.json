@@ -11615,7 +11615,7 @@
   },
   "aomori": {
    "name": "青森県",
-   "published": false,
+   "published": true,
    "stations": [
     {
      "slug": "shichinohe",
