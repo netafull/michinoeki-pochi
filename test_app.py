@@ -1,4 +1,4 @@
-"""道の駅ポチのテスト。ネットワーク不要。実データ（23県604駅）で確認する。
+"""道の駅ポチのテスト。ネットワーク不要。実データ（24県632駅）で確認する。
 
 公開は県単位のゲート（データの published）で制御する。表示系のテストは、
 実データを全県 published=true に読み替えたストアに差し替えて確認し、
@@ -53,8 +53,8 @@ def _all_published_store():
 class LoaderValidation(unittest.TestCase):
     def test_real_data_all_stations_load(self):
         store = appmod.StationStore()
-        self.assertEqual(len(store.all_stations()), 604)
-        self.assertEqual(list(store.prefectures), ["saitama", "chiba", "tokyo", "kanagawa", "shizuoka", "ibaraki", "tochigi", "gunma", "yamanashi", "niigata", "nagano", "fukushima", "toyama", "ishikawa", "fukui", "gifu", "aichi", "mie", "shiga", "miyagi", "yamagata", "akita", "iwate"])
+        self.assertEqual(len(store.all_stations()), 632)
+        self.assertEqual(list(store.prefectures), ["saitama", "chiba", "tokyo", "kanagawa", "shizuoka", "ibaraki", "tochigi", "gunma", "yamanashi", "niigata", "nagano", "fukushima", "toyama", "ishikawa", "fukui", "gifu", "aichi", "mie", "shiga", "miyagi", "yamagata", "akita", "iwate", "aomori"])
 
     def test_missing_source_url_excluded(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -151,7 +151,7 @@ class Rendering(unittest.TestCase):
         self.assertIn('<dt>休館日</dt><dd class="ms-unknown">未確認</dd>', text)
 
     def test_genre_pages(self):
-        for slug, count in (("ev", 382), ("onsen", 89), ("dogrun", 40), ("restaurant", 548), ("shop", 595)):
+        for slug, count in (("ev", 391), ("onsen", 92), ("dogrun", 42), ("restaurant", 572), ("shop", 622)):
             code, text = self.get("/genre/%s/" % slug)
             self.assertEqual(code, 200, slug)
             self.assertEqual(text.count('class="ms-card"'), count, slug)
