@@ -56,6 +56,7 @@ SERIES_SITES = (
 # トップの都道府県一覧の地方区分（各区分の中は北から南、JISの県コード順）。
 # 未公開の県も含めてよい（表示は公開済みの県だけ）。新しい県はここへ足す。
 PREFECTURE_REGIONS = (
+    ("北海道", ("hokkaido",)),
     ("東北", ("aomori", "iwate", "miyagi", "akita", "yamagata", "fukushima")),
     ("関東", ("ibaraki", "tochigi", "gunma", "saitama", "chiba", "tokyo", "kanagawa")),
     ("甲信越", ("niigata", "yamanashi", "nagano")),
