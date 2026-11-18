@@ -291,6 +291,11 @@ class PublishingGate(unittest.TestCase):
                  'href="/fukui/"', 'href="/gifu/"', 'href="/mie/"', 'href="/shiga/"']
         positions = [text.index(o) for o in order]
         self.assertEqual(positions, sorted(positions))
+        # 日本地図タイル：全県のタイルがあり、公開済みだけがリンクになる
+        self.assertIn('class="ms-map"', text)
+        self.assertIn('ms-map-tile--off', text)
+        self.assertNotIn('href="/hokkaido/"', text)
+        self.assertNotIn('href="/kyoto/"', text)
 
     def test_unpublished_pages_are_404(self):
         self.assertEqual(self.client.get("/chiba/").status_code, 200)
