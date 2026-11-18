@@ -279,11 +279,12 @@ class PublishingGate(unittest.TestCase):
         self.assertIn('href="/shiga/"', text)
         self.assertIn('href="/miyagi/"', text)
         self.assertIn('href="/yamagata/"', text)
+        self.assertIn('href="/akita/"', text)
         self.assertNotIn("ただいま準備中です", text)
         # 地方区分の見出しと並び（東北→関東→甲信越→北陸→東海→近畿）
         for region in ("東北", "関東", "甲信越", "北陸", "東海", "近畿"):
             self.assertIn('<h3 class="ms-region">%s</h3>' % region, text)
-        order = ['href="/miyagi/"', 'href="/yamagata/"', 'href="/fukushima/"', 'href="/ibaraki/"', 'href="/kanagawa/"',
+        order = ['href="/miyagi/"', 'href="/akita/"', 'href="/yamagata/"', 'href="/fukushima/"', 'href="/ibaraki/"', 'href="/kanagawa/"',
                  'href="/niigata/"', 'href="/nagano/"', 'href="/toyama/"',
                  'href="/fukui/"', 'href="/gifu/"', 'href="/mie/"', 'href="/shiga/"']
         positions = [text.index(o) for o in order]
@@ -327,8 +328,8 @@ class PublishingGate(unittest.TestCase):
         self.assertEqual(self.client.get("/station/ara-date-na-michinoeki/").status_code, 200)
         self.assertEqual(self.client.get("/yamagata/").status_code, 200)
         self.assertEqual(self.client.get("/station/yamagata-zao/").status_code, 200)
-        self.assertEqual(self.client.get("/akita/").status_code, 404)
-        self.assertEqual(self.client.get("/station/kazuno/").status_code, 404)
+        self.assertEqual(self.client.get("/akita/").status_code, 200)
+        self.assertEqual(self.client.get("/station/kazuno/").status_code, 200)
         self.assertEqual(self.client.get("/kyoto/").status_code, 404)
         self.assertEqual(self.client.get("/station/no-such-station/").status_code, 404)
 
@@ -505,7 +506,7 @@ class StaticBuild(unittest.TestCase):
             self.assertTrue(exists("fukui", "index.html"))
             self.assertTrue(exists("gifu", "index.html"))
             station_dirs = sorted(os.listdir(os.path.join(out, "station")))
-            self.assertEqual(len(station_dirs), 531)
+            self.assertEqual(len(station_dirs), 565)
             for d in station_dirs:
                 self.assertTrue(exists("station", d, "index.html"), d)
             for g in ("ev", "onsen", "dogrun", "restaurant", "shop"):
