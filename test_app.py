@@ -53,8 +53,8 @@ def _all_published_store():
 class LoaderValidation(unittest.TestCase):
     def test_real_data_all_stations_load(self):
         store = appmod.StationStore()
-        self.assertEqual(len(store.all_stations()), 842)
-        self.assertEqual(list(store.prefectures), ["saitama", "chiba", "tokyo", "kanagawa", "shizuoka", "ibaraki", "tochigi", "gunma", "yamanashi", "niigata", "nagano", "fukushima", "toyama", "ishikawa", "fukui", "gifu", "aichi", "mie", "shiga", "miyagi", "yamagata", "akita", "iwate", "aomori", "hokkaido", "kyoto", "osaka", "nara", "wakayama"])
+        self.assertEqual(len(store.all_stations()), 896)
+        self.assertEqual(list(store.prefectures), ["saitama", "chiba", "tokyo", "kanagawa", "shizuoka", "ibaraki", "tochigi", "gunma", "yamanashi", "niigata", "nagano", "fukushima", "toyama", "ishikawa", "fukui", "gifu", "aichi", "mie", "shiga", "miyagi", "yamagata", "akita", "iwate", "aomori", "hokkaido", "kyoto", "osaka", "nara", "wakayama", "hyogo", "tottori"])
 
     def test_missing_source_url_excluded(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -357,6 +357,8 @@ class PublishingGate(unittest.TestCase):
         self.assertEqual(self.client.get("/station/futakami-park-taima/").status_code, 200)
         self.assertEqual(self.client.get("/wakayama/").status_code, 200)
         self.assertEqual(self.client.get("/station/kushimoto-hashigui-iwa/").status_code, 200)
+        self.assertEqual(self.client.get("/hyogo/").status_code, 404)
+        self.assertEqual(self.client.get("/tottori/").status_code, 404)
         self.assertEqual(self.client.get("/station/no-such-station/").status_code, 404)
 
     def test_sitemap_includes_only_published(self):
