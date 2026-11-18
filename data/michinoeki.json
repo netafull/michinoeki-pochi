@@ -8822,7 +8822,7 @@
   },
   "shiga": {
    "name": "滋賀県",
-   "published": false,
+   "published": true,
    "stations": [
     {
      "slug": "aino-tsuchiyama",
