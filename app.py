@@ -62,7 +62,7 @@ PREFECTURE_REGIONS = (
     ("甲信越", ("niigata", "yamanashi", "nagano")),
     ("北陸", ("toyama", "ishikawa", "fukui")),
     ("東海", ("gifu", "shizuoka", "aichi", "mie")),
-    ("近畿", ("shiga",)),
+    ("近畿", ("shiga", "kyoto", "osaka", "nara", "wakayama")),
 )
 
 # トップの日本地図タイル。全47都道府県をタイル状に並べるための配置表。

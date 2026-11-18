@@ -53,8 +53,8 @@ def _all_published_store():
 class LoaderValidation(unittest.TestCase):
     def test_real_data_all_stations_load(self):
         store = appmod.StationStore()
-        self.assertEqual(len(store.all_stations()), 760)
-        self.assertEqual(list(store.prefectures), ["saitama", "chiba", "tokyo", "kanagawa", "shizuoka", "ibaraki", "tochigi", "gunma", "yamanashi", "niigata", "nagano", "fukushima", "toyama", "ishikawa", "fukui", "gifu", "aichi", "mie", "shiga", "miyagi", "yamagata", "akita", "iwate", "aomori", "hokkaido"])
+        self.assertEqual(len(store.all_stations()), 842)
+        self.assertEqual(list(store.prefectures), ["saitama", "chiba", "tokyo", "kanagawa", "shizuoka", "ibaraki", "tochigi", "gunma", "yamanashi", "niigata", "nagano", "fukushima", "toyama", "ishikawa", "fukui", "gifu", "aichi", "mie", "shiga", "miyagi", "yamagata", "akita", "iwate", "aomori", "hokkaido", "kyoto", "osaka", "nara", "wakayama"])
 
     def test_missing_source_url_excluded(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -151,7 +151,7 @@ class Rendering(unittest.TestCase):
         self.assertIn('<dt>休館日</dt><dd class="ms-unknown">未確認</dd>', text)
 
     def test_genre_pages(self):
-        for slug, count in (("ev", 438), ("onsen", 112), ("dogrun", 58), ("restaurant", 666), ("shop", 748)):
+        for slug, count in (("ev", 479), ("onsen", 120), ("dogrun", 64), ("restaurant", 726), ("shop", 828)):
             code, text = self.get("/genre/%s/" % slug)
             self.assertEqual(code, 200, slug)
             self.assertEqual(text.count('class="ms-card"'), count, slug)
