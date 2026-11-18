@@ -54,6 +54,26 @@ h3.ms-region { font-size: 1rem; line-height: 1.4; margin: 18px 0 8px; }
 .ms-nav-chips a:hover { border-color: var(--accent); background: var(--accent-soft); }
 .ms-nav-chips small { color: var(--muted); font-weight: 400; }
 
+/* 日本地図タイル（トップ。公開済みの県だけリンク） */
+.ms-map { display: grid; grid-template-columns: repeat(11, 1fr); gap: 4px; max-width: 520px; margin: 4px 0 8px; }
+.ms-map-tile {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  min-width: 0; padding: 2px 0;
+  aspect-ratio: 1; border: 1px solid var(--accent); border-radius: 8px;
+  background: var(--accent-soft); color: var(--text); text-decoration: none;
+  font-weight: 700; font-size: clamp(9px, 2.4vw, 13px); line-height: 1.25;
+}
+.ms-map-tile small { color: var(--muted); font-weight: 400; font-size: 0.78em; }
+.ms-map-tile:hover { background: var(--accent); color: var(--on-accent); }
+.ms-map-tile:hover small { color: var(--on-accent); }
+.ms-map-tile--wide { aspect-ratio: auto; }
+.ms-map-tile--off { background: var(--card); border-color: var(--line); color: var(--muted); font-weight: 400; }
+.ms-map-note { font-size: 0.8rem; color: var(--muted); margin: 0 0 4px; }
+@media (max-width: 480px) {
+  .ms-map { gap: 3px; }
+  .ms-map-tile { border-radius: 6px; }
+}
+
 /* 設備フィルタ（県ページ。JSでAND絞り込み、無効時は全件表示） */
 .ms-filter {
   background: var(--card); border: 1px solid var(--line); border-radius: 14px;

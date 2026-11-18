@@ -64,6 +64,32 @@ PREFECTURE_REGIONS = (
     ("近畿", ("shiga",)),
 )
 
+# トップの日本地図タイル。全47都道府県をタイル状に並べるための配置表。
+# (slug, ラベル, 列, 行, 列スパン)。列は西→東（1〜11）、行は北→南（1〜11）。
+# 並び順は地方区分の表示順（PREFECTURE_REGIONS と同じ順）にそろえ、県内の順も表示順に合わせる
+# （トップの県リンクの出現順を変えないため）。配置は CSS grid の列・行で決まる。
+JAPAN_MAP_TILES = (
+    ("hokkaido", "北海道", 10, 1, 2),
+    ("aomori", "青森", 10, 2, 1), ("iwate", "岩手", 10, 3, 1), ("miyagi", "宮城", 10, 4, 1),
+    ("akita", "秋田", 9, 3, 1), ("yamagata", "山形", 9, 4, 1), ("fukushima", "福島", 10, 5, 1),
+    ("ibaraki", "茨城", 11, 6, 1), ("tochigi", "栃木", 10, 6, 1), ("gunma", "群馬", 9, 6, 1),
+    ("saitama", "埼玉", 10, 7, 1), ("chiba", "千葉", 11, 7, 1), ("tokyo", "東京", 11, 8, 1),
+    ("kanagawa", "神奈川", 10, 8, 1),
+    ("niigata", "新潟", 8, 5, 1), ("yamanashi", "山梨", 9, 7, 1), ("nagano", "長野", 8, 6, 1),
+    ("toyama", "富山", 7, 5, 1), ("ishikawa", "石川", 6, 4, 1), ("fukui", "福井", 6, 6, 1),
+    ("gifu", "岐阜", 7, 6, 1), ("shizuoka", "静岡", 9, 8, 1), ("aichi", "愛知", 8, 8, 1),
+    ("mie", "三重", 8, 9, 1),
+    ("shiga", "滋賀", 7, 7, 1), ("kyoto", "京都", 6, 7, 1), ("osaka", "大阪", 6, 8, 1),
+    ("hyogo", "兵庫", 5, 7, 1), ("nara", "奈良", 7, 9, 1), ("wakayama", "和歌山", 7, 10, 1),
+    ("tottori", "鳥取", 4, 6, 1), ("shimane", "島根", 3, 6, 1), ("okayama", "岡山", 4, 7, 1),
+    ("hiroshima", "広島", 3, 7, 1), ("yamaguchi", "山口", 2, 7, 1),
+    ("tokushima", "徳島", 6, 9, 1), ("kagawa", "香川", 5, 9, 1), ("ehime", "愛媛", 4, 9, 1),
+    ("kochi", "高知", 5, 10, 1),
+    ("fukuoka", "福岡", 2, 8, 1), ("saga", "佐賀", 1, 8, 1), ("nagasaki", "長崎", 1, 9, 1),
+    ("kumamoto", "熊本", 2, 9, 1), ("oita", "大分", 3, 8, 1), ("miyazaki", "宮崎", 3, 9, 1),
+    ("kagoshima", "鹿児島", 2, 10, 1), ("okinawa", "沖縄", 1, 11, 1),
+)
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_PATH = os.path.join(BASE_DIR, "data", "michinoeki.json")
 
@@ -386,6 +412,24 @@ def _filter_bar(total):
             '</section>\n' % (boxes, total))
 
 
+def _japan_map(pubs):
+    """トップの日本地図タイル。公開済みの県だけをリンクにし、未公開の県はグレーで出す。"""
+    e = html.escape
+    tiles = ""
+    for slug, label, col, row, span in JAPAN_MAP_TILES:
+        style = "grid-column:%d / span %d;grid-row:%d" % (col, span, row)
+        wide = " ms-map-tile--wide" if span > 1 else ""
+        if slug in pubs:
+            tiles += ('<a class="ms-map-tile%s" style="%s" href="/%s/">%s<small>%d駅</small></a>'
+                      % (wide, style, slug, e(label), len(pubs[slug]["stations"])))
+        else:
+            tiles += ('<span class="ms-map-tile ms-map-tile--off%s" style="%s">%s</span>'
+                      % (wide, style, e(label)))
+    return ('<div class="ms-map" role="group" aria-label="日本地図から都道府県を選ぶ">%s</div>\n'
+            '<p class="ms-map-note">色のついた県が掲載中です。タップすると、その県の道の駅一覧へ進めます。</p>\n'
+            % tiles)
+
+
 def _genre_links():
     """1駅以上あるジャンルへの導線（件数つき）。"""
     e = html.escape
@@ -429,8 +473,8 @@ def index():
         intro = ('ドライブの休憩に立ち寄る道の駅について、駐車場の台数やEV充電・温泉などの設備を'
                  'まとめました。現在は%sの%d駅を掲載しています。%s'
                  % (e("・".join(pubs[s]["name"] for s in ordered)), total, e(CAUTION)))
-        sections = ('<section><h2>都道府県から探す</h2>%s</section>\n'
-                    '<section><h2>設備から探す</h2>%s</section>\n' % (pref_groups, _genre_links()))
+        sections = ('<section><h2>都道府県から探す</h2>%s%s</section>\n'
+                    '<section><h2>設備から探す</h2>%s</section>\n' % (_japan_map(pubs), pref_groups, _genre_links()))
     else:
         intro = ('ドライブの休憩に立ち寄る道の駅について、駐車場の台数やEV充電・温泉などの設備を'
                  'まとめています。ただいま準備中です。')
