@@ -8872,7 +8872,7 @@
      "tel": null,
      "official_url": "https://takashima-kanko.jp/spot/2018/06/post_284.html",
      "hours": "トイレ、駐車場は24時間利用可能",
-     "closed": null,
+     "closed": "年中無休",
      "parking_normal": 192,
      "parking_large": 10,
      "lat": 35.3504496,
@@ -8913,7 +8913,7 @@
      "official_url": "https://kome-plaza.jp/",
      "hours": "9:00～18:00（1月・2月・12月は9:00～17:00）",
      "closed": "年末年始（直売所は12月31日～1月3日休店）",
-     "parking_normal": 152,
+     "parking_normal": 136,
      "parking_large": 18,
      "lat": 35.1246283,
      "lng": 135.9281834,
@@ -8944,7 +8944,8 @@
      "restaurant": true,
      "shop": true,
      "source_url": "https://www.michi-no-eki.jp/stations/views/19411",
-     "checked": "2026-11-18"
+     "checked": "2026-11-18",
+     "ev_source_url": "https://www.ev-smart.net/charging/shiga/1eff58339058"
     },
     {
      "slug": "konze-no-sato-ritto",
