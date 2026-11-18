@@ -70,7 +70,7 @@ PREFECTURE_REGIONS = (
 # （トップの県リンクの出現順を変えないため）。配置は CSS grid の列・行で決まる。
 JAPAN_MAP_TILES = (
     ("hokkaido", "北海道", 10, 1, 2),
-    ("aomori", "青森", 10, 2, 1), ("iwate", "岩手", 10, 3, 1), ("miyagi", "宮城", 10, 4, 1),
+    ("aomori", "青森", 9, 2, 2), ("iwate", "岩手", 10, 3, 1), ("miyagi", "宮城", 10, 4, 1),
     ("akita", "秋田", 9, 3, 1), ("yamagata", "山形", 9, 4, 1), ("fukushima", "福島", 10, 5, 1),
     ("ibaraki", "茨城", 11, 6, 1), ("tochigi", "栃木", 10, 6, 1), ("gunma", "群馬", 9, 6, 1),
     ("saitama", "埼玉", 10, 7, 1), ("chiba", "千葉", 11, 7, 1), ("tokyo", "東京", 11, 8, 1),
@@ -454,25 +454,24 @@ def index():
         return ('<li><a href="/%s/">%s<small>%d駅</small></a></li>'
                 % (slug, e(p["name"]), len(p["stations"])))
 
-    ordered = []   # 表示順（地方区分の順）の県スラッグ
+    seen = set()   # 区分表に入った県スラッグ
     groups = []    # (地方名, [県スラッグ])
     for region, slugs in PREFECTURE_REGIONS:
         members = [s for s in slugs if s in pubs]
         if members:
             groups.append((region, members))
-            ordered.extend(members)
-    leftovers = [s for s in pubs if s not in ordered]
+            seen.update(members)
+    leftovers = [s for s in pubs if s not in seen]
     if leftovers:  # 区分表にない公開県は落とさず最後に並べる
         groups.append((None, leftovers))
-        ordered.extend(leftovers)
     pref_groups = "".join(
         (('<h3 class="ms-region">%s</h3>' % e(region)) if region else "")
         + '<ul class="ms-nav-chips">%s</ul>' % "".join(pref_item(s) for s in members)
         for region, members in groups)
     if pubs:
         intro = ('ドライブの休憩に立ち寄る道の駅について、駐車場の台数やEV充電・温泉などの設備を'
-                 'まとめました。現在は%sの%d駅を掲載しています。%s'
-                 % (e("・".join(pubs[s]["name"] for s in ordered)), total, e(CAUTION)))
+                 'まとめました。現在は%d都道府県の%d駅を掲載しています。%s'
+                 % (len(pubs), total, e(CAUTION)))
         sections = ('<section><h2>都道府県から探す</h2>%s%s</section>\n'
                     '<section><h2>設備から探す</h2>%s</section>\n' % (_japan_map(pubs), pref_groups, _genre_links()))
     else:
