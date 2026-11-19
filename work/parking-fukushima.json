@@ -1,0 +1,261 @@
+{
+  "tsuchiyu": {
+    "total": null,
+    "normal": 56,
+    "large": 8,
+    "disabled": 2,
+    "basis": "連絡会「大型：8台　普通車：56（身障者用2）台」の転記。普通56・大型8は東北地方整備局ページとも一致"
+  },
+  "kawamata": {
+    "total": null,
+    "normal": 52,
+    "large": 11,
+    "disabled": 3,
+    "basis": "連絡会「大型：11台　普通車：52（身障者用3）台」の転記"
+  },
+  "tajima": {
+    "total": null,
+    "normal": 40,
+    "large": 10,
+    "disabled": 3,
+    "basis": "連絡会「大型：10台　普通車：40（身障者用3）台」の転記。駅公式は台数を公表していない"
+  },
+  "adachi": {
+    "total": null,
+    "normal": 247,
+    "large": 77,
+    "disabled": null,
+    "basis": "駅公式の上下線別ページの並記（上り 普通146・大型43、下り 普通101・大型34）を同一出典内で合算。身障者用は別掲だが台数が資料により揺れる（上り6・下り3〜4）ため未設定"
+  },
+  "kita-no-sato": {
+    "total": null,
+    "normal": 215,
+    "large": 5,
+    "disabled": 6,
+    "basis": "連絡会「大型：5台　普通車：215（身障者用6）台」の転記（収集時に連絡会の最新値を採用した経緯あり）"
+  },
+  "urabandai": {
+    "total": null,
+    "normal": 57,
+    "large": 8,
+    "disabled": 3,
+    "basis": "駅公式「駐車場: 普通車57台 身障者用3台 大型車8台」の並記"
+  },
+  "naraha": {
+    "total": null,
+    "normal": 152,
+    "large": 17,
+    "disabled": 8,
+    "basis": "連絡会「大型：17台　普通車：152（身障者用8）台」の転記。自転車8・RVパーク5・急速充電施設2台は別掲のため含めない"
+  },
+  "soma": {
+    "total": 70,
+    "normal": 45,
+    "large": 22,
+    "disabled": 3,
+    "basis": "指定管理者（シダックス）の2022年リニューアル時リリース「総数70台、普通45・大型22・身障者用3」の並記（合計が総数と一致）。連絡会は「普通車：48（身障者用3）」で表記が異なる"
+  },
+  "hanawa": {
+    "total": null,
+    "normal": 87,
+    "large": 8,
+    "disabled": 2,
+    "basis": "連絡会「大型：8台　普通車：87、身障者用2台」の並記転記"
+  },
+  "aizu-yanaizu": {
+    "total": null,
+    "normal": 55,
+    "large": 9,
+    "disabled": 1,
+    "basis": "連絡会「大型：9台　普通車：55（身障者用1）台」の転記"
+  },
+  "fukushima-towa": {
+    "total": null,
+    "normal": 98,
+    "large": 2,
+    "disabled": 4,
+    "basis": "連絡会「大型：2台　普通車：98（身障者用4）台」の転記。収集時に「総数102台」という案内の記録があるが、公式サイトの現行ページでは台数を確認できず、連絡会の合計（100台）とも合わないため総数は未設定（要確認）"
+  },
+  "nishi-aizu": {
+    "total": null,
+    "normal": 111,
+    "large": 9,
+    "disabled": 3,
+    "basis": "連絡会「大型：9台　普通車：111（身障者用3）台」の転記"
+  },
+  "oze-kaido-mishima-juku": {
+    "total": null,
+    "normal": 32,
+    "large": 4,
+    "disabled": 2,
+    "basis": "連絡会「大型：4台　普通車：32（身障者用2）台」の転記"
+  },
+  "tamakawa": {
+    "total": null,
+    "normal": 57,
+    "large": 4,
+    "disabled": 2,
+    "basis": "連絡会「大型：4台　普通車：57（身障者用2）台」の転記"
+  },
+  "hatoriko-kogen": {
+    "total": null,
+    "normal": 28,
+    "large": 10,
+    "disabled": 4,
+    "basis": "普通28・大型10は駅公式と連絡会で一致。身障者用4は連絡会「普通車：28（身障者用4）台」から転記（矛盾なし）"
+  },
+  "minamisoma": {
+    "total": null,
+    "normal": 68,
+    "large": 17,
+    "disabled": 3,
+    "basis": "連絡会「大型：17台　普通車：68（身障者用3）台」の転記"
+  },
+  "shimogo": {
+    "total": null,
+    "normal": 31,
+    "large": 8,
+    "disabled": 1,
+    "basis": "連絡会「大型：8台　普通車：31（身障者用1）台」の転記"
+  },
+  "hirata": {
+    "total": null,
+    "normal": 47,
+    "large": 10,
+    "disabled": 3,
+    "basis": "連絡会「大型：10台　普通車：47（身障者用3）台」の転記"
+  },
+  "yotsukura-ko": {
+    "total": null,
+    "normal": 62,
+    "large": 15,
+    "disabled": 2,
+    "basis": "連絡会「大型：15台　普通車：62（身障者用2）台」の転記。駅公式の「収容台数500台」は隣接する四倉海水浴場駐車場を含むエリア全体の数字のため総数には採用しない"
+  },
+  "bandai": {
+    "total": null,
+    "normal": 67,
+    "large": 9,
+    "disabled": 2,
+    "basis": "連絡会「大型：9台　普通車：67（身障者用2）台」の転記。駅公式サイトは取得不可で照合できていない"
+  },
+  "furudono": {
+    "total": null,
+    "normal": 43,
+    "large": 5,
+    "disabled": 2,
+    "basis": "連絡会「大型：5台　普通車：43（身障者用2）台」の転記"
+  },
+  "banya": {
+    "total": null,
+    "normal": 19,
+    "large": 2,
+    "disabled": 2,
+    "basis": "連絡会「大型：2台　普通車：19（身障者用2）台」の転記。東北地方整備局系資料（計23台＝普通19・大型2・身障者用2）とも一致"
+  },
+  "ki-no-sato-tenei": {
+    "total": null,
+    "normal": 86,
+    "large": 9,
+    "disabled": 2,
+    "basis": "普通86・大型9は駅公式アクセスページでも確認。身障者用2は連絡会「普通車：86　他身障者用2台」の追加表記を転記"
+  },
+  "kirara289": {
+    "total": 60,
+    "normal": 51,
+    "large": 4,
+    "disabled": 2,
+    "basis": "総数60は駅公式の公表値。内訳は連絡会「大型：4台　普通車：51（身障者用2）台」で、51＋4＋RVパーク5台＝60 と公式総数に整合する（身障者用2は普通51の内数として読む）"
+  },
+  "okuaizu-kaneyama": {
+    "total": null,
+    "normal": 46,
+    "large": 6,
+    "disabled": 2,
+    "basis": "連絡会「大型：6台　普通車：46（身障者用2）台」の転記。金山町公式ページの内訳（小型46・大型6・身障者用2）とも一致"
+  },
+  "sakura-no-sato": {
+    "total": null,
+    "normal": 20,
+    "large": 2,
+    "disabled": 1,
+    "basis": "連絡会「大型：2台　普通車：20（身障者用1）台」の転記。駅公式サイトは取得不可で照合できていない"
+  },
+  "aizu-yugawa-aizubange": {
+    "total": null,
+    "normal": 195,
+    "large": 11,
+    "disabled": 3,
+    "basis": "連絡会「大型：11台　普通車：195（＋身障者用3）台」の転記（身障者用は追加表記）"
+  },
+  "karamushi-ori-no-sato-showa": {
+    "total": null,
+    "normal": 57,
+    "large": 5,
+    "disabled": 3,
+    "basis": "連絡会「大型：5台　普通車：57（身障者用3）台」の転記。公式パンフレット由来の施設一覧（普通57・大型5・身障者用3）とも一致"
+  },
+  "inawashiro": {
+    "total": null,
+    "normal": 164,
+    "large": 16,
+    "disabled": 2,
+    "basis": "連絡会「大型：16台　普通車：164（身障者用2）台」の転記。駅公式の施設案内を転記した資料の内訳（普通164・大型16・障がい者用2）とも一致"
+  },
+  "kunimi-atsukashi-no-sato": {
+    "total": null,
+    "normal": 138,
+    "large": 38,
+    "disabled": 4,
+    "basis": "連絡会「大型：38台　普通車：138（身障者用4）台」の転記"
+  },
+  "iitate-madeikan": {
+    "total": null,
+    "normal": 49,
+    "large": 7,
+    "disabled": 2,
+    "basis": "駅公式の並記「小型車用49台・大型車7台・思いやり駐車場2台・電気自動車急速充電用1台」。思いやり駐車場2台を身障者用とし、EV充電用1台は専用区画のため含めない。連絡会「普通車：49（身障者用2）」とも一致"
+  },
+  "oze-hinoemata": {
+    "total": null,
+    "normal": 55,
+    "large": 5,
+    "disabled": 5,
+    "basis": "連絡会「大型：5台　普通車：55（身障者用5）台」の転記"
+  },
+  "date-no-sato-ryozen": {
+    "total": null,
+    "normal": 85,
+    "large": 10,
+    "disabled": 2,
+    "basis": "駅公式の並記「駐車場 普通車85台 大型車10台 おもいやり駐車場2台」。おもいやり駐車場2台を身障者用とした。連絡会の普通120は古い値として不採用（精査時の判断）"
+  },
+  "namie": {
+    "total": null,
+    "normal": 103,
+    "large": 22,
+    "disabled": 3,
+    "basis": "浪江町の施設概要「普通車103台・大型22台・身障者用3台」の転記。普通103・大型22は連絡会とも一致"
+  },
+  "fukushima": {
+    "total": null,
+    "normal": 276,
+    "large": 36,
+    "disabled": 5,
+    "basis": "連絡会「大型：36台　普通車：276（身障者用5、二輪車4）台」の転記。二輪車4台は含めない"
+  },
+  "iwaki-lalamew": {
+    "total": 430,
+    "normal": null,
+    "large": 25,
+    "disabled": null,
+    "basis": "駅公式「430台（バス25台含む）」の転記。普通車は総数からの差し引きになるため公表値方式では出さない"
+  },
+  "ishikawa-fukushima": {
+    "total": 189,
+    "normal": 170,
+    "large": 14,
+    "disabled": 3,
+    "basis": "駅公式アクセス案内「普通車170台・大型車14台・身障者用3台・おもいやり用2台」の並記。総数189は国交省登録資料の公表値で、公式内訳の合計（170＋14＋3＋2）と一致する。おもいやり用2台は身障者用に含めていない"
+  }
+}
