@@ -16490,7 +16490,7 @@
   },
   "hyogo": {
    "name": "兵庫県",
-   "published": false,
+   "published": true,
    "stations": [
     {
      "slug": "haga-hyogo",
@@ -17255,7 +17255,7 @@
   },
   "tottori": {
    "name": "鳥取県",
-   "published": false,
+   "published": true,
    "stations": [
     {
      "slug": "daiei",
