@@ -16,6 +16,10 @@
   （EVsmart、EV Smart Charge）の登録でも裏付け可とする。その場合は ev_source_url に確認元の
   URLを持ち、駅ページの出典ブロックに「EV充電の確認元」としてリンクを出す。
   ユーザー投稿型サイト（GoGoEV等）の登録だけを根拠にはしない。
+- 開業予定の駅は、opening（例「2027年春開業予定」）を持つ間だけ、駅ページと一覧カードに
+  開業予定のバッジと注意文（opening_note）を出す。営業時間・設備などが併設施設の現行情報で
+  ある旨は opening_note に書き、開業案内の出典は opening_url に持つ。
+  開業したら opening 系の項目を消せば、通常の駅に戻る。
 """
 import datetime
 import html
@@ -116,7 +120,8 @@ FEATURE_LABELS = {"ev": "EV充電", "onsen_ashiyu": "温泉・足湯", "dogrun":
 KNOWN_KEYS = ("slug", "name", "address", "tel", "hours", "closed",
               "parking_normal", "parking_large",
               "ev", "onsen_ashiyu", "dogrun", "restaurant", "shop",
-              "official_url", "source_url", "checked", "ev_source_url")
+              "official_url", "source_url", "checked", "ev_source_url",
+              "opening", "opening_note", "opening_url")
 SLUG_RE = re.compile(r"^[a-z0-9][a-z0-9-]*$")
 
 
@@ -194,6 +199,14 @@ class StationStore:
             st["official_url"] = None
         if not _is_url(st["ev_source_url"]):
             st["ev_source_url"] = None
+        for k in ("opening", "opening_note"):
+            if not isinstance(st[k], str) or not st[k]:
+                st[k] = None
+        if not _is_url(st["opening_url"]):
+            st["opening_url"] = None
+        if st["opening"] is None:  # 開業予定でない駅に注意文・出典だけが残らないようにする
+            st["opening_note"] = None
+            st["opening_url"] = None
         return st, None
 
     def all_stations(self):
@@ -358,6 +371,13 @@ def _parking_html(st, big=False):
     return '<p class="ms-parking%s">%s</p>' % (" ms-parking--big" if big else "", "".join(parts))
 
 
+def _opening_badge(st):
+    """開業予定バッジ。opening がある駅だけに出す。"""
+    if not st["opening"]:
+        return ""
+    return '<span class="ms-opening-badge">%s</span>' % html.escape(st["opening"])
+
+
 def _station_card(pref_slug, st, show_pref=False):
     """駅カード。名前を大きく、駐車台数を目立たせ、設備チップと公式サイトボタンを付ける。
     True の設備キーは data-feats に空白区切りで持たせ、県ページのJSフィルタが使う。"""
@@ -368,6 +388,7 @@ def _station_card(pref_slug, st, show_pref=False):
     out += '<div class="ms-card-head"><h3><a href="%s">%s</a></h3>' % (e(url, True), e(st["name"]))
     if show_pref:
         out += '<span class="ms-pref">%s</span>' % e(STORE.prefectures[pref_slug]["name"])
+    out += _opening_badge(st)
     out += "</div>"
     out += _parking_html(st)
     out += _chips(st)
@@ -541,10 +562,19 @@ def station(slug):
     else:
         rows += '<div><dt>休館日</dt><dd class="ms-unknown">未確認</dd></div>' 
 
+    opening_block = ""
+    if st["opening"]:
+        opening_block = '<p class="ms-opening-note">%s' % _opening_badge(st)
+        if st["opening_note"]:
+            opening_block += e(st["opening_note"])
+        if st["opening_url"]:
+            opening_block += (' <a href="%s" target="_blank" rel="noopener">開業案内（公式サイト）</a>'
+                              % e(st["opening_url"], True))
+        opening_block += "</p>\n"
     content = ('<section class="hero"><h1>%s</h1>\n%s'
-               '<p class="intro">%sの道の駅です。%s</p></section>\n'
+               '<p class="intro">%sの道の駅です。%s</p>%s</section>\n'
                % (e(title), _crumbs_nav(("%sの道の駅" % pref_name, "/%s/" % pref_slug), (title, "/station/%s/" % slug)),
-                  e(pref_name), e(CAUTION)))
+                  e(pref_name), e(CAUTION), opening_block))
     card = _parking_html(st, big=True) + _chips(st)
     if rows:
         card += '<dl class="ms-facts-list">%s</dl>' % rows

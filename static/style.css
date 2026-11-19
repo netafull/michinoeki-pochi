@@ -115,6 +115,17 @@ h3.ms-region { font-size: 1rem; line-height: 1.4; margin: 18px 0 8px; }
   border-radius: 999px; padding: 1px 9px;
 }
 
+/* 開業予定 */
+.ms-opening-badge {
+  font-size: 0.75rem; font-weight: 700; color: #fff; background: #e65100;
+  border-radius: 999px; padding: 1px 9px; white-space: nowrap;
+}
+.ms-opening-note {
+  margin: 10px 0 4px; padding: 10px 12px; line-height: 1.7;
+  border: 1px solid #e65100; border-radius: 10px; background: rgba(230, 81, 0, 0.07);
+}
+.ms-opening-note .ms-opening-badge { margin-right: 8px; }
+
 /* 駐車台数（カードでいちばん目立つ数字。日帰り温泉ポチの料金表示と同じ扱い） */
 .ms-parking { margin: 0 0 8px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 18px; }
 .ms-parking-item { display: inline-flex; align-items: baseline; gap: 6px; }
