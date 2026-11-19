@@ -22958,7 +22958,7 @@
     },
     "nagasaki": {
       "name": "長崎県",
-      "published": false,
+      "published": true,
       "stations": [
         {
           "address": "長崎県平戸市生月町南免4375-1",
