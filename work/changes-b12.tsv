@@ -1,0 +1,77 @@
+pref	slug	name	class	current(T/N/L/D)	draft(T/N/L/D)	basis	official_url	source_url
+fukui	echizen	越前	disabled-only	-/157/11/-	-/157/11/4	駅ページ（越前町観光連盟）の並記「大型11・小型車157・身障者用4」の転記。普通・大型は現行どおりで、身障者用4を新たに併記	https://www.echizenkk.jp/michinoeki	https://www.michi-no-eki.jp/stations/views/19403
+fukui	echizen-ono-arashima-no-sato	越前おおの荒島の郷	same	-/169/33/-	-/169/33/-	連絡会「普通車169台・大型33台」の転記（身障者用の公表なし）。現行どおり	https://arashimanosato.com/	https://www.michi-no-eki.jp/stations/views/19967
+fukui	echizen-takefu	越前たけふ	same	-/138/28/-	-/138/28/-	連絡会「普通車138台・大型28台」の転記（身障者用の公表なし）。現行どおり	https://echizen-takefu.jp	https://www.michi-no-eki.jp/stations/views/21977
+fukui	ichijodani-asakura-mizunoeki	一乗谷あさくら水の駅	same	-/46/3/-	-/46/3/-	駅公式の並記「普通46台・大型3台」を採用し現行どおり。連絡会の「普通車46（ハートフル駐車2）台」のハートフル駐車は公式に記載がなく併記せず（判断項目）	https://asakura-mizunoeki.com/	https://www.michi-no-eki.jp/stations/views/19405
+fukui	kouno	河野	disabled-only	-/26/12/-	-/26/12/1	連絡会の並記転記（普通車26・大型12・身障者用1はそれぞれ別項目）。ハートフルパーキング1台は別項目のため身障者用に含めず（判断項目）	http://www.fuku-e.com/010_spot/index.php?id=411	https://www.michi-no-eki.jp/stations/views/19392
+fukui	kuzuryu	九頭竜	CHANGE	-/63/4/-	-/65/4/2	連絡会「普通車65（身障者用2）台・大型4台」の転記。現行63は65−2の旧方式の導出値	http://www.kuzuryu2300.com/	https://www.michi-no-eki.jp/stations/views/19393
+fukui	kyoryu-keikoku-katsuyama	恐竜渓谷かつやま	same	-/88/11/-	-/88/11/-	連絡会「普通車88台・大型11台」の転記（身障者用の公表なし）。現行どおり	http://katsuyama-navi.jp/michieki/	https://www.michi-no-eki.jp/stations/views/19950
+fukui	mikatagoko	三方五湖	CHANGE	-/37/7/-	-/40/7/3	連絡会「普通車40（身障者用3）台・大型7台」の転記。現行37は導出値	https://www.wakasa-mikatagoko.jp/	https://www.michi-no-eki.jp/stations/views/19404
+fukui	mikuni	みくに	CHANGE	-/85/10/-	-/92/10/7	連絡会「普通車92（身しょう者用7）台・大型10台」の転記。現行85は導出値	https://www.sanrihama.co.jp/	https://www.michi-no-eki.jp/stations/views/19396
+fukui	minami-echizen-sankairi	南えちぜん山海里	same	-/127/8/-	-/127/8/-	連絡会の並記「普通車127台・大型8台」の転記。別項目のハートフルパーキング4台は身障者用に含めず（判断項目）	https://kineno-nanjo.com/	https://www.michi-no-eki.jp/stations/views/19968
+fukui	natasho	名田庄	CHANGE	-/34/3/-	-/37/3/3	連絡会「普通車37（身障者用3）台・大型3台」の転記。現行34は導出値	http://www.natasho.co.jp/michinoeki/	https://www.michi-no-eki.jp/stations/views/19395
+fukui	nishiyama-koen	西山公園	CHANGE	-/72/9/-	-/74/9/2	連絡会「普通車74（身障者用2）台・大型9台」の転記。現行72は導出値	http://www.nishiyama-park.jp/	https://www.michi-no-eki.jp/stations/views/19402
+fukui	park-in-nyugaoka	パークイン丹生ヶ丘	CHANGE	-/57/7/-	-/59/7/2	連絡会「普通車59（身障者用2）台・大型7台」の転記。現行57は導出値	https://parkin-nyugaoka.com/	https://www.michi-no-eki.jp/stations/views/19394
+fukui	rennyo-no-sato-awara	蓮如の里あわら	same	-/106/8/-	-/106/8/-	連絡会「普通車106台・大型8台」の転記（身障者用の公表なし）。現行どおり	https://rennyo-awara.com/	https://www.michi-no-eki.jp/stations/views/22057
+fukui	sakai-fukui	さかい	CHANGE	-/141/9/-	-/145/9/4	連絡会「普通車145（内身しょう者用4）台・大型9台」の転記。現行141は導出値	http://www.inesu.jp/	https://www.michi-no-eki.jp/stations/views/19398
+fukui	seaside-takahama	シーサイド高浜	same	-/131/19/-	-/131/19/-	連絡会「普通車131台・大型19台」の転記（身障者用の公表なし）。現行どおり。休業中のため現地確認は不可	https://peraichi.com/landing_pages/view/michinoeki-seasidetakahama	https://www.michi-no-eki.jp/stations/views/19399
+fukui	uminpia-ooi	うみんぴあ大飯	CHANGE	-/26/4/-	-/29/4/3	連絡会「普通車29（身障者用3）台・大型4台」の転記。現行26は導出値	http://michinoeki-ohi.com/	https://www.michi-no-eki.jp/stations/views/19401
+fukui	wakasa-kumagawa-juku	若狭熊川宿	disabled-only	-/74/14/-	-/74/14/4	駅公式の内訳（表：普通28・大型10・身障者用2／裏：普通46・大型4・身障者用2）を同一出典内で合計。バイク10台は含めない。身障者用4を新たに併記	http://kumagawajuku.jp/	https://www.michi-no-eki.jp/stations/views/19397
+fukui	wakasa-mihama-hamabiyori	若狭美浜はまびより	same	-/108/9/-	-/108/9/-	連絡会「普通車108台・大型9台」の転記（身障者用の公表なし）。現行どおり	https://hamabiyori.com/	https://www.michi-no-eki.jp/stations/views/22058
+fukui	wakasa-obama	若狭おばま	CHANGE	-/145/7/-	-/151/7/6	連絡会「普通車151（身障者用6）台・大型7台」の転記。現行145は導出値	https://michinoeki-obama.jp/	https://www.michi-no-eki.jp/stations/views/19400
+fukui	zen-no-sato	禅の里	CHANGE	-/76/3/-	-/80/3/4	連絡会「普通車80（身障者用4）台・大型3台」の転記。現行76は導出値	http://michinoeki-zennosato.jp	https://www.michi-no-eki.jp/stations/views/19849
+gifu	minami	美並	disabled-only	-/29/10/-	-/29/10/2	CBR（中部地方整備局）施設概要「普通車29台・大型車10台」＋別行「駐車マス2台」を転記。駐車マスは身障者用マスの原文表記のまま disabled に入れた（判断項目）		https://www.michi-no-eki.jp/stations/views/19287
+gifu	pascal-kiyomi	パスカル清見	same	-/120/20/-	-/120/20/-	駅公式「駐車場について 120台/大型20台」の並記（モルチェック経由の所有者判断で確定）。連絡会188（身障者用2）は公式と大きく矛盾するため併記せず	http://furusatokiyomi.jp/	https://www.michi-no-eki.jp/stations/views/19288
+gifu	meiho	明宝	same	-/120/4/-	-/120/4/-	連絡会転記（普通車120台・大型4台。身障者用の表記なし）。駅公式に台数の公表なし	https://www.meiho-masters.co.jp/	https://www.michi-no-eki.jp/stations/views/19289
+gifu	hanakaido-tsukechi	花街道付知	CHANGE	-/212/8/-	-/214/8/2	連絡会転記（普通車214（身障者用2）・大型8）。旧値212は N−M の導出値	http://www.michinoeki-hanakaido.jp/	https://www.michi-no-eki.jp/stations/views/19290
+gifu	mino-shirakawa	美濃白川	CHANGE	-/83/13/-	-/90/13/7	連絡会転記（普通車90（身障者用7）・大型13）。公式サイト取得不可で照合未了	http://www.minoshirakawa-piacere.com/	https://www.michi-no-eki.jp/stations/views/19291
+gifu	lasten-horado	ラステンほらど	disabled-only	-/47/3/-	-/47/3/2	関市公式の並記「普通車47台、大型車3台、障がい者用2台」を転記。別掲の「車いす・ベビーカー・妊婦用1台」は表示項目がないため入れていない	https://www.city.seki.lg.jp/kanko/0000015266.html	https://www.michi-no-eki.jp/stations/views/19292
+gifu	hakusan-bunka-no-sato-nagataki	白山文化の里長滝	CHANGE	-/98/5/-	-/100/5/2	連絡会転記（普通車100（身障者用2）・大型5）。公式ページ取得不可で照合未了		https://www.michi-no-eki.jp/stations/views/20043
+gifu	okuhida-kamitakara	奥飛騨温泉郷上宝	same	-/28/6/-	-/28/6/-	CBR施設概要「普通車28台・大型車6台」を転記。連絡会29（身障者用1）は普通車の数字が食い違うため身障者用も併記せず（判断項目）	https://okuhida-camp.com/michinoeki/	https://www.michi-no-eki.jp/stations/views/19293
+gifu	shizumo	賤母	CHANGE	-/34/21/-	-/36/21/2	連絡会転記（普通車36（身障者用2）・大型21）。駅公式トップに台数の公表なし	http://sizumo.jp/	https://www.michi-no-eki.jp/stations/views/19276
+gifu	rock-garden-hichiso	ロック・ガーデンひちそう	CHANGE	-/50/15/-	-/54/15/4	連絡会転記（普通車54（身障者用4）・大型15）	https://rocktownplaza.jimdofree.com/	https://www.michi-no-eki.jp/stations/views/19294
+gifu	hoshi-no-furusato-fujihashi	星のふる里ふじはし	CHANGE	-/117/9/-	-/120/9/3	連絡会転記（普通車120（身障者用3）・大型9）。駅公式に台数の公表なし	http://www.ibikogen.com/michinoeki.html	https://www.michi-no-eki.jp/stations/views/19295
+gifu	shirakawago	白川郷	CHANGE	-/59/4/-	-/62/4/3	連絡会転記（普通車62（身障者用3）・大型4）。公式サイト取得不可で照合未了	http://www.shirakawa-go.gr.jp/details/?i=55	https://www.michi-no-eki.jp/stations/views/19296
+gifu	heisei	平成	CHANGE	-/84/5/-	-/88/5/4	連絡会転記（普通車88（身障者用4）・大型5）。駅公式で台数の裏付けなし	https://michinoekiheisei.jimdofree.com/	https://www.michi-no-eki.jp/stations/views/19297
+gifu	alp-hida-furukawa	アルプ飛騨古川	CHANGE	-/59/27/-	-/61/27/2	連絡会転記（普通車61（身障者用2）・大型27）。飛騨市観光協会の当駅ページに台数の公表なし	https://www.hida-kankou.jp/gourmet/1000000011/	https://www.michi-no-eki.jp/stations/views/19298
+gifu	hida-kanayama-nukumori	飛騨金山ぬく森の里温泉	CHANGE	-/223/4/-	-/235/4/12	連絡会転記（普通車235（身障者用12）・大型4）。一次情報に台数の明記なし	https://nukumorinosato-onsen.com/	https://www.michi-no-eki.jp/stations/views/19299
+gifu	kamiyahagi-fukuju-no-sato	上矢作ラ・フォーレ福寿の里	disabled-only	-/20/8/-	-/20/8/2	CBRモバイル版の並記「普通車20台・大型車8台・身障者用2台」を転記。CBR詳細版は「普通車22台＋別行 駐車マス2台」で版により読みが割れる（判断項目）	https://fukujyunosato.com/	https://www.michi-no-eki.jp/stations/views/19300
+gifu	montdeus-hida-isurugi	モンデウス飛騨位山	CHANGE	-/26/10/-	-/28/10/2	連絡会転記（普通車28（身障者用2）・大型10）。CBR詳細ページに台数の明記なし	https://montdeus.jp/	https://www.michi-no-eki.jp/stations/views/19301
+gifu	minami-hida-osaka	南飛騨小坂	CHANGE	-/31/2/-	-/34/2/1	連絡会転記。原文は「普通車：34（身障者用1/他専用2）台」で、身障者用1のみ disabled に転記。他専用2は用途不明の専用区画のため表示項目なし（判断項目）	http://hida-osaka.jp/cominfo.html?an=hanamomo	https://www.michi-no-eki.jp/stations/views/19302
+gifu	yume-sansan-tanigumi	夢さんさん谷汲	CHANGE	-/24/1/-	-/26/1/2	連絡会転記（道の駅前 普通車26（身障者用2）・大型1。砂利駐車場は台数の公表なし）。揖斐川町公式の「無料30台」は内訳がなく転記内訳の合計とも合わないため総数として併記せず（判断項目）	https://www.town.ibigawa.lg.jp/kankoujyouhou/0000006111.html	https://www.michi-no-eki.jp/stations/views/19303
+gifu	toki-minoyaki-kaido	土岐美濃焼街道	disabled-only	-/53/5/-	-/53/5/2	駅公式の並記「小型車：53台、大型車：5台、車椅子用：2台」を転記（車椅子用は原文表記のまま disabled に入れた）	http://www.donburi-kaikan.com/	https://www.michi-no-eki.jp/stations/views/19304
+gifu	fuyugaki-no-sato-itonuki	富有柿の里いとぬき	CHANGE	-/70/5/-	-/72/5/2	連絡会転記（普通車72（身障者用2）・大型5）。本巣市観光協会の当駅ページに台数の公表なし	http://www.motosukankou.gr.jp/03_buy/03_03.html	https://www.michi-no-eki.jp/stations/views/19305
+gifu	nanamori-kiyomi	ななもり清見	disabled-only	-/89/4/-	-/89/4/2	駅公式「普通車89台・大型車4台」に連絡会の身障者用2を併記（普通車の数字が両出典で一致し矛盾なし。判断項目）	http://www.nanamori.jp/	https://www.michi-no-eki.jp/stations/views/19306
+gifu	kirira-sakashita	きりら坂下	CHANGE	-/78/5/-	-/81/5/3	連絡会転記（普通車81（身障者用3）・大型5）。駅公式サイト取得不可で照合未了	http://kirira-sakashita.jp/	https://www.michi-no-eki.jp/stations/views/19307
+gifu	clair-hirata	クレール平田	CHANGE	-/19/17/-	-/21/17/2	連絡会転記（普通車21（身障者用2）・大型17）。駅公式サイト取得不可で照合未了	https://www.clair-hirata.com	https://www.michi-no-eki.jp/stations/views/19308
+gifu	maze-miki-no-sato	馬瀬美輝の里	disabled-only	-/49/-/-	-/49/-/2	岐阜県公式（道路維持課）の並記「小型車：49台、身障者用：2台」を転記。大型は一次情報のどこにも台数の公表なし	http://www.mikinosato.co.jp/	https://www.michi-no-eki.jp/stations/views/19309
+gifu	hida-kaido-nagisa	飛騨街道なぎさ	CHANGE	-/40/8/-	-/41/8/1	連絡会転記（普通車41（身障者用1）・大型8）。駅公式トップに台数の公表なし	http://www.nagisa-kuguno.com/	https://www.michi-no-eki.jp/stations/views/19310
+gifu	hida-asahimura	ひだ朝日村	CHANGE	-/91/3/-	-/93/3/2	連絡会転記（普通車93（身障者用2）・大型3）。駅公式サイト取得不可で照合未了	http://www.gix.or.jp/~z33asahi/	https://www.michi-no-eki.jp/stations/views/19311
+gifu	soba-no-sato-rassei-misato	そばの郷らっせぃみさと	CHANGE	-/41/6/-	-/45/6/4	連絡会転記（普通車45（身障者用4）・大型6）	http://www.rasseimisato.com	https://www.michi-no-eki.jp/stations/views/19312
+gifu	oribe-no-sato-motosu	織部の里・もとす	CHANGE	-/132/8/-	-/136/8/4	連絡会転記（普通車136（身障者用4）・大型8）。駅公式トップに台数の公表なし	http://www.oribenosato.jp/	https://www.michi-no-eki.jp/stations/views/19313
+gifu	hida-takane-kobo	飛騨たかね工房	CHANGE	-/46/5/-	-/48/5/2	連絡会転記（普通車48（身障者用2）・大型5）。駅公式サイト取得不可で照合未了	http://www.takanekankou.or.jp/takanekobo/	https://www.michi-no-eki.jp/stations/views/19314
+gifu	dainichidake	大日岳	CHANGE	-/25/7/-	-/29/7/4	高鷲観光協会の当駅ページ「普通車：29（身障者用4）台、大型：7台」を転記。旧方式では観光協会の並記に N−M を当てた所有者判断で25にしていたものを公表形に戻した（判断項目）	https://gujotakasu.com/eat/eat-969.html	https://www.michi-no-eki.jp/stations/views/19315
+gifu	sakura-no-sato-shokawa	桜の郷荘川	CHANGE	-/112/5/-	-/114/5/2	連絡会転記（普通車114（身障者用2）・大型5）。公式ページ消滅で照合未了		https://www.michi-no-eki.jp/stations/views/19316
+gifu	mugegawa	むげ川	CHANGE	-/42/8/-	-/48/8/6	連絡会転記（普通車48（身障者用6）・大型8）。関市公式ページに台数の公表なし	http://www.city.seki.lg.jp/kanko/0000000933.html	https://www.michi-no-eki.jp/stations/views/19317
+gifu	kokon-denju-no-sato-yamato	古今伝授の里やまと	CHANGE	-/245/8/-	-/250/8/5	連絡会転記（普通車250（身障者用5）・大型8）。隣接する東海北陸道PA分を含むかは精査でも判別できなかった	http://www.gujo-tv.ne.jp/~kuturogi/	https://www.michi-no-eki.jp/stations/views/19318
+gifu	minokamo	みのかも	disabled-only	-/206/33/-	-/206/33/20	岐阜県公式（道路維持課）の並記「小型車：206台、大型車：33台、身障者用：20台」を転記	https://satoyama-park.gifu.jp/	https://www.michi-no-eki.jp/stations/views/19319
+gifu	cha-no-sato-higashishirakawa	茶の里東白川	CHANGE	-/13/2/-	-/15/2/2	連絡会転記（普通車15（身障者用2）・大型2）。駅公式トップに台数の公表なし	http://chanosato.gifu.jp	https://www.michi-no-eki.jp/stations/views/19320
+gifu	wara	和良	CHANGE	-/92/3/-	-/93/3/1	連絡会転記（普通車93（身障者用1）・大型3）	http://gujo-wara.jp/info-sightseeing/185-road-station-wara-and-wara-dome.html	https://www.michi-no-eki.jp/stations/views/19321
+gifu	usuzumi-sakura-no-sato-neo	うすずみ桜の里・ねお	CHANGE	-/31/2/-	-/33/2/2	連絡会転記（普通車33（身障者用2）・大型2）。本巣市観光協会の当駅ページに台数の記載なし	http://www.usuzumi.jp/sakura-sato/	https://www.michi-no-eki.jp/stations/views/19322
+gifu	shino-oribe	志野・織部	CHANGE	-/36/11/-	-/38/11/2	連絡会転記（普通車38（身障者用2）・大型11）。駅公式トップに台数の公表なし	http://shino-oribe.co.jp/	https://www.michi-no-eki.jp/stations/views/19323
+gifu	kashimo	加子母	CHANGE	-/30/4/-	-/31/4/1	連絡会転記（普通車31（身障者用1）・大型4）	http://kashimozanmai.com/	https://www.michi-no-eki.jp/stations/views/19324
+gifu	yashagaike-no-sato-sakauchi	夜叉ヶ池の里さかうち	CHANGE	-/19/2/-	-/21/2/2	連絡会転記（普通車21（身障者用2）・大型2）	https://yashaikenosato.com	https://www.michi-no-eki.jp/stations/views/19325
+gifu	obachan-ichi-yamaoka	おばあちゃん市・山岡	CHANGE	-/53/6/-	-/55/6/2	連絡会転記（普通車55（身障者用2）・大型6）。駅公式サイト取得不可で照合未了	http://oba-chan.enat.jp/	https://www.michi-no-eki.jp/stations/views/19326
+gifu	tsukimi-no-sato-nanno	月見の里南濃	CHANGE	-/101/27/-	-/103/27/2	連絡会転記（普通車103（身障者用2）・大型27）。駅公式サイト取得不可で照合未了	https://tsukimi-no-sato.com	https://www.michi-no-eki.jp/stations/views/19328
+gifu	yanaizu	柳津	CHANGE	-/61/6/-	-/64/6/3	連絡会転記（普通車64（身障者用3）・大型6）。駅公式トップに台数の公表なし	https://michinoeki-yanaizu.wixsite.com/yanaizu	https://www.michi-no-eki.jp/stations/views/19329
+gifu	itsuki-no-yakata-kawaue	五木のやかた・かわうえ	CHANGE	-/20/2/-	-/21/2/1	連絡会転記（普通車21（身障者用1）・大型2）。駅公式ページ取得不可で照合未了	http://www.kawaue.jp/~logo2001/kh.mitinoeki.html	https://www.michi-no-eki.jp/stations/views/19330
+gifu	sora-dome-kamioka	宙ドーム・神岡	same	-/109/7/-	-/109/7/-	駅公式「第一駐車場53台・第二駐車場56台・バス7台」の同一出典内合計を転記。公式の内訳に身障者用の公表なし。連絡会108（身障者用2）は普通車の数字が食い違うため併記せず（判断項目）	http://www.skydome.jp/	https://www.michi-no-eki.jp/stations/views/19331
+gifu	shirao-fureai-park	白尾ふれあいパーク	CHANGE	-/44/5/-	-/46/5/2	連絡会転記（普通車46（身障者用2）・大型5）		https://www.michi-no-eki.jp/stations/views/19332
+gifu	mino-niwaka-chaya	美濃にわか茶屋	CHANGE	-/64/10/-	-/66/10/2	連絡会転記（普通車66（身障者用2）・大型10）。駅公式トップに台数の公表なし	http://www.mino-niwakachaya.com/	https://www.michi-no-eki.jp/stations/views/19333
+gifu	hida-hakusan	飛騨白山	CHANGE	-/34/3/-	-/36/3/2	連絡会転記（普通車36（身障者用2）・大型3）。白川村役場の当駅ページに台数の公表なし	http://www.hidahakusan.jp/	https://www.michi-no-eki.jp/stations/views/19334
+gifu	hanyuri-no-sato-tomika	半布里の郷とみか	CHANGE	-/33/4/-	-/34/4/1	連絡会転記（普通車34（身障者用1）・大型4）。公式サイト喪失で照合未了		https://www.michi-no-eki.jp/stations/views/19335
+gifu	kanitte	可児ッテ「ＣＡＮＩＴＴＥ」	CHANGE	-/48/16/-	-/50/16/2	連絡会転記（普通車50（身障者用2）・大型16）。駅公式サイト閉鎖中で照合未了	http://canitte.jp/	https://www.michi-no-eki.jp/stations/views/19336
+gifu	ikeda-onsen	池田温泉	CHANGE	-/57/9/-	-/59/9/2	連絡会転記（普通車59（身障者用2）・大型9）。池田町の当駅ページ取得不可で照合未了	http://www.town.gifu-ikeda.lg.jp/0000000195.html	https://www.michi-no-eki.jp/stations/views/19337
+gifu	seiryu-shirakawa-cuore-no-sato	清流白川クオーレの里	disabled-only	-/263/6/-	-/263/6/12	駅公式の2エリア並記の同一出典内合計（ワクワク公園エリア 普通33・大型3・車椅子対応4／アウトドアエリア 普通230・大型3・車椅子対応8）。車椅子対応は原文表記のまま disabled に転記。充電2台は表示項目なし	https://e-900.com/roadsidestation/index.html	https://www.michi-no-eki.jp/stations/views/19338
+gifu	seiryu-no-sato-shirotori	清流の里しろとり	same	-/72/3/-	-/72/3/-	連絡会転記（普通車72台・大型3台。身障者用の表記なし）		https://www.michi-no-eki.jp/stations/views/19866
+gifu	palette-pia-ono	パレットピアおおの	same	-/236/10/-	-/236/10/-	連絡会転記（普通車236台・大型10台。身障者用の表記なし）。駅公式トップに台数の公表なし	https://pallettepia-ono.com/	https://www.michi-no-eki.jp/stations/views/19893
