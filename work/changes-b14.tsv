@@ -1,0 +1,39 @@
+pref	slug	name	class	current(T/N/L/D)	draft(T/N/L/D)	basis	official_url	source_url
+shiga	aguri-no-sato-ritto	アグリの郷栗東	CHANGE	-/38/3/-	-/40/3/2	連絡会原文「大型：3台　普通車：40（身障者用2）台」の転記。公式アクセスページは404で、KKRにも台数の記載なし	http://www.agurinosato.com/	https://www.michi-no-eki.jp/stations/views/19416
+shiga	aguri-park-ryuou	アグリパーク竜王	CHANGE	-/193/6/-	-/200/6/7	連絡会原文「大型：6台　普通車：200(身障者用7)台」の転記。公式・KKRに台数の記載なし	https://www.aguri-p.com/	https://www.michi-no-eki.jp/stations/views/19829
+shiga	aino-tsuchiyama	あいの土山	disabled-only	-/89/7/-	-/89/7/2	駅公式の内訳並記（小型89・大型2・中型5・身障者用2）の転記。中型（マイクロバス）5台は大型側に含める所有者判断で large=7。思いやり駐車場2台・EV1台は別枠として数えない	http://www.ainotutiyama.co.jp/	https://www.michi-no-eki.jp/stations/views/19406
+shiga	azai-sanshimai-no-sato	浅井三姉妹の郷	CHANGE	-/67/11/-	-/70/11/3	連絡会原文「大型：11台　普通車：70（身障者用　3）台」の転記。公式・KKRに台数の記載なし	http://azai3-st.jp/	https://www.michi-no-eki.jp/stations/views/19851
+shiga	biwako-ohashi-kome-plaza	びわ湖大橋米プラザ	disabled-only	-/136/18/-	-/136/18/4	駅公式「普通車：136台　大型車：18台」（モルが公式ページを直接確認）の転記に、連絡会の身障者用4を併記。公式は身障者用を公表しておらず、連絡会の普通156は公式と矛盾するため不採用。身障者用4自体は公式と矛盾しない組み合わせ	https://kome-plaza.jp/	https://www.michi-no-eki.jp/stations/views/19410
+shiga	higashiomi-aito-marguerite-station	東近江市あいとうマーガレットステーション	CHANGE	-/170/11/-	183/-/11/2	駅公式アクセスページ「183台（大型11台・身障者用2台）」の転記。普通車の公表値は公式にないため normal は null（旧170は総数からの引き算値）	http://www.aito-ms.or.jp/	https://www.michi-no-eki.jp/stations/views/19409
+shiga	ibuki-no-sato	伊吹の里	CHANGE	-/28/2/-	-/30/2/2	連絡会原文「大型：2台　普通車：30（身障者用2）台」の転記。公式・KKRに台数の記載なし	http://shunsainomori.com/	https://www.michi-no-eki.jp/stations/views/19419
+shiga	imoko-no-sato	妹子の郷	CHANGE	-/82/28/-	-/86/28/4	連絡会原文「大型：28台　普通車：86（身障者用4）台」の転記。公式・KKRに台数の記載なし	http://www.imokonosato.com/	https://www.michi-no-eki.jp/stations/views/19422
+shiga	kohoku-mizudori-station	湖北みずどりステーション	CHANGE	-/99/11/-	-/103/11/4	駅公式原文「大型11台、普通車103台（身障者用4台）」の転記	https://mizudori-st.jp/	https://www.michi-no-eki.jp/stations/views/19413
+shiga	konze-no-sato-ritto	こんぜの里りっとう	disabled-only	-/29/2/-	-/29/2/2	駅公式の当駅ページの並記「普通車29台、大型車2台、障害者用2台」の転記	http://ritto-konze-no-sato.or.jp/	https://www.michi-no-eki.jp/stations/views/19412
+shiga	kusatsu	草津	CHANGE	-/50/6/-	56/50/6/2	駅公式「56台（大型車6台／普通車50台）」の転記に、連絡会の身障者用2を併記。公式は身障者用を公表しておらず、連絡会の普通48は公式と矛盾するため不採用。身障者用2自体は公式と矛盾しない組み合わせ	http://www.karasuma.co.jp/	https://www.michi-no-eki.jp/stations/views/19414
+shiga	kutsuki-shinhonjin	くつき新本陣	CHANGE	-/89/3/-	-/93/3/4	連絡会原文「大型：3台　普通車：93（身障者用4）台」の転記。公式・KKRに台数の記載なし	http://kutsuki.net/	https://www.michi-no-eki.jp/stations/views/19407
+shiga	makino-ossaka-toge	マキノ追坂峠	CHANGE	-/45/40/-	-/47/40/2	駅公式原文「大型車40台、普通車47台（内、身障者用2台）、自動二輪車14台」の転記（二輪は除く）	http://ossaka-touge.com/	https://www.michi-no-eki.jp/stations/views/19417
+shiga	oku-eigenji-keiryu-no-sato	奥永源寺渓流の里	CHANGE	-/36/5/-	45/36/5/4	駅公式の施設案内「大型車5台・普通車36台・身障者4台 合計45台」の転記（モルの公開前チェックで裏付け確認済み）。連絡会原文の「ゆとり駐車スペース4」はこの身障者4台にあたるとみられるが、根拠は公式の「身障者」表記に置いた	http://www.okueigenji-keiryunosato.com/	https://www.michi-no-eki.jp/stations/views/19423
+shiga	omi-haha-no-sato	近江母の郷	same	-/78/3/-	-/78/3/-	連絡会原文「大型：3台　普通車：78台」の転記（身障者用の公表なし）。公式アクセス案内（画像）からは2駐車場の合計90台だけが読め内訳不明で、所有者判断により連絡会値を維持	http://www.omihahanosato.jp/	https://www.michi-no-eki.jp/stations/views/19411
+shiga	ryuou-kagami-no-sato	竜王かがみの里	CHANGE	-/64/7/-	-/66/7/2	連絡会原文「大型：7台　普通車：66（身障者用2）台」の転記。公式・KKRに台数の記載なし	https://www.kagaminosato.com/	https://www.michi-no-eki.jp/stations/views/19415
+shiga	seseragi-no-sato-koura	せせらぎの里こうら	CHANGE	-/56/20/-	-/59/20/3	連絡会原文「大型：20台　普通車：59（身障者用3）台」の転記。公式・KKRに台数の記載なし	http://www.m-koura.jp/	https://www.michi-no-eki.jp/stations/views/19421
+shiga	shinasahi-fushamura	しんあさひ風車村	disabled-only	-/192/10/-	-/192/10/5	高島市観光協会の当駅ページの並記（小型車192台・大型車10台・身障者用5台）の転記。所有者判断で採用済み	https://takashima-kanko.jp/spot/2018/06/post_284.html	https://www.michi-no-eki.jp/stations/views/19408
+shiga	shiozu-kaido-ajikama-no-sato	塩津海道あぢかまの里	CHANGE	-/74/12/-	-/76/12/2	駅公式原文「普通車76台（身体障害者用2台含む）大型車12台」の転記	http://www.koti.jp/	https://www.michi-no-eki.jp/stations/views/19420
+shiga	toju-no-sato-adogawa	藤樹の里あどがわ	CHANGE	-/97/15/-	-/100/15/3	連絡会原文「大型：15台　普通車：100（身障者用3台含む）台」の転記。公式・KKRに台数の記載なし	http://adogawa.net/	https://www.michi-no-eki.jp/stations/views/19418
+kyoto	funaya-no-sato-ine	舟屋の里伊根	CHANGE	-/134/3/-	137/134/3/-	駅公式掲載の駅概要「駐車場137台（大型車3台/普通車134台）」を転記（公開前チェックで確認）。連絡会（普通138（身障者用3）・大型4）とは数字が食い違うため優先順位の高い公式だけを採用し、身障者用は公式に公表がないため null	https://www.ine-aburaya.com/michi-no-eki/	https://www.ine-aburaya.com/michi-no-eki/
+kyoto	galleria-kameoka	ガレリアかめおか	CHANGE	-/396/5/-	-/406/5/10	近畿地方整備局「普通車406台（内身障者用10台）＋大型5台」を転記（現行396は406−10の旧方式導出値。公開前チェックで確認）。連絡会の普通412台とは食い違うため整備局のみ採用	https://www.galleria.or.jp/	https://www.galleria.or.jp/
+kyoto	kumihama-sankaikan	くみはまSANKAIKAN	CHANGE	-/46/4/-	-/50/4/4	駐車は駅公式で未確認（精査）。連絡会原文「普通車：50（身障者用4）台・大型：4台」を転記（現行46は50−4の旧方式導出値）	http://www.sankaikan.net/	http://www.sankaikan.net/
+kyoto	kyotamba-ajimu-no-sato	京丹波 味夢の里	CHANGE	-/98/36/-	-/104/36/6	駐車台数は駅公式に明記がなく未確認（精査）。連絡会原文「普通車：104（身障者用6）台・大型：36台」を転記（現行98は104−6の旧方式導出値）	http://ajim.info/	http://ajim.info/
+kyoto	kyoto-shinkoetsu-mura	京都新光悦村	same	-/38/8/-	-/38/8/-	駅公式（移転先 ekikouetsu.com のFAQ・施設概要）普通車38台・大型8台（精査で修正済み）。連絡会（30（身障者用2）・5）とは普通車が食い違うため公式のみ採用し、身障者用は混ぜない。表示は現行と不変	https://ekikouetsu.com/	https://ekikouetsu.com/
+kyoto	maizuruko-toretore-center	舞鶴港とれとれセンター	CHANGE	-/196/8/-	-/200/8/4	駐車台数は駅公式に明記がなく未確認（精査）。連絡会原文「普通車：200（身障者用4）台・大型：8台」を転記（現行196は200−4の旧方式導出値）	http://www.toretore.org/	https://toretore.org/
+kyoto	miyama-fureai-hiroba	美山ふれあい広場	CHANGE	-/65/4/-	73/65/4/4	観光案内ページの内訳「73台＝大型4＋普通車65＋身障者用4」（合計が一致する並記、精査で確認）を転記。連絡会も普通65（身障者用4）・大型4で一致	https://miyamanavi.com/sightseeing/fureaihiroba	https://miyamanavi.com/sightseeing/fureaihiroba
+kyoto	mizuho-no-sato-sarabiki	瑞穂の里・さらびき	disabled-only	-/45/15/-	-/45/15/1	駅公式の並記「普通車45台、大型車15台、身障者用1台」を転記（精査の判断項目を所有者が公式並記で決定済み）。変更は身障者用の併記追加のみ	https://www.greenlandmizuho.co.jp/	https://www.greenlandmizuho.co.jp/station/
+kyoto	nagomi	和	CHANGE	-/86/5/-	-/88/5/2	駅公式も連絡会と同表記（精査で確認）。原文「普通車：88（身障者用2）台・大型：5台」を転記（現行86は88−2の旧方式導出値）	http://wachi-nagomi.com/	https://wachi-nagomi.com/
+kyoto	nosho-no-sato-yakuno	農匠の郷やくの	disabled-only	-/170/5/-	-/170/5/3	福知山市ページの並記「普通車170台、大型車5台、身障者用3台」を転記（精査の判断項目を所有者が市ページ並記で決定済み）。変更は身障者用の併記追加のみ	https://www.city.fukuchiyama.lg.jp/soshiki/64/2012.html	https://www.city.fukuchiyama.lg.jp/soshiki/64/2012.html
+kyoto	ocha-no-kyoto-minamiyamashiro-mura	お茶の京都 みなみやましろ村	same	-/113/15/-	-/113/15/-	駅公式FAQ・フッター「普通車113台・大型15台」（精査で連絡会126台より公式を採用済み。公式は身障者用の内訳を公表していない）。連絡会（126（身障者用2））とは普通車が食い違うため公式のみ採用し、身障者用は混ぜない。表示は現行と不変	https://michinoeki.kyoto.jp/	https://michinoeki.kyoto.jp/
+kyoto	silk-no-machi-kaya	シルクのまち かや	CHANGE	-/92/4/-	-/94/4/2	観光協会ページが連絡会と完全一致（精査で確認）。連絡会原文「普通車：94（身障者用2）台・大型：4台」を転記（現行92は94−2の旧方式導出値）	https://yosano-kankou.net/vegesta/	https://yosano-kankou.net/vegesta/
+kyoto	springs-hiyoshi	スプリングスひよし	CHANGE	-/265/5/-	-/269/5/4	駐車台数は駅公式に明記がなく未確認（精査）。連絡会原文「普通車：269（身障者用4）台・大型：5台」を転記（現行265は269−4の旧方式導出値）	http://www.springs-hiyoshi.co.jp/	https://www.springs-hiyoshi.co.jp/service/Information
+kyoto	tamba-markeds	丹波マーケス	CHANGE	-/534/8/-	-/542/8/8	駐車台数は駅公式に明記がなく未確認（精査）。連絡会原文「普通車：542（身障者用8）台・大型：8台」を転記（現行534は542−8の旧方式導出値）	https://tamba-markeds.jp	https://tamba-markeds.jp
+kyoto	tango-oukoku-shoku-no-miyako	丹後王国「食のみやこ」	same	-/520/12/-	-/520/12/-	駐車台数は駅公式に明記がなく未確認（精査）。連絡会原文「普通車：520台・大型：12台」（身障者用の括弧書きなし）を転記。表示は現行と不変	https://tangooukoku.com	https://tangooukoku.com
+kyoto	tenkitenki-tango	てんきてんき丹後	CHANGE	-/45/4/-	53/49/4/2	駅公式「小型車49台・障害者用2台・大型車4台・EV充電2台・計53台」の公表形を転記。EV充電2台は表示項目がないため basis のみ（現行45は総数53から大型・障害者用・EV分を差し引いた旧方式の分解値）	http://tenkitenki-mura.jp/	http://tenkitenki-mura.jp/
+kyoto	umi-no-kyoto-miyazu	海の京都 宮津	CHANGE	-/59/7/-	-/60/7/1	駐車台数はリニューアル後の駅公式にも明記がなく未確認（精査）。連絡会原文「普通車：60（うち身障者用1）台・大型：7台」を転記（現行59は60−1の旧方式導出値）	http://michinoeki-miyazu.jp/	https://michinoeki-miyazu.jp/
+kyoto	woody-keihoku	ウッディー京北	CHANGE	-/26/3/-	-/28/3/2	駐車台数は駅公式に明記がなく未確認（精査）。連絡会原文「普通車：28（身障者用2）台・大型：3台」を転記（現行26は28−2の旧方式導出値）	http://fuw.jp/woody/	http://fuw.jp/woody/

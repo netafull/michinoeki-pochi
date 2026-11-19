@@ -1,0 +1,230 @@
+{
+  "aguri-no-sato-ritto": {
+    "total": null,
+    "normal": 40,
+    "large": 3,
+    "disabled": 2
+  },
+  "aguri-park-ryuou": {
+    "total": null,
+    "normal": 200,
+    "large": 6,
+    "disabled": 7
+  },
+  "aino-tsuchiyama": {
+    "total": null,
+    "normal": 89,
+    "large": 7,
+    "disabled": 2
+  },
+  "azai-sanshimai-no-sato": {
+    "total": 81,
+    "normal": 70,
+    "large": 11,
+    "disabled": 3
+  },
+  "biwako-ohashi-kome-plaza": {
+    "total": null,
+    "normal": 136,
+    "large": 18,
+    "disabled": 4
+  },
+  "higashiomi-aito-marguerite-station": {
+    "total": 183,
+    "normal": null,
+    "large": 11,
+    "disabled": 2
+  },
+  "ibuki-no-sato": {
+    "total": null,
+    "normal": 30,
+    "large": 2,
+    "disabled": 2
+  },
+  "imoko-no-sato": {
+    "total": null,
+    "normal": 87,
+    "large": 28,
+    "disabled": 4
+  },
+  "kohoku-mizudori-station": {
+    "total": null,
+    "normal": 103,
+    "large": 11,
+    "disabled": 4
+  },
+  "konze-no-sato-ritto": {
+    "total": null,
+    "normal": 29,
+    "large": 2,
+    "disabled": 2
+  },
+  "kusatsu": {
+    "total": 56,
+    "normal": 50,
+    "large": 6,
+    "disabled": 2
+  },
+  "kutsuki-shinhonjin": {
+    "total": null,
+    "normal": 93,
+    "large": 3,
+    "disabled": 4
+  },
+  "makino-ossaka-toge": {
+    "total": null,
+    "normal": 47,
+    "large": 40,
+    "disabled": 2
+  },
+  "oku-eigenji-keiryu-no-sato": {
+    "total": 45,
+    "normal": 36,
+    "large": 5,
+    "disabled": 4
+  },
+  "omi-haha-no-sato": {
+    "total": null,
+    "normal": 78,
+    "large": 3,
+    "disabled": null
+  },
+  "ryuou-kagami-no-sato": {
+    "total": null,
+    "normal": 66,
+    "large": 7,
+    "disabled": 2
+  },
+  "seseragi-no-sato-koura": {
+    "total": null,
+    "normal": 59,
+    "large": 20,
+    "disabled": 3
+  },
+  "shinasahi-fushamura": {
+    "total": null,
+    "normal": 192,
+    "large": 10,
+    "disabled": 5
+  },
+  "shiozu-kaido-ajikama-no-sato": {
+    "total": null,
+    "normal": 76,
+    "large": 12,
+    "disabled": 2
+  },
+  "toju-no-sato-adogawa": {
+    "total": null,
+    "normal": 100,
+    "large": 15,
+    "disabled": 3
+  },
+  "funaya-no-sato-ine": {
+    "total": 137,
+    "normal": 134,
+    "large": 3,
+    "disabled": 2
+  },
+  "galleria-kameoka": {
+    "total": null,
+    "normal": 412,
+    "large": 5,
+    "disabled": null
+  },
+  "kumihama-sankaikan": {
+    "total": null,
+    "normal": 50,
+    "large": 4,
+    "disabled": 4
+  },
+  "kyotamba-ajimu-no-sato": {
+    "total": null,
+    "normal": 104,
+    "large": 36,
+    "disabled": 6
+  },
+  "kyoto-shinkoetsu-mura": {
+    "total": null,
+    "normal": 38,
+    "large": 8,
+    "disabled": 2
+  },
+  "maizuruko-toretore-center": {
+    "total": null,
+    "normal": 200,
+    "large": 8,
+    "disabled": 4
+  },
+  "miyama-fureai-hiroba": {
+    "total": 73,
+    "normal": 65,
+    "large": 4,
+    "disabled": 4
+  },
+  "mizuho-no-sato-sarabiki": {
+    "total": null,
+    "normal": 45,
+    "large": 15,
+    "disabled": 1
+  },
+  "nagomi": {
+    "total": null,
+    "normal": 88,
+    "large": 5,
+    "disabled": 2
+  },
+  "nosho-no-sato-yakuno": {
+    "total": null,
+    "normal": 170,
+    "large": 5,
+    "disabled": 3
+  },
+  "ocha-no-kyoto-minamiyamashiro-mura": {
+    "total": null,
+    "normal": 113,
+    "large": 15,
+    "disabled": null
+  },
+  "silk-no-machi-kaya": {
+    "total": null,
+    "normal": 94,
+    "large": 4,
+    "disabled": 2
+  },
+  "springs-hiyoshi": {
+    "total": null,
+    "normal": 269,
+    "large": 5,
+    "disabled": 4
+  },
+  "tamba-markeds": {
+    "total": null,
+    "normal": 542,
+    "large": 8,
+    "disabled": 8
+  },
+  "tango-oukoku-shoku-no-miyako": {
+    "total": null,
+    "normal": 520,
+    "large": 12,
+    "disabled": null
+  },
+  "tenkitenki-tango": {
+    "total": 53,
+    "normal": 49,
+    "large": 4,
+    "disabled": 2
+  },
+  "umi-no-kyoto-miyazu": {
+    "total": null,
+    "normal": 60,
+    "large": 7,
+    "disabled": 1
+  },
+  "woody-keihoku": {
+    "total": null,
+    "normal": 28,
+    "large": 3,
+    "disabled": 2
+  }
+}
