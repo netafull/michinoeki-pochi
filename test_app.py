@@ -53,7 +53,7 @@ def _all_published_store():
 class LoaderValidation(unittest.TestCase):
     def test_real_data_all_stations_load(self):
         store = appmod.StationStore()
-        self.assertEqual(len(store.all_stations()), 1145)
+        self.assertEqual(len(store.all_stations()), 1164)
         self.assertEqual(list(store.prefectures), ["saitama", "chiba", "tokyo", "kanagawa", "shizuoka", "ibaraki", "tochigi", "gunma", "yamanashi", "niigata", "nagano", "fukushima", "toyama", "ishikawa", "fukui", "gifu", "aichi", "mie", "shiga", "miyagi", "yamagata", "akita", "iwate", "aomori", "hokkaido", "kyoto", "osaka", "nara", "wakayama", "hyogo", "tottori", "tokushima", "kagawa", "ehime", "kochi", "shimane", "okayama", "hiroshima", "yamaguchi", "fukuoka", "nagasaki", "kumamoto", "miyazaki"])
 
     def test_missing_source_url_excluded(self):
@@ -151,7 +151,7 @@ class Rendering(unittest.TestCase):
         self.assertIn('<dt>休館日</dt><dd class="ms-unknown">未確認</dd>', text)
 
     def test_genre_pages(self):
-        for slug, count in (("ev", 658), ("onsen", 164), ("dogrun", 77), ("restaurant", 986), ("shop", 1127)):
+        for slug, count in (("ev", 668), ("onsen", 165), ("dogrun", 79), ("restaurant", 1002), ("shop", 1145)):
             code, text = self.get("/genre/%s/" % slug)
             self.assertEqual(code, 200, slug)
             self.assertEqual(text.count('class="ms-card"'), count, slug)
