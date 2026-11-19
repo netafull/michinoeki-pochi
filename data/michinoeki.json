@@ -3219,7 +3219,7 @@
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19156",
           "tel": "0556-20-4141",
-          "parking_disabled": 1
+          "parking_disabled": null
         },
         {
           "slug": "toyotomi",
