@@ -427,6 +427,28 @@ class PublishingGate(unittest.TestCase):
             finally:
                 appmod.STORE = old
 
+    def test_opening_badge_and_note(self):
+        # 開業予定（opening）がある駅は、駅ページにバッジと注意文、カードにバッジを出す
+        with tempfile.TemporaryDirectory() as tmp:
+            store = _write_store(tmp, [_station(opening="2027年春開業予定",
+                                                opening_note="道の駅としての開業前です。",
+                                                opening_url="https://example.jp/opening"),
+                                       _station(slug="plain-eki")])
+            old = appmod.STORE
+            appmod.STORE = store
+            try:
+                client = appmod.app.test_client()
+                text = client.get("/station/test-eki/").get_data(as_text=True)
+                self.assertIn('<span class="ms-opening-badge">2027年春開業予定</span>', text)
+                self.assertIn("道の駅としての開業前です。", text)
+                self.assertIn('href="https://example.jp/opening"', text)
+                text = client.get("/station/plain-eki/").get_data(as_text=True)
+                self.assertNotIn("ms-opening", text)
+                card_text = client.get("/saitama/").get_data(as_text=True)
+                self.assertIn('<span class="ms-opening-badge">2027年春開業予定</span>', card_text)
+            finally:
+                appmod.STORE = old
+
     def test_ev_source_link_on_station_page(self):
         with tempfile.TemporaryDirectory() as tmp:
             store = _write_store(tmp, [_station(ev=True, ev_source_url="https://example.jp/ev"),
