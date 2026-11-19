@@ -22003,7 +22003,7 @@
     },
     "yamaguchi": {
       "name": "山口県",
-      "published": false,
+      "published": true,
       "stations": [
         {
           "address": "山口県阿武郡阿武町大字奈古2249",
