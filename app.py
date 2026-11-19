@@ -68,6 +68,7 @@ PREFECTURE_REGIONS = (
     ("東海", ("gifu", "shizuoka", "aichi", "mie")),
     ("近畿", ("shiga", "kyoto", "osaka", "hyogo", "nara", "wakayama")),
     ("中国", ("tottori",)),
+    ("四国", ("tokushima", "kagawa", "ehime", "kochi")),
 )
 
 # トップの日本地図タイル。全47都道府県をタイル状に並べるための配置表。
