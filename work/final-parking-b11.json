@@ -31,7 +31,7 @@
  },
  "fore-nakakawane-chameikan": {
   "total": null,
-  "normal": 36,
+  "normal": 26,
   "large": 3,
   "disabled": 2
  },
@@ -73,15 +73,15 @@
  },
  "tenryu-aizu-hanamomo-no-sato": {
   "total": null,
-  "normal": 47,
+  "normal": 48,
   "large": 2,
   "disabled": 1
  },
  "ito-marine-town": {
-  "total": 296,
-  "normal": null,
-  "large": null,
-  "disabled": null
+  "total": null,
+  "normal": 296,
+  "large": 4,
+  "disabled": 11
  },
  "kaikoku-shimoda-minato": {
   "total": null,
@@ -109,8 +109,8 @@
  },
  "izu-no-heso": {
   "total": null,
-  "normal": 109,
-  "large": 19,
+  "normal": 68,
+  "large": 22,
   "disabled": 5
  },
  "shimogamo-onsen-yunohana": {
@@ -175,7 +175,7 @@
  },
  "iori": {
   "total": null,
-  "normal": 49,
+  "normal": 52,
   "large": 5,
   "disabled": 2
  },
@@ -247,9 +247,9 @@
  },
  "yamanaka-onsen-yukemuri-kenko-mura": {
   "total": null,
-  "normal": 91,
-  "large": null,
-  "disabled": 1
+  "normal": 115,
+  "large": 4,
+  "disabled": 3
  },
  "notojima": {
   "total": null,
@@ -277,15 +277,15 @@
  },
  "komatsu-kibagata": {
   "total": null,
-  "normal": 92,
+  "normal": 94,
   "large": 9,
   "disabled": 2
  },
  "noroshi": {
   "total": null,
-  "normal": 71,
-  "large": 7,
-  "disabled": 4
+  "normal": 106,
+  "large": 5,
+  "disabled": 1
  },
  "suzunari": {
   "total": null,
