@@ -22561,7 +22561,7 @@
     },
     "fukuoka": {
       "name": "福岡県",
-      "published": false,
+      "published": true,
       "stations": [
         {
           "address": "福岡県朝倉市杷木久喜宮1665-1",
