@@ -151,7 +151,7 @@ class Rendering(unittest.TestCase):
         self.assertIn('<dt>休館日</dt><dd class="ms-unknown">未確認</dd>', text)
 
     def test_genre_pages(self):
-        for slug, count in (("ev", 547), ("onsen", 143), ("dogrun", 68), ("restaurant", 851), ("shop", 972)):
+        for slug, count in (("ev", 546), ("onsen", 143), ("dogrun", 68), ("restaurant", 851), ("shop", 972)):
             code, text = self.get("/genre/%s/" % slug)
             self.assertEqual(code, 200, slug)
             self.assertEqual(text.count('class="ms-card"'), count, slug)
@@ -423,14 +423,51 @@ class PublishingGate(unittest.TestCase):
                 text = client.get("/station/test-eki/").get_data(as_text=True)
                 self.assertIn('<dt>営業時間</dt><dd class="ms-unknown">未確認</dd>', text)
                 self.assertIn('<dt>休館日</dt><dd class="ms-unknown">未確認</dd>', text)
-                self.assertIn('<span class="ms-parking-label">大型車</span>'
-                              '<span class="ms-parking-unknown">未確認</span>', text)
+                # 駐車は公表値方式：ある項目だけ出し、項目ごとの「未確認」は出さない
+                self.assertIn('<span class="ms-parking-label">普通車</span>'
+                              '<strong class="ms-parking-num">10台</strong>', text)
+                self.assertNotIn('ms-parking-unknown', text)
                 self.assertIn("確認できた設備だけを表示しています。", text)
                 # 注記は基本情報の表の下に出る
                 self.assertGreater(text.index("確認できた設備だけを表示しています。"),
                                    text.index("<dt>休館日</dt>"))
                 card_text = client.get("/saitama/").get_data(as_text=True)
                 self.assertNotIn("未確認", card_text)
+            finally:
+                appmod.STORE = old
+
+    def test_parking_published_figures(self):
+        # 公表値方式：総数があれば「駐車場◯台」を先頭に、内訳は公表分だけ併記する
+        with tempfile.TemporaryDirectory() as tmp:
+            store = _write_store(tmp, [
+                _station(parking_total=68, parking_normal=63, parking_large=3, parking_disabled=2),
+                _station(slug="parts-eki", parking_normal=145, parking_large=2, parking_disabled=7),
+                _station(slug="unknown-eki", parking_normal=None, parking_large=None),
+            ])
+            old = appmod.STORE
+            appmod.STORE = store
+            try:
+                client = appmod.app.test_client()
+                text = client.get("/station/test-eki/").get_data(as_text=True)
+                self.assertIn('<span class="ms-parking-label">駐車場</span>'
+                              '<strong class="ms-parking-num">68台</strong>', text)
+                self.assertIn('<span class="ms-parking-label">普通車</span>'
+                              '<strong class="ms-parking-num">63台</strong>', text)
+                self.assertIn('<span class="ms-parking-label">大型車</span>'
+                              '<strong class="ms-parking-num">3台</strong>', text)
+                self.assertIn('<span class="ms-parking-label">身障者用</span>'
+                              '<strong class="ms-parking-num">2台</strong>', text)
+                parts = client.get("/station/parts-eki/").get_data(as_text=True)
+                self.assertIn('<strong class="ms-parking-num">145台</strong>', parts)
+                self.assertIn('<strong class="ms-parking-num">7台</strong>', parts)
+                self.assertNotIn('<span class="ms-parking-label">駐車場</span>', parts)
+                # 全項目が未確認なら、駅ページにだけ「駐車場 未確認」を出す
+                unknown = client.get("/station/unknown-eki/").get_data(as_text=True)
+                self.assertIn('<span class="ms-parking-label">駐車場</span>'
+                              '<span class="ms-parking-unknown">未確認</span>', unknown)
+                card_text = client.get("/saitama/").get_data(as_text=True)
+                self.assertIn('<strong class="ms-parking-num">68台</strong>', card_text)
+                self.assertNotIn('ms-parking-unknown', card_text)
             finally:
                 appmod.STORE = old
 
