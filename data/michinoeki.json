@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16",
+  "updated": "2026-11-19",
   "prefectures": {
     "saitama": {
       "name": "埼玉県",
@@ -21039,7 +21039,7 @@
     },
     "okayama": {
       "name": "岡山県",
-      "published": false,
+      "published": true,
       "stations": [
         {
           "slug": "kamogawa-enjo",
