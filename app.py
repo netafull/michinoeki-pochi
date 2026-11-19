@@ -38,7 +38,7 @@ DESCRIPTION = ("全国の道の駅について、住所・電話・営業時間�
 SITE_URL = os.environ.get("SITE_URL", "https://michinoeki.netaful.jp").rstrip("/")
 
 # 共通ページテンプレート・文言を最後に変えた日（sitemap.xml の lastmod の下限）。テンプレートや文言を変えたら手で更新する
-PAGES_UPDATED = "2026-11-16"
+PAGES_UPDATED = "2026-11-19"
 
 # フッターの関連サイト（ポチシリーズ。道の駅ポチ自身は載せない。名前・説明は他のポチの config.json と同じ）
 SERIES_SITES = (
