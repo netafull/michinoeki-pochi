@@ -19625,7 +19625,7 @@
     },
     "shimane": {
       "name": "島根県",
-      "published": false,
+      "published": true,
       "stations": [
         {
           "slug": "kakeya-no-sato",
