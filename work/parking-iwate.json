@@ -1,0 +1,275 @@
+{
+  "ishidoriya": {
+    "total": null,
+    "normal": 151,
+    "large": 35,
+    "disabled": 2,
+    "basis": "駅公式の設備一覧「普通車151台、大型車35台、思いやり駐車場2台」の並記。国交省東北も151/35で一致"
+  },
+  "takata-matsubara": {
+    "total": null,
+    "normal": 227,
+    "large": 33,
+    "disabled": 4,
+    "basis": "駅公式の設備欄「普通車227台／大型車33台／優先スペース4台」の並記（精査・所有者決定で採用済み）"
+  },
+  "kukai-kogen": {
+    "total": null,
+    "normal": 79,
+    "large": 8,
+    "disabled": 3,
+    "basis": "運営公式の当駅ページ「大型車：8台、普通車：79台、障がい者用：3台」の並記"
+  },
+  "ono": {
+    "total": null,
+    "normal": 49,
+    "large": 8,
+    "disabled": null,
+    "basis": "駅公式アクセス「大型車8台、普通車49台」。身障者用の公表値は駅公式になく、国交省東北の47/8/身障者用3は普通車が食い違うため混ぜない"
+  },
+  "taneyama-ga-hara": {
+    "total": null,
+    "normal": 33,
+    "large": 5,
+    "disabled": 2,
+    "basis": "連絡会原文「普通車：33（身障者用2）台・大型：5台」を転記。精査では未確定。国交省東北は普通41/大型5/身障者用2で大きく食い違う（要チェック）"
+  },
+  "iwaizumi": {
+    "total": null,
+    "normal": 32,
+    "large": 5,
+    "disabled": 2,
+    "basis": "駅公式ページ「普通車32台、大型車5台、身体障害者用2台」の並記（モルの公開前チェックで出典確認済み）"
+  },
+  "noda": {
+    "total": null,
+    "normal": 71,
+    "large": 10,
+    "disabled": 4,
+    "basis": "新施設公式の施設概要「小型車：71台・大型車：10台・身障者用：4台」の並記（移転後の現行値）"
+  },
+  "taro": {
+    "total": null,
+    "normal": 62,
+    "large": 12,
+    "disabled": 2,
+    "basis": "宮古市ページ「大型車12台、普通車62台、障がい者用2台」の並記（所有者決定で62を採用済み）"
+  },
+  "tanohata": {
+    "total": null,
+    "normal": 46,
+    "large": 25,
+    "disabled": null,
+    "basis": "駅公式の駐車場概要「小型車46台、大型車25台」を転記。国交省東北の普通43/身障者用3は普通車が食い違うため混ぜない（精査の内数読みを公表形に戻す。要チェック）"
+  },
+  "mizusawa": {
+    "total": null,
+    "normal": 26,
+    "large": 4,
+    "disabled": null,
+    "basis": "奥州市公式ページ「普通車：26台、大型車：4台、優先駐車場有」。身障者用の台数の公表なし"
+  },
+  "nishine": {
+    "total": null,
+    "normal": 100,
+    "large": 5,
+    "disabled": 2,
+    "basis": "駅公式の施設案内「大型車5台、普通車100台、身障者用2台」の並記（所有者決定で100を採用済み）"
+  },
+  "shirakaba-no-sato-yamagata": {
+    "total": null,
+    "normal": 38,
+    "large": 5,
+    "disabled": 1,
+    "basis": "連絡会原文「普通車：38（身障者用1）台・大型：5台」を転記。精査では未確定。国交省東北は普通38/大型4/身障者用2で大型・身障者用が食い違う（要チェック）"
+  },
+  "miyamori": {
+    "total": null,
+    "normal": 16,
+    "large": 10,
+    "disabled": 3,
+    "basis": "国交省・遠野市観光協会「普通車16台／大型車10台」、国交省に身障者用3台（所有者決定で16/10を採用済み）"
+  },
+  "shiwa": {
+    "total": null,
+    "normal": 37,
+    "large": 8,
+    "disabled": 2,
+    "basis": "国交省岩手「普通車37台／大型車：8台」の並記（身障者用は別行）＋連絡会の身障者用2台。数字は矛盾しない"
+  },
+  "hayachine": {
+    "total": null,
+    "normal": 52,
+    "large": 8,
+    "disabled": 5,
+    "basis": "連絡会の並記表記「普通車：52台、身障者用5台・大型：8台」を転記。国交省岩手も52/8"
+  },
+  "yamada": {
+    "total": null,
+    "normal": 130,
+    "large": 39,
+    "disabled": 6,
+    "basis": "駅公式フッター「小型車130台、大型車39台、優先者用9台（うちEV用3台）」＋国交省岩手の内訳（身障者用6台）。数字は矛盾しない"
+  },
+  "tono-kaze-no-oka": {
+    "total": null,
+    "normal": 212,
+    "large": 16,
+    "disabled": 4,
+    "basis": "駅公式の施設紹介「普通車212台 大型車16台 身障者用4台」の並記。遠野市観光協会・国交省も212で一致"
+  },
+  "sanriku": {
+    "total": 103,
+    "normal": 92,
+    "large": 8,
+    "disabled": 3,
+    "basis": "駅公式「第一P：67台 大型：8台 第二P：25台 身障者専用：3」の同一出典の合算（普通92）＋大船渡市ページの総数103台（92＋8＋3で一致）"
+  },
+  "kinshuko": {
+    "total": null,
+    "normal": 34,
+    "large": 9,
+    "disabled": 2,
+    "basis": "駅公式・国交省岩手「普通車：34台／大型車：9台」（身障者用は別行）＋連絡会の身障者用2台。数字は矛盾しない"
+  },
+  "kuzumaki-kogen": {
+    "total": 90,
+    "normal": 80,
+    "large": 8,
+    "disabled": 2,
+    "basis": "葛巻町観光ページの総数90台＋国交省岩手「普通車：80台／大型車：8台」＋身障者用2台（80＋8＋2＝90で一致）"
+  },
+  "ishigami-no-oka": {
+    "total": null,
+    "normal": 116,
+    "large": 10,
+    "disabled": 2,
+    "basis": "駅公式「普通車116台／大型車（バス・トラック）10台、身障者用2台」の並記（所有者決定で116を採用済み）"
+  },
+  "shizukuishi-anekko": {
+    "total": null,
+    "normal": 73,
+    "large": 15,
+    "disabled": 4,
+    "basis": "国交省岩手「普通車：73台／大型車：15台」（身障者用は別行）＋連絡会の身障者用4台。二次情報の並記とも一致"
+  },
+  "towa": {
+    "total": null,
+    "normal": 62,
+    "large": 8,
+    "disabled": 1,
+    "basis": "国交省岩手「普通車：62台／大型車：8台」（身障者用は別行）＋連絡会の身障者用1台。数字は矛盾しない"
+  },
+  "genbikei": {
+    "total": null,
+    "normal": 174,
+    "large": 13,
+    "disabled": 4,
+    "basis": "国交省岩手「普通車：174台／大型車：13台」（身障者用は別行）＋連絡会の身障者用4台。数字は矛盾しない"
+  },
+  "oritsume": {
+    "total": null,
+    "normal": 175,
+    "large": 8,
+    "disabled": 4,
+    "basis": "連絡会原文「普通車：175（身障者用4）台・大型：8台」を転記（普通175は所有者決定で採用済み。大型は連絡会8と国交省5で割れたまま）"
+  },
+  "kawasaki": {
+    "total": null,
+    "normal": 67,
+    "large": 13,
+    "disabled": 4,
+    "basis": "国交省岩手「普通車：67台／大型車：13台」（身障者用は別行）＋連絡会の身障者用4台。数字は矛盾しない"
+  },
+  "yamabiko-kan": {
+    "total": null,
+    "normal": 80,
+    "large": 12,
+    "disabled": 3,
+    "basis": "運営公式の当駅ページ「大型車：12台、普通車：80台、障がい者用：3台」の並記（モルのチェックを受けて所有者決定で80/12に修正済み）"
+  },
+  "miyako": {
+    "total": null,
+    "normal": 187,
+    "large": 21,
+    "disabled": 7,
+    "basis": "駅公式「普通車用187区画、中大型車用21区画、障がい者用7区画」の並記（所有者決定で187を採用済み）"
+  },
+  "mitagai-bunko": {
+    "total": null,
+    "normal": 31,
+    "large": 8,
+    "disabled": 1,
+    "basis": "運営公式・国交省東北「普通車31台、大型車8台」で一致し、身障者用1台は別掲の並記"
+  },
+  "kuji": {
+    "total": 58,
+    "normal": 48,
+    "large": 8,
+    "disabled": 2,
+    "basis": "久慈市情報交流センター公式・国交省東北「総数58台 大型8台／普通車48台／身障者用2台」（48＋8＋2＝58。第2駐車場などは所有者決定で含めない）"
+  },
+  "kamaishi-sennin-toge": {
+    "total": null,
+    "normal": 35,
+    "large": 4,
+    "disabled": 2,
+    "basis": "釜石市公式ページ「普通車35台（身障者用2台）、大型車4台」を転記（精査の引き算読み33を公表形に戻す。国交省東北は普通37で食い違う。要チェック）"
+  },
+  "hiraizumi": {
+    "total": 126,
+    "normal": 102,
+    "large": 22,
+    "disabled": 2,
+    "basis": "駅公式「普通車102台・大型車22台」「126台分の駐車場」。障害者用2台は別掲で、102＋22＋2＝126と一致"
+  },
+  "murone": {
+    "total": null,
+    "normal": 47,
+    "large": 4,
+    "disabled": 2,
+    "basis": "国交省・岩手河川国道事務所の当駅ページ「駐車場 普通車：47台／大型車：4台」、身障者用2台は別掲（モルの公開前チェックで出典確認済み）"
+  },
+  "hanamaki-seinan": {
+    "total": null,
+    "normal": 99,
+    "large": 23,
+    "disabled": 1,
+    "basis": "駅公式「普通車99台、大型車23台、身障者用1台」の並記（所有者決定で99/23を採用済み）"
+  },
+  "ao-no-kuni-fudai": {
+    "total": null,
+    "normal": 25,
+    "large": 18,
+    "disabled": null,
+    "basis": "国交省東北「普通車：25台／大型車：18台」を採用。連絡会は普通26（身障者用1）で普通車が食い違うため混ぜない"
+  },
+  "iwate-kita-sanriku": {
+    "total": 131,
+    "normal": 126,
+    "large": 20,
+    "disabled": 4,
+    "basis": "国交省東北「普通車：126台／大型車：20台／EV：1台」＋身障者用4台は別掲。総数131台は連絡会・駅公式が公表し、126＋4＋1（EV）＝131で一致"
+  },
+  "daito": {
+    "total": 72,
+    "normal": 62,
+    "large": 8,
+    "disabled": 2,
+    "basis": "国交省東北「普通車：62台／大型車：8台」＋一関市資料「合計72台＝大型8台、小型62台、車いす用2台」（62＋8＋2＝72で一致）"
+  },
+  "morioka-shibutami": {
+    "total": 112,
+    "normal": 89,
+    "large": 16,
+    "disabled": 5,
+    "basis": "駅公式トップ「大型16台・小型89台、思いやり5台・EV充電2台、計112台」。総数112はEV用2台を含む公表値。思いやり台数は駅公式FAQでは3台と割れる（要チェック）"
+  },
+  "funakoshi": {
+    "total": null,
+    "normal": 37,
+    "large": 4,
+    "disabled": null,
+    "basis": "国交省東北「普通車：37台／大型車：4台」を採用。連絡会は普通38（身障者用1）で普通車が食い違うため混ぜない"
+  }
+}
