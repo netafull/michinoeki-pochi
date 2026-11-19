@@ -1,4 +1,4 @@
-"""道の駅ポチのテスト。ネットワーク不要。実データ（39県1,078駅（全県公開））で確認する。
+"""道の駅ポチのテスト。ネットワーク不要。実データ（39県1,095駅（福岡は未公開））で確認する。
 
 公開は県単位のゲート（データの published）で制御する。表示系のテストは、
 実データを全県 published=true に読み替えたストアに差し替えて確認し、
@@ -53,8 +53,8 @@ def _all_published_store():
 class LoaderValidation(unittest.TestCase):
     def test_real_data_all_stations_load(self):
         store = appmod.StationStore()
-        self.assertEqual(len(store.all_stations()), 1078)
-        self.assertEqual(list(store.prefectures), ["saitama", "chiba", "tokyo", "kanagawa", "shizuoka", "ibaraki", "tochigi", "gunma", "yamanashi", "niigata", "nagano", "fukushima", "toyama", "ishikawa", "fukui", "gifu", "aichi", "mie", "shiga", "miyagi", "yamagata", "akita", "iwate", "aomori", "hokkaido", "kyoto", "osaka", "nara", "wakayama", "hyogo", "tottori", "tokushima", "kagawa", "ehime", "kochi", "shimane", "okayama", "hiroshima", "yamaguchi"])
+        self.assertEqual(len(store.all_stations()), 1095)
+        self.assertEqual(list(store.prefectures), ["saitama", "chiba", "tokyo", "kanagawa", "shizuoka", "ibaraki", "tochigi", "gunma", "yamanashi", "niigata", "nagano", "fukushima", "toyama", "ishikawa", "fukui", "gifu", "aichi", "mie", "shiga", "miyagi", "yamagata", "akita", "iwate", "aomori", "hokkaido", "kyoto", "osaka", "nara", "wakayama", "hyogo", "tottori", "tokushima", "kagawa", "ehime", "kochi", "shimane", "okayama", "hiroshima", "yamaguchi", "fukuoka"])
 
     def test_missing_source_url_excluded(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -151,7 +151,7 @@ class Rendering(unittest.TestCase):
         self.assertIn('<dt>休館日</dt><dd class="ms-unknown">未確認</dd>', text)
 
     def test_genre_pages(self):
-        for slug, count in (("ev", 612), ("onsen", 156), ("dogrun", 74), ("restaurant", 934), ("shop", 1062)):
+        for slug, count in (("ev", 623), ("onsen", 158), ("dogrun", 75), ("restaurant", 951), ("shop", 1079)):
             code, text = self.get("/genre/%s/" % slug)
             self.assertEqual(code, 200, slug)
             self.assertEqual(text.count('class="ms-card"'), count, slug)
