@@ -1,0 +1,386 @@
+{
+ "aisai-land": {
+  "disabled": 12,
+  "large": 8,
+  "normal": 356,
+  "total": 364
+ },
+ "aragi-no-sato": {
+  "disabled": 2,
+  "large": null,
+  "normal": 25,
+  "total": null
+ },
+ "asuka": {
+  "disabled": null,
+  "large": 4,
+  "normal": 48,
+  "total": 52
+ },
+ "chihayaakasaka": {
+  "disabled": 4,
+  "large": 0,
+  "normal": 63,
+  "total": null
+ },
+ "chikatsu-asuka-no-sato-taishi": {
+  "disabled": 2,
+  "large": 2,
+  "normal": 29,
+  "total": null
+ },
+ "crossway-nakamachi": {
+  "disabled": 7,
+  "large": 20,
+  "normal": 237,
+  "total": null
+ },
+ "dorokyo-kaido-kumanogawa": {
+  "disabled": 2,
+  "large": 2,
+  "normal": 13,
+  "total": null
+ },
+ "furusato-center-oto": {
+  "disabled": 3,
+  "large": 2,
+  "normal": 34,
+  "total": 37
+ },
+ "futakami-park-taima": {
+  "disabled": 2,
+  "large": 5,
+  "normal": 140,
+  "total": 147
+ },
+ "hari-trs": {
+  "disabled": 6,
+  "large": 50,
+  "normal": 460,
+  "total": 510
+ },
+ "ichimai-iwa": {
+  "disabled": 2,
+  "large": 0,
+  "normal": 20,
+  "total": null
+ },
+ "inobutan-land-susami": {
+  "disabled": 1,
+  "large": 5,
+  "normal": 10,
+  "total": null
+ },
+ "isehonkaido-mitsue": {
+  "disabled": 3,
+  "large": 3,
+  "normal": 90,
+  "total": 93
+ },
+ "izumi-yamaai-no-sato": {
+  "disabled": 3,
+  "large": 7,
+  "normal": 120,
+  "total": null
+ },
+ "kainan-sakuasu": {
+  "disabled": 4,
+  "large": 20,
+  "normal": 127,
+  "total": null
+ },
+ "kaki-no-sato-kudoyama": {
+  "disabled": 3,
+  "large": 3,
+  "normal": 119,
+  "total": 125
+ },
+ "kanan": {
+  "disabled": 1,
+  "large": 3,
+  "normal": 40,
+  "total": null
+ },
+ "katsuragi": {
+  "disabled": null,
+  "large": 25,
+  "normal": 74,
+  "total": 102
+ },
+ "katsuragi-nishi": {
+  "disabled": 5,
+  "large": 35,
+  "normal": 79,
+  "total": null
+ },
+ "kinari-no-sato-shimokitayama": {
+  "disabled": null,
+  "large": null,
+  "normal": null,
+  "total": 231
+ },
+ "kinokawa-manyo-no-sato": {
+  "disabled": 7,
+  "large": 16,
+  "normal": 85,
+  "total": 108
+ },
+ "kishu-binchotan-kinen-koen": {
+  "disabled": 1,
+  "large": 3,
+  "normal": 18,
+  "total": null
+ },
+ "kuchikumano": {
+  "disabled": 2,
+  "large": 7,
+  "normal": 35,
+  "total": 42
+ },
+ "kumano-kodo-nakahechi": {
+  "disabled": 1,
+  "large": 3,
+  "normal": 24,
+  "total": 27
+ },
+ "kushigaki-no-sato": {
+  "disabled": 2,
+  "large": 6,
+  "normal": 64,
+  "total": null
+ },
+ "kushimoto-hashigui-iwa": {
+  "disabled": null,
+  "large": 6,
+  "normal": 45,
+  "total": 51
+ },
+ "minabe-ume-shinkokan": {
+  "disabled": 2,
+  "large": 4,
+  "normal": 47,
+  "total": null
+ },
+ "misaki": {
+  "disabled": 2,
+  "large": 3,
+  "normal": 75,
+  "total": 80
+ },
+ "mizu-no-sato-hidakagawa-ryuyu": {
+  "disabled": 2,
+  "large": 2,
+  "normal": 42,
+  "total": 44
+ },
+ "mushikui-iwa": {
+  "disabled": 1,
+  "large": 1,
+  "normal": 32,
+  "total": null
+ },
+ "myoe-furusato-kan": {
+  "disabled": 1,
+  "large": 2,
+  "normal": 20,
+  "total": null
+ },
+ "nachi": {
+  "disabled": null,
+  "large": 6,
+  "normal": 52,
+  "total": 58
+ },
+ "nara-rekishi-geijutsu-bunkamura": {
+  "disabled": null,
+  "large": 3,
+  "normal": 66,
+  "total": 80
+ },
+ "negoro-rekishi-no-oka": {
+  "disabled": null,
+  "large": 10,
+  "normal": 76,
+  "total": 86
+ },
+ "negoro-sakura-no-sato": {
+  "disabled": 2,
+  "large": 4,
+  "normal": 43,
+  "total": null
+ },
+ "nose-kuri-no-sato": {
+  "disabled": 2,
+  "large": 6,
+  "normal": 30,
+  "total": null
+ },
+ "oku-kumano-kodo-hongu": {
+  "disabled": 2,
+  "large": 2,
+  "normal": 20,
+  "total": null
+ },
+ "okukawachi-kuromaro-no-sato": {
+  "disabled": 5,
+  "large": 7,
+  "normal": 327,
+  "total": null
+ },
+ "okutoro": {
+  "disabled": 4,
+  "large": 7,
+  "normal": 82,
+  "total": 89
+ },
+ "resti-karako-kagi": {
+  "disabled": null,
+  "large": 10,
+  "normal": 75,
+  "total": 85
+ },
+ "ryujin": {
+  "disabled": 1,
+  "large": 3,
+  "normal": 25,
+  "total": null
+ },
+ "sanpin-nakatsu": {
+  "disabled": 2,
+  "large": 2,
+  "normal": 34,
+  "total": null
+ },
+ "seishu-no-sato": {
+  "disabled": 5,
+  "large": 5,
+  "normal": 100,
+  "total": null
+ },
+ "shihara-kaigan": {
+  "disabled": 2,
+  "large": 7,
+  "normal": 30,
+  "total": 37
+ },
+ "shiki-no-sato-koen": {
+  "disabled": null,
+  "large": 5,
+  "normal": 309,
+  "total": null
+ },
+ "shimizu": {
+  "disabled": 2,
+  "large": 4,
+  "normal": 110,
+  "total": null
+ },
+ "shirama-no-sato": {
+  "disabled": 1,
+  "large": 2,
+  "normal": 22,
+  "total": null
+ },
+ "shirasaki-kaiyo-koen": {
+  "disabled": null,
+  "large": 4,
+  "normal": null,
+  "total": 87
+ },
+ "shiratori-no-sato-habikino": {
+  "disabled": 6,
+  "large": 4,
+  "normal": 272,
+  "total": null
+ },
+ "suginoyu-kawakami": {
+  "disabled": 1,
+  "large": 4,
+  "normal": 50,
+  "total": 54
+ },
+ "susami": {
+  "disabled": 6,
+  "large": 9,
+  "normal": 113,
+  "total": null
+ },
+ "taiji": {
+  "disabled": 2,
+  "large": 5,
+  "normal": 49,
+  "total": null
+ },
+ "takinohai-taro": {
+  "disabled": 2,
+  "large": 5,
+  "normal": 28,
+  "total": null
+ },
+ "tanabe-ryujin-gomasan-sky-tower": {
+  "disabled": null,
+  "large": 4,
+  "normal": 50,
+  "total": 54
+ },
+ "totsukawago": {
+  "disabled": 2,
+  "large": 2,
+  "normal": 18,
+  "total": null
+ },
+ "totto-park-kojima": {
+  "disabled": 2,
+  "large": 1,
+  "normal": 64,
+  "total": null
+ },
+ "tsubaki-hana-no-yu": {
+  "disabled": 2,
+  "large": 2,
+  "normal": 14,
+  "total": 16
+ },
+ "udaji-murou": {
+  "disabled": 2,
+  "large": 4,
+  "normal": 29,
+  "total": 33
+ },
+ "udaji-ouda": {
+  "disabled": null,
+  "large": 4,
+  "normal": 95,
+  "total": null
+ },
+ "yamatoji-heguri": {
+  "disabled": null,
+  "large": 3,
+  "normal": null,
+  "total": 106
+ },
+ "yoshinoji-kamikitayama": {
+  "disabled": 1,
+  "large": 3,
+  "normal": 51,
+  "total": null
+ },
+ "yoshinoji-kurotaki": {
+  "disabled": 1,
+  "large": 5,
+  "normal": 46,
+  "total": 51
+ },
+ "yoshinoji-oto": {
+  "disabled": 2,
+  "large": 0,
+  "normal": 23,
+  "total": null
+ },
+ "yoshinoji-oyodo-i-center": {
+  "disabled": 2,
+  "large": 10,
+  "normal": null,
+  "total": 80
+ }
+}
