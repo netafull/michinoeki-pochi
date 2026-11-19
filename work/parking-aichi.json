@@ -1,0 +1,135 @@
+{
+  "toyone-greenport-miyajima": {
+    "total": 37,
+    "normal": null,
+    "large": null,
+    "disabled": null,
+    "basis": "駅公式アクセス「駐車場37台」（総数のみ公表）。連絡会の内訳（普通37・身障者用2・大型1＝合計38台）とは矛盾するため、上位出典である駅公式の総数だけを採用"
+  },
+  "horai-mikawa-mitsuishi": {
+    "total": null,
+    "normal": 26,
+    "large": 2,
+    "disabled": 1,
+    "basis": "整備局・県（Aichi Now）の並記 普通26・大型2。身障者用1は県・連絡会の公表値で、並記と矛盾なし"
+  },
+  "tahara-mekkun-house": {
+    "total": null,
+    "normal": 150,
+    "large": 6,
+    "disabled": 3,
+    "basis": "運営者公式の並記「一般車150台、身障者用3台、大型車6台」"
+  },
+  "irago-crystal-porto": {
+    "total": null,
+    "normal": 35,
+    "large": 4,
+    "disabled": 2,
+    "basis": "運営者公式の並記「バス4台、乗用車35台、身障者用2台」。隣接する公共駐車場144台は駅の駐車場ではないため含めない"
+  },
+  "tsugu-kogen-green-park": {
+    "total": null,
+    "normal": 47,
+    "large": null,
+    "disabled": 2,
+    "basis": "整備局の公表 普通47（大型は整備局・連絡会とも公表なし）。身障者用は整備局の別行「駐車マス2台」を転記（連絡会の身障者用2台とも一致）。「駐車マス」の読みは要判断"
+  },
+  "donguri-no-sato-inabu": {
+    "total": null,
+    "normal": 107,
+    "large": 12,
+    "disabled": 3,
+    "basis": "整備局・県の並記 普通107・大型12。身障者用は整備局の別行「駐車マス3台」を転記（連絡会の身障者用3台とも一致）。「駐車マス」の読みは要判断"
+  },
+  "agri-station-nagura": {
+    "total": null,
+    "normal": 80,
+    "large": 3,
+    "disabled": null,
+    "basis": "駅公式の並記「普通車80台、大型3台」。公式に身障者用の公表がなく、連絡会の身障者用1台は併記しない"
+  },
+  "denpark-anjo": {
+    "total": null,
+    "normal": 61,
+    "large": 5,
+    "disabled": 11,
+    "basis": "整備局・県の並記 普通61・大型5。身障者用は整備局「障がい者用駐車マス11台」の明記（連絡会の身障者用11台とも一致）"
+  },
+  "tsukude-tezukuri-mura": {
+    "total": null,
+    "normal": 105,
+    "large": 4,
+    "disabled": 4,
+    "basis": "県資料の並記「普通車105台、障害者用4台、大型4台」（精査時に所有者判断で採用済み）"
+  },
+  "fureai-no-sato-hasu-park": {
+    "total": null,
+    "normal": 221,
+    "large": 24,
+    "disabled": 11,
+    "basis": "駅公式アクセス・整備局の並記 普通221・大型24。身障者用は駅公式の原文表記「車椅子対応11台」を転記。読みは要判断"
+  },
+  "akabane-loco-station": {
+    "total": null,
+    "normal": 81,
+    "large": 3,
+    "disabled": 2,
+    "basis": "運営者公式の並記「バス3台、乗用車81台、身障者用2台」"
+  },
+  "fudegaki-no-sato-kota": {
+    "total": null,
+    "normal": 38,
+    "large": 34,
+    "disabled": 2,
+    "basis": "整備局・幸田町観光協会の並記「普通車38台、大型車34台、身障者用2台」"
+  },
+  "nishio-okanoyama": {
+    "total": null,
+    "normal": 66,
+    "large": 34,
+    "disabled": 4,
+    "basis": "駅公式の並記「大型34台・普通66台・身障者用4台」"
+  },
+  "seto-shinano": {
+    "total": null,
+    "normal": 57,
+    "large": 11,
+    "disabled": null,
+    "basis": "駅公式の並記 普通57・大型11（瀬戸市観光協会の大型12とは駅公式を優先）。公式に身障者用の公表がなく、連絡会の身障者用2台は併記しない"
+  },
+  "fujikawa-juku": {
+    "total": null,
+    "normal": 162,
+    "large": 21,
+    "disabled": 3,
+    "basis": "整備局の並記 普通162・大型21。身障者用3は岡崎市観光協会の内訳（正面駐車場）に明記があり、連絡会とも一致"
+  },
+  "mokkuru-shinshiro": {
+    "total": null,
+    "normal": 75,
+    "large": 13,
+    "disabled": 2,
+    "basis": "駅公式・新城市の並記「小型車75台、大型車13台、身障者用2台」"
+  },
+  "toyohashi": {
+    "total": 258,
+    "normal": 176,
+    "large": 82,
+    "disabled": null,
+    "basis": "総数は駅公式アクセス「駐車場258台（西側132台、東側126台）」。内訳は連絡会の公表値 普通176・大型82で、合計が公式総数と一致するため併記（出典をまたぐ組み合わせの適用例）"
+  },
+  "shitara": {
+    "total": null,
+    "normal": 35,
+    "large": 4,
+    "disabled": null,
+    "basis": "整備局の並記 普通35・大型4。身障者用の公表なし。臨時駐車場280台は含めない"
+  },
+  "machi-terrace-nisshin": {
+    "total": null,
+    "normal": 143,
+    "large": 19,
+    "disabled": 4,
+    "basis": "整備局・県の並記 普通143・大型19。身障者用は整備局「障害者駐車場4台」（県・Aichi Now は「おもいやり4台」と表記）。臨時駐車場225台は含めない"
+  }
+}
