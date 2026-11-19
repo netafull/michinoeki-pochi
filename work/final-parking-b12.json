@@ -1,6 +1,6 @@
 {
   "echizen": {
-    "total": null,
+    "total": 168,
     "normal": 157,
     "large": 11,
     "disabled": 4
@@ -21,7 +21,7 @@
     "total": null,
     "normal": 46,
     "large": 3,
-    "disabled": null
+    "disabled": 2
   },
   "kouno": {
     "total": null,
@@ -42,7 +42,7 @@
     "disabled": null
   },
   "mikatagoko": {
-    "total": null,
+    "total": 47,
     "normal": 40,
     "large": 7,
     "disabled": 3
@@ -66,7 +66,7 @@
     "disabled": 3
   },
   "nishiyama-koen": {
-    "total": null,
+    "total": 83,
     "normal": 74,
     "large": 9,
     "disabled": 2
@@ -90,13 +90,13 @@
     "disabled": 4
   },
   "seaside-takahama": {
-    "total": null,
+    "total": 150,
     "normal": 131,
     "large": 19,
-    "disabled": null
+    "disabled": 8
   },
   "uminpia-ooi": {
-    "total": null,
+    "total": 33,
     "normal": 29,
     "large": 4,
     "disabled": 3
@@ -157,9 +157,9 @@
   },
   "lasten-horado": {
     "total": null,
-    "normal": 47,
+    "normal": 53,
     "large": 3,
-    "disabled": 2
+    "disabled": 4
   },
   "hakusan-bunka-no-sato-nagataki": {
     "total": null,
@@ -169,14 +169,14 @@
   },
   "okuhida-kamitakara": {
     "total": null,
-    "normal": 28,
+    "normal": 29,
     "large": 6,
     "disabled": 1
   },
   "shizumo": {
     "total": null,
-    "normal": 36,
-    "large": 21,
+    "normal": 46,
+    "large": 12,
     "disabled": 2
   },
   "rock-garden-hichiso": {
@@ -211,9 +211,9 @@
   },
   "hida-kanayama-nukumori": {
     "total": null,
-    "normal": 235,
+    "normal": 33,
     "large": 4,
-    "disabled": 12
+    "disabled": 3
   },
   "kamiyahagi-fukuju-no-sato": {
     "total": null,
@@ -259,7 +259,7 @@
   },
   "kirira-sakashita": {
     "total": null,
-    "normal": 81,
+    "normal": 78,
     "large": 5,
     "disabled": 3
   },
@@ -289,9 +289,9 @@
   },
   "soba-no-sato-rassei-misato": {
     "total": null,
-    "normal": 45,
+    "normal": 31,
     "large": 6,
-    "disabled": 4
+    "disabled": 2
   },
   "oribe-no-sato-motosu": {
     "total": null,
@@ -313,7 +313,7 @@
   },
   "sakura-no-sato-shokawa": {
     "total": null,
-    "normal": 114,
+    "normal": 156,
     "large": 5,
     "disabled": 2
   },
@@ -325,7 +325,7 @@
   },
   "kokon-denju-no-sato-yamato": {
     "total": null,
-    "normal": 250,
+    "normal": 196,
     "large": 8,
     "disabled": 5
   },

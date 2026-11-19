@@ -7021,7 +7021,8 @@
           "shop": true,
           "slug": "kouno",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19392",
-          "tel": "0778-48-2880"
+          "tel": "0778-48-2880",
+          "parking_disabled": 1
         },
         {
           "address": "福井県大野市朝日26-30-1",
@@ -7034,13 +7035,14 @@
           "official_url": "http://www.kuzuryu2300.com/",
           "onsen_ashiyu": false,
           "parking_large": 4,
-          "parking_normal": 63,
+          "parking_normal": 65,
           "restaurant": false,
           "shop": true,
           "slug": "kuzuryu",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19393",
           "tel": "0779-78-2300",
-          "ev_source_url": "https://www.ev-smart.net/charging/fukui/cbd7a23038b6"
+          "ev_source_url": "https://www.ev-smart.net/charging/fukui/cbd7a23038b6",
+          "parking_disabled": 2
         },
         {
           "address": "福井県丹生郡越前町上川去45-1-7",
@@ -7053,12 +7055,13 @@
           "official_url": "https://parkin-nyugaoka.com/",
           "onsen_ashiyu": false,
           "parking_large": 7,
-          "parking_normal": 57,
+          "parking_normal": 59,
           "restaurant": true,
           "shop": true,
           "slug": "park-in-nyugaoka",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19394",
-          "tel": "0778-34-2850"
+          "tel": "0778-34-2850",
+          "parking_disabled": 2
         },
         {
           "address": "福井県大飯郡おおい町名田庄納田終109-4-1",
@@ -7071,12 +7074,13 @@
           "official_url": "http://www.natasho.co.jp/michinoeki/",
           "onsen_ashiyu": false,
           "parking_large": 3,
-          "parking_normal": 34,
+          "parking_normal": 37,
           "restaurant": true,
           "shop": true,
           "slug": "natasho",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19395",
-          "tel": "0770-67-2255"
+          "tel": "0770-67-2255",
+          "parking_disabled": 3
         },
         {
           "address": "福井県坂井市三国町山岸67-3-1",
@@ -7089,12 +7093,13 @@
           "official_url": "https://www.sanrihama.co.jp/",
           "onsen_ashiyu": false,
           "parking_large": 10,
-          "parking_normal": 85,
+          "parking_normal": 92,
           "restaurant": true,
           "shop": true,
           "slug": "mikuni",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19396",
-          "tel": "0776-82-3339"
+          "tel": "0776-82-3339",
+          "parking_disabled": 7
         },
         {
           "address": "福井県三方上中郡若狭町熊川11-1-1",
@@ -7113,7 +7118,8 @@
           "slug": "wakasa-kumagawa-juku",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19397",
           "tel": "0770-62-9111",
-          "ev_source_url": "https://www.ev-smart.net/charging/fukui/9b118ca62d55"
+          "ev_source_url": "https://www.ev-smart.net/charging/fukui/9b118ca62d55",
+          "parking_disabled": 4
         },
         {
           "address": "福井県坂井市坂井町蔵垣内34-14-1",
@@ -7126,12 +7132,13 @@
           "official_url": "http://www.inesu.jp/",
           "onsen_ashiyu": false,
           "parking_large": 9,
-          "parking_normal": 141,
+          "parking_normal": 145,
           "restaurant": true,
           "shop": true,
           "slug": "sakai-fukui",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19398",
-          "tel": "0776-72-7600"
+          "tel": "0776-72-7600",
+          "parking_disabled": 4
         },
         {
           "address": "福井県大飯郡高浜町下車持46-10",
@@ -7149,7 +7156,9 @@
           "shop": true,
           "slug": "seaside-takahama",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19399",
-          "tel": "0770-72-6666"
+          "tel": "0770-72-6666",
+          "parking_total": 150,
+          "parking_disabled": 8
         },
         {
           "address": "福井県小浜市和久里24-45-2",
@@ -7162,13 +7171,14 @@
           "official_url": "https://michinoeki-obama.jp/",
           "onsen_ashiyu": false,
           "parking_large": 7,
-          "parking_normal": 145,
+          "parking_normal": 151,
           "restaurant": true,
           "shop": true,
           "slug": "wakasa-obama",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19400",
           "tel": "0770-56-3000",
-          "ev_source_url": "https://www.ev-smart.net/charging/fukui/b4d3ef079d41"
+          "ev_source_url": "https://www.ev-smart.net/charging/fukui/b4d3ef079d41",
+          "parking_disabled": 6
         },
         {
           "address": "福井県大飯郡おおい町成海1-1-2",
@@ -7181,12 +7191,14 @@
           "official_url": "http://michinoeki-ohi.com/",
           "onsen_ashiyu": false,
           "parking_large": 4,
-          "parking_normal": 26,
+          "parking_normal": 29,
           "restaurant": true,
           "shop": true,
           "slug": "uminpia-ooi",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19401",
-          "tel": "0770-77-4600"
+          "tel": "0770-77-4600",
+          "parking_total": 33,
+          "parking_disabled": 3
         },
         {
           "address": "福井県鯖江市桜町3-950",
@@ -7199,12 +7211,14 @@
           "official_url": "http://www.nishiyama-park.jp/",
           "onsen_ashiyu": false,
           "parking_large": 9,
-          "parking_normal": 72,
+          "parking_normal": 74,
           "restaurant": true,
           "shop": true,
           "slug": "nishiyama-koen",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19402",
-          "tel": "0778-51-8181"
+          "tel": "0778-51-8181",
+          "parking_total": 83,
+          "parking_disabled": 2
         },
         {
           "address": "福井県丹生郡越前町厨71-335-1",
@@ -7222,7 +7236,9 @@
           "shop": true,
           "slug": "echizen",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19403",
-          "tel": "0778-37-2360"
+          "tel": "0778-37-2360",
+          "parking_total": 168,
+          "parking_disabled": 4
         },
         {
           "address": "福井県三方上中郡若狭町鳥浜122-31-1",
@@ -7235,12 +7251,14 @@
           "official_url": "https://www.wakasa-mikatagoko.jp/",
           "onsen_ashiyu": false,
           "parking_large": 7,
-          "parking_normal": 37,
+          "parking_normal": 40,
           "restaurant": false,
           "shop": true,
           "slug": "mikatagoko",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19404",
-          "tel": "0770-45-0113"
+          "tel": "0770-45-0113",
+          "parking_total": 47,
+          "parking_disabled": 3
         },
         {
           "address": "福井県福井市安波賀中島町1-1-1",
@@ -7258,7 +7276,8 @@
           "shop": true,
           "slug": "ichijodani-asakura-mizunoeki",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19405",
-          "tel": "0776-41-2777"
+          "tel": "0776-41-2777",
+          "parking_disabled": 2
         },
         {
           "address": "福井県吉田郡永平寺町清水2-21-1",
@@ -7271,13 +7290,14 @@
           "official_url": "http://michinoeki-zennosato.jp",
           "onsen_ashiyu": true,
           "parking_large": 3,
-          "parking_normal": 76,
+          "parking_normal": 80,
           "restaurant": true,
           "shop": true,
           "slug": "zen-no-sato",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19849",
           "tel": "0776-64-3377",
-          "ev_source_url": "https://www.ev-smart.net/charging/fukui/325bf9143317"
+          "ev_source_url": "https://www.ev-smart.net/charging/fukui/325bf9143317",
+          "parking_disabled": 4
         },
         {
           "address": "福井県勝山市荒土町松ヶ崎第1号17番地",
@@ -7409,12 +7429,13 @@
           "official_url": null,
           "onsen_ashiyu": false,
           "parking_large": 10,
-          "parking_normal": 29,
+          "parking_normal": 28,
           "restaurant": true,
           "shop": true,
           "slug": "minami",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19287",
-          "tel": "0575-79-3886"
+          "tel": "0575-79-3886",
+          "parking_disabled": 2
         },
         {
           "address": "岐阜県高山市清見町大原858-1",
@@ -7452,7 +7473,8 @@
           "slug": "meiho",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19289",
           "tel": "0575-87-2395",
-          "ev_source_url": "https://www.ev-smart.net/charging/gifu/e995418f2dd9"
+          "ev_source_url": "https://www.ev-smart.net/charging/gifu/e995418f2dd9",
+          "parking_disabled": 2
         },
         {
           "address": "岐阜県中津川市付知町8581-1",
@@ -7465,13 +7487,14 @@
           "official_url": "http://www.michinoeki-hanakaido.jp/",
           "onsen_ashiyu": null,
           "parking_large": 8,
-          "parking_normal": 212,
+          "parking_normal": 113,
           "restaurant": true,
           "shop": true,
           "slug": "hanakaido-tsukechi",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19290",
           "tel": "0573-82-2000",
-          "ev_source_url": "https://www.ev-smart.net/charging/gifu/680e4349d7b6"
+          "ev_source_url": "https://www.ev-smart.net/charging/gifu/680e4349d7b6",
+          "parking_disabled": 5
         },
         {
           "address": "岐阜県加茂郡白川町河東3500-1",
@@ -7484,13 +7507,14 @@
           "official_url": "http://www.minoshirakawa-piacere.com/",
           "onsen_ashiyu": true,
           "parking_large": 13,
-          "parking_normal": 83,
+          "parking_normal": 90,
           "restaurant": true,
           "shop": true,
           "slug": "mino-shirakawa",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19291",
           "tel": "0574-75-2146",
-          "ev_source_url": "https://www.ev-smart.net/charging/gifu/terra%3A20241122%3A1"
+          "ev_source_url": "https://www.ev-smart.net/charging/gifu/terra%3A20241122%3A1",
+          "parking_disabled": 7
         },
         {
           "address": "岐阜県関市洞戸菅谷539-3",
@@ -7503,12 +7527,13 @@
           "official_url": "https://www.city.seki.lg.jp/kanko/0000015266.html",
           "onsen_ashiyu": false,
           "parking_large": 3,
-          "parking_normal": 47,
+          "parking_normal": 53,
           "restaurant": true,
           "shop": true,
           "slug": "lasten-horado",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19292",
-          "tel": "0581-58-2930"
+          "tel": "0581-58-2930",
+          "parking_disabled": 4
         },
         {
           "address": "岐阜県郡上市白鳥町長滝402-19",
@@ -7520,13 +7545,14 @@
           "name": "白山文化の里長滝",
           "official_url": null,
           "onsen_ashiyu": false,
-          "parking_large": 5,
-          "parking_normal": 98,
+          "parking_large": 3,
+          "parking_normal": 106,
           "restaurant": true,
           "shop": true,
           "slug": "hakusan-bunka-no-sato-nagataki",
           "source_url": "https://www.michi-no-eki.jp/stations/views/20043",
-          "tel": "0575-85-2747"
+          "tel": "0575-85-2747",
+          "parking_disabled": 4
         },
         {
           "address": "岐阜県高山市奥飛騨温泉郷田頃家字東垣内11-1",
@@ -7539,12 +7565,13 @@
           "official_url": "https://okuhida-camp.com/michinoeki/",
           "onsen_ashiyu": false,
           "parking_large": 6,
-          "parking_normal": 28,
+          "parking_normal": 29,
           "restaurant": true,
           "shop": true,
           "slug": "okuhida-kamitakara",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19293",
-          "tel": "0578-89-3746"
+          "tel": "0578-89-3746",
+          "parking_disabled": 1
         },
         {
           "address": "岐阜県中津川市山口1-14",
@@ -7556,14 +7583,15 @@
           "name": "賤母",
           "official_url": "http://sizumo.jp/",
           "onsen_ashiyu": false,
-          "parking_large": 21,
-          "parking_normal": 34,
+          "parking_large": 12,
+          "parking_normal": 46,
           "restaurant": true,
           "shop": true,
           "slug": "shizumo",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19276",
           "tel": "0573-75-5255",
-          "ev_source_url": "https://www.ev-smart.net/charging/gifu/bacbfd715b42"
+          "ev_source_url": "https://www.ev-smart.net/charging/gifu/bacbfd715b42",
+          "parking_disabled": 2
         },
         {
           "address": "岐阜県加茂郡七宗町大字中麻生1169-1",
@@ -7576,12 +7604,13 @@
           "official_url": "https://rocktownplaza.jimdofree.com/",
           "onsen_ashiyu": false,
           "parking_large": 15,
-          "parking_normal": 50,
+          "parking_normal": 54,
           "restaurant": true,
           "shop": true,
           "slug": "rock-garden-hichiso",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19294",
-          "tel": "0574-48-2511"
+          "tel": "0574-48-2511",
+          "parking_disabled": 4
         },
         {
           "address": "岐阜県揖斐郡揖斐川町東横山264-1",
@@ -7594,12 +7623,13 @@
           "official_url": "http://www.ibikogen.com/michinoeki.html",
           "onsen_ashiyu": true,
           "parking_large": 9,
-          "parking_normal": 117,
+          "parking_normal": 120,
           "restaurant": true,
           "shop": true,
           "slug": "hoshi-no-furusato-fujihashi",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19295",
-          "tel": "0585-52-2020"
+          "tel": "0585-52-2020",
+          "parking_disabled": 3
         },
         {
           "address": "岐阜県大野郡白川村大字飯島411",
@@ -7612,12 +7642,13 @@
           "official_url": "http://www.shirakawa-go.gr.jp/details/?i=55",
           "onsen_ashiyu": false,
           "parking_large": 4,
-          "parking_normal": 59,
+          "parking_normal": 161,
           "restaurant": true,
           "shop": true,
           "slug": "shirakawago",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19296",
-          "tel": "05769-6-1310"
+          "tel": "05769-6-1310",
+          "parking_disabled": 3
         },
         {
           "address": "岐阜県関市下之保2503-2",
@@ -7630,12 +7661,13 @@
           "official_url": "https://michinoekiheisei.jimdofree.com/",
           "onsen_ashiyu": null,
           "parking_large": 5,
-          "parking_normal": 84,
+          "parking_normal": 150,
           "restaurant": true,
           "shop": true,
           "slug": "heisei",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19297",
-          "tel": "0575-49-3797"
+          "tel": "0575-49-3797",
+          "parking_disabled": 3
         },
         {
           "address": "岐阜県飛騨市古川町上町下落1348-2",
@@ -7648,13 +7680,14 @@
           "official_url": "https://www.hida-kankou.jp/gourmet/1000000011/",
           "onsen_ashiyu": false,
           "parking_large": 27,
-          "parking_normal": 59,
+          "parking_normal": 120,
           "restaurant": true,
           "shop": true,
           "slug": "alp-hida-furukawa",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19298",
           "tel": "0577-74-0150",
-          "ev_source_url": "https://www.ev-smart.net/charging/gifu/8d2de162acdb"
+          "ev_source_url": "https://www.ev-smart.net/charging/gifu/8d2de162acdb",
+          "parking_disabled": 2
         },
         {
           "address": "岐阜県下呂市金山町金山911-1",
@@ -7667,12 +7700,13 @@
           "official_url": "https://nukumorinosato-onsen.com/",
           "onsen_ashiyu": true,
           "parking_large": 4,
-          "parking_normal": 223,
+          "parking_normal": 33,
           "restaurant": true,
           "shop": true,
           "slug": "hida-kanayama-nukumori",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19299",
-          "tel": "0576-32-4855"
+          "tel": "0576-32-4855",
+          "parking_disabled": 3
         },
         {
           "address": "岐阜県恵那市上矢作町3566-1",
@@ -7685,12 +7719,13 @@
           "official_url": "https://fukujyunosato.com/",
           "onsen_ashiyu": false,
           "parking_large": 8,
-          "parking_normal": 20,
+          "parking_normal": 22,
           "restaurant": true,
           "shop": true,
           "slug": "kamiyahagi-fukuju-no-sato",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19300",
-          "tel": "0573-48-3366"
+          "tel": "0573-48-3366",
+          "parking_disabled": 2
         },
         {
           "address": "岐阜県高山市一之宮町7846-1",
@@ -7703,12 +7738,13 @@
           "official_url": "https://montdeus.jp/",
           "onsen_ashiyu": false,
           "parking_large": 10,
-          "parking_normal": 26,
+          "parking_normal": 28,
           "restaurant": true,
           "shop": true,
           "slug": "montdeus-hida-isurugi",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19301",
-          "tel": "0577-53-2421"
+          "tel": "0577-53-2421",
+          "parking_disabled": 2
         },
         {
           "address": "岐阜県下呂市小坂町赤沼田811-1",
@@ -7721,13 +7757,14 @@
           "official_url": "http://hida-osaka.jp/cominfo.html?an=hanamomo",
           "onsen_ashiyu": false,
           "parking_large": 2,
-          "parking_normal": 31,
+          "parking_normal": 34,
           "restaurant": true,
           "shop": true,
           "slug": "minami-hida-osaka",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19302",
           "tel": "0576-62-1010",
-          "ev_source_url": "https://www.ev-smart.net/charging/gifu/a94e08c32ecf"
+          "ev_source_url": "https://www.ev-smart.net/charging/gifu/a94e08c32ecf",
+          "parking_disabled": 1
         },
         {
           "address": "岐阜県揖斐郡揖斐川町谷汲名礼1766-27",
@@ -7740,12 +7777,13 @@
           "official_url": "https://www.town.ibigawa.lg.jp/kankoujyouhou/0000006111.html",
           "onsen_ashiyu": false,
           "parking_large": 1,
-          "parking_normal": 24,
+          "parking_normal": 26,
           "restaurant": true,
           "shop": true,
           "slug": "yume-sansan-tanigumi",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19303",
-          "tel": "0585-56-3750"
+          "tel": "0585-56-3750",
+          "parking_disabled": 2
         },
         {
           "address": "岐阜県土岐市肥田町肥田286-15",
@@ -7763,7 +7801,8 @@
           "shop": true,
           "slug": "toki-minoyaki-kaido",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19304",
-          "tel": "0572-59-5611"
+          "tel": "0572-59-5611",
+          "parking_disabled": 2
         },
         {
           "address": "岐阜県本巣市上保18-2",
@@ -7776,12 +7815,13 @@
           "official_url": "http://www.motosukankou.gr.jp/03_buy/03_03.html",
           "onsen_ashiyu": false,
           "parking_large": 5,
-          "parking_normal": 70,
+          "parking_normal": 72,
           "restaurant": false,
           "shop": true,
           "slug": "fuyugaki-no-sato-itonuki",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19305",
-          "tel": "058-323-7389"
+          "tel": "058-323-7389",
+          "parking_disabled": 2
         },
         {
           "address": "岐阜県高山市清見町牧ヶ洞2145",
@@ -7800,7 +7840,8 @@
           "slug": "nanamori-kiyomi",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19306",
           "tel": "0577-68-0022",
-          "ev_source_url": "https://www.ev-smart.net/charging/gifu/flash%3A260"
+          "ev_source_url": "https://www.ev-smart.net/charging/gifu/flash%3A260",
+          "parking_disabled": 2
         },
         {
           "address": "岐阜県中津川市坂下450-2",
@@ -7818,7 +7859,8 @@
           "shop": true,
           "slug": "kirira-sakashita",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19307",
-          "tel": "0573-70-0050"
+          "tel": "0573-70-0050",
+          "parking_disabled": 3
         },
         {
           "address": "岐阜県海津市平田町野寺2357-2",
@@ -7831,12 +7873,13 @@
           "official_url": "https://www.clair-hirata.com",
           "onsen_ashiyu": false,
           "parking_large": 17,
-          "parking_normal": 19,
+          "parking_normal": 21,
           "restaurant": true,
           "shop": true,
           "slug": "clair-hirata",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19308",
-          "tel": "0584-67-3988"
+          "tel": "0584-67-3988",
+          "parking_disabled": 2
         },
         {
           "address": "岐阜県下呂市馬瀬西村1450",
@@ -7854,7 +7897,8 @@
           "shop": true,
           "slug": "maze-miki-no-sato",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19309",
-          "tel": "0576-47-2133"
+          "tel": "0576-47-2133",
+          "parking_disabled": 2
         },
         {
           "address": "岐阜県高山市久々野町渚2685",
@@ -7866,8 +7910,8 @@
           "name": "飛騨街道なぎさ",
           "official_url": "http://www.nagisa-kuguno.com/",
           "onsen_ashiyu": false,
-          "parking_large": 8,
-          "parking_normal": 40,
+          "parking_large": 6,
+          "parking_normal": 65,
           "restaurant": true,
           "shop": true,
           "slug": "hida-kaido-nagisa",
@@ -7886,13 +7930,14 @@
           "official_url": "http://www.gix.or.jp/~z33asahi/",
           "onsen_ashiyu": false,
           "parking_large": 3,
-          "parking_normal": 91,
+          "parking_normal": 93,
           "restaurant": true,
           "shop": true,
           "slug": "hida-asahimura",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19311",
           "tel": "0577-55-3777",
-          "ev_source_url": "https://www.ev-smart.net/charging/gifu/flash%3A255"
+          "ev_source_url": "https://www.ev-smart.net/charging/gifu/flash%3A255",
+          "parking_disabled": 2
         },
         {
           "address": "岐阜県恵那市三郷町佐々良木1461-1",
@@ -7905,12 +7950,13 @@
           "official_url": "http://www.rasseimisato.com",
           "onsen_ashiyu": false,
           "parking_large": 6,
-          "parking_normal": 41,
+          "parking_normal": 31,
           "restaurant": true,
           "shop": true,
           "slug": "soba-no-sato-rassei-misato",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19312",
-          "tel": "0573-28-3310"
+          "tel": "0573-28-3310",
+          "parking_disabled": 2
         },
         {
           "address": "岐阜県本巣市山口676番地",
@@ -7923,12 +7969,13 @@
           "official_url": "http://www.oribenosato.jp/",
           "onsen_ashiyu": false,
           "parking_large": 8,
-          "parking_normal": 132,
+          "parking_normal": 136,
           "restaurant": true,
           "shop": true,
           "slug": "oribe-no-sato-motosu",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19313",
-          "tel": "0581-34-4755"
+          "tel": "0581-34-4755",
+          "parking_disabled": 4
         },
         {
           "address": "岐阜県高山市高根町中洞767-1",
@@ -7941,13 +7988,14 @@
           "official_url": "http://www.takanekankou.or.jp/takanekobo/",
           "onsen_ashiyu": false,
           "parking_large": 5,
-          "parking_normal": 46,
+          "parking_normal": 48,
           "restaurant": true,
           "shop": true,
           "slug": "hida-takane-kobo",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19314",
           "tel": "0577-59-6020",
-          "ev_source_url": "https://www.ev-smart.net/charging/gifu/flash%3A216"
+          "ev_source_url": "https://www.ev-smart.net/charging/gifu/flash%3A216",
+          "parking_disabled": 2
         },
         {
           "address": "岐阜県郡上市高鷲町西洞3628-5",
@@ -7960,12 +8008,13 @@
           "official_url": "https://gujotakasu.com/eat/eat-969.html",
           "onsen_ashiyu": false,
           "parking_large": 7,
-          "parking_normal": 25,
+          "parking_normal": 29,
           "restaurant": true,
           "shop": true,
           "slug": "dainichidake",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19315",
-          "tel": "0575-72-5007"
+          "tel": "0575-72-5007",
+          "parking_disabled": 4
         },
         {
           "address": "岐阜県高山市荘川町猿丸88-1",
@@ -7978,12 +8027,13 @@
           "official_url": null,
           "onsen_ashiyu": null,
           "parking_large": 5,
-          "parking_normal": 112,
+          "parking_normal": 156,
           "restaurant": false,
           "shop": true,
           "slug": "sakura-no-sato-shokawa",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19316",
-          "tel": "05769-2-1030"
+          "tel": "05769-2-1030",
+          "parking_disabled": 2
         },
         {
           "address": "岐阜県関市武芸川町跡部1810",
@@ -7996,12 +8046,13 @@
           "official_url": "http://www.city.seki.lg.jp/kanko/0000000933.html",
           "onsen_ashiyu": false,
           "parking_large": 8,
-          "parking_normal": 42,
+          "parking_normal": 48,
           "restaurant": true,
           "shop": true,
           "slug": "mugegawa",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19317",
-          "tel": "0575-46-2696"
+          "tel": "0575-46-2696",
+          "parking_disabled": 6
         },
         {
           "address": "岐阜県郡上市大和町剣164",
@@ -8014,12 +8065,13 @@
           "official_url": "http://www.gujo-tv.ne.jp/~kuturogi/",
           "onsen_ashiyu": true,
           "parking_large": 8,
-          "parking_normal": 245,
+          "parking_normal": 196,
           "restaurant": true,
           "shop": true,
           "slug": "kokon-denju-no-sato-yamato",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19318",
-          "tel": "0575-88-2525"
+          "tel": "0575-88-2525",
+          "parking_disabled": 5
         },
         {
           "address": "岐阜県美濃加茂市山之上町2292-1",
@@ -8037,7 +8089,8 @@
           "shop": true,
           "slug": "minokamo",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19319",
-          "tel": "0574-23-0066"
+          "tel": "0574-23-0066",
+          "parking_disabled": 20
         },
         {
           "address": "岐阜県加茂郡東白川村越原1061",
@@ -8050,13 +8103,14 @@
           "official_url": "http://chanosato.gifu.jp",
           "onsen_ashiyu": false,
           "parking_large": 2,
-          "parking_normal": 13,
+          "parking_normal": 15,
           "restaurant": false,
           "shop": true,
           "slug": "cha-no-sato-higashishirakawa",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19320",
           "tel": "0574-78-3130",
-          "ev_source_url": "https://www.ev-smart.net/charging/gifu/6520f62415bf"
+          "ev_source_url": "https://www.ev-smart.net/charging/gifu/6520f62415bf",
+          "parking_disabled": 2
         },
         {
           "address": "岐阜県郡上市和良町宮地1155",
@@ -8069,12 +8123,13 @@
           "official_url": "http://gujo-wara.jp/info-sightseeing/185-road-station-wara-and-wara-dome.html",
           "onsen_ashiyu": false,
           "parking_large": 3,
-          "parking_normal": 92,
+          "parking_normal": 93,
           "restaurant": true,
           "shop": true,
           "slug": "wara",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19321",
-          "tel": "0575-77-2353"
+          "tel": "0575-77-2353",
+          "parking_disabled": 1
         },
         {
           "address": "岐阜県本巣市根尾門脇433-3",
@@ -8087,12 +8142,13 @@
           "official_url": "http://www.usuzumi.jp/sakura-sato/",
           "onsen_ashiyu": null,
           "parking_large": 2,
-          "parking_normal": 31,
+          "parking_normal": 33,
           "restaurant": true,
           "shop": true,
           "slug": "usuzumi-sakura-no-sato-neo",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19322",
-          "tel": "0581-38-3430"
+          "tel": "0581-38-3430",
+          "parking_disabled": 2
         },
         {
           "address": "岐阜県土岐市泉北山町2-13-1",
@@ -8105,13 +8161,14 @@
           "official_url": "http://shino-oribe.co.jp/",
           "onsen_ashiyu": false,
           "parking_large": 11,
-          "parking_normal": 36,
+          "parking_normal": 38,
           "restaurant": true,
           "shop": true,
           "slug": "shino-oribe",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19323",
           "tel": "0572-55-3017",
-          "ev_source_url": "https://www.ev-smart.net/charging/gifu/917cc84c8742"
+          "ev_source_url": "https://www.ev-smart.net/charging/gifu/917cc84c8742",
+          "parking_disabled": 2
         },
         {
           "address": "岐阜県中津川市加子母3900-29",
@@ -8124,12 +8181,13 @@
           "official_url": "http://kashimozanmai.com/",
           "onsen_ashiyu": false,
           "parking_large": 4,
-          "parking_normal": 30,
+          "parking_normal": 31,
           "restaurant": true,
           "shop": true,
           "slug": "kashimo",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19324",
-          "tel": "0573-79-3319"
+          "tel": "0573-79-3319",
+          "parking_disabled": 1
         },
         {
           "address": "岐阜県揖斐郡揖斐川町坂内広瀬306",
@@ -8142,12 +8200,13 @@
           "official_url": "https://yashaikenosato.com",
           "onsen_ashiyu": false,
           "parking_large": 2,
-          "parking_normal": 19,
+          "parking_normal": 21,
           "restaurant": true,
           "shop": true,
           "slug": "yashagaike-no-sato-sakauchi",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19325",
-          "tel": "0585-53-2262"
+          "tel": "0585-53-2262",
+          "parking_disabled": 2
         },
         {
           "address": "岐阜県恵那市山岡町田代1565-169",
@@ -8160,12 +8219,13 @@
           "official_url": "http://oba-chan.enat.jp/",
           "onsen_ashiyu": false,
           "parking_large": 6,
-          "parking_normal": 53,
+          "parking_normal": 55,
           "restaurant": true,
           "shop": true,
           "slug": "obachan-ichi-yamaoka",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19326",
-          "tel": "0573-59-0051"
+          "tel": "0573-59-0051",
+          "parking_disabled": 2
         },
         {
           "address": "岐阜県海津市南濃町羽沢673-1",
@@ -8178,12 +8238,13 @@
           "official_url": "https://tsukimi-no-sato.com",
           "onsen_ashiyu": false,
           "parking_large": 27,
-          "parking_normal": 101,
+          "parking_normal": 103,
           "restaurant": true,
           "shop": true,
           "slug": "tsukimi-no-sato-nanno",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19328",
-          "tel": "0584-58-0258"
+          "tel": "0584-58-0258",
+          "parking_disabled": 2
         },
         {
           "address": "岐阜県岐阜市柳津町北塚仙右城7696-1",
@@ -8196,12 +8257,13 @@
           "official_url": "https://michinoeki-yanaizu.wixsite.com/yanaizu",
           "onsen_ashiyu": false,
           "parking_large": 6,
-          "parking_normal": 61,
+          "parking_normal": 62,
           "restaurant": false,
           "shop": true,
           "slug": "yanaizu",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19329",
-          "tel": "058-388-8719"
+          "tel": "058-388-8719",
+          "parking_disabled": 3
         },
         {
           "address": "岐阜県中津川市川上字上平1849-3",
@@ -8214,12 +8276,13 @@
           "official_url": "http://www.kawaue.jp/~logo2001/kh.mitinoeki.html",
           "onsen_ashiyu": false,
           "parking_large": 2,
-          "parking_normal": 20,
+          "parking_normal": 21,
           "restaurant": false,
           "shop": true,
           "slug": "itsuki-no-yakata-kawaue",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19330",
-          "tel": "0573-74-2376"
+          "tel": "0573-74-2376",
+          "parking_disabled": 1
         },
         {
           "address": "岐阜県飛騨市神岡町夕陽ヶ丘6",
@@ -8251,12 +8314,13 @@
           "official_url": null,
           "onsen_ashiyu": false,
           "parking_large": 5,
-          "parking_normal": 44,
+          "parking_normal": 46,
           "restaurant": true,
           "shop": true,
           "slug": "shirao-fureai-park",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19332",
-          "tel": "0575-84-1188"
+          "tel": "0575-84-1188",
+          "parking_disabled": 2
         },
         {
           "address": "岐阜県美濃市曽代2007",
@@ -8269,12 +8333,13 @@
           "official_url": "http://www.mino-niwakachaya.com/",
           "onsen_ashiyu": false,
           "parking_large": 10,
-          "parking_normal": 64,
+          "parking_normal": 66,
           "restaurant": true,
           "shop": true,
           "slug": "mino-niwaka-chaya",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19333",
-          "tel": "0575-33-5022"
+          "tel": "0575-33-5022",
+          "parking_disabled": 2
         },
         {
           "address": "岐阜県大野郡白川村平瀬高ダイ516-62",
@@ -8287,12 +8352,13 @@
           "official_url": "http://www.hidahakusan.jp/",
           "onsen_ashiyu": true,
           "parking_large": 3,
-          "parking_normal": 34,
+          "parking_normal": 36,
           "restaurant": true,
           "shop": true,
           "slug": "hida-hakusan",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19334",
-          "tel": "05769-5-2230"
+          "tel": "05769-5-2230",
+          "parking_disabled": 2
         },
         {
           "address": "岐阜県加茂郡富加町羽生2174-1",
@@ -8305,12 +8371,13 @@
           "official_url": null,
           "onsen_ashiyu": false,
           "parking_large": 4,
-          "parking_normal": 33,
+          "parking_normal": 34,
           "restaurant": true,
           "shop": true,
           "slug": "hanyuri-no-sato-tomika",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19335",
-          "tel": "0574-54-1171"
+          "tel": "0574-54-1171",
+          "parking_disabled": 1
         },
         {
           "address": "岐阜県可児市柿田416-1",
@@ -8323,12 +8390,13 @@
           "official_url": "http://canitte.jp/",
           "onsen_ashiyu": false,
           "parking_large": 16,
-          "parking_normal": 48,
+          "parking_normal": 50,
           "restaurant": true,
           "shop": true,
           "slug": "kanitte",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19336",
-          "tel": "0574-61-3780"
+          "tel": "0574-61-3780",
+          "parking_disabled": 2
         },
         {
           "address": "岐阜県揖斐郡池田町片山1953-1",
@@ -8341,12 +8409,13 @@
           "official_url": "http://www.town.gifu-ikeda.lg.jp/0000000195.html",
           "onsen_ashiyu": true,
           "parking_large": 9,
-          "parking_normal": 57,
+          "parking_normal": 59,
           "restaurant": true,
           "shop": true,
           "slug": "ikeda-onsen",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19337",
-          "tel": "0585-45-0037"
+          "tel": "0585-45-0037",
+          "parking_disabled": 2
         },
         {
           "address": "岐阜県加茂郡白川町和泉97-1",
@@ -8365,7 +8434,8 @@
           "slug": "seiryu-shirakawa-cuore-no-sato",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19338",
           "tel": "0574-74-0050",
-          "ev_source_url": "https://www.ev-smart.net/charging/gifu/terra%3A2024120201%3A1"
+          "ev_source_url": "https://www.ev-smart.net/charging/gifu/terra%3A2024120201%3A1",
+          "parking_disabled": 12
         },
         {
           "address": "岐阜県郡上市白鳥町向小駄良693-2",
