@@ -1,0 +1,254 @@
+{
+ "shimizu": {
+  "total": null,
+  "normal": 110,
+  "large": 4,
+  "disabled": 2,
+  "basis": "連絡会原文「大型：4台　普通車：110（身障者用2）台」の転記。精査でも一次情報に駐車内訳の明記がなく、連絡会値を据え置いた"
+ },
+ "sanpin-nakatsu": {
+  "total": null,
+  "normal": 34,
+  "large": 2,
+  "disabled": 2,
+  "basis": "連絡会原文「大型：2台　普通車：34（身障者用2）台」の転記"
+ },
+ "furusato-center-oto": {
+  "total": null,
+  "normal": 34,
+  "large": 2,
+  "disabled": 3,
+  "basis": "連絡会原文「大型：2台　普通車：34（身障者用3）台」の転記"
+ },
+ "ryujin": {
+  "total": null,
+  "normal": 25,
+  "large": 3,
+  "disabled": 1,
+  "basis": "田辺市指定管理者仕様書のフラット表記「普通車25台・大型3台」（市町村）に、連絡会の身障者用1台を併記（普通車25台が一致し矛盾なし）"
+ },
+ "inobutan-land-susami": {
+  "total": null,
+  "normal": 10,
+  "large": 5,
+  "disabled": 1,
+  "basis": "連絡会原文「大型：5台　普通車：10（身障者用1）台」の転記"
+ },
+ "shihara-kaigan": {
+  "total": null,
+  "normal": 27,
+  "large": 7,
+  "disabled": 2,
+  "basis": "連絡会原文「大型：7台　普通車：27（身障者用2）台」の転記。整備局・公式サイトに駐車内訳の明記なし"
+ },
+ "kumano-kodo-nakahechi": {
+  "total": null,
+  "normal": 24,
+  "large": 3,
+  "disabled": 1,
+  "basis": "連絡会原文「大型：3台　普通車：24（身障者用1）台」の転記"
+ },
+ "shirama-no-sato": {
+  "total": null,
+  "normal": 22,
+  "large": 2,
+  "disabled": 1,
+  "basis": "連絡会原文「大型：2台　普通車：22（身障者用1）台」の転記。県観光連盟ページの「22台」は総数か普通車か判別できず総数には採用しなかった（判断項目）"
+ },
+ "minabe-ume-shinkokan": {
+  "total": null,
+  "normal": 47,
+  "large": 4,
+  "disabled": 2,
+  "basis": "連絡会原文「大型：4台　普通車：47（身障者用2）台」の転記"
+ },
+ "kishu-binchotan-kinen-koen": {
+  "total": null,
+  "normal": 18,
+  "large": 3,
+  "disabled": 1,
+  "basis": "連絡会原文「大型：3台　普通車：18（身障者用1）台」の転記"
+ },
+ "dorokyo-kaido-kumanogawa": {
+  "total": null,
+  "normal": 13,
+  "large": 2,
+  "disabled": 2,
+  "basis": "連絡会原文「大型：2台　普通車：13（身障者用2）台」の転記"
+ },
+ "kinokawa-manyo-no-sato": {
+  "total": null,
+  "normal": 85,
+  "large": 16,
+  "disabled": 7,
+  "basis": "連絡会原文「大型：16台　普通車：85（身障者用7）台」の転記。精査でも一次情報と矛盾しないことを確認済み"
+ },
+ "oku-kumano-kodo-hongu": {
+  "total": null,
+  "normal": 20,
+  "large": 2,
+  "disabled": 2,
+  "basis": "連絡会原文「大型：2台　普通車：20（身障者用2）台」の転記"
+ },
+ "okutoro": {
+  "total": null,
+  "normal": 82,
+  "large": 7,
+  "disabled": 4,
+  "basis": "連絡会原文「大型：7台　普通車：82（身障者用4）台」の転記"
+ },
+ "mizu-no-sato-hidakagawa-ryuyu": {
+  "total": null,
+  "normal": 42,
+  "large": 2,
+  "disabled": 2,
+  "basis": "連絡会原文「大型：2台　普通車：42（身障者用2）台」の転記"
+ },
+ "myoe-furusato-kan": {
+  "total": null,
+  "normal": 20,
+  "large": 2,
+  "disabled": 1,
+  "basis": "連絡会原文「大型：2台　普通車：20（身障者用1）台」の転記。県観光連盟ページの「22台」は普通20＋大型2と一致し総数の可能性もあるが、原文の種別が資料で確定できず総数には採用しなかった（判断項目）"
+ },
+ "negoro-sakura-no-sato": {
+  "total": null,
+  "normal": 43,
+  "large": 4,
+  "disabled": 2,
+  "basis": "連絡会原文「大型：4台　普通車：43（身障者用2）台」の転記"
+ },
+ "aragi-no-sato": {
+  "total": null,
+  "normal": 25,
+  "large": null,
+  "disabled": 2,
+  "basis": "県観光連盟・県の直売所ページの並記「普通車25台・身障者用スペース2台」（モルの公開前チェックで確定し、普通車は21→25に修正済み）。大型は一次情報に台数の公表なし。「身障者用スペース」の原文表記をそのまま転記した（判断項目）"
+ },
+ "ichimai-iwa": {
+  "total": null,
+  "normal": 20,
+  "large": 0,
+  "disabled": 2,
+  "basis": "近畿地方整備局ページの原文「普通車20台（身障者用2台含む）・大型0台」の転記"
+ },
+ "shirasaki-kaiyo-koen": {
+  "total": null,
+  "normal": 87,
+  "large": 4,
+  "disabled": null,
+  "basis": "駅公式サイトの公表「駐車場87台＋観光バス駐車スペース4台」のみを転記。連絡会（普通車188台（身障者用4台）・大型3台）とは大きく矛盾するため、優先順位のルールで公式のみを採用した。第2駐車場を含む総数かどうかは公式表記だけでは判別できず、精査でも判断項目として現行維持だった（判断項目）"
+ },
+ "tsubaki-hana-no-yu": {
+  "total": 16,
+  "normal": 14,
+  "large": 2,
+  "disabled": 2,
+  "basis": "駅公式サイトの駐車場表記「16台（大型2台・普通車14台）」の転記に、バリアフリー欄に別掲の「車いす用2台」を身障者用として転記（原文表記は「車いす用」）。連絡会原文（普通車2台・大型15台）は公式と数字が入れ替わっており誤記と判断した（精査どおり）。車いす用2台が普通車14台の内数かどうかは公式表記から判別できない（判断項目）"
+ },
+ "nachi": {
+  "total": 58,
+  "normal": 52,
+  "large": 6,
+  "disabled": null,
+  "basis": "那智勝浦町ページの内訳「58台＝普通車52台・大型車6台」の転記。身障者用は町ページに明記がなく、連絡会の身障者用1台は普通車の値が町の内訳と食い違うため併記しなかった（判断項目）"
+ },
+ "takinohai-taro": {
+  "total": null,
+  "normal": 28,
+  "large": 5,
+  "disabled": 2,
+  "basis": "連絡会原文「大型：5台　普通車：28（身障者用2）台」の転記を仮置き。近畿地方整備局は「約40台・身障者用2台」だが約数値で、敷地がヘリポートと共用のため内訳の対応が付かず採用しなかった（判断項目）"
+ },
+ "tanabe-ryujin-gomasan-sky-tower": {
+  "total": null,
+  "normal": 50,
+  "large": 4,
+  "disabled": null,
+  "basis": "連絡会原文「大型：4台　普通車：50台」の転記。身障者用の公表なし。表示は変わらない"
+ },
+ "kushimoto-hashigui-iwa": {
+  "total": 51,
+  "normal": 45,
+  "large": 6,
+  "disabled": null,
+  "basis": "運営者ページの内訳「51台＝大型車6台・普通車45台」の転記。身障者用は運営者ページに明記がなく、連絡会の身障者用2台は普通車の値が運営者内訳と食い違うため併記しなかった（判断項目）"
+ },
+ "kaki-no-sato-kudoyama": {
+  "total": null,
+  "normal": 119,
+  "large": 3,
+  "disabled": 3,
+  "basis": "連絡会原文「大型：3台　普通車：119（身障者用3）台」の転記"
+ },
+ "mushikui-iwa": {
+  "total": null,
+  "normal": 32,
+  "large": 1,
+  "disabled": 1,
+  "basis": "連絡会原文「大型：1台　普通車：32（身障者用1）台」の転記"
+ },
+ "kuchikumano": {
+  "total": null,
+  "normal": 35,
+  "large": 7,
+  "disabled": 2,
+  "basis": "連絡会原文「大型：7台　普通車：35（身障者用2）台」の転記。整備局資料の内訳（紀勢自動車道側24台＋一般道側20台＝44台）は連絡会の内訳との対応が付かず、総数には採用しなかった（判断項目）"
+ },
+ "susami": {
+  "total": null,
+  "normal": 52,
+  "large": 9,
+  "disabled": 5,
+  "basis": "連絡会原文「大型：9台　普通車：52（身障者用5）台」の転記"
+ },
+ "katsuragi-nishi": {
+  "total": null,
+  "normal": 79,
+  "large": 35,
+  "disabled": 5,
+  "basis": "連絡会の上下線ページの転記を同一出典内で合算（上り線：普通車37（身障者用2）台・大型19台／下り線：普通車42（身障者用3）台・大型16台）"
+ },
+ "taiji": {
+  "total": null,
+  "normal": 41,
+  "large": 5,
+  "disabled": 2,
+  "basis": "連絡会原文「大型：5台　普通車：41（身障者用2）台」の転記"
+ },
+ "seishu-no-sato": {
+  "total": null,
+  "normal": 100,
+  "large": 5,
+  "disabled": 5,
+  "basis": "連絡会原文「大型：5台　普通車：100（身障者用5）台」の転記"
+ },
+ "kushigaki-no-sato": {
+  "total": null,
+  "normal": 64,
+  "large": 6,
+  "disabled": 2,
+  "basis": "連絡会原文「大型：6台　普通車：64（身障者用2）台」の転記"
+ },
+ "negoro-rekishi-no-oka": {
+  "total": null,
+  "normal": 76,
+  "large": 10,
+  "disabled": null,
+  "basis": "連絡会原文「大型：10台　普通車：76台」の転記。身障者用の公表なし。表示は変わらない"
+ },
+ "shiki-no-sato-koen": {
+  "total": null,
+  "normal": 309,
+  "large": 5,
+  "disabled": null,
+  "basis": "連絡会原文「大型：5台　普通車：309台」の転記（公園全体の台数として精査で据え置き）。身障者用の公表なし。表示は変わらない"
+ },
+ "kainan-sakuasu": {
+  "total": null,
+  "normal": 132,
+  "large": 20,
+  "disabled": null,
+  "basis": "連絡会原文「大型：20台　普通車：132台」の転記。身障者用の公表なし。表示は変わらない"
+ }
+}
