@@ -15931,7 +15931,7 @@
           "official_url": "https://chihaya-class.com/michinoeki-chihayaakasaka",
           "hours": "9:00～17:00",
           "closed": "火曜日（祝日の場合は営業）、年末年始（12/30～1/3）",
-          "parking_normal": 59,
+          "parking_normal": 63,
           "parking_large": 0,
           "lat": 34.46427616,
           "lng": 135.6259364,
@@ -15941,7 +15941,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://chihaya-class.com/michinoeki-chihayaakasaka",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 4
         },
         {
           "slug": "chikatsu-asuka-no-sato-taishi",
@@ -15951,7 +15952,7 @@
           "official_url": "https://taishi-kankou.jp/michinoeki/",
           "hours": "9:00～17:00",
           "closed": "年末年始",
-          "parking_normal": 27,
+          "parking_normal": 29,
           "parking_large": 2,
           "lat": 34.5167874,
           "lng": 135.6584047,
@@ -15961,7 +15962,8 @@
           "restaurant": false,
           "shop": true,
           "source_url": "https://taishi-kankou.jp/michinoeki/",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 2
         },
         {
           "slug": "nose-kuri-no-sato",
@@ -15981,7 +15983,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.michinoeki-nose.jp/",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 2
         },
         {
           "slug": "kanan",
@@ -16001,7 +16004,8 @@
           "restaurant": false,
           "shop": true,
           "source_url": "http://www.osaka-michinoeki-kanan.jp/about/41.html",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 1
         },
         {
           "slug": "shiratori-no-sato-habikino",
@@ -16011,7 +16015,7 @@
           "official_url": "https://cleankobo-michinoekihabikino.com/",
           "hours": "9:30～17:00",
           "closed": "木曜日、年末年始",
-          "parking_normal": 266,
+          "parking_normal": 272,
           "parking_large": 4,
           "lat": 34.533043,
           "lng": 135.587747,
@@ -16021,7 +16025,8 @@
           "restaurant": null,
           "shop": true,
           "source_url": "https://cleankobo-michinoekihabikino.com/",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 6
         },
         {
           "slug": "izumi-yamaai-no-sato",
@@ -16031,7 +16036,7 @@
           "official_url": "https://www.yamaainosato.com/",
           "hours": "9:00～17:00（地場産品販売所のみ 土日祝 8:00～）",
           "closed": null,
-          "parking_normal": 117,
+          "parking_normal": 120,
           "parking_large": 7,
           "lat": 34.423154,
           "lng": 135.4830003,
@@ -16041,7 +16046,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.yamaainosato.com/",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 3
         },
         {
           "slug": "totto-park-kojima",
@@ -16051,7 +16057,7 @@
           "official_url": "http://minnaga.com/totopark/",
           "hours": "6:00～20:00（12～2月は7:00～18:00）",
           "closed": "金曜日（祝日は開園）、年末年始（12/31～1/2）",
-          "parking_normal": 62,
+          "parking_normal": 64,
           "parking_large": 1,
           "lat": 34.3151101,
           "lng": 135.0999192,
@@ -16061,7 +16067,8 @@
           "restaurant": false,
           "shop": true,
           "source_url": "https://minnaga.com/totopark/time.html",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 2
         },
         {
           "slug": "aisai-land",
@@ -16071,7 +16078,7 @@
           "official_url": "https://www.city.kishiwada.lg.jp/page/141-michinoekiaisailand.html",
           "hours": "10:00～17:00",
           "closed": "水曜日、年末年始",
-          "parking_normal": 344,
+          "parking_normal": 356,
           "parking_large": 8,
           "lat": 34.4225565,
           "lng": 135.42543,
@@ -16081,7 +16088,9 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.ja-izumino.or.jp/farmstand/",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_total": 364,
+          "parking_disabled": 12
         },
         {
           "slug": "misaki",
@@ -16101,7 +16110,9 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www-2.kkr.mlit.go.jp/road/michi_no_eki/contents/osaka/misaki.html",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_total": 80,
+          "parking_disabled": 2
         },
         {
           "slug": "okukawachi-kuromaro-no-sato",
@@ -16121,7 +16132,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://kuromaro.com/access/",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 5
         }
       ]
     },
@@ -16137,8 +16149,8 @@
           "official_url": null,
           "hours": "9:00～17:15",
           "closed": "毎週水曜日",
-          "parking_normal": 21,
-          "parking_large": 0,
+          "parking_normal": 15,
+          "parking_large": 3,
           "lat": 34.2142491,
           "lng": 135.7329027,
           "ev": true,
@@ -16158,8 +16170,8 @@
           "official_url": null,
           "hours": "7:00～20:00",
           "closed": "火曜日、年末年始",
-          "parking_normal": 50,
-          "parking_large": 2,
+          "parking_normal": 51,
+          "parking_large": 3,
           "lat": 34.139756,
           "lng": 136.000117,
           "ev": true,
@@ -16169,7 +16181,8 @@
           "shop": true,
           "source_url": "https://www.kkr.mlit.go.jp/road/michi_no_eki/contents/nara/yoshinojikamikitayama.html",
           "checked": "2026-11-18",
-          "ev_source_url": "https://www.ev-smart.net/michinoeki/nara/827"
+          "ev_source_url": "https://www.ev-smart.net/michinoeki/nara/827",
+          "parking_disabled": 1
         },
         {
           "slug": "suginoyu-kawakami",
@@ -16179,7 +16192,7 @@
           "official_url": "http://www.suginoyu.com/",
           "hours": "お土産処 8:00～20:00、日帰り温泉受付 11:00～16:30（水曜休）",
           "closed": null,
-          "parking_normal": 49,
+          "parking_normal": 50,
           "parking_large": 4,
           "lat": 34.3370408,
           "lng": 135.9548858,
@@ -16190,7 +16203,9 @@
           "shop": true,
           "source_url": "http://www.suginoyu.com/",
           "checked": "2026-11-18",
-          "ev_source_url": "https://www.ev-smart.net/michinoeki/nara/828"
+          "ev_source_url": "https://www.ev-smart.net/michinoeki/nara/828",
+          "parking_total": 54,
+          "parking_disabled": 1
         },
         {
           "slug": "yoshinoji-kurotaki",
@@ -16200,7 +16215,7 @@
           "official_url": null,
           "hours": "9:00～17:00",
           "closed": "年中無休",
-          "parking_normal": 45,
+          "parking_normal": 46,
           "parking_large": 5,
           "lat": 34.3059869,
           "lng": 135.8228857,
@@ -16211,7 +16226,9 @@
           "shop": true,
           "source_url": "https://www.kkr.mlit.go.jp/road/michi_no_eki/contents/nara/yoshinojikurotaki.html",
           "checked": "2026-11-18",
-          "ev_source_url": "https://www.ev-smart.net/michinoeki/nara/829"
+          "ev_source_url": "https://www.ev-smart.net/michinoeki/nara/829",
+          "parking_total": 51,
+          "parking_disabled": 1
         },
         {
           "slug": "futakami-park-taima",
@@ -16231,7 +16248,9 @@
           "restaurant": true,
           "shop": true,
           "source_url": "http://www.futakami-park.jp/",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_total": 147,
+          "parking_disabled": 2
         },
         {
           "slug": "udaji-ouda",
@@ -16272,7 +16291,8 @@
           "shop": true,
           "source_url": "http://www.michinoeki-totsukawago.com/",
           "checked": "2026-11-18",
-          "ev_source_url": "https://www.ev-smart.net/michinoeki/nara/832"
+          "ev_source_url": "https://www.ev-smart.net/michinoeki/nara/832",
+          "parking_disabled": 2
         },
         {
           "slug": "udaji-murou",
@@ -16282,7 +16302,7 @@
           "official_url": "https://www.michi-no-eki-udajimurou.jp/",
           "hours": "9:00～18:00",
           "closed": "年末年始",
-          "parking_normal": 27,
+          "parking_normal": 29,
           "parking_large": 4,
           "lat": 34.5765439,
           "lng": 136.0342371,
@@ -16292,7 +16312,9 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.michi-no-eki-udajimurou.jp/",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_total": 33,
+          "parking_disabled": 2
         },
         {
           "slug": "hari-trs",
@@ -16302,7 +16324,7 @@
           "official_url": "http://hari-trs.com/",
           "hours": "開店の早い店7:00 閉店の遅い店21:30 LO21:00 24時間コンビニ有",
           "closed": null,
-          "parking_normal": 454,
+          "parking_normal": 460,
           "parking_large": 50,
           "lat": 34.610429,
           "lng": 135.963208,
@@ -16312,7 +16334,9 @@
           "restaurant": true,
           "shop": true,
           "source_url": "http://hari-trs.com/",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_total": 510,
+          "parking_disabled": 6
         },
         {
           "slug": "yamatoji-heguri",
@@ -16322,7 +16346,7 @@
           "official_url": "https://michi-no-eki.heguri-apc.jp/",
           "hours": "8:30～17:00",
           "closed": "年末年始",
-          "parking_normal": 103,
+          "parking_normal": null,
           "parking_large": 3,
           "lat": 34.6235384,
           "lng": 135.7062481,
@@ -16332,7 +16356,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://michi-no-eki.heguri-apc.jp/",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_total": 106
         },
         {
           "slug": "yoshinoji-oyodo-i-center",
@@ -16342,7 +16367,7 @@
           "official_url": "http://yoshinoji-oyodo.com/",
           "hours": "野菜直売 8:30～17:00・特産品 9:00～17:30（土日祝は野菜8:00～17:00・特産品8:30～17:30）",
           "closed": "火曜日（祝日の場合は翌日）",
-          "parking_normal": 78,
+          "parking_normal": null,
           "parking_large": 10,
           "lat": 34.4122094,
           "lng": 135.7969172,
@@ -16353,7 +16378,9 @@
           "shop": true,
           "source_url": "http://yoshinoji-oyodo.com/",
           "checked": "2026-11-18",
-          "ev_source_url": "https://www.ev-smart.net/michinoeki/nara/836"
+          "ev_source_url": "https://www.ev-smart.net/michinoeki/nara/836",
+          "parking_total": 80,
+          "parking_disabled": 2
         },
         {
           "slug": "isehonkaido-mitsue",
@@ -16363,7 +16390,7 @@
           "official_url": "https://mitsue.life/michinoeki/",
           "hours": "10:00～17:00",
           "closed": "火曜日（祝日の場合は営業、振替休業あり）、年末年始",
-          "parking_normal": 84,
+          "parking_normal": 87,
           "parking_large": 3,
           "lat": 34.5154032,
           "lng": 136.2000809,
@@ -16373,7 +16400,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://mitsue.life/michinoeki/",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 3
         },
         {
           "slug": "katsuragi",
@@ -16393,7 +16421,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "http://michinoeki-katsuragi.jp/",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_total": 102
         },
         {
           "slug": "resti-karako-kagi",
@@ -16413,7 +16442,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://resti-karako-kagi.jp/",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_total": 85
         },
         {
           "slug": "asuka",
@@ -16423,8 +16453,8 @@
           "official_url": null,
           "hours": "8:30～18:00",
           "closed": "年末年始",
-          "parking_normal": 48,
-          "parking_large": 4,
+          "parking_normal": 52,
+          "parking_large": null,
           "lat": 34.464931,
           "lng": 135.798636,
           "ev": false,
@@ -16453,7 +16483,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.pref.nara.lg.jp/site/bunkamura/",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_total": 80
         },
         {
           "slug": "crossway-nakamachi",
@@ -16463,7 +16494,7 @@
           "official_url": "https://michi-no-eki-crosswaynakamachi.pref.nara.jp/",
           "hours": "9:00～17:00 ※直売所・レストランは20:00まで、トイレ・授乳室は24H",
           "closed": "12月29日～1月3日（直売所は12月31日～1月3日）",
-          "parking_normal": 229,
+          "parking_normal": 237,
           "parking_large": 20,
           "lat": 34.669495,
           "lng": 135.7544065,
@@ -16473,7 +16504,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://michi-no-eki-crosswaynakamachi.pref.nara.jp/",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 7
         },
         {
           "slug": "kinari-no-sato-shimokitayama",
@@ -16493,7 +16525,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.kkr.mlit.go.jp/road/michi_no_eki/contents/nara/Kinarinosato_Shimokitayama.html",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_total": 231
         }
       ]
     },
@@ -16509,7 +16542,7 @@
           "official_url": "https://was-aritagawa.com/",
           "hours": "10:00～19:00",
           "closed": "火曜日（夏休み・大型連休を除く）",
-          "parking_normal": 108,
+          "parking_normal": 110,
           "parking_large": 4,
           "lat": 34.0882447,
           "lng": 135.4432703,
@@ -16519,7 +16552,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://was-aritagawa.com/",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 2
         },
         {
           "slug": "sanpin-nakatsu",
@@ -16529,7 +16563,7 @@
           "official_url": "http://www.hidakagawa.net/sanpin-nakatsu/",
           "hours": "8:00～17:00",
           "closed": "12月31日・1月1日（1月2日は午前休業）",
-          "parking_normal": 32,
+          "parking_normal": 34,
           "parking_large": 2,
           "lat": 33.950318,
           "lng": 135.2633365,
@@ -16539,7 +16573,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "http://www.hidakagawa.net/sanpin-nakatsu/",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 2
         },
         {
           "slug": "furusato-center-oto",
@@ -16549,7 +16584,7 @@
           "official_url": null,
           "hours": "9:00～17:00",
           "closed": null,
-          "parking_normal": 31,
+          "parking_normal": 34,
           "parking_large": 2,
           "lat": 33.7427886,
           "lng": 135.5018536,
@@ -16560,7 +16595,9 @@
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19491",
           "checked": "2026-11-18",
-          "ev_source_url": "https://www.ev-smart.net/charging/wakayama/b90a7fef52be"
+          "ev_source_url": "https://www.ev-smart.net/charging/wakayama/b90a7fef52be",
+          "parking_total": 37,
+          "parking_disabled": 3
         },
         {
           "slug": "ryujin",
@@ -16570,7 +16607,7 @@
           "official_url": "https://www.ryujin-kanko.jp/facility/1288/",
           "hours": "売店9:00～16:00、食堂10:00～15:00（L.O.14:30）",
           "closed": "水曜日",
-          "parking_normal": 24,
+          "parking_normal": 25,
           "parking_large": 3,
           "lat": 33.9654598,
           "lng": 135.5648354,
@@ -16590,7 +16627,7 @@
           "official_url": "http://www.aikis.or.jp/~susami-k/midokoro/mitinoeki.html",
           "hours": "土日祝8:30～17:00 休館日 平日",
           "closed": null,
-          "parking_normal": 9,
+          "parking_normal": 10,
           "parking_large": 5,
           "lat": 33.519882,
           "lng": 135.545723,
@@ -16600,7 +16637,8 @@
           "restaurant": false,
           "shop": false,
           "source_url": "http://www.aikis.or.jp/~susami-k/midokoro/mitinoeki.html",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 1
         },
         {
           "slug": "shihara-kaigan",
@@ -16610,7 +16648,7 @@
           "official_url": "http://www.hikigawa-miraikan.com/",
           "hours": "9:00～19:00（6月～9月）、9:00～17:00（6月～9月以外）",
           "closed": "年中無休",
-          "parking_normal": 25,
+          "parking_normal": 30,
           "parking_large": 7,
           "lat": 33.5704506,
           "lng": 135.4314215,
@@ -16620,7 +16658,9 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.kkr.mlit.go.jp/road/michi_no_eki/contents/wakayama/shiharakaigan.html",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_total": 37,
+          "parking_disabled": 2
         },
         {
           "slug": "kumano-kodo-nakahechi",
@@ -16630,7 +16670,7 @@
           "official_url": null,
           "hours": "9:00～17:00",
           "closed": "1月1日、12月～2月の木曜日",
-          "parking_normal": 23,
+          "parking_normal": 24,
           "parking_large": 3,
           "lat": 33.8120801,
           "lng": 135.5949713,
@@ -16641,7 +16681,9 @@
           "shop": true,
           "source_url": "https://www.kkr.mlit.go.jp/road/michi_no_eki/contents/wakayama/kumanokodonakahechi.html",
           "checked": "2026-11-18",
-          "ev_source_url": "https://www.ev-smart.net/charging/wakayama/4abe3cff8dc1"
+          "ev_source_url": "https://www.ev-smart.net/charging/wakayama/4abe3cff8dc1",
+          "parking_total": 27,
+          "parking_disabled": 1
         },
         {
           "slug": "shirama-no-sato",
@@ -16651,7 +16693,7 @@
           "official_url": "https://www.wakayama-kanko.or.jp/spots/detail_123.html",
           "hours": "9:00～17:00",
           "closed": "1月1日",
-          "parking_normal": 21,
+          "parking_normal": 22,
           "parking_large": 2,
           "lat": 34.0150722,
           "lng": 135.3344646,
@@ -16662,7 +16704,8 @@
           "shop": true,
           "source_url": "https://www.town.aridagawa.lg.jp/top/kanko/chiikibetsu/kanaya/4824.html",
           "checked": "2026-11-18",
-          "ev_source_url": "https://www.ev-smart.net/charging/wakayama/f691fbb522d0"
+          "ev_source_url": "https://www.ev-smart.net/charging/wakayama/f691fbb522d0",
+          "parking_disabled": 1
         },
         {
           "slug": "minabe-ume-shinkokan",
@@ -16672,7 +16715,7 @@
           "official_url": "http://www.town.minabe.lg.jp/docs/2013091100182/",
           "hours": "9:00～17:00",
           "closed": "毎週火曜日（祝日の場合は翌日）・12月29日～31日（2月は無休）",
-          "parking_normal": 45,
+          "parking_normal": 47,
           "parking_large": 4,
           "lat": 33.7906972,
           "lng": 135.3270776,
@@ -16682,7 +16725,8 @@
           "restaurant": false,
           "shop": true,
           "source_url": "http://www.town.minabe.lg.jp/docs/2013091100182/",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 2
         },
         {
           "slug": "kishu-binchotan-kinen-koen",
@@ -16692,7 +16736,7 @@
           "official_url": "https://www.binchotan.jp",
           "hours": "9:00～17:00 12月～3月は16:00まで",
           "closed": null,
-          "parking_normal": 17,
+          "parking_normal": 18,
           "parking_large": 3,
           "lat": 33.803251,
           "lng": 135.427282,
@@ -16702,7 +16746,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.binchotan.jp",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 1
         },
         {
           "slug": "dorokyo-kaido-kumanogawa",
@@ -16712,7 +16757,7 @@
           "official_url": null,
           "hours": "9:00～17:00",
           "closed": null,
-          "parking_normal": 11,
+          "parking_normal": 13,
           "parking_large": 2,
           "lat": 33.790489849352504,
           "lng": 135.89675364986812,
@@ -16723,7 +16768,8 @@
           "shop": false,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19499",
           "checked": "2026-11-18",
-          "ev_source_url": "https://www.ev-smart.net/charging/wakayama/8870977a1c65"
+          "ev_source_url": "https://www.ev-smart.net/charging/wakayama/8870977a1c65",
+          "parking_disabled": 2
         },
         {
           "slug": "kinokawa-manyo-no-sato",
@@ -16733,7 +16779,7 @@
           "official_url": "https://www.town.katsuragi.wakayama.jp/040/010/040/20180719170833.html",
           "hours": "物産販売所8:30～17:00、レストラン10:00～16:00",
           "closed": "年末年始（レストランは月曜日も休み）",
-          "parking_normal": 78,
+          "parking_normal": 85,
           "parking_large": 16,
           "lat": 34.28451,
           "lng": 135.464531,
@@ -16744,7 +16790,9 @@
           "shop": true,
           "source_url": "https://www.kkr.mlit.go.jp/road/michi_no_eki/contents/wakayama/kinokawamanyounosato.html",
           "checked": "2026-11-18",
-          "ev_source_url": "https://www.ev-smart.net/charging/wakayama/flash%3A247"
+          "ev_source_url": "https://www.ev-smart.net/charging/wakayama/flash%3A247",
+          "parking_total": 108,
+          "parking_disabled": 7
         },
         {
           "slug": "oku-kumano-kodo-hongu",
@@ -16754,7 +16802,7 @@
           "official_url": null,
           "hours": "9:00～18:00",
           "closed": null,
-          "parking_normal": 18,
+          "parking_normal": 50,
           "parking_large": 2,
           "lat": 33.8652408,
           "lng": 135.761985,
@@ -16765,7 +16813,9 @@
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19501",
           "checked": "2026-11-18",
-          "ev_source_url": "https://www.ev-smart.net/charging/wakayama/202c9debf486"
+          "ev_source_url": "https://www.ev-smart.net/charging/wakayama/202c9debf486",
+          "parking_total": 52,
+          "parking_disabled": 2
         },
         {
           "slug": "okutoro",
@@ -16775,7 +16825,7 @@
           "official_url": "https://www.vill.kitayama.wakayama.jp/kanko/onsen/",
           "hours": "9:00～17:00（観光センター）",
           "closed": "年中無休（臨時休業あり）",
-          "parking_normal": 78,
+          "parking_normal": 82,
           "parking_large": 7,
           "lat": 33.939828,
           "lng": 135.946428,
@@ -16786,7 +16836,9 @@
           "shop": true,
           "source_url": "https://www.vill.kitayama.wakayama.jp/kanko/onsen/",
           "checked": "2026-11-18",
-          "ev_source_url": "https://www.ev-smart.net/charging/wakayama/da888993aa98"
+          "ev_source_url": "https://www.ev-smart.net/charging/wakayama/da888993aa98",
+          "parking_total": 89,
+          "parking_disabled": 4
         },
         {
           "slug": "mizu-no-sato-hidakagawa-ryuyu",
@@ -16796,7 +16848,7 @@
           "official_url": "http://www.ryuyu-ryujin.com/",
           "hours": "売店9:00～17:00、食堂11:00～14:30",
           "closed": "毎週火曜日（祝日の場合は営業）・年末年始",
-          "parking_normal": 40,
+          "parking_normal": 42,
           "parking_large": 2,
           "lat": 33.895542,
           "lng": 135.4393106,
@@ -16807,7 +16859,9 @@
           "shop": true,
           "source_url": "http://www.ryuyu-ryujin.com/",
           "checked": "2026-11-18",
-          "ev_source_url": "https://www.ev-smart.net/charging/wakayama/d127f86c01c9"
+          "ev_source_url": "https://www.ev-smart.net/charging/wakayama/d127f86c01c9",
+          "parking_total": 44,
+          "parking_disabled": 2
         },
         {
           "slug": "myoe-furusato-kan",
@@ -16817,7 +16871,7 @@
           "official_url": "https://www.wakayama-kanko.or.jp/spots/detail_760.html",
           "hours": "9:00～18:00（10月～3月は17:30まで）",
           "closed": "年末年始",
-          "parking_normal": 19,
+          "parking_normal": 20,
           "parking_large": 2,
           "lat": 34.0540787,
           "lng": 135.2628951,
@@ -16828,7 +16882,9 @@
           "shop": true,
           "source_url": "https://www.town.aridagawa.lg.jp/top/kanko/chiikibetsu/kanaya/4822.html",
           "checked": "2026-11-18",
-          "ev_source_url": "https://www.ev-smart.net/charging/wakayama/a59b90e75fae"
+          "ev_source_url": "https://www.ev-smart.net/charging/wakayama/a59b90e75fae",
+          "parking_total": 22,
+          "parking_disabled": 1
         },
         {
           "slug": "negoro-sakura-no-sato",
@@ -16838,7 +16894,7 @@
           "official_url": "https://www.city.iwade.lg.jp/soshiki/16/1600.html",
           "hours": "9:00～17:00",
           "closed": "毎月第1火曜日・お盆・正月",
-          "parking_normal": 41,
+          "parking_normal": 43,
           "parking_large": 4,
           "lat": 34.3118642,
           "lng": 135.3069985,
@@ -16848,7 +16904,8 @@
           "restaurant": false,
           "shop": true,
           "source_url": "http://www.city.iwade.lg.jp/kanko/michinoeki-negoro.html",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 2
         },
         {
           "slug": "aragi-no-sato",
@@ -16869,7 +16926,8 @@
           "shop": true,
           "source_url": "https://www.town.aridagawa.lg.jp/top/kanko/chiikibetsu/shimizu/4839.html",
           "checked": "2026-11-18",
-          "ev_source_url": "https://www.ev-smart.net/charging/wakayama/94eb1a20168f"
+          "ev_source_url": "https://www.ev-smart.net/charging/wakayama/94eb1a20168f",
+          "parking_disabled": 2
         },
         {
           "slug": "ichimai-iwa",
@@ -16880,7 +16938,7 @@
           "hours": "平日9:30～17:00、土日祝8:30～17:30",
           "closed": "不定休",
           "parking_normal": 18,
-          "parking_large": 0,
+          "parking_large": null,
           "lat": 33.5459472,
           "lng": 135.7201178,
           "ev": false,
@@ -16889,7 +16947,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.kkr.mlit.go.jp/road/michi_no_eki/contents/wakayama/ichimaiiwa.html",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 2
         },
         {
           "slug": "shirasaki-kaiyo-koen",
@@ -16899,8 +16958,8 @@
           "official_url": "http://www.shirasaki.or.jp/",
           "hours": "8:30～17:15",
           "closed": null,
-          "parking_normal": 184,
-          "parking_large": 3,
+          "parking_normal": null,
+          "parking_large": 4,
           "lat": 33.97700176245178,
           "lng": 135.0725698283047,
           "ev": false,
@@ -16909,7 +16968,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "http://www.shirasaki.or.jp/",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_total": 87
         },
         {
           "slug": "tsubaki-hana-no-yu",
@@ -16919,7 +16979,7 @@
           "official_url": "http://www.tsubaki-hananoyu.com/",
           "hours": "9:00～21:00（11月～2月は9:00～20:00）",
           "closed": null,
-          "parking_normal": 12,
+          "parking_normal": 14,
           "parking_large": 2,
           "lat": 33.6032763,
           "lng": 135.3917584,
@@ -16930,7 +16990,9 @@
           "shop": true,
           "source_url": "http://www.tsubaki-hananoyu.com/",
           "checked": "2026-11-18",
-          "ev_source_url": "https://www.ev-smart.net/charging/wakayama/c1faec196376"
+          "ev_source_url": "https://www.ev-smart.net/charging/wakayama/c1faec196376",
+          "parking_total": 16,
+          "parking_disabled": 2
         },
         {
           "slug": "nachi",
@@ -16951,7 +17013,8 @@
           "shop": true,
           "source_url": "http://www.town.nachikatsuura.wakayama.jp/forms/info/info.aspx?info_id=19241",
           "checked": "2026-11-18",
-          "ev_source_url": "https://www.ev-smart.net/charging/wakayama/6054de142972"
+          "ev_source_url": "https://www.ev-smart.net/charging/wakayama/6054de142972",
+          "parking_total": 58
         },
         {
           "slug": "takinohai-taro",
@@ -16961,7 +17024,7 @@
           "official_url": null,
           "hours": "情報コーナー平日8:30～17:15、物産コーナー土日祝11:00～16:00",
           "closed": "土日祝・年末年始（情報コーナー）",
-          "parking_normal": 26,
+          "parking_normal": 28,
           "parking_large": 5,
           "lat": 33.601578,
           "lng": 135.765646,
@@ -16971,7 +17034,8 @@
           "restaurant": false,
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19511",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 2
         },
         {
           "slug": "tanabe-ryujin-gomasan-sky-tower",
@@ -16992,7 +17056,8 @@
           "shop": true,
           "source_url": "http://gomasanskytower.com/",
           "checked": "2026-11-18",
-          "ev_source_url": "https://www.ev-smart.net/charging/wakayama/bb84249c4c9b"
+          "ev_source_url": "https://www.ev-smart.net/charging/wakayama/bb84249c4c9b",
+          "parking_total": 54
         },
         {
           "slug": "kushimoto-hashigui-iwa",
@@ -17012,7 +17077,8 @@
           "restaurant": false,
           "shop": true,
           "source_url": "https://kumanokanko.nankai-nanki.jp/kushimoto/",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_total": 51
         },
         {
           "slug": "kaki-no-sato-kudoyama",
@@ -17022,7 +17088,7 @@
           "official_url": "http://kakinosatokudoyama.com/",
           "hours": "9:00～17:30",
           "closed": "1月1日～3日",
-          "parking_normal": 116,
+          "parking_normal": 119,
           "parking_large": 3,
           "lat": 34.2932,
           "lng": 135.555557,
@@ -17032,7 +17098,9 @@
           "restaurant": true,
           "shop": true,
           "source_url": "http://kakinosatokudoyama.com/",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_total": 125,
+          "parking_disabled": 3
         },
         {
           "slug": "mushikui-iwa",
@@ -17042,7 +17110,7 @@
           "official_url": null,
           "hours": "10:00～16:00",
           "closed": "火曜日・水曜日・お盆・年末年始",
-          "parking_normal": 31,
+          "parking_normal": 32,
           "parking_large": 1,
           "lat": 33.539756,
           "lng": 135.826121,
@@ -17052,7 +17120,8 @@
           "restaurant": false,
           "shop": true,
           "source_url": "https://www-2.kkr.mlit.go.jp/road/michi_no_eki/contents/wakayama/musikuiiwa.html",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 1
         },
         {
           "slug": "kuchikumano",
@@ -17062,7 +17131,7 @@
           "official_url": null,
           "hours": "8:00～19:00 ※レストラン 10:00～18:00（L.O 17:40）",
           "closed": "年中無休",
-          "parking_normal": 33,
+          "parking_normal": 35,
           "parking_large": 7,
           "lat": 33.69142499,
           "lng": 135.4145694,
@@ -17072,7 +17141,9 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www-2.kkr.mlit.go.jp/road/michi_no_eki/contents/wakayama/kuchikumano.html",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_total": 42,
+          "parking_disabled": 2
         },
         {
           "slug": "susami",
@@ -17082,7 +17153,7 @@
           "official_url": "http://www.michinoeki-susami.com/",
           "hours": "9:00～18:00（10月～3月は17:00まで）",
           "closed": "年中無休",
-          "parking_normal": 47,
+          "parking_normal": 113,
           "parking_large": 9,
           "lat": 33.50583784,
           "lng": 135.599887,
@@ -17092,7 +17163,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "http://www.michinoeki-susami.com/",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 6
         },
         {
           "slug": "katsuragi-nishi",
@@ -17113,7 +17185,8 @@
           "shop": true,
           "source_url": "https://www.katsuragi-kanko.jp/kanri/wp-content/uploads/2024/12/de2b208e096e93812571d01a60225507.pdf",
           "checked": "2026-11-18",
-          "ev_source_url": "https://www.ev-smart.net/charging/wakayama/flash%3A239"
+          "ev_source_url": "https://www.ev-smart.net/charging/wakayama/flash%3A239",
+          "parking_disabled": 5
         },
         {
           "slug": "taiji",
@@ -17123,7 +17196,7 @@
           "official_url": "http://michiekitaiji.com/",
           "hours": "9:00～17:00〔施設により異なる〕",
           "closed": null,
-          "parking_normal": 39,
+          "parking_normal": 49,
           "parking_large": 5,
           "lat": 33.5923615,
           "lng": 135.9337127,
@@ -17134,7 +17207,8 @@
           "shop": true,
           "source_url": "http://michiekitaiji.com/",
           "checked": "2026-11-18",
-          "ev_source_url": "https://www.ev-smart.net/charging/wakayama/1e6af06dc1f0"
+          "ev_source_url": "https://www.ev-smart.net/charging/wakayama/1e6af06dc1f0",
+          "parking_disabled": 2
         },
         {
           "slug": "seishu-no-sato",
@@ -17144,8 +17218,8 @@
           "official_url": "https://seishunosato.com",
           "hours": "9:00～17:00",
           "closed": "火曜日（祝日の場合は翌日）・年末年始",
-          "parking_normal": 95,
-          "parking_large": 5,
+          "parking_normal": 96,
+          "parking_large": 4,
           "lat": 34.2807411,
           "lng": 135.4417553,
           "ev": true,
@@ -17155,7 +17229,8 @@
           "shop": true,
           "source_url": "https://seishunosato.com",
           "checked": "2026-11-18",
-          "ev_source_url": "https://www.ev-smart.net/charging/wakayama/9c9dfd4ee875"
+          "ev_source_url": "https://www.ev-smart.net/charging/wakayama/9c9dfd4ee875",
+          "parking_total": 100
         },
         {
           "slug": "kushigaki-no-sato",
@@ -17165,7 +17240,7 @@
           "official_url": null,
           "hours": "物産販売9:00～17:00、飲食10:00～17:00",
           "closed": "年中無休",
-          "parking_normal": 62,
+          "parking_normal": 64,
           "parking_large": 6,
           "lat": 34.31829,
           "lng": 135.477346,
@@ -17175,7 +17250,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www-2.kkr.mlit.go.jp/road/michi_no_eki/contents/wakayama/kushigakinosato.html",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 2
         },
         {
           "slug": "negoro-rekishi-no-oka",
@@ -17195,7 +17271,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.city.iwade.lg.jp/kanko/2017-0426-1141-58.html",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_total": 86
         },
         {
           "slug": "shiki-no-sato-koen",
@@ -17225,7 +17302,7 @@
           "official_url": "https://sakuas.com",
           "hours": "9:00～17:00",
           "closed": "1月1日",
-          "parking_normal": 132,
+          "parking_normal": 127,
           "parking_large": 20,
           "lat": 34.12829,
           "lng": 135.169993,
@@ -17236,7 +17313,8 @@
           "shop": true,
           "source_url": "https://sakuas.com",
           "checked": "2026-11-18",
-          "ev_source_url": "https://www.ev-smart.net/charging/wakayama/6b8df566cb3b"
+          "ev_source_url": "https://www.ev-smart.net/charging/wakayama/6b8df566cb3b",
+          "parking_disabled": 4
         }
       ]
     },
