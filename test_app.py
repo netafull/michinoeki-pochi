@@ -53,8 +53,8 @@ def _all_published_store():
 class LoaderValidation(unittest.TestCase):
     def test_real_data_all_stations_load(self):
         store = appmod.StationStore()
-        self.assertEqual(len(store.all_stations()), 1016)
-        self.assertEqual(list(store.prefectures), ["saitama", "chiba", "tokyo", "kanagawa", "shizuoka", "ibaraki", "tochigi", "gunma", "yamanashi", "niigata", "nagano", "fukushima", "toyama", "ishikawa", "fukui", "gifu", "aichi", "mie", "shiga", "miyagi", "yamagata", "akita", "iwate", "aomori", "hokkaido", "kyoto", "osaka", "nara", "wakayama", "hyogo", "tottori", "tokushima", "kagawa", "ehime", "kochi", "shimane"])
+        self.assertEqual(len(store.all_stations()), 1033)
+        self.assertEqual(list(store.prefectures), ["saitama", "chiba", "tokyo", "kanagawa", "shizuoka", "ibaraki", "tochigi", "gunma", "yamanashi", "niigata", "nagano", "fukushima", "toyama", "ishikawa", "fukui", "gifu", "aichi", "mie", "shiga", "miyagi", "yamagata", "akita", "iwate", "aomori", "hokkaido", "kyoto", "osaka", "nara", "wakayama", "hyogo", "tottori", "tokushima", "kagawa", "ehime", "kochi", "shimane", "okayama"])
 
     def test_missing_source_url_excluded(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -151,7 +151,7 @@ class Rendering(unittest.TestCase):
         self.assertIn('<dt>休館日</dt><dd class="ms-unknown">未確認</dd>', text)
 
     def test_genre_pages(self):
-        for slug, count in (("ev", 565), ("onsen", 148), ("dogrun", 69), ("restaurant", 874), ("shop", 1001)):
+        for slug, count in (("ev", 578), ("onsen", 148), ("dogrun", 69), ("restaurant", 890), ("shop", 1017)):
             code, text = self.get("/genre/%s/" % slug)
             self.assertEqual(code, 200, slug)
             self.assertEqual(text.count('class="ms-card"'), count, slug)
@@ -532,7 +532,8 @@ class PublishingGate(unittest.TestCase):
         # EVsmart・EV Smart Charge）だけに限る。ev が true でない駅には付けない。
         from urllib.parse import urlparse
         allowed_hosts = {"evsmart.net", "www.evsmart.net", "ev-smart.net", "www.ev-smart.net",
-                         "maruchiba.jp"}  # 千葉県観光協会（ちば観光ナビ）
+                         "maruchiba.jp",  # 千葉県観光協会（ちば観光ナビ）
+                         "okayama-kanko.jp", "www.okayama-kanko.jp"}  # 岡山県観光連盟（岡山観光WEB）
         for _pref, st in appmod.STORE.all_stations():
             url = st["ev_source_url"]
             if not url:
