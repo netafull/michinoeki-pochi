@@ -1,0 +1,184 @@
+{
+  "senmaida-pocket-park": {
+    "total": null,
+    "normal": 49,
+    "large": 5,
+    "disabled": 2,
+    "basis": "連絡会原文「大型：5台 普通車：49（身障者用2）台」の転記。輪島市観光協会の駅ページに台数の記載はなく（モルの公開前チェックで確認）、公表値は連絡会のみ"
+  },
+  "takamatsu": {
+    "total": null,
+    "normal": 92,
+    "large": null,
+    "disabled": 2,
+    "basis": "駅公式（里山館ページ）の駐車場別並記のうち一般道側「小型車92・身障者用2」。里山海道側は高速PA・SAを数えないルールを当てた所有者決定（2026-11-17）で対象外とし、大型は一般道側に公表がないため null"
+  },
+  "iori": {
+    "total": null,
+    "normal": 49,
+    "large": 5,
+    "disabled": 2,
+    "basis": "連絡会原文「大型：5台 普通車：49（身障者用2）台」の転記。一次情報に台数の記載なし"
+  },
+  "sakura-toge": {
+    "total": null,
+    "normal": 29,
+    "large": 3,
+    "disabled": 1,
+    "basis": "連絡会原文「大型：3台 普通車：29（身障者用1）台」の転記"
+  },
+  "shirayama-san": {
+    "total": null,
+    "normal": 28,
+    "large": 16,
+    "disabled": 2,
+    "basis": "駅公式の並記「普通車28台、大型車16台、身障者用2台」（精査・所有者決定で採用済み）"
+  },
+  "nakajima-roman-toge": {
+    "total": null,
+    "normal": 14,
+    "large": 12,
+    "disabled": 1,
+    "basis": "連絡会原文「大型：12台 普通車：14（身障者用1）台」の転記"
+  },
+  "akagami": {
+    "total": null,
+    "normal": 31,
+    "large": 6,
+    "disabled": 2,
+    "basis": "連絡会原文「大型：6台 普通車：31（身障者用2）台」の転記"
+  },
+  "togi-umikaido": {
+    "total": null,
+    "normal": 45,
+    "large": 3,
+    "disabled": 1,
+    "basis": "駅公式の並記「大型3・普通45・身障者用1」（精査・所有者決定で採用済み）"
+  },
+  "wajima": {
+    "total": null,
+    "normal": 18,
+    "large": 8,
+    "disabled": 2,
+    "basis": "連絡会原文「大型：8台 普通車：18（身障者用2）台」の転記。一次情報に台数の記載を確認できなかった"
+  },
+  "korogaki-no-sato-shika": {
+    "total": null,
+    "normal": 166,
+    "large": 2,
+    "disabled": 4,
+    "basis": "連絡会原文「大型：2台 普通車：166（身障者用4）台」の転記。一次情報に台数の記載なし"
+  },
+  "sena": {
+    "total": null,
+    "normal": 40,
+    "large": 4,
+    "disabled": 2,
+    "basis": "連絡会原文「大型：4台 普通車：40（身障者用2）台」の転記"
+  },
+  "ikko-ikki-no-sato": {
+    "total": null,
+    "normal": 75,
+    "large": 7,
+    "disabled": 6,
+    "basis": "連絡会原文「大型：7台 普通車：75（身障者用6）台」の転記"
+  },
+  "noto-satoyama-kuko": {
+    "total": null,
+    "normal": 501,
+    "large": 10,
+    "disabled": 3,
+    "basis": "連絡会原文「大型：10台 普通車：501（身障者用3）台」の転記。空港駐車場全体の900台は道の駅の台数として数えない所有者決定に従う"
+  },
+  "kurikara-genpei-no-sato": {
+    "total": null,
+    "normal": 62,
+    "large": 5,
+    "disabled": 4,
+    "basis": "連絡会原文「大型：5台 普通車：62（身障者用4）台」の転記。駅公式の「50台」は宿泊施設（倶利伽羅塾）側の案内の可能性があり、所有者判断とモルのチェックで連絡会の維持が確認済み"
+  },
+  "yamanaka-onsen-yukemuri-kenko-mura": {
+    "total": null,
+    "normal": 91,
+    "large": null,
+    "disabled": 1,
+    "basis": "連絡会原文「大型：台 普通車：91（身障者用1）台」の転記。大型は原文が空欄のため null。施設は休業中"
+  },
+  "notojima": {
+    "total": null,
+    "normal": 272,
+    "large": 8,
+    "disabled": 2,
+    "basis": "駅公式の並記「大型8・普通272・身障者用2」（精査で採用済み）"
+  },
+  "suzu-enden-mura": {
+    "total": null,
+    "normal": 30,
+    "large": 6,
+    "disabled": 3,
+    "basis": "連絡会原文「大型：6台 普通車：30（身障者用3）台」の転記"
+  },
+  "uchinada-sunset-park": {
+    "total": null,
+    "normal": 78,
+    "large": 3,
+    "disabled": 3,
+    "basis": "駅公式の駐車場別並記（第1駐車場 大型3・普通43（身障者用3）、第2駐車場 普通35）を同一出典内で合計し、普通78・大型3・身障者用3"
+  },
+  "noto-shokusai-ichiba": {
+    "total": null,
+    "normal": 199,
+    "large": 15,
+    "disabled": 1,
+    "basis": "連絡会原文「大型：15台 普通車：199（身障者用1）台」の転記。駅公式サイトは取得不可（403）が続いている"
+  },
+  "komatsu-kibagata": {
+    "total": null,
+    "normal": 92,
+    "large": 9,
+    "disabled": 2,
+    "basis": "連絡会原文「大型：9台 普通車：92（身障者用2）台」の転記"
+  },
+  "noroshi": {
+    "total": null,
+    "normal": 71,
+    "large": 7,
+    "disabled": 4,
+    "basis": "連絡会原文「大型：7台 普通車：71（身障者用4）台」の転記。ただし駅公式に「大型5・普通106（うち身障者用1）」の公表があり、精査で要判断のまま本番では連絡会が維持された経緯がある（notes の要確認を参照）"
+  },
+  "suzunari": {
+    "total": null,
+    "normal": 39,
+    "large": 3,
+    "disabled": 2,
+    "basis": "連絡会原文「大型：3台 普通車：39（身障者用2）台」の転記"
+  },
+  "orihime-no-sato-nakanoto": {
+    "total": null,
+    "normal": 91,
+    "large": 6,
+    "disabled": 2,
+    "basis": "連絡会原文「大型：6台 普通車：91（身障者用2）台」の転記。駅公式の施設案内ページは本文が取れず一次確認は未了"
+  },
+  "anamizu": {
+    "total": null,
+    "normal": 64,
+    "large": 6,
+    "disabled": 3,
+    "basis": "連絡会原文「大型：6台 普通車：64（身障者用3）台」の転記"
+  },
+  "noto-chirihama": {
+    "total": null,
+    "normal": 155,
+    "large": 6,
+    "disabled": 5,
+    "basis": "駅公式アクセスページの並記「乗用車155・バス6・車いす5」（モルの公開前チェックで確認し所有者決定で採用済み）。連絡会原文の二輪車用12は表示項目がないため転記の対象外"
+  },
+  "megumi-hakusan": {
+    "total": null,
+    "normal": 190,
+    "large": 34,
+    "disabled": 4,
+    "basis": "連絡会原文「大型：34台 普通車：190（身障者用4）台」の転記"
+  }
+}

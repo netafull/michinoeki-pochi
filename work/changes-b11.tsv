@@ -1,0 +1,54 @@
+pref	slug	name	state	current	new	official_url	source_url	basis
+shizuoka	fuji	富士	disabled-only	-/81/23/-	-/81/23/2	http://www.michinoeki-fuji.jp	https://www.michi-no-eki.jp/stations/views/19339	駅公式アクセスの並記（上り1＋下り1、同一出典内の合計）
+shizuoka	kunma-suisha-no-sato	くんま水車の里	disabled-only	-/60/3/-	-/60/3/2	http://kunma.jp/	https://www.michi-no-eki.jp/stations/views/19340	駅公式の並記「身障者用2台」
+shizuoka	hana-no-sanseien-izu-matsuzaki	花の三聖苑伊豆松崎	CHANGE	-/83/5/-	-/85/5/2	http://www.izu-matsuzaki.com/publics/index/55/	https://www.michi-no-eki.jp/stations/views/19341	連絡会「普通車：85（身障者用2）台」の転記
+shizuoka	utsunoya-toge	宇津ノ谷峠	disabled-only	-/76/29/-	-/76/29/6		https://www.michi-no-eki.jp/stations/views/19970	整備局の「駐車マス（身障者用）」両側合算 4+2（判断項目6）
+shizuoka	ippukudokoro-yokokawa	いっぷく処横川	CHANGE	-/39/2/-	-/40/2/1	https://yokokawa.hamazo.tv/	https://www.michi-no-eki.jp/stations/views/19342	連絡会「普通車：40（身障者用1）台」の転記
+shizuoka	fore-nakakawane-chameikan	フォーレなかかわね茶茗舘	CHANGE	-/34/3/-	-/36/3/2	https://chameikan.jp	https://www.michi-no-eki.jp/stations/views/19343	連絡会「普通車：36（身障者用2）台」の転記
+shizuoka	amagi-goe	天城越え	disabled-only	-/188/8/-	-/188/8/6		https://www.michi-no-eki.jp/stations/views/19344	整備局の別項目「駐車マス6台」（判断項目6）
+shizuoka	okuoi-otogi-no-sato	奥大井音戯の郷	CHANGE	-/82/3/-	-/85/3/3	http://www.otoginosato.com/	https://www.michi-no-eki.jp/stations/views/19345	連絡会「普通車：85（身障者用3）台」の転記
+shizuoka	asagiri-kogen	朝霧高原	disabled-only	-/72/11/-	-/72/11/2	http://www.asagiri-kogen.com/	https://www.michi-no-eki.jp/stations/views/19346	整備局の別項目「駐車マス2台」（判断項目6）
+shizuoka	kawane-onsen	川根温泉	CHANGE	-/76/4/-	-/78/4/2	http://kawaneonsen.jp/	https://www.michi-no-eki.jp/stations/views/19347	連絡会「普通車：78（身障者用2）台」の転記（判断項目2）
+shizuoka	fujikawa-rakuza	富士川楽座	CHANGE	-/266/9/-	-/270/9/4	http://www.fujikawarakuza.co.jp/	https://www.michi-no-eki.jp/stations/views/19348	連絡会「普通車：270（身障者用4）台」の転記（判断項目3）
+shizuoka	gyokuro-no-sato	玉露の里	CHANGE	-/90/2/-	-/91/2/1	http://shizutetsu-retailing.com/gyokuronosato/	https://www.michi-no-eki.jp/stations/views/19349	連絡会「普通車：91（身障者用1）台」の転記
+shizuoka	tenryu-aizu-hanamomo-no-sato	天竜相津 花桃の里	CHANGE	-/46/2/-	-/47/2/1	http://hanamomo-sato.com/	https://www.michi-no-eki.jp/stations/views/19350	連絡会「普通車：47（身障者用1）台」の転記
+shizuoka	ito-marine-town	伊東マリンタウン	CHANGE	-/-/-/-	296/-/-/-	https://ito-marinetown.co.jp/	https://www.michi-no-eki.jp/stations/views/19351	駅公式トップの総数「無料駐車場296台」のみ（判断項目4）
+shizuoka	kaikoku-shimoda-minato	開国下田みなと	CHANGE	-/201/13/-	-/207/13/6	http://www.kaikokushimodaminato.co.jp/	https://www.michi-no-eki.jp/stations/views/19352	駅公式「普通車：207台（身障者用6台）」の公表形（判断項目1）
+shizuoka	kakegawa	掛川	disabled-only	-/222/75/-	-/222/75/6	http://www.city.kakegawa.shizuoka.jp/kankou/spot/annaiomiyage/michinoeki.html	https://www.michi-no-eki.jp/stations/views/19353	掛川市の並記「身体障がい者用6台」
+shizuoka	fuji-oyama	ふじおやま	disabled-only	-/63/42/-	-/63/42/2	http://fujioyama.co.jp/	https://www.michi-no-eki.jp/stations/views/19354	駅公式の施設案内「身障者用2台」
+shizuoka	shiomisaka	潮見坂	disabled-only	-/113/33/-	-/113/33/4	http://www.shiomizaka.com/	https://www.michi-no-eki.jp/stations/views/19355	駅公式の施設案内「身障者用4台」
+shizuoka	izu-no-heso	伊豆のへそ	disabled-only	-/109/19/-	-/109/19/5	http://izunoheso.com/	https://www.michi-no-eki.jp/stations/views/19356	整備局現行ページの別項目「駐車マス5」（判断項目6）
+shizuoka	shimogamo-onsen-yunohana	下賀茂温泉 湯の花	disabled-only	-/51/3/-	-/51/3/2	http://yunohana-shop.com/	https://www.michi-no-eki.jp/stations/views/19357	連絡会の身障者用2（普通・大型は整備局と一致。判断項目7）
+shizuoka	subashiri	すばしり	disabled-only	-/111/14/-	-/111/14/3	http://www.subashiri.jp/index.html	https://www.michi-no-eki.jp/stations/views/19358	駅公式の並記「身障者用3台」
+shizuoka	kaze-no-marche-omaezaki	風のマルシェ御前崎	disabled-only	-/116/9/-	-/116/9/2	https://www.michinoeki-omaezaki.jp	https://www.michi-no-eki.jp/stations/views/19359	整備局の別項目「駐車マス2」（判断項目6・8）
+shizuoka	kurura-heda	くるら戸田	disabled-only	-/42/3/-	-/42/3/2	https://kururaheda.net/	https://www.michi-no-eki.jp/stations/views/19360	整備局の別項目「駐車マス2台」（判断項目6）
+shizuoka	izu-gateway-kannami	伊豆ゲートウェイ函南	disabled-only	-/201/12/-	-/201/12/3	https://www.izugateway.com/	https://www.michi-no-eki.jp/stations/views/19883	駅公式P1の並記「身障者用3台」
+shizuoka	izu-tsukigase	伊豆月ケ瀬	CHANGE	-/52/5/-	59/52/5/2	https://www.izutsukigase.com/	https://www.michi-no-eki.jp/stations/views/19940	駅公式の総数59＋整備局の内訳。52+5+2=59で整合（判断項目5）
+shizuoka	soratto-makinohara	そらっと牧之原	disabled-only	-/192/6/-	-/192/6/2	https://michinoeki-makinohara.com/	https://www.michi-no-eki.jp/stations/views/22688	整備局・市の「ゆずりあい駐車場2台」を仮置き（判断項目9）
+shizuoka	yutorie-setoya	ゆとりえせとや	disabled-only	-/158/3/-	-/158/3/-	https://yutoriesetoya.com/	https://www.michi-no-eki.jp/stations/views/22976	抽出メモ（parking-shizuoka-notes.md）参照
+ishikawa	senmaida-pocket-park	千枚田ポケットパーク	CHANGE	-/47/5/-	-/49/5/2	https://wajimanavi.jp/tourism/senmaida-p	https://www.michi-no-eki.jp/stations/views/19250	抽出メモ（parking-ishikawa-notes.md）参照
+ishikawa	takamatsu	高松	disabled-only	-/92/-/-	-/92/-/2	http://tak-rest.com/	https://www.michi-no-eki.jp/stations/views/19251	抽出メモ（parking-ishikawa-notes.md）参照
+ishikawa	iori	いおり	CHANGE	-/47/5/-	-/49/5/2	https://www.hot-ishikawa.jp/spot/detail_1955.html	https://www.michi-no-eki.jp/stations/views/19252	抽出メモ（parking-ishikawa-notes.md）参照
+ishikawa	sakura-toge	桜峠	CHANGE	-/28/3/-	-/29/3/1		https://www.michi-no-eki.jp/stations/views/19253	抽出メモ（parking-ishikawa-notes.md）参照
+ishikawa	shirayama-san	しらやまさん	disabled-only	-/28/16/-	-/28/16/2	https://michisirayama.wixsite.com/michisirayama	https://www.michi-no-eki.jp/stations/views/19254	抽出メモ（parking-ishikawa-notes.md）参照
+ishikawa	nakajima-roman-toge	なかじまロマン峠	CHANGE	-/13/12/-	-/14/12/1	http://www.pref.ishikawa.jp/douken/page2/main243.html	https://www.michi-no-eki.jp/stations/views/19255	抽出メモ（parking-ishikawa-notes.md）参照
+ishikawa	akagami	赤神	CHANGE	-/29/6/-	-/31/6/2	https://www.hot-ishikawa.jp/spot/detail_1950.html	https://www.michi-no-eki.jp/stations/views/19256	抽出メモ（parking-ishikawa-notes.md）参照
+ishikawa	togi-umikaido	とぎ海街道	disabled-only	-/45/3/-	-/45/3/1	http://togi-michinoeki.com/	https://www.michi-no-eki.jp/stations/views/19257	抽出メモ（parking-ishikawa-notes.md）参照
+ishikawa	wajima	輪島	CHANGE	-/16/8/-	-/18/8/2	https://wajimanavi.jp/tourism/michinoekiwajima	https://www.michi-no-eki.jp/stations/views/19258	抽出メモ（parking-ishikawa-notes.md）参照
+ishikawa	korogaki-no-sato-shika	ころ柿の里しか	CHANGE	-/162/2/-	-/166/2/4	http://www.syunsaikan-shika.jp/	https://www.michi-no-eki.jp/stations/views/19259	抽出メモ（parking-ishikawa-notes.md）参照
+ishikawa	sena	瀬女	CHANGE	-/38/4/-	-/40/4/2	https://city-hakusan.com/shopping/road_station_sena/	https://www.michi-no-eki.jp/stations/views/19260	抽出メモ（parking-ishikawa-notes.md）参照
+ishikawa	ikko-ikki-no-sato	一向一揆の里	CHANGE	-/69/7/-	-/75/7/6	https://www.instagram.com/michinoeki_ikkoikkinosato/	https://www.michi-no-eki.jp/stations/views/19261	抽出メモ（parking-ishikawa-notes.md）参照
+ishikawa	noto-satoyama-kuko	のと里山空港	CHANGE	-/498/10/-	-/501/10/3	http://www.noto-airport.jp/	https://www.michi-no-eki.jp/stations/views/19262	抽出メモ（parking-ishikawa-notes.md）参照
+ishikawa	kurikara-genpei-no-sato	倶利伽羅 源平の郷	CHANGE	-/58/5/-	-/62/5/4	http://kurikara.org	https://www.michi-no-eki.jp/stations/views/19263	抽出メモ（parking-ishikawa-notes.md）参照
+ishikawa	yamanaka-onsen-yukemuri-kenko-mura	山中温泉 ゆけむり健康村	CHANGE	-/90/-/-	-/91/-/1	https://www.hot-ishikawa.jp/spot/detail_6675.html	https://www.michi-no-eki.jp/stations/views/19264	抽出メモ（parking-ishikawa-notes.md）参照
+ishikawa	notojima	のとじま	disabled-only	-/272/8/-	-/272/8/2	https://notojima-michinoeki.com/	https://www.michi-no-eki.jp/stations/views/19265	抽出メモ（parking-ishikawa-notes.md）参照
+ishikawa	suzu-enden-mura	すず塩田村	CHANGE	-/27/6/-	-/30/6/3	https://enden.jp/	https://www.michi-no-eki.jp/stations/views/19266	抽出メモ（parking-ishikawa-notes.md）参照
+ishikawa	uchinada-sunset-park	内灘サンセットパーク	CHANGE	-/75/3/-	-/78/3/3	https://u-sp.jp	https://www.michi-no-eki.jp/stations/views/19267	抽出メモ（parking-ishikawa-notes.md）参照
+ishikawa	noto-shokusai-ichiba	能登食祭市場	CHANGE	-/198/15/-	-/199/15/1	http://www.shokusai.co.jp/	https://www.michi-no-eki.jp/stations/views/19268	抽出メモ（parking-ishikawa-notes.md）参照
+ishikawa	komatsu-kibagata	こまつ木場潟	CHANGE	-/90/9/-	-/92/9/2		https://www.michi-no-eki.jp/stations/views/19269	抽出メモ（parking-ishikawa-notes.md）参照
+ishikawa	noroshi	狼煙	CHANGE	-/67/7/-	-/71/7/4	https://noroshi.info	https://www.michi-no-eki.jp/stations/views/19270	抽出メモ（parking-ishikawa-notes.md）参照
+ishikawa	suzunari	すずなり	CHANGE	-/37/3/-	-/39/3/2	http://www.notohantou.jp/	https://www.michi-no-eki.jp/stations/views/19271	抽出メモ（parking-ishikawa-notes.md）参照
+ishikawa	orihime-no-sato-nakanoto	織姫の里なかのと	CHANGE	-/89/6/-	-/91/6/2	http://orihime-nakanoto.jp/	https://www.michi-no-eki.jp/stations/views/19272	抽出メモ（parking-ishikawa-notes.md）参照
+ishikawa	anamizu	あなみず	CHANGE	-/61/6/-	-/64/6/3	https://www.town.anamizu.lg.jp/page/100332.html	https://www.michi-no-eki.jp/stations/views/19848	抽出メモ（parking-ishikawa-notes.md）参照
+ishikawa	noto-chirihama	のと千里浜	disabled-only	-/155/6/-	-/155/6/5	http://noto-chirihama.com/	https://www.michi-no-eki.jp/stations/views/19882	抽出メモ（parking-ishikawa-notes.md）参照
+ishikawa	megumi-hakusan	めぐみ白山	CHANGE	-/186/34/-	-/190/34/4	http://megumi-hakusan.com	https://www.michi-no-eki.jp/stations/views/19910	抽出メモ（parking-ishikawa-notes.md）参照

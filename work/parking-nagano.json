@@ -1,0 +1,380 @@
+{
+  "shinshu-shinmachi": {
+    "total": null,
+    "normal": 84,
+    "large": 6,
+    "disabled": 2,
+    "basis": "駅公式の総合案内「普通車84台（身障者用2）台」を転記（旧方式でN−Mにした82を公表形に復元）。大型6は関東地方整備局の値（連絡会は大型の数値なし）。連絡会は普通80（身障者用2）で公式と食い違うため公式優先"
+  },
+  "oooka-tokusan-center": {
+    "total": null,
+    "normal": 76,
+    "large": 10,
+    "disabled": 1,
+    "basis": "連絡会「大型：10台　普通車：76（身障者用1）台」の転記"
+  },
+  "shinetsu-sakae": {
+    "total": null,
+    "normal": 29,
+    "large": 4,
+    "disabled": 1,
+    "basis": "連絡会「大型：4台　普通車：29（身障者用1）台」の転記"
+  },
+  "osakada-koen": {
+    "total": null,
+    "normal": 600,
+    "large": 10,
+    "disabled": 3,
+    "basis": "連絡会「大型：10台　普通車：約600台（内：身障者用3）台」の転記。約600は概数のまま（判断項目）"
+  },
+  "ikeda": {
+    "total": null,
+    "normal": 80,
+    "large": 7,
+    "disabled": 1,
+    "basis": "連絡会「大型：7台　普通車：80（身障者用1）台」の転記"
+  },
+  "nakajo": {
+    "total": null,
+    "normal": 54,
+    "large": 5,
+    "disabled": 5,
+    "basis": "連絡会「大型：5台　普通車：54（身障者用5）台」の転記"
+  },
+  "mimaki": {
+    "total": null,
+    "normal": 76,
+    "large": 3,
+    "disabled": 5,
+    "basis": "連絡会「大型：3台　普通車：76（身障者用5）台」の転記"
+  },
+  "hakuba": {
+    "total": null,
+    "normal": 33,
+    "large": 6,
+    "disabled": 1,
+    "basis": "連絡会「大型：6台　普通車：33（身障者用1）台」の転記"
+  },
+  "furusato-toyoda": {
+    "total": null,
+    "normal": 66,
+    "large": 13,
+    "disabled": 2,
+    "basis": "連絡会「大型：13台　普通車：66（身障者用2）台」の転記"
+  },
+  "marumero-no-eki-nagato": {
+    "total": null,
+    "normal": 48,
+    "large": 16,
+    "disabled": 3,
+    "basis": "連絡会「大型：16台　普通車：48（障がい者用3、電気充電2、思いやり6）台」の転記。disabledは障がい者用3のみ（思いやり6・電気充電2は含めない。判断項目）"
+  },
+  "hotpark-asashina": {
+    "total": null,
+    "normal": 34,
+    "large": 7,
+    "disabled": 2,
+    "basis": "連絡会「大型：7台　普通車：34（身障者用2）台」の転記"
+  },
+  "alps-azumino-horigane-no-sato": {
+    "total": null,
+    "normal": 162,
+    "large": 10,
+    "disabled": 2,
+    "basis": "連絡会「大型：10台　普通車：162（身障者用2）台」の転記"
+  },
+  "azumino-matsukawa": {
+    "total": null,
+    "normal": 33,
+    "large": 7,
+    "disabled": 2,
+    "basis": "連絡会「大型：7台　普通車：33（身障者用2）台」の転記"
+  },
+  "fuketsu-no-sato": {
+    "total": null,
+    "normal": 32,
+    "large": 10,
+    "disabled": 2,
+    "basis": "連絡会「大型：10台　普通車：32（身障者用2）台」の転記"
+  },
+  "kitashinshu-yamanouchi": {
+    "total": null,
+    "normal": 76,
+    "large": 5,
+    "disabled": 3,
+    "basis": "連絡会「大型：5台　普通車：76（身障者用3）台」の転記"
+  },
+  "ueda-michi-to-kawa-no-eki": {
+    "total": null,
+    "normal": 66,
+    "large": 25,
+    "disabled": 2,
+    "basis": "連絡会「大型：25台　普通車：66（身障者用2）台」の転記"
+  },
+  "tsutaki-juku": {
+    "total": null,
+    "normal": 83,
+    "large": 18,
+    "disabled": 4,
+    "basis": "連絡会「大型：18台　普通車：83（身障者用4）台」の転記"
+  },
+  "shinano": {
+    "total": null,
+    "normal": 72,
+    "large": 12,
+    "disabled": 2,
+    "basis": "連絡会「大型：12台　普通車：72（身障者用2）台」の転記"
+  },
+  "otari": {
+    "total": null,
+    "normal": 43,
+    "large": 7,
+    "disabled": 4,
+    "basis": "連絡会「大型：7台　普通車：43（身障者用4）台」の転記"
+  },
+  "sakakita": {
+    "total": null,
+    "normal": 21,
+    "large": 4,
+    "disabled": 1,
+    "basis": "筑北村公式「駐車場 普通車21台、大型車4台」に、連絡会「普通車：21（身障者用1）台」の身障者用1を併記（数値の矛盾なし）"
+  },
+  "pokapoka-land-miasa": {
+    "total": null,
+    "normal": 84,
+    "large": 8,
+    "disabled": 2,
+    "basis": "連絡会「大型：8台　普通車：84（身障者用2）台」の転記"
+  },
+  "oasis-obuse": {
+    "total": null,
+    "normal": 181,
+    "large": 5,
+    "disabled": 2,
+    "basis": "連絡会「大型：5台　普通車：181（身障者用2）台」の転記"
+  },
+  "raiden-kurumi-no-sato": {
+    "total": null,
+    "normal": 100,
+    "large": 20,
+    "disabled": 2,
+    "basis": "連絡会「大型：20台　普通車：100（身障者用2）台」の転記"
+  },
+  "hana-no-eki-chikumagawa": {
+    "total": null,
+    "normal": 127,
+    "large": 8,
+    "disabled": 3,
+    "basis": "連絡会「大型：8台　普通車：127（身障者用3）台」の転記"
+  },
+  "aoki": {
+    "total": null,
+    "normal": 52,
+    "large": 8,
+    "disabled": 2,
+    "basis": "連絡会「大型：8台　普通車：52・身障者用2台」の並記の転記"
+  },
+  "ogawa": {
+    "total": null,
+    "normal": 60,
+    "large": 2,
+    "disabled": 2,
+    "basis": "連絡会「大型：2台　普通車：60（身障者用2）台」の転記"
+  },
+  "utsukushigahara-kogen": {
+    "total": null,
+    "normal": 800,
+    "large": 15,
+    "disabled": 6,
+    "basis": "連絡会「大型：15台　普通車：800（身障者用6）台」の転記"
+  },
+  "imai-megumi-no-sato": {
+    "total": null,
+    "normal": 71,
+    "large": 19,
+    "disabled": 2,
+    "basis": "連絡会「大型：19台　普通車：71（身障者用2）台」の転記"
+  },
+  "farmus-kijimadaira": {
+    "total": null,
+    "normal": 53,
+    "large": 3,
+    "disabled": 1,
+    "basis": "関東連絡会「大型：3台　普通車：53（身障者用1）台」の転記"
+  },
+  "healthy-terrace-saku-minami": {
+    "total": null,
+    "normal": 105,
+    "large": 30,
+    "disabled": 3,
+    "basis": "駅公式「普通車105台、大型車30台、車イス使用者優先3台、障がい者等優先3台」の転記（公式の小型車111台は優先区画を含む小計）。disabledは障がい者等優先3（判断項目）"
+  },
+  "megami-no-sato-tateshina": {
+    "total": null,
+    "normal": 66,
+    "large": 23,
+    "disabled": 4,
+    "basis": "関東連絡会「大型：23台　普通車：66（身障者用4）台」の転記"
+  },
+  "ikusaka-no-sato": {
+    "total": null,
+    "normal": 30,
+    "large": 5,
+    "disabled": 1,
+    "basis": "関東連絡会「大型：5台　普通車：30（身障者用1）台」の転記"
+  },
+  "nozawa-onsen": {
+    "total": null,
+    "normal": 36,
+    "large": 7,
+    "disabled": 5,
+    "basis": "関東連絡会の並記「普通車36台、大型車7台、身障者等優先駐車場5台（うち屋根付1台）」の転記（原文表記は「身障者等優先駐車場」。判断項目）"
+  },
+  "venus-line-tateshinako": {
+    "total": null,
+    "normal": 99,
+    "large": 7,
+    "disabled": 2,
+    "basis": "関東連絡会の並記「大型：7台 普通車：99台 身障者用：2台」の転記（全国連絡会の普通101・大型5は古いと判断された経緯）"
+  },
+  "wadajuku-station": {
+    "total": 68,
+    "normal": null,
+    "large": null,
+    "disabled": null,
+    "basis": "関東連絡会は総数「68台」のみ公表（内訳の公表なし）"
+  },
+  "hiyoshi-kiso-koma-kogen": {
+    "total": null,
+    "normal": 73,
+    "large": 7,
+    "disabled": 2,
+    "basis": "連絡会「大型：7台　普通車：73（身障者用2）台」の転記（収集時の整備局スニペットは普通76で食い違い。精査で連絡会表記を採用した経緯。判断項目）"
+  },
+  "ookuwa": {
+    "total": null,
+    "normal": 75,
+    "large": 4,
+    "disabled": 1,
+    "basis": "連絡会「大型：4台　普通車：75（身障者用1）台」の転記"
+  },
+  "narai-kiso-no-ohashi": {
+    "total": null,
+    "normal": 91,
+    "large": 16,
+    "disabled": null,
+    "basis": "中部地方整備局「普通車91台・大型車16台」の転記（所有者判断で採用済み）。連絡会は普通91（身障者用5）・大型18で大型が食い違うため、身障者用は併記しなかった（判断項目）"
+  },
+  "shinshu-hiraya": {
+    "total": null,
+    "normal": 154,
+    "large": 23,
+    "disabled": 3,
+    "basis": "連絡会「大型：23台　普通車：154（身障者用3）台」の転記"
+  },
+  "shinanoji-shimojo": {
+    "total": null,
+    "normal": 35,
+    "large": 8,
+    "disabled": 2,
+    "basis": "連絡会「大型：8台　普通車：35（身障者用2）台」の転記"
+  },
+  "minami-alps-mura-hase": {
+    "total": null,
+    "normal": 100,
+    "large": 5,
+    "disabled": 1,
+    "basis": "連絡会「大型：5台　普通車：100（障者用1）台」の転記"
+  },
+  "kiso-narakawa": {
+    "total": null,
+    "normal": 100,
+    "large": 5,
+    "disabled": 3,
+    "basis": "駅公式（2026-11-03更新）「駐車場 普通100台（身障者用3台）・大型5台」の転記（旧判断でN−Mにした97を公表形に復元）"
+  },
+  "mitake": {
+    "total": null,
+    "normal": 52,
+    "large": 12,
+    "disabled": 1,
+    "basis": "連絡会「大型：12台　普通車：52（身障者用1）台」の転記"
+  },
+  "shinshu-niino-sengokudaira": {
+    "total": null,
+    "normal": 85,
+    "large": 2,
+    "disabled": 2,
+    "basis": "連絡会「大型：2台　普通車：85（身障者用2）、EV1台」の転記（EV1台は括弧外の別掲で駐車区分に含めない）"
+  },
+  "hana-no-sato-iijima": {
+    "total": null,
+    "normal": 100,
+    "large": 7,
+    "disabled": 5,
+    "basis": "伊那谷観光局「駐車場 普通車100台 大型車7台 身障者5台」の転記（所有者判断で採用済み。連絡会は普通108（身障者用5）・大型7で普通が食い違うため観光局優先）"
+  },
+  "tohyamago": {
+    "total": null,
+    "normal": 139,
+    "large": 2,
+    "disabled": 4,
+    "basis": "中部地方整備局（2025年10月リニューアル後）の普通139・大型2に、連絡会の内訳表記の身障者専用4を併記（判断項目）"
+  },
+  "kiso-fukushima": {
+    "total": null,
+    "normal": 64,
+    "large": 17,
+    "disabled": 2,
+    "basis": "連絡会「大型：17台　普通車：64（身障者用2）台」の転記（公式ドメインが無関係サイト化し、所有者判断で連絡会ベースを採用済み）"
+  },
+  "kisogawa-genryu-no-sato-kisomura": {
+    "total": null,
+    "normal": 40,
+    "large": 2,
+    "disabled": 2,
+    "basis": "連絡会「大型：2台　普通車：40（身障者用2）台」の転記"
+  },
+  "tagiri-no-sato": {
+    "total": null,
+    "normal": 84,
+    "large": 8,
+    "disabled": 2,
+    "basis": "駅公式の並記「施設 駐車場 普通車84台/軽自動車4台/車椅子スペース2台/大型車8台」の転記。disabledは公式原文「車椅子スペース」2（整備局は「障害者用2台」と表記。判断項目）"
+  },
+  "minami-shinshu-toyooka-marche": {
+    "total": null,
+    "normal": 92,
+    "large": 7,
+    "disabled": 4,
+    "basis": "駅公式「普通車92台・身障者専用4台・大型車7台」の転記（公開前チェックで整備局の114から駅公式に差し替えた経緯）"
+  },
+  "oshiba-kogen": {
+    "total": null,
+    "normal": 209,
+    "large": 10,
+    "disabled": null,
+    "basis": "中部地方整備局・連絡会とも「普通車209台・大型車10台」で、身障者用の公表なし（表示不変）"
+  },
+  "minami-shinshu-urugi": {
+    "total": null,
+    "normal": 24,
+    "large": 3,
+    "disabled": null,
+    "basis": "中部地方整備局「普通24台・大型3台」で、身障者用の公表なし（表示不変）"
+  },
+  "kabuki-no-sato-oshika": {
+    "total": null,
+    "normal": 57,
+    "large": 2,
+    "disabled": 2,
+    "basis": "駅公式アクセス「普通車57台、身障者駐車場2台、大型車2台、電気自動車充用1台」の並記の転記"
+  },
+  "yachiho-kogen": {
+    "total": null,
+    "normal": 155,
+    "large": 9,
+    "disabled": 6,
+    "basis": "関東地方整備局の並記「小型車（普通車）：155台　大型車：9台　身障者用：6台（うち屋根付4台）　EV急速充電用：2　自動二輪：15台」の転記"
+  }
+}
