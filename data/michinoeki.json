@@ -18145,7 +18145,7 @@
           "name": "みろく",
           "address": "香川県さぬき市大川町富田中3298-1",
           "tel": "0879-43-0550",
-          "official_url": null,
+          "official_url": "https://www.city.sanuki.lg.jp/soshiki/shokokanko/gyomu/3/6/1/2323.html",
           "hours": "9:00～17:00",
           "closed": "毎週水曜日",
           "parking_normal": 50,
@@ -18157,9 +18157,10 @@
           "dogrun": null,
           "restaurant": false,
           "shop": true,
-          "source_url": "http://www.city.sanuki.kagawa.jp/sightseeing/shopping/michi_miroku",
+          "source_url": "https://www.city.sanuki.lg.jp/soshiki/shokokanko/gyomu/3/6/1/2323.html",
           "checked": "2026-11-19",
-          "parking_disabled": 2
+          "parking_disabled": 2,
+          "ev_source_url": "https://www.evsmart.net/spot/kagawa/l372064/v34940"
         },
         {
           "slug": "shionoe",
@@ -18317,7 +18318,7 @@
           "name": "ながお",
           "address": "香川県さぬき市前山940-12",
           "tel": "0879-52-1022",
-          "official_url": null,
+          "official_url": "https://www.city.sanuki.lg.jp/soshiki/shokokanko/gyomu/3/6/1/2134.html",
           "hours": "8:00～16:00",
           "closed": "年末年始",
           "parking_normal": 62,
@@ -18329,9 +18330,10 @@
           "dogrun": null,
           "restaurant": false,
           "shop": true,
-          "source_url": "http://www.city.sanuki.kagawa.jp/sightseeing/shopping/michi_nagao",
+          "source_url": "https://www.city.sanuki.lg.jp/soshiki/shokokanko/gyomu/3/6/1/2134.html",
           "checked": "2026-11-19",
-          "parking_disabled": 2
+          "parking_disabled": 2,
+          "ev_source_url": "https://www.evsmart.net/spot/kagawa/l372064/v34939"
         },
         {
           "slug": "konan-rakuyu",
@@ -18437,14 +18439,15 @@
           "parking_large": 5,
           "lat": 33.33023396,
           "lng": 132.7982451,
-          "ev": null,
+          "ev": true,
           "onsen_ashiyu": false,
           "dogrun": null,
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.skr.mlit.go.jp/road/rstation/eki/eh03_hiyoshi.html",
           "checked": "2026-11-19",
-          "parking_disabled": 2
+          "parking_disabled": 2,
+          "ev_source_url": "http://www.hiyoshiyumesanchi.com/2025/11/1153/"
         },
         {
           "slug": "hirota",
