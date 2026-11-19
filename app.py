@@ -119,7 +119,7 @@ FEATURE_LABELS = {"ev": "EV充電", "onsen_ashiyu": "温泉・足湯", "dogrun":
 
 # ローダーが通すキー（これ以外は落とす）
 KNOWN_KEYS = ("slug", "name", "address", "tel", "hours", "closed",
-              "parking_normal", "parking_large",
+              "parking_normal", "parking_large", "parking_total", "parking_disabled",
               "ev", "onsen_ashiyu", "dogrun", "restaurant", "shop",
               "official_url", "source_url", "checked", "ev_source_url",
               "opening", "opening_note", "opening_url")
@@ -190,7 +190,7 @@ class StationStore:
         for k in ("address", "tel", "hours", "closed"):
             if not isinstance(st[k], str) or not st[k]:
                 st[k] = None
-        for k in ("parking_normal", "parking_large"):
+        for k in ("parking_normal", "parking_large", "parking_total", "parking_disabled"):
             if not isinstance(st[k], int) or isinstance(st[k], bool) or st[k] < 0:
                 st[k] = None
         for k in FEATURE_KEYS:
@@ -352,23 +352,28 @@ def _chips(st):
 
 
 def _parking_html(st, big=False):
-    """駐車場台数。カードではある項目だけ出す。駅ページ（big）では未確認の項目も
-    小さめの文字で「未確認」と出す（数字と同じ書体だと同じ重さに見えるため）。"""
+    """駐車場台数。公表値そのまま方式：総数が公表されていれば「駐車場◯台」を先頭に置き、
+    普通車・大型車・身障者用は公表されている内訳だけを併記する。足し引きで数字は作らない。
+    カードではある項目だけ出す。駅ページ（big）では全項目が未確認のときだけ
+    小さめの文字で「駐車場 未確認」と出す。"""
+    def item(label, value):
+        return ('<span class="ms-parking-item"><span class="ms-parking-label">%s</span>'
+                '<strong class="ms-parking-num">%d台</strong></span>' % (label, value))
+
     parts = []
+    if st["parking_total"] is not None:
+        parts.append(item("駐車場", st["parking_total"]))
     if st["parking_normal"] is not None:
-        parts.append('<span class="ms-parking-item"><span class="ms-parking-label">普通車</span>'
-                     '<strong class="ms-parking-num">%d台</strong></span>' % st["parking_normal"])
-    elif big:
-        parts.append('<span class="ms-parking-item"><span class="ms-parking-label">普通車</span>'
-                     '<span class="ms-parking-unknown">未確認</span></span>')
+        parts.append(item("普通車", st["parking_normal"]))
     if st["parking_large"] is not None:
-        parts.append('<span class="ms-parking-item"><span class="ms-parking-label">大型車</span>'
-                     '<strong class="ms-parking-num">%d台</strong></span>' % st["parking_large"])
-    elif big:
-        parts.append('<span class="ms-parking-item"><span class="ms-parking-label">大型車</span>'
-                     '<span class="ms-parking-unknown">未確認</span></span>')
+        parts.append(item("大型車", st["parking_large"]))
+    if st["parking_disabled"] is not None:
+        parts.append(item("身障者用", st["parking_disabled"]))
     if not parts:
-        return ""
+        if not big:
+            return ""
+        parts.append('<span class="ms-parking-item"><span class="ms-parking-label">駐車場</span>'
+                     '<span class="ms-parking-unknown">未確認</span></span>')
     return '<p class="ms-parking%s">%s</p>' % (" ms-parking--big" if big else "", "".join(parts))
 
 
