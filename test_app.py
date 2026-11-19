@@ -1,4 +1,4 @@
-"""道の駅ポチのテスト。ネットワーク不要。実データ（36県1,016駅、公開は35県987駅）で確認する。
+"""道の駅ポチのテスト。ネットワーク不要。実データ（36県1,016駅、全県公開）で確認する。
 
 公開は県単位のゲート（データの published）で制御する。表示系のテストは、
 実データを全県 published=true に読み替えたストアに差し替えて確認し、
@@ -309,7 +309,7 @@ class PublishingGate(unittest.TestCase):
         self.assertIn('href="/kyoto/"', text)
         self.assertIn('href="/hyogo/"', text)
         self.assertIn('href="/tottori/"', text)
-        self.assertNotIn('href="/shimane/"', text)
+        self.assertIn('href="/shimane/"', text)
 
     def test_unpublished_pages_are_404(self):
         self.assertEqual(self.client.get("/chiba/").status_code, 200)
@@ -378,6 +378,8 @@ class PublishingGate(unittest.TestCase):
         self.assertEqual(self.client.get("/station/kiri-no-mori/").status_code, 200)
         self.assertEqual(self.client.get("/kochi/").status_code, 200)
         self.assertEqual(self.client.get("/station/toyocho/").status_code, 200)
+        self.assertEqual(self.client.get("/shimane/").status_code, 200)
+        self.assertEqual(self.client.get("/station/tonbara/").status_code, 200)
         self.assertEqual(self.client.get("/station/no-such-station/").status_code, 404)
 
     def test_sitemap_includes_only_published(self):
@@ -621,7 +623,7 @@ class StaticBuild(unittest.TestCase):
             self.assertTrue(exists("ehime", "index.html"))
             self.assertTrue(exists("kochi", "index.html"))
             station_dirs = sorted(os.listdir(os.path.join(out, "station")))
-            self.assertEqual(len(station_dirs), 987)
+            self.assertEqual(len(station_dirs), 1016)
             for d in station_dirs:
                 self.assertTrue(exists("station", d, "index.html"), d)
             for g in ("ev", "onsen", "dogrun", "restaurant", "shop"):
