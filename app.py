@@ -67,7 +67,7 @@ PREFECTURE_REGIONS = (
     ("北陸", ("toyama", "ishikawa", "fukui")),
     ("東海", ("gifu", "shizuoka", "aichi", "mie")),
     ("近畿", ("shiga", "kyoto", "osaka", "hyogo", "nara", "wakayama")),
-    ("中国", ("tottori",)),
+    ("中国", ("tottori", "shimane")),
     ("四国", ("tokushima", "kagawa", "ehime", "kochi")),
 )
 
