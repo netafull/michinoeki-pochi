@@ -1,0 +1,38 @@
+pref	slug	name	class	current(T/N/L/D)	draft(T/N/L/D)	basis	official_url	source_url
+aichi	toyone-greenport-miyajima	豊根グリーンポート宮嶋	CHANGE	-/36/1/-	37/-/-/-	駅公式アクセス「駐車場37台」（総数のみ公表）。連絡会の内訳（普通37・身障者用2・大型1＝合計38台）とは矛盾するため、上位出典である駅公式の総数だけを採用	https://michieki-miyajima.jp/	https://www.michi-no-eki.jp/stations/views/19361
+aichi	horai-mikawa-mitsuishi	鳳来三河三石	disabled-only	-/26/2/-	-/26/2/1	整備局・県（Aichi Now）の並記 普通26・大型2。身障者用1は県・連絡会の公表値で、並記と矛盾なし	https://www.okuminavi.jp/search/detail.php?id=169	https://www.michi-no-eki.jp/stations/views/19362
+aichi	tahara-mekkun-house	田原めっくんはうす	disabled-only	-/150/6/-	-/150/6/3	運営者公式の並記「一般車150台、身障者用3台、大型車6台」	https://tahara-michinoeki.com/mekkunhouse	https://www.michi-no-eki.jp/stations/views/19363
+aichi	irago-crystal-porto	伊良湖クリスタルポルト	disabled-only	-/35/4/-	-/35/4/2	運営者公式の並記「バス4台、乗用車35台、身障者用2台」。隣接する公共駐車場144台は駅の駐車場ではないため含めない	https://tahara-michinoeki.com/crystal	https://www.michi-no-eki.jp/stations/views/19364
+aichi	tsugu-kogen-green-park	つぐ高原グリーンパーク	disabled-only	-/47/-/-	-/47/-/2	整備局の公表 普通47（大型は整備局・連絡会とも公表なし）。身障者用は整備局の別行「駐車マス2台」を転記（連絡会の身障者用2台とも一致）。「駐車マス」の読みは要判断	http://www.green-park.net/	https://www.michi-no-eki.jp/stations/views/19365
+aichi	donguri-no-sato-inabu	どんぐりの里いなぶ	disabled-only	-/107/12/-	-/107/12/3	整備局・県の並記 普通107・大型12。身障者用は整備局の別行「駐車マス3台」を転記（連絡会の身障者用3台とも一致）。「駐車マス」の読みは要判断	http://www.dongurinosato.com/	https://www.michi-no-eki.jp/stations/views/19366
+aichi	agri-station-nagura	アグリステーションなぐら	same	-/80/3/-	-/80/3/-	駅公式の並記「普通車80台、大型3台」。公式に身障者用の公表がなく、連絡会の身障者用1台は併記しない	https://aguristationnagura.jimdofree.com	https://www.michi-no-eki.jp/stations/views/19367
+aichi	denpark-anjo	デンパーク安城	disabled-only	-/61/5/-	-/61/5/11	整備局・県の並記 普通61・大型5。身障者用は整備局「障がい者用駐車マス11台」の明記（連絡会の身障者用11台とも一致）	http://www.denpark.jp/	https://www.michi-no-eki.jp/stations/views/19368
+aichi	tsukude-tezukuri-mura	つくで手作り村	disabled-only	-/105/4/-	-/105/4/4	県資料の並記「普通車105台、障害者用4台、大型4台」（精査時に所有者判断で採用済み）	https://www.tedukurimura.com	https://www.michi-no-eki.jp/stations/views/19369
+aichi	fureai-no-sato-hasu-park	ふれあいの里HASUパーク	disabled-only	-/221/24/-	-/221/24/11	駅公式アクセス・整備局の並記 普通221・大型24。身障者用は駅公式の原文表記「車椅子対応11台」を転記。読みは要判断	https://hasupark-aisai.jp/	https://www.michi-no-eki.jp/stations/views/19370
+aichi	akabane-loco-station	あかばねロコステーション	disabled-only	-/81/3/-	-/81/3/2	運営者公式の並記「バス3台、乗用車81台、身障者用2台」	https://tahara-michinoeki.com/akabane	https://www.michi-no-eki.jp/stations/views/19371
+aichi	fudegaki-no-sato-kota	筆柿の里・幸田	disabled-only	-/38/34/-	-/38/34/2	整備局・幸田町観光協会の並記「普通車38台、大型車34台、身障者用2台」	http://www.fudegaki-sato.com/	https://www.michi-no-eki.jp/stations/views/19372
+aichi	nishio-okanoyama	にしお岡ノ山	disabled-only	-/66/34/-	-/66/34/4	駅公式の並記「大型34台・普通66台・身障者用4台」	http://okanoyama.com/	https://www.michi-no-eki.jp/stations/views/19373
+aichi	seto-shinano	瀬戸しなの	same	-/57/11/-	-/57/11/-	駅公式の並記 普通57・大型11（瀬戸市観光協会の大型12とは駅公式を優先）。公式に身障者用の公表がなく、連絡会の身障者用2台は併記しない	https://michinoeki-setoshinano.jp/	https://www.michi-no-eki.jp/stations/views/19374
+aichi	fujikawa-juku	藤川宿	disabled-only	-/162/21/-	-/162/21/3	整備局の並記 普通162・大型21。身障者用3は岡崎市観光協会の内訳（正面駐車場）に明記があり、連絡会とも一致	https://okazaki-kanko.jp/feature/michinoeki.hujikawa-juku/top	https://www.michi-no-eki.jp/stations/views/19375
+aichi	mokkuru-shinshiro	もっくる新城	disabled-only	-/75/13/-	-/75/13/2	駅公式・新城市の並記「小型車75台、大型車13台、身障者用2台」	https://mokkulu.com/	https://www.michi-no-eki.jp/stations/views/19376
+aichi	toyohashi	とよはし	CHANGE	-/176/82/-	258/176/82/-	総数は駅公式アクセス「駐車場258台（西側132台、東側126台）」。内訳は連絡会の公表値 普通176・大型82で、合計が公式総数と一致するため併記（出典をまたぐ組み合わせの適用例）	https://www.michinoeki-toyohashi.jp/	https://www.michi-no-eki.jp/stations/views/19930
+aichi	shitara	したら	same	-/35/4/-	-/35/4/-	整備局の並記 普通35・大型4。身障者用の公表なし。臨時駐車場280台は含めない	https://www.michinoeki-shitara.jp/	https://www.michi-no-eki.jp/stations/views/19956
+aichi	machi-terrace-nisshin	マチテラス日進	disabled-only	-/143/19/-	-/143/19/4	整備局・県の並記 普通143・大型19。身障者用は整備局「障害者駐車場4台」（県・Aichi Now は「おもいやり4台」と表記）。臨時駐車場225台は含めない	https://machi-terrace-nisshin.com/	https://www.michi-no-eki.jp/stations/views/22526
+mie	ayama	あやま	disabled-only	-/50/8/-	-/50/8/2	駅公式の並記「大型車：8台 普通：50台 車椅子利用者用：2台」。整備局の駐車マス2・連絡会の身障者用2と一致	http://www.michinoeki-ayama.jp/	https://www.michi-no-eki.jp/stations/views/19390
+mie	chakura-eki	茶倉駅	disabled-only	-/19/2/-	-/19/2/2	整備局現行の並記（普通車19・大型2、所有者判断で採用済み）と別項「駐車マス2台」。連絡会・旧様式の身障者用2とも一致	https://www.everglades.jp/chakrastation/	https://www.michi-no-eki.jp/stations/views/19384
+mie	iga	いが	disabled-only	-/75/66/-	-/75/66/3	整備局の並記（普通車75・大型66）と別項「駐車マス3台」。連絡会の身障者用3と一致	https://www.anzen-kameyama.jp/servicearea#a02	https://www.michi-no-eki.jp/stations/views/19391
+mie	iitaka-eki	飯高駅	disabled-only	-/91/8/-	-/91/8/4	整備局の並記（普通車91・大型8）と別項「駐車マス4台」。連絡会の身障者用4と一致	http://www.iitakaeki.com/	https://www.michi-no-eki.jp/stations/views/19377
+mie	ise-shima	伊勢志摩	disabled-only	-/19/2/-	-/19/2/1	整備局現行の並記（普通車19・大型2）と別項「駐車マス1台」。旧様式・連絡会の身障者用1と一致	https://www.kankomie.or.jp/spot/detail_3980.html	https://www.michi-no-eki.jp/stations/views/19388
+mie	kihocho-umigame-koen	紀宝町ウミガメ公園	same	-/47/9/-	-/47/9/-	駅公式の並記（普通車47・大型9）。公式は身障者用を公表せず、連絡会の内訳（普通車43（身障者用1）・大型5）は公式と矛盾するため併記しない	https://umigame.info/	https://www.michi-no-eki.jp/stations/views/19379
+mie	kii-nagashima-manbou	紀伊長島マンボウ	disabled-only	-/80/5/-	-/80/5/2	駅公式の並記「普通車：80台、身障者専用：2台、大型車：5台」	http://42manbou.com/	https://www.michi-no-eki.jp/stations/views/19389
+mie	komono	菰野	disabled-only	-/37/2/-	-/37/2/2	整備局の並記（普通車37・大型2）と別項「駐車マス2台」（2026-11-19に整備局ページで直接確認）。連絡会の身障者用2と一致	https://www.kankomie.or.jp/spot/1806	https://www.michi-no-eki.jp/stations/views/19378
+mie	kumano-hana-no-iwaya	熊野・花の窟	disabled-only	-/41/6/-	-/41/6/1	整備局の並記（普通車41・大型6、所有者判断で採用済み）と別項「駐車マス1台」。連絡会の身障者用1と一致	http://hananoiwaya.com/otunacyaya/cyaya_index.html	https://www.michi-no-eki.jp/stations/views/19865
+mie	kumano-itaya-kurobei-no-sato	熊野・板屋九郎兵衛の里	disabled-only	-/38/3/-	-/38/3/2	整備局の並記（普通車38・大型3）と別項「駐車マス2台」。連絡会には身障者用の公表なし	http://kurobee.net	https://www.michi-no-eki.jp/stations/views/19911
+mie	kumano-kinokuni	熊野きのくに	disabled-only	-/16/3/-	-/16/3/1	整備局の並記（普通車16・大型3）と別項「駐車マス1台」。連絡会の身障者用1と一致	https://www.zc.ztv.ne.jp/kumanokinokuni/	https://www.michi-no-eki.jp/stations/views/19383
+mie	misugi	美杉	disabled-only	-/59/5/-	-/59/5/3	整備局現行の並記（普通車59・大型5）と別項「駐車マス3台」。連絡会の身障者用3と一致	https://www.kankomie.or.jp/spot/detail_3967.html	https://www.michi-no-eki.jp/stations/views/19386
+mie	miyama	海山	disabled-only	-/24/8/-	-/24/8/2	整備局現行の並記（普通車24・大型8）。身障者用2は整備局旧様式の並記「普通車24台・身障者用2台」と連絡会で一致	http://michinoeki-miyama.com/	https://www.michi-no-eki.jp/stations/views/19381
+mie	okuise-kitsutsukikan	奥伊勢木つつ木館	disabled-only	-/134/4/-	-/134/4/2	整備局の並記（普通車134・大型4）と別項「駐車マス2台」（2026-11-19に整備局ページで直接確認）。連絡会は身障者用4で食い違うため整備局を優先	https://kitutukikan.com/	https://www.michi-no-eki.jp/stations/views/19382
+mie	okuise-odai	奥伊勢おおだい	disabled-only	-/77/4/-	-/77/4/2	整備局の並記（普通車77・大型4、所有者判断で採用済み）と別項「駐車マス2台」。連絡会の身障者用2と一致	http://www.okuise-odai.jp/	https://www.michi-no-eki.jp/stations/views/19385
+mie	park-shichiri-mihama	パーク七里御浜	same	-/250/6/-	-/250/6/-	駅公式トップ「駐車場：バス6台、普通車250台」（所有者判断で採用済み）。公式は身障者用を公表していない	http://michinoeki-mihama.com/	https://www.michi-no-eki.jp/stations/views/19380
+mie	sekijuku	関宿	disabled-only	-/51/8/-	-/51/8/5	整備局の並記（普通車51・大型8）と別項「駐車マス（屋根あり）4台・（屋根なし）1台」の同一出典内の合計5（2026-11-19に整備局ページで直接確認）。連絡会の身障者用5と一致	https://www.anzen-kameyama.jp/servicearea	https://www.michi-no-eki.jp/stations/views/19387
+mie	tsu-kawage	津かわげ	disabled-only	-/57/16/-	-/57/16/2	整備局の並記（普通車57・大型14・中型2）。大型16は中型を大型に含める所有者判断（2026-11-18）の既存値。身障者用2は整備局の別項「駐車マス2台」で、連絡会とも一致	http://www.tsukawage.com/	https://www.michi-no-eki.jp/stations/views/19850

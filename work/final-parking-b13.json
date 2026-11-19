@@ -1,0 +1,224 @@
+{
+  "toyone-greenport-miyajima": {
+    "total": 37,
+    "normal": null,
+    "large": null,
+    "disabled": null
+  },
+  "horai-mikawa-mitsuishi": {
+    "total": null,
+    "normal": 26,
+    "large": 2,
+    "disabled": 1
+  },
+  "tahara-mekkun-house": {
+    "total": null,
+    "normal": 150,
+    "large": 6,
+    "disabled": 3
+  },
+  "irago-crystal-porto": {
+    "total": null,
+    "normal": 35,
+    "large": 4,
+    "disabled": 2
+  },
+  "tsugu-kogen-green-park": {
+    "total": null,
+    "normal": 46,
+    "large": null,
+    "disabled": 2
+  },
+  "donguri-no-sato-inabu": {
+    "total": null,
+    "normal": 108,
+    "large": 12,
+    "disabled": 3
+  },
+  "agri-station-nagura": {
+    "total": null,
+    "normal": 80,
+    "large": 3,
+    "disabled": null
+  },
+  "denpark-anjo": {
+    "total": null,
+    "normal": 61,
+    "large": 5,
+    "disabled": 11
+  },
+  "tsukude-tezukuri-mura": {
+    "total": null,
+    "normal": 105,
+    "large": 4,
+    "disabled": 4
+  },
+  "fureai-no-sato-hasu-park": {
+    "total": null,
+    "normal": 221,
+    "large": 24,
+    "disabled": 11
+  },
+  "akabane-loco-station": {
+    "total": null,
+    "normal": 81,
+    "large": 3,
+    "disabled": 2
+  },
+  "fudegaki-no-sato-kota": {
+    "total": null,
+    "normal": 38,
+    "large": 34,
+    "disabled": 2
+  },
+  "nishio-okanoyama": {
+    "total": null,
+    "normal": 66,
+    "large": 34,
+    "disabled": 4
+  },
+  "seto-shinano": {
+    "total": null,
+    "normal": 57,
+    "large": 11,
+    "disabled": 2
+  },
+  "fujikawa-juku": {
+    "total": null,
+    "normal": 162,
+    "large": 21,
+    "disabled": 3
+  },
+  "mokkuru-shinshiro": {
+    "total": null,
+    "normal": 75,
+    "large": 13,
+    "disabled": 2
+  },
+  "toyohashi": {
+    "total": 258,
+    "normal": 176,
+    "large": 82,
+    "disabled": null
+  },
+  "shitara": {
+    "total": null,
+    "normal": 35,
+    "large": 4,
+    "disabled": 1
+  },
+  "machi-terrace-nisshin": {
+    "total": null,
+    "normal": 143,
+    "large": 19,
+    "disabled": 4
+  },
+  "ayama": {
+    "total": null,
+    "normal": 50,
+    "large": 8,
+    "disabled": 2
+  },
+  "chakura-eki": {
+    "total": null,
+    "normal": 19,
+    "large": 2,
+    "disabled": 2
+  },
+  "iga": {
+    "total": null,
+    "normal": 75,
+    "large": 66,
+    "disabled": 3
+  },
+  "iitaka-eki": {
+    "total": null,
+    "normal": 91,
+    "large": 8,
+    "disabled": 4
+  },
+  "ise-shima": {
+    "total": null,
+    "normal": 19,
+    "large": 2,
+    "disabled": 1
+  },
+  "kihocho-umigame-koen": {
+    "total": null,
+    "normal": 47,
+    "large": 9,
+    "disabled": null
+  },
+  "kii-nagashima-manbou": {
+    "total": null,
+    "normal": 80,
+    "large": 5,
+    "disabled": 2
+  },
+  "komono": {
+    "total": null,
+    "normal": 37,
+    "large": 2,
+    "disabled": 2
+  },
+  "kumano-hana-no-iwaya": {
+    "total": null,
+    "normal": 41,
+    "large": 6,
+    "disabled": 1
+  },
+  "kumano-itaya-kurobei-no-sato": {
+    "total": null,
+    "normal": 43,
+    "large": 3,
+    "disabled": 2
+  },
+  "kumano-kinokuni": {
+    "total": null,
+    "normal": 16,
+    "large": 3,
+    "disabled": 1
+  },
+  "misugi": {
+    "total": null,
+    "normal": 59,
+    "large": 5,
+    "disabled": 3
+  },
+  "miyama": {
+    "total": null,
+    "normal": 24,
+    "large": 8,
+    "disabled": 2
+  },
+  "okuise-kitsutsukikan": {
+    "total": null,
+    "normal": 134,
+    "large": 4,
+    "disabled": 4
+  },
+  "okuise-odai": {
+    "total": null,
+    "normal": 77,
+    "large": 4,
+    "disabled": 2
+  },
+  "park-shichiri-mihama": {
+    "total": null,
+    "normal": 250,
+    "large": 6,
+    "disabled": null
+  },
+  "sekijuku": {
+    "total": null,
+    "normal": 51,
+    "large": 8,
+    "disabled": 5
+  },
+  "tsu-kawage": {
+    "total": null,
+    "normal": 57,
+    "large": 16,
+    "disabled": 2
+  }
+}
