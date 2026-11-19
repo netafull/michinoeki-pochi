@@ -1,0 +1,387 @@
+{
+ "minami": {
+  "total": null,
+  "normal": 29,
+  "large": 10,
+  "disabled": 2,
+  "basis": "CBR（中部地方整備局）施設概要「普通車29台・大型車10台」＋別行「駐車マス2台」を転記。駐車マスは身障者用マスの原文表記のまま disabled に入れた（判断項目）"
+ },
+ "pascal-kiyomi": {
+  "total": null,
+  "normal": 120,
+  "large": 20,
+  "disabled": null,
+  "basis": "駅公式「駐車場について 120台/大型20台」の並記（モルチェック経由の所有者判断で確定）。連絡会188（身障者用2）は公式と大きく矛盾するため併記せず"
+ },
+ "meiho": {
+  "total": null,
+  "normal": 120,
+  "large": 4,
+  "disabled": null,
+  "basis": "連絡会転記（普通車120台・大型4台。身障者用の表記なし）。駅公式に台数の公表なし"
+ },
+ "hanakaido-tsukechi": {
+  "total": null,
+  "normal": 214,
+  "large": 8,
+  "disabled": 2,
+  "basis": "連絡会転記（普通車214（身障者用2）・大型8）。旧値212は N−M の導出値"
+ },
+ "mino-shirakawa": {
+  "total": null,
+  "normal": 90,
+  "large": 13,
+  "disabled": 7,
+  "basis": "連絡会転記（普通車90（身障者用7）・大型13）。公式サイト取得不可で照合未了"
+ },
+ "lasten-horado": {
+  "total": null,
+  "normal": 47,
+  "large": 3,
+  "disabled": 2,
+  "basis": "関市公式の並記「普通車47台、大型車3台、障がい者用2台」を転記。別掲の「車いす・ベビーカー・妊婦用1台」は表示項目がないため入れていない"
+ },
+ "hakusan-bunka-no-sato-nagataki": {
+  "total": null,
+  "normal": 100,
+  "large": 5,
+  "disabled": 2,
+  "basis": "連絡会転記（普通車100（身障者用2）・大型5）。公式ページ取得不可で照合未了"
+ },
+ "okuhida-kamitakara": {
+  "total": null,
+  "normal": 28,
+  "large": 6,
+  "disabled": null,
+  "basis": "CBR施設概要「普通車28台・大型車6台」を転記。連絡会29（身障者用1）は普通車の数字が食い違うため身障者用も併記せず（判断項目）"
+ },
+ "shizumo": {
+  "total": null,
+  "normal": 36,
+  "large": 21,
+  "disabled": 2,
+  "basis": "連絡会転記（普通車36（身障者用2）・大型21）。駅公式トップに台数の公表なし"
+ },
+ "rock-garden-hichiso": {
+  "total": null,
+  "normal": 54,
+  "large": 15,
+  "disabled": 4,
+  "basis": "連絡会転記（普通車54（身障者用4）・大型15）"
+ },
+ "hoshi-no-furusato-fujihashi": {
+  "total": null,
+  "normal": 120,
+  "large": 9,
+  "disabled": 3,
+  "basis": "連絡会転記（普通車120（身障者用3）・大型9）。駅公式に台数の公表なし"
+ },
+ "shirakawago": {
+  "total": null,
+  "normal": 62,
+  "large": 4,
+  "disabled": 3,
+  "basis": "連絡会転記（普通車62（身障者用3）・大型4）。公式サイト取得不可で照合未了"
+ },
+ "heisei": {
+  "total": null,
+  "normal": 88,
+  "large": 5,
+  "disabled": 4,
+  "basis": "連絡会転記（普通車88（身障者用4）・大型5）。駅公式で台数の裏付けなし"
+ },
+ "alp-hida-furukawa": {
+  "total": null,
+  "normal": 61,
+  "large": 27,
+  "disabled": 2,
+  "basis": "連絡会転記（普通車61（身障者用2）・大型27）。飛騨市観光協会の当駅ページに台数の公表なし"
+ },
+ "hida-kanayama-nukumori": {
+  "total": null,
+  "normal": 235,
+  "large": 4,
+  "disabled": 12,
+  "basis": "連絡会転記（普通車235（身障者用12）・大型4）。一次情報に台数の明記なし"
+ },
+ "kamiyahagi-fukuju-no-sato": {
+  "total": null,
+  "normal": 20,
+  "large": 8,
+  "disabled": 2,
+  "basis": "CBRモバイル版の並記「普通車20台・大型車8台・身障者用2台」を転記。CBR詳細版は「普通車22台＋別行 駐車マス2台」で版により読みが割れる（判断項目）"
+ },
+ "montdeus-hida-isurugi": {
+  "total": null,
+  "normal": 28,
+  "large": 10,
+  "disabled": 2,
+  "basis": "連絡会転記（普通車28（身障者用2）・大型10）。CBR詳細ページに台数の明記なし"
+ },
+ "minami-hida-osaka": {
+  "total": null,
+  "normal": 34,
+  "large": 2,
+  "disabled": 1,
+  "basis": "連絡会転記。原文は「普通車：34（身障者用1/他専用2）台」で、身障者用1のみ disabled に転記。他専用2は用途不明の専用区画のため表示項目なし（判断項目）"
+ },
+ "yume-sansan-tanigumi": {
+  "total": null,
+  "normal": 26,
+  "large": 1,
+  "disabled": 2,
+  "basis": "連絡会転記（道の駅前 普通車26（身障者用2）・大型1。砂利駐車場は台数の公表なし）。揖斐川町公式の「無料30台」は内訳がなく転記内訳の合計とも合わないため総数として併記せず（判断項目）"
+ },
+ "toki-minoyaki-kaido": {
+  "total": null,
+  "normal": 53,
+  "large": 5,
+  "disabled": 2,
+  "basis": "駅公式の並記「小型車：53台、大型車：5台、車椅子用：2台」を転記（車椅子用は原文表記のまま disabled に入れた）"
+ },
+ "fuyugaki-no-sato-itonuki": {
+  "total": null,
+  "normal": 72,
+  "large": 5,
+  "disabled": 2,
+  "basis": "連絡会転記（普通車72（身障者用2）・大型5）。本巣市観光協会の当駅ページに台数の公表なし"
+ },
+ "nanamori-kiyomi": {
+  "total": null,
+  "normal": 89,
+  "large": 4,
+  "disabled": 2,
+  "basis": "駅公式「普通車89台・大型車4台」に連絡会の身障者用2を併記（普通車の数字が両出典で一致し矛盾なし。判断項目）"
+ },
+ "kirira-sakashita": {
+  "total": null,
+  "normal": 81,
+  "large": 5,
+  "disabled": 3,
+  "basis": "連絡会転記（普通車81（身障者用3）・大型5）。駅公式サイト取得不可で照合未了"
+ },
+ "clair-hirata": {
+  "total": null,
+  "normal": 21,
+  "large": 17,
+  "disabled": 2,
+  "basis": "連絡会転記（普通車21（身障者用2）・大型17）。駅公式サイト取得不可で照合未了"
+ },
+ "maze-miki-no-sato": {
+  "total": null,
+  "normal": 49,
+  "large": null,
+  "disabled": 2,
+  "basis": "岐阜県公式（道路維持課）の並記「小型車：49台、身障者用：2台」を転記。大型は一次情報のどこにも台数の公表なし"
+ },
+ "hida-kaido-nagisa": {
+  "total": null,
+  "normal": 41,
+  "large": 8,
+  "disabled": 1,
+  "basis": "連絡会転記（普通車41（身障者用1）・大型8）。駅公式トップに台数の公表なし"
+ },
+ "hida-asahimura": {
+  "total": null,
+  "normal": 93,
+  "large": 3,
+  "disabled": 2,
+  "basis": "連絡会転記（普通車93（身障者用2）・大型3）。駅公式サイト取得不可で照合未了"
+ },
+ "soba-no-sato-rassei-misato": {
+  "total": null,
+  "normal": 45,
+  "large": 6,
+  "disabled": 4,
+  "basis": "連絡会転記（普通車45（身障者用4）・大型6）"
+ },
+ "oribe-no-sato-motosu": {
+  "total": null,
+  "normal": 136,
+  "large": 8,
+  "disabled": 4,
+  "basis": "連絡会転記（普通車136（身障者用4）・大型8）。駅公式トップに台数の公表なし"
+ },
+ "hida-takane-kobo": {
+  "total": null,
+  "normal": 48,
+  "large": 5,
+  "disabled": 2,
+  "basis": "連絡会転記（普通車48（身障者用2）・大型5）。駅公式サイト取得不可で照合未了"
+ },
+ "dainichidake": {
+  "total": null,
+  "normal": 29,
+  "large": 7,
+  "disabled": 4,
+  "basis": "高鷲観光協会の当駅ページ「普通車：29（身障者用4）台、大型：7台」を転記。旧方式では観光協会の並記に N−M を当てた所有者判断で25にしていたものを公表形に戻した（判断項目）"
+ },
+ "sakura-no-sato-shokawa": {
+  "total": null,
+  "normal": 114,
+  "large": 5,
+  "disabled": 2,
+  "basis": "連絡会転記（普通車114（身障者用2）・大型5）。公式ページ消滅で照合未了"
+ },
+ "mugegawa": {
+  "total": null,
+  "normal": 48,
+  "large": 8,
+  "disabled": 6,
+  "basis": "連絡会転記（普通車48（身障者用6）・大型8）。関市公式ページに台数の公表なし"
+ },
+ "kokon-denju-no-sato-yamato": {
+  "total": null,
+  "normal": 250,
+  "large": 8,
+  "disabled": 5,
+  "basis": "連絡会転記（普通車250（身障者用5）・大型8）。隣接する東海北陸道PA分を含むかは精査でも判別できなかった"
+ },
+ "minokamo": {
+  "total": null,
+  "normal": 206,
+  "large": 33,
+  "disabled": 20,
+  "basis": "岐阜県公式（道路維持課）の並記「小型車：206台、大型車：33台、身障者用：20台」を転記"
+ },
+ "cha-no-sato-higashishirakawa": {
+  "total": null,
+  "normal": 15,
+  "large": 2,
+  "disabled": 2,
+  "basis": "連絡会転記（普通車15（身障者用2）・大型2）。駅公式トップに台数の公表なし"
+ },
+ "wara": {
+  "total": null,
+  "normal": 93,
+  "large": 3,
+  "disabled": 1,
+  "basis": "連絡会転記（普通車93（身障者用1）・大型3）"
+ },
+ "usuzumi-sakura-no-sato-neo": {
+  "total": null,
+  "normal": 33,
+  "large": 2,
+  "disabled": 2,
+  "basis": "連絡会転記（普通車33（身障者用2）・大型2）。本巣市観光協会の当駅ページに台数の記載なし"
+ },
+ "shino-oribe": {
+  "total": null,
+  "normal": 38,
+  "large": 11,
+  "disabled": 2,
+  "basis": "連絡会転記（普通車38（身障者用2）・大型11）。駅公式トップに台数の公表なし"
+ },
+ "kashimo": {
+  "total": null,
+  "normal": 31,
+  "large": 4,
+  "disabled": 1,
+  "basis": "連絡会転記（普通車31（身障者用1）・大型4）"
+ },
+ "yashagaike-no-sato-sakauchi": {
+  "total": null,
+  "normal": 21,
+  "large": 2,
+  "disabled": 2,
+  "basis": "連絡会転記（普通車21（身障者用2）・大型2）"
+ },
+ "obachan-ichi-yamaoka": {
+  "total": null,
+  "normal": 55,
+  "large": 6,
+  "disabled": 2,
+  "basis": "連絡会転記（普通車55（身障者用2）・大型6）。駅公式サイト取得不可で照合未了"
+ },
+ "tsukimi-no-sato-nanno": {
+  "total": null,
+  "normal": 103,
+  "large": 27,
+  "disabled": 2,
+  "basis": "連絡会転記（普通車103（身障者用2）・大型27）。駅公式サイト取得不可で照合未了"
+ },
+ "yanaizu": {
+  "total": null,
+  "normal": 64,
+  "large": 6,
+  "disabled": 3,
+  "basis": "連絡会転記（普通車64（身障者用3）・大型6）。駅公式トップに台数の公表なし"
+ },
+ "itsuki-no-yakata-kawaue": {
+  "total": null,
+  "normal": 21,
+  "large": 2,
+  "disabled": 1,
+  "basis": "連絡会転記（普通車21（身障者用1）・大型2）。駅公式ページ取得不可で照合未了"
+ },
+ "sora-dome-kamioka": {
+  "total": null,
+  "normal": 109,
+  "large": 7,
+  "disabled": null,
+  "basis": "駅公式「第一駐車場53台・第二駐車場56台・バス7台」の同一出典内合計を転記。公式の内訳に身障者用の公表なし。連絡会108（身障者用2）は普通車の数字が食い違うため併記せず（判断項目）"
+ },
+ "shirao-fureai-park": {
+  "total": null,
+  "normal": 46,
+  "large": 5,
+  "disabled": 2,
+  "basis": "連絡会転記（普通車46（身障者用2）・大型5）"
+ },
+ "mino-niwaka-chaya": {
+  "total": null,
+  "normal": 66,
+  "large": 10,
+  "disabled": 2,
+  "basis": "連絡会転記（普通車66（身障者用2）・大型10）。駅公式トップに台数の公表なし"
+ },
+ "hida-hakusan": {
+  "total": null,
+  "normal": 36,
+  "large": 3,
+  "disabled": 2,
+  "basis": "連絡会転記（普通車36（身障者用2）・大型3）。白川村役場の当駅ページに台数の公表なし"
+ },
+ "hanyuri-no-sato-tomika": {
+  "total": null,
+  "normal": 34,
+  "large": 4,
+  "disabled": 1,
+  "basis": "連絡会転記（普通車34（身障者用1）・大型4）。公式サイト喪失で照合未了"
+ },
+ "kanitte": {
+  "total": null,
+  "normal": 50,
+  "large": 16,
+  "disabled": 2,
+  "basis": "連絡会転記（普通車50（身障者用2）・大型16）。駅公式サイト閉鎖中で照合未了"
+ },
+ "ikeda-onsen": {
+  "total": null,
+  "normal": 59,
+  "large": 9,
+  "disabled": 2,
+  "basis": "連絡会転記（普通車59（身障者用2）・大型9）。池田町の当駅ページ取得不可で照合未了"
+ },
+ "seiryu-shirakawa-cuore-no-sato": {
+  "total": null,
+  "normal": 263,
+  "large": 6,
+  "disabled": 12,
+  "basis": "駅公式の2エリア並記の同一出典内合計（ワクワク公園エリア 普通33・大型3・車椅子対応4／アウトドアエリア 普通230・大型3・車椅子対応8）。車椅子対応は原文表記のまま disabled に転記。充電2台は表示項目なし"
+ },
+ "seiryu-no-sato-shirotori": {
+  "total": null,
+  "normal": 72,
+  "large": 3,
+  "disabled": null,
+  "basis": "連絡会転記（普通車72台・大型3台。身障者用の表記なし）"
+ },
+ "palette-pia-ono": {
+  "total": null,
+  "normal": 236,
+  "large": 10,
+  "disabled": null,
+  "basis": "連絡会転記（普通車236台・大型10台。身障者用の表記なし）。駅公式トップに台数の公表なし"
+ }
+}
