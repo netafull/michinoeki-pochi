@@ -21514,7 +21514,7 @@
     },
     "hiroshima": {
       "name": "広島県",
-      "published": false,
+      "published": true,
       "stations": [
         {
           "slug": "restore-station",
