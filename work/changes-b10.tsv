@@ -1,0 +1,77 @@
+pref	slug	name	state	current	new	official_url	source_url	basis
+nagano	shinshu-shinmachi	信州新町	CHANGE	-/82/6/-	-/84/6/2	http://nagano-michinoeki.jp/	https://www.michi-no-eki.jp/stations/views/19171	駅公式の総合案内「普通車84台（身障者用2）台」を転記（旧方式でN−Mにした82を公表形に復元）。大型6は関東地方整備局の値（連絡会は大型の数値なし）。連絡会は普通80（身障者用2）で公式と食い違うため公式優先
+nagano	oooka-tokusan-center	長野市大岡特産センター	CHANGE	-/75/10/-	-/76/10/1		https://www.michi-no-eki.jp/stations/views/19172	連絡会「大型：10台　普通車：76（身障者用1）台」の転記
+nagano	shinetsu-sakae	信越さかえ	CHANGE	-/28/4/-	-/29/4/1	http://www.matatabi.info/	https://www.michi-no-eki.jp/stations/views/19173	連絡会「大型：4台　普通車：29（身障者用1）台」の転記
+nagano	osakada-koen	小坂田公園	disabled-only	-/600/10/-	-/600/10/3	https://osakada-park.jp	https://www.michi-no-eki.jp/stations/views/19174	連絡会「大型：10台　普通車：約600台（内：身障者用3）台」の転記。約600は概数のまま（判断項目）
+nagano	ikeda	池田	CHANGE	-/79/7/-	-/80/7/1	http://www.herbcenter.or.jp/	https://www.michi-no-eki.jp/stations/views/19175	連絡会「大型：7台　普通車：80（身障者用1）台」の転記
+nagano	nakajo	中条	CHANGE	-/49/5/-	-/54/5/5	http://michinoekinakajo.eternal-story.com/	https://www.michi-no-eki.jp/stations/views/19176	連絡会「大型：5台　普通車：54（身障者用5）台」の転記
+nagano	mimaki	みまき	CHANGE	-/71/3/-	-/76/3/5	http://www.tomi-kosya.com/mimakinoyu/mimakinoyu.html	https://www.michi-no-eki.jp/stations/views/19177	連絡会「大型：3台　普通車：76（身障者用5）台」の転記
+nagano	hakuba	白馬	CHANGE	-/32/6/-	-/33/6/1	https://michino-eki.hakubakousha.com	https://www.michi-no-eki.jp/stations/views/19178	連絡会「大型：6台　普通車：33（身障者用1）台」の転記
+nagano	furusato-toyoda	ふるさと豊田	CHANGE	-/64/13/-	-/66/13/2	http://furusato-toyota.com/	https://www.michi-no-eki.jp/stations/views/19179	連絡会「大型：13台　普通車：66（身障者用2）台」の転記
+nagano	marumero-no-eki-nagato	マルメロの駅ながと	CHANGE	-/37/16/-	-/48/16/3	https://www.marche-kokuyou.jp/	https://www.michi-no-eki.jp/stations/views/19180	連絡会「大型：16台　普通車：48（障がい者用3、電気充電2、思いやり6）台」の転記。disabledは障がい者用3のみ（思いやり6・電気充電2は含めない。判断項目）
+nagano	hotpark-asashina	ほっとぱ～く・浅科	CHANGE	-/32/7/-	-/34/7/2	http://hotpark-asashina.com/	https://www.michi-no-eki.jp/stations/views/19181	連絡会「大型：7台　普通車：34（身障者用2）台」の転記
+nagano	alps-azumino-horigane-no-sato	アルプス安曇野 ほりがねの里	CHANGE	-/160/10/-	-/162/10/2	http://horigane.or.jp/	https://www.michi-no-eki.jp/stations/views/19182	連絡会「大型：10台　普通車：162（身障者用2）台」の転記
+nagano	azumino-matsukawa	安曇野松川	CHANGE	-/31/7/-	-/33/7/2	https://yottetei.jp/	https://www.michi-no-eki.jp/stations/views/19183	連絡会「大型：7台　普通車：33（身障者用2）台」の転記
+nagano	fuketsu-no-sato	風穴の里	CHANGE	-/30/10/-	-/32/10/2	http://fu-ketsu.com/	https://www.michi-no-eki.jp/stations/views/19184	連絡会「大型：10台　普通車：32（身障者用2）台」の転記
+nagano	kitashinshu-yamanouchi	北信州やまのうち	CHANGE	-/73/5/-	-/76/5/3		https://www.michi-no-eki.jp/stations/views/19185	連絡会「大型：5台　普通車：76（身障者用3）台」の転記
+nagano	ueda-michi-to-kawa-no-eki	上田 道と川の駅	CHANGE	-/64/25/-	-/66/25/2	http://otoginosato.jp/	https://www.michi-no-eki.jp/stations/views/19186	連絡会「大型：25台　普通車：66（身障者用2）台」の転記
+nagano	tsutaki-juku	信州蔦木宿	CHANGE	-/79/18/-	-/83/18/4	https://tsutakijuku.jp/	https://www.michi-no-eki.jp/stations/views/19187	連絡会「大型：18台　普通車：83（身障者用4）台」の転記
+nagano	shinano	しなの	CHANGE	-/70/12/-	-/72/12/2	http://f-tenbou.com/	https://www.michi-no-eki.jp/stations/views/19188	連絡会「大型：12台　普通車：72（身障者用2）台」の転記
+nagano	otari	小谷	CHANGE	-/39/7/-	-/43/7/4	https://www.michinoeki-otari.com/	https://www.michi-no-eki.jp/stations/views/19189	連絡会「大型：7台　普通車：43（身障者用4）台」の転記
+nagano	sakakita	さかきた	disabled-only	-/21/4/-	-/21/4/1	https://www.vill.chikuhoku.lg.jp/kanko/docs/michinoeki.html	https://www.michi-no-eki.jp/stations/views/19190	筑北村公式「駐車場 普通車21台、大型車4台」に、連絡会「普通車：21（身障者用1）台」の身障者用1を併記（数値の矛盾なし）
+nagano	pokapoka-land-miasa	ぽかぽかランド美麻	CHANGE	-/82/8/-	-/84/8/2	http://miasa-pokapokaland.com/	https://www.michi-no-eki.jp/stations/views/19191	連絡会「大型：8台　普通車：84（身障者用2）台」の転記
+nagano	oasis-obuse	オアシスおぶせ	CHANGE	-/179/5/-	-/181/5/2	http://oasisobuse.co.jp/	https://www.michi-no-eki.jp/stations/views/19192	連絡会「大型：5台　普通車：181（身障者用2）台」の転記
+nagano	raiden-kurumi-no-sato	雷電くるみの里	CHANGE	-/98/20/-	-/100/20/2	https://raidenkurumi.jp/	https://www.michi-no-eki.jp/stations/views/19193	連絡会「大型：20台　普通車：100（身障者用2）台」の転記
+nagano	hana-no-eki-chikumagawa	花の駅 千曲川	CHANGE	-/124/8/-	-/127/8/3	http://chikumagawa.net/	https://www.michi-no-eki.jp/stations/views/19194	連絡会「大型：8台　普通車：127（身障者用3）台」の転記
+nagano	aoki	あおき	disabled-only	-/52/8/-	-/52/8/2	http://michinoeki-aoki.eek.jp/	https://www.michi-no-eki.jp/stations/views/19195	連絡会「大型：8台　普通車：52・身障者用2台」の並記の転記
+nagano	ogawa	おがわ	CHANGE	-/58/2/-	-/60/2/2	https://www.vill.ogawa.nagano.jp/kankou/spot/michinoeki/	https://www.michi-no-eki.jp/stations/views/19196	連絡会「大型：2台　普通車：60（身障者用2）台」の転記
+nagano	utsukushigahara-kogen	美ヶ原高原	CHANGE	-/794/15/-	-/800/15/6	http://m-utsukushigahara.jp/	https://www.michi-no-eki.jp/stations/views/19197	連絡会「大型：15台　普通車：800（身障者用6）台」の転記
+nagano	imai-megumi-no-sato	今井 恵みの里	CHANGE	-/69/19/-	-/71/19/2	http://imai-megumi.com/	https://www.michi-no-eki.jp/stations/views/19198	連絡会「大型：19台　普通車：71（身障者用2）台」の転記
+nagano	farmus-kijimadaira	FARMUS 木島平	CHANGE	-/52/3/-	-/53/3/1	http://www.farmus.jp/	https://www.kanto-michinoeki.jp/map_single.php?id_name=8&single_name=28	関東連絡会「大型：3台　普通車：53（身障者用1）台」の転記
+nagano	healthy-terrace-saku-minami	ヘルシーテラス佐久南	disabled-only	-/105/30/-	-/105/30/3	http://www.healthyterrace-saku.jp/	https://www.kanto-michinoeki.jp/map_single.php?id_name=8&single_name=29	駅公式「普通車105台、大型車30台、車イス使用者優先3台、障がい者等優先3台」の転記（公式の小型車111台は優先区画を含む小計）。disabledは障がい者等優先3（判断項目）
+nagano	megami-no-sato-tateshina	女神の里たてしな	CHANGE	-/62/23/-	-/66/23/4	http://nonki-mura.com/	https://www.kanto-michinoeki.jp/map_single.php?id_name=8&single_name=30	関東連絡会「大型：23台　普通車：66（身障者用4）台」の転記
+nagano	ikusaka-no-sato	いくさかの郷	CHANGE	-/29/5/-	-/30/5/1	http://www.village.ikusaka.nagano.jp/ikusakanosato/	https://www.kanto-michinoeki.jp/map_single.php?id_name=8&single_name=31	関東連絡会「大型：5台　普通車：30（身障者用1）台」の転記
+nagano	nozawa-onsen	野沢温泉	disabled-only	-/36/7/-	-/36/7/5	https://nozawa-onsen.jp/	https://www.kanto-michinoeki.jp/map_single.php?id_name=8&single_name=32	関東連絡会の並記「普通車36台、大型車7台、身障者等優先駐車場5台（うち屋根付1台）」の転記（原文表記は「身障者等優先駐車場」。判断項目）
+nagano	venus-line-tateshinako	ビーナスライン蓼科湖	disabled-only	-/99/7/-	-/99/7/2		https://www.kanto-michinoeki.jp/map_single.php?id_name=8&single_name=33	関東連絡会の並記「大型：7台 普通車：99台 身障者用：2台」の転記（全国連絡会の普通101・大型5は古いと判断された経緯）
+nagano	wadajuku-station	和田宿ステーション	CHANGE	-/-/-/-	68/-/-/-	http://www.wadajuku-station.com/	https://www.kanto-michinoeki.jp/map_single.php?id_name=8&single_name=34	関東連絡会は総数「68台」のみ公表（内訳の公表なし）
+nagano	hiyoshi-kiso-koma-kogen	日義木曽駒高原	CHANGE	-/71/7/-	-/73/7/2		https://www.michi-no-eki.jp/stations/views/19273	連絡会「大型：7台　普通車：73（身障者用2）台」の転記（収集時の整備局スニペットは普通76で食い違い。精査で連絡会表記を採用した経緯。判断項目）
+nagano	ookuwa	大桑	CHANGE	-/74/4/-	-/75/4/1		https://www.michi-no-eki.jp/stations/views/19274	連絡会「大型：4台　普通車：75（身障者用1）台」の転記
+nagano	narai-kiso-no-ohashi	奈良井木曽の大橋	same	-/91/16/-	-/91/16/-		https://www.michi-no-eki.jp/stations/views/19275	中部地方整備局「普通車91台・大型車16台」の転記（所有者判断で採用済み）。連絡会は普通91（身障者用5）・大型18で大型が食い違うため、身障者用は併記しなかった（判断項目）
+nagano	shinshu-hiraya	信州平谷	CHANGE	-/151/23/-	-/154/23/3	https://hiraya-himawarinoyu.com/	https://www.michi-no-eki.jp/stations/views/19277	連絡会「大型：23台　普通車：154（身障者用3）台」の転記
+nagano	shinanoji-shimojo	信濃路下條	CHANGE	-/33/8/-	-/35/8/2	https://sobanoshiro.co.jp/	https://www.michi-no-eki.jp/stations/views/19278	連絡会「大型：8台　普通車：35（身障者用2）台」の転記
+nagano	minami-alps-mura-hase	南アルプスむら長谷	CHANGE	-/99/5/-	-/100/5/1		https://www.michi-no-eki.jp/stations/views/19279	連絡会「大型：5台　普通車：100（障者用1）台」の転記
+nagano	kiso-narakawa	木曽ならかわ	CHANGE	-/97/5/-	-/100/5/3	http://www.kiso.or.jp/	https://www.michi-no-eki.jp/stations/views/19280	駅公式（2026-11-03更新）「駐車場 普通100台（身障者用3台）・大型5台」の転記（旧判断でN−Mにした97を公表形に復元）
+nagano	mitake	三岳	CHANGE	-/51/12/-	-/52/12/1		https://www.michi-no-eki.jp/stations/views/19281	連絡会「大型：12台　普通車：52（身障者用1）台」の転記
+nagano	shinshu-niino-sengokudaira	信州新野千石平	CHANGE	-/83/2/-	-/85/2/2	http://goheimochi.biz/	https://www.michi-no-eki.jp/stations/views/19282	連絡会「大型：2台　普通車：85（身障者用2）、EV1台」の転記（EV1台は括弧外の別掲で駐車区分に含めない）
+nagano	hana-no-sato-iijima	花の里いいじま	disabled-only	-/100/7/-	-/100/7/5	https://hananosato-iijima.jp/	https://www.michi-no-eki.jp/stations/views/19283	伊那谷観光局「駐車場 普通車100台 大型車7台 身障者5台」の転記（所有者判断で採用済み。連絡会は普通108（身障者用5）・大型7で普通が食い違うため観光局優先）
+nagano	tohyamago	遠山郷	disabled-only	-/139/2/-	-/139/2/4	https://michinoeki-tohyamago.com/	https://www.michi-no-eki.jp/stations/views/19284	中部地方整備局（2025年10月リニューアル後）の普通139・大型2に、連絡会の内訳表記の身障者専用4を併記（判断項目）
+nagano	kiso-fukushima	木曽福島	CHANGE	-/62/17/-	-/64/17/2		https://www.michi-no-eki.jp/stations/views/19285	連絡会「大型：17台　普通車：64（身障者用2）台」の転記（公式ドメインが無関係サイト化し、所有者判断で連絡会ベースを採用済み）
+nagano	kisogawa-genryu-no-sato-kisomura	木曽川源流の里 きそむら	CHANGE	-/38/2/-	-/40/2/2	http://genryu-no-sato.com/	https://www.michi-no-eki.jp/stations/views/19286	連絡会「大型：2台　普通車：40（身障者用2）台」の転記
+nagano	tagiri-no-sato	田切の里	disabled-only	-/84/8/-	-/84/8/2		https://www.cbr.mlit.go.jp/michinoeki/nagano/nagano14.html	駅公式の並記「施設 駐車場 普通車84台/軽自動車4台/車椅子スペース2台/大型車8台」の転記。disabledは公式原文「車椅子スペース」2（整備局は「障害者用2台」と表記。判断項目）
+nagano	minami-shinshu-toyooka-marche	南信州とよおかマルシェ	disabled-only	-/92/7/-	-/92/7/4	https://toyooka-marche.jp/	https://www.cbr.mlit.go.jp/michinoeki/nagano/nagano15.html	駅公式「普通車92台・身障者専用4台・大型車7台」の転記（公開前チェックで整備局の114から駅公式に差し替えた経緯）
+nagano	oshiba-kogen	大芝高原	same	-/209/10/-	-/209/10/-	https://oshiba.jp/	https://www.cbr.mlit.go.jp/michinoeki/nagano/nagano16.html	中部地方整備局・連絡会とも「普通車209台・大型車10台」で、身障者用の公表なし（表示不変）
+nagano	minami-shinshu-urugi	南信州 うるぎ	same	-/24/3/-	-/24/3/-	https://www.urugi.jp/top/introduction_sightseeing/gift/michinoeki_urugi/	https://www.cbr.mlit.go.jp/michinoeki/nagano/nagano17.html	中部地方整備局「普通24台・大型3台」で、身障者用の公表なし（表示不変）
+nagano	kabuki-no-sato-oshika	歌舞伎の里大鹿	disabled-only	-/57/2/-	-/57/2/2	http://kabukinosato.com/	https://www.cbr.mlit.go.jp/michinoeki/nagano/nagano18.html	駅公式アクセス「普通車57台、身障者駐車場2台、大型車2台、電気自動車充用1台」の並記の転記
+nagano	yachiho-kogen	八千穂高原	disabled-only	-/155/9/-	-/155/9/6	https://yachi-michi.com/	https://www.kanto-michinoeki.jp/map_single.php?id_name=8&single_name=35	関東地方整備局の並記「小型車（普通車）：155台　大型車：9台　身障者用：6台（うち屋根付4台）　EV急速充電用：2　自動二輪：15台」の転記
+yamanashi	doshi	どうし	disabled-only	-/100/5/-	-/100/5/3	https://michieki-r413.com/	https://www.michi-no-eki.jp/stations/views/19159	駅公式（総合案内）の並記「普通車／100台　大型車／5台　身障者／3台」
+yamanashi	fujikawa	富士川	CHANGE	-/60/16/-	79/60/16/3	https://michinoeki-fujikawa.jp/	https://www.michi-no-eki.jp/stations/views/19169	駅公式の並記「駐車場 79台（大型16台、普通車60台、身障者3台）」。内訳の合計が総数79と一致する
+yamanashi	fujiyoshida	富士吉田	disabled-only	-/207/-/-	-/207/-/3	https://fujiyoshida.net/spot/index.php?p=11	https://www.michi-no-eki.jp/stations/views/19163	富士吉田市観光ガイドの駅前駐車場の並記（普通車207台・身障者3台）。身障者用は連絡会の2台と割れるため上位出典の3台を採用。大型は対向の公園前駐車場のみにあり、含めない所有者決定で null のまま
+yamanashi	hakushu	はくしゅう	CHANGE	-/83/4/-	-/85/4/2	https://michinoeki-hakushu.com/	https://www.michi-no-eki.jp/stations/views/19162	連絡会の原文「大型：4台　普通車：85（身障者用2）台」の転記。駅公式に台数の記載なし
+yamanashi	hanakage-no-sato-makioka	花かげの郷まきおか	disabled-only	-/56/9/-	-/56/9/2	https://michinoeki-hanakage.fruits.jp/	https://www.michi-no-eki.jp/stations/views/19161	駅公式の並記「駐車スペース 普通車56台、大型車9台、障害者用2」
+yamanashi	kai-yamato	甲斐大和	disabled-only	-/59/7/-	-/59/7/2	http://kaiyamato.com/	https://www.michi-no-eki.jp/stations/views/19153	駅公式（施設概要）の並記「大型7／普通59／身障者用2／EV車1」。EV車1は表示項目がないため内訳に出さない
+yamanashi	katsuyama	かつやま	CHANGE	-/88/3/-	-/90/3/2	https://katuyama.info/station/	https://www.michi-no-eki.jp/stations/views/19160	連絡会の原文「大型：3台　普通車：90（身障者用2）台」の転記。駅公式に台数の記載なし
+yamanashi	kobuchisawa	こぶちさわ	disabled-only	-/294/8/-	-/294/8/4	https://mkobuchisawa.jp/	https://www.michi-no-eki.jp/stations/views/19166	駅公式アクセスの並記「普通車 294台／身障者用 4台／大型車 8台」（EV車1台は表示項目外）。複合施設全体の台数を駅の台数として採る所有者決定を踏襲
+yamanashi	kosuge	こすげ	CHANGE	-/89/3/-	-/93/3/4	https://kosuge-eki.jp/	https://www.michi-no-eki.jp/stations/views/19170	連絡会の原文「大型：3台　普通車：93（身障者用4）台」の転記
+yamanashi	minami-kiyosato	南きよさと	disabled-only	-/312/6/-	-/312/6/2	https://www.minamikiyosato.com/	https://www.michi-no-eki.jp/stations/views/19164	北杜市観光協会の並記「普通車：312台　大型バス：6台」を正本に採用（所有者決定）。身障者用2台は県公式観光情報の備考と連絡会で一致（RV車5台は表示項目外）
+yamanashi	minobu	みのぶ	same	-/16/3/-	-/16/3/-	https://www.michinoekiminobu.jp/	https://www.michi-no-eki.jp/stations/views/19167	連絡会の原文「大型：3台　普通車：16台」（括弧書きなし）。身障者用の公表なし
+yamanashi	mitomi	みとみ	same	-/85/14/-	-/85/14/-	https://michinoeki-mitomi.com/	https://www.michi-no-eki.jp/stations/views/19155	駅公式の並記「普通車85台、大型車14台」。身障者用は公式に公表なし。連絡会は普通84（身障者用3）で普通車の数字が公式と食い違うため、身障者用3は併記しなかった
+yamanashi	nanbu	なんぶ	disabled-only	-/81/24/-	-/81/24/3	https://michinoeki-nanbu.com/	https://www.michi-no-eki.jp/stations/views/19906	駅公式の並記「大型車：24台／普通車：81台／障がい者用駐車場：3台」
+yamanashi	narusawa	なるさわ	CHANGE	-/257/17/-	-/263/17/6	https://www.ja-narusawamura.com/facilities.html	https://www.michi-no-eki.jp/stations/views/19154	駅公式（JA鳴沢村）の「大型車17台、普通車263台（うち身体障がい者用6台）」の転記。「うち」表記を引かず公表形のまま読む
+yamanashi	nirasaki	にらさき	CHANGE	-/35/12/-	-/37/12/2	https://yu-pool-nirasaki.com/ginganoeki-nirasaki/	https://www.michi-no-eki.jp/stations/views/19158	連絡会の原文「大型：12台　普通車：37（身障者用2）台」の転記
+yamanashi	nishijima-washino-sato-kamisuki-park	にしじま和紙の里かみすきパーク	same	-/150/5/-	-/150/5/-	https://nishijima-washinosato.com/	https://www.michi-no-eki.jp/stations/views/22525	駅公式FAQ「駐車場（普通車150台、大型車5台、臨時含む）」を所有者決定で採用済み。身障者用の公表なし
+yamanashi	shimobe	しもべ	disabled-only	-/38/6/-	-/38/6/3	https://michinoeki-shimobe.jp/	https://www.michi-no-eki.jp/stations/views/19156	駅公式の並記「大型：6台、普通車：38台、屋根付き多目的：2台、多目的：1台、バイク：約8台」。「多目的」の合計3台を身障者用欄に仮置き（原文表記は「多目的」で、身障者用とは書かれていない）
+yamanashi	shirane	しらね	CHANGE	-/30/4/-	-/32/4/2	http://www.city.minami-alps.yamanashi.jp/sisetsu/michinoeki-shirane	https://www.michi-no-eki.jp/stations/views/19165	連絡会の原文「大型：4台　普通車：32（身障者用2）台」の転記
+yamanashi	tabayama	たばやま	CHANGE	-/95/3/-	-/100/3/5	http://www.nomekoiyu.com/	https://www.michi-no-eki.jp/stations/views/19168	連絡会の原文「大型：3台　普通車：100（身障者用5）台」の転記。村公式に台数の記載なし
+yamanashi	tomizawa	とみざわ	CHANGE	-/40/14/-	-/42/14/2	https://michinoeki-tomizawa.jp/	https://www.michi-no-eki.jp/stations/views/19152	連絡会の原文「大型：14台　普通車：42（身障者用2）台」の転記。駅公式に台数の記載なし
+yamanashi	toyotomi	とよとみ	CHANGE	-/-/-/-	55/-/-/-	https://michinoeki-toyotomi.com/	https://www.michi-no-eki.jp/stations/views/19157	駅公式の公表は総数「駐車場：55台完備」のみ。連絡会の内訳（普通75（身障者用2）・大型2、合計77台）は総数と矛盾するため併記しない
+yamanashi	tsuru	つる	CHANGE	-/74/15/-	-/76/15/2	https://1000nentsuru.com/	https://www.michi-no-eki.jp/stations/views/19864	連絡会の原文「大型：15台　普通車：76（身障者用2）台」の転記。駅公式アクセスに台数の記載なし
