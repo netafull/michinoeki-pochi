@@ -1,0 +1,320 @@
+{
+ "fuji": {
+  "total": null,
+  "normal": 81,
+  "large": 23,
+  "disabled": 2
+ },
+ "kunma-suisha-no-sato": {
+  "total": null,
+  "normal": 60,
+  "large": 3,
+  "disabled": 2
+ },
+ "hana-no-sanseien-izu-matsuzaki": {
+  "total": null,
+  "normal": 85,
+  "large": 5,
+  "disabled": 2
+ },
+ "utsunoya-toge": {
+  "total": null,
+  "normal": 76,
+  "large": 29,
+  "disabled": 6
+ },
+ "ippukudokoro-yokokawa": {
+  "total": null,
+  "normal": 40,
+  "large": 2,
+  "disabled": 1
+ },
+ "fore-nakakawane-chameikan": {
+  "total": null,
+  "normal": 26,
+  "large": 3,
+  "disabled": 2
+ },
+ "amagi-goe": {
+  "total": null,
+  "normal": 188,
+  "large": 8,
+  "disabled": 6
+ },
+ "okuoi-otogi-no-sato": {
+  "total": null,
+  "normal": 85,
+  "large": 3,
+  "disabled": 3
+ },
+ "asagiri-kogen": {
+  "total": null,
+  "normal": 72,
+  "large": 11,
+  "disabled": 2
+ },
+ "kawane-onsen": {
+  "total": null,
+  "normal": 78,
+  "large": 4,
+  "disabled": 2
+ },
+ "fujikawa-rakuza": {
+  "total": null,
+  "normal": 270,
+  "large": 9,
+  "disabled": 4
+ },
+ "gyokuro-no-sato": {
+  "total": null,
+  "normal": 91,
+  "large": 2,
+  "disabled": 1
+ },
+ "tenryu-aizu-hanamomo-no-sato": {
+  "total": null,
+  "normal": 48,
+  "large": 2,
+  "disabled": 1
+ },
+ "ito-marine-town": {
+  "total": null,
+  "normal": 296,
+  "large": 4,
+  "disabled": 11
+ },
+ "kaikoku-shimoda-minato": {
+  "total": null,
+  "normal": 207,
+  "large": 13,
+  "disabled": 6
+ },
+ "kakegawa": {
+  "total": null,
+  "normal": 222,
+  "large": 75,
+  "disabled": 6
+ },
+ "fuji-oyama": {
+  "total": null,
+  "normal": 63,
+  "large": 42,
+  "disabled": 2
+ },
+ "shiomisaka": {
+  "total": null,
+  "normal": 113,
+  "large": 33,
+  "disabled": 4
+ },
+ "izu-no-heso": {
+  "total": null,
+  "normal": 68,
+  "large": 22,
+  "disabled": 5
+ },
+ "shimogamo-onsen-yunohana": {
+  "total": null,
+  "normal": 51,
+  "large": 3,
+  "disabled": 2
+ },
+ "subashiri": {
+  "total": null,
+  "normal": 111,
+  "large": 14,
+  "disabled": 3
+ },
+ "kaze-no-marche-omaezaki": {
+  "total": null,
+  "normal": 116,
+  "large": 9,
+  "disabled": 2
+ },
+ "kurura-heda": {
+  "total": null,
+  "normal": 42,
+  "large": 3,
+  "disabled": 2
+ },
+ "izu-gateway-kannami": {
+  "total": null,
+  "normal": 201,
+  "large": 12,
+  "disabled": 3
+ },
+ "izu-tsukigase": {
+  "total": 59,
+  "normal": 52,
+  "large": 5,
+  "disabled": 2
+ },
+ "soratto-makinohara": {
+  "total": null,
+  "normal": 192,
+  "large": 6,
+  "disabled": 2
+ },
+ "yutorie-setoya": {
+  "total": null,
+  "normal": 158,
+  "large": 3,
+  "disabled": 5
+ },
+ "senmaida-pocket-park": {
+  "total": null,
+  "normal": 49,
+  "large": 5,
+  "disabled": 2
+ },
+ "takamatsu": {
+  "total": null,
+  "normal": 92,
+  "large": null,
+  "disabled": 2
+ },
+ "iori": {
+  "total": null,
+  "normal": 52,
+  "large": 5,
+  "disabled": 2
+ },
+ "sakura-toge": {
+  "total": 32,
+  "normal": 29,
+  "large": 3,
+  "disabled": 1
+ },
+ "shirayama-san": {
+  "total": null,
+  "normal": 28,
+  "large": 16,
+  "disabled": 2
+ },
+ "nakajima-roman-toge": {
+  "total": null,
+  "normal": 14,
+  "large": 12,
+  "disabled": 1
+ },
+ "akagami": {
+  "total": null,
+  "normal": 31,
+  "large": 6,
+  "disabled": 2
+ },
+ "togi-umikaido": {
+  "total": null,
+  "normal": 45,
+  "large": 3,
+  "disabled": 1
+ },
+ "wajima": {
+  "total": null,
+  "normal": 18,
+  "large": 8,
+  "disabled": 2
+ },
+ "korogaki-no-sato-shika": {
+  "total": null,
+  "normal": 166,
+  "large": 2,
+  "disabled": 4
+ },
+ "sena": {
+  "total": null,
+  "normal": 40,
+  "large": 4,
+  "disabled": 2
+ },
+ "ikko-ikki-no-sato": {
+  "total": null,
+  "normal": 75,
+  "large": 7,
+  "disabled": 6
+ },
+ "noto-satoyama-kuko": {
+  "total": null,
+  "normal": 501,
+  "large": 10,
+  "disabled": 3
+ },
+ "kurikara-genpei-no-sato": {
+  "total": null,
+  "normal": 62,
+  "large": 5,
+  "disabled": 4
+ },
+ "yamanaka-onsen-yukemuri-kenko-mura": {
+  "total": null,
+  "normal": 115,
+  "large": 4,
+  "disabled": 3
+ },
+ "notojima": {
+  "total": null,
+  "normal": 272,
+  "large": 8,
+  "disabled": 2
+ },
+ "suzu-enden-mura": {
+  "total": null,
+  "normal": 30,
+  "large": 6,
+  "disabled": 3
+ },
+ "uchinada-sunset-park": {
+  "total": null,
+  "normal": 78,
+  "large": 3,
+  "disabled": 3
+ },
+ "noto-shokusai-ichiba": {
+  "total": null,
+  "normal": 199,
+  "large": 15,
+  "disabled": 1
+ },
+ "komatsu-kibagata": {
+  "total": null,
+  "normal": 94,
+  "large": 9,
+  "disabled": 2
+ },
+ "noroshi": {
+  "total": null,
+  "normal": 106,
+  "large": 5,
+  "disabled": 1
+ },
+ "suzunari": {
+  "total": null,
+  "normal": 39,
+  "large": 3,
+  "disabled": 2
+ },
+ "orihime-no-sato-nakanoto": {
+  "total": null,
+  "normal": 91,
+  "large": 6,
+  "disabled": 2
+ },
+ "anamizu": {
+  "total": null,
+  "normal": 64,
+  "large": 6,
+  "disabled": 3
+ },
+ "noto-chirihama": {
+  "total": null,
+  "normal": 155,
+  "large": 6,
+  "disabled": 5
+ },
+ "megumi-hakusan": {
+  "total": 228,
+  "normal": 190,
+  "large": 34,
+  "disabled": 4
+ }
+}

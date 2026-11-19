@@ -1,0 +1,191 @@
+{
+  "fuji": {
+    "total": null,
+    "normal": 81,
+    "large": 23,
+    "disabled": 2,
+    "basis": "駅公式アクセスの並記（上り 普通45・大型8・身障者1／下り 普通19・大型15・身障者1／市道側 普通17）を同一出典内で合計。総数の公表なし"
+  },
+  "kunma-suisha-no-sato": {
+    "total": null,
+    "normal": 60,
+    "large": 3,
+    "disabled": 2,
+    "basis": "駅公式の並記「大型車3台・普通車60台・身障者用2台」を転記"
+  },
+  "hana-no-sanseien-izu-matsuzaki": {
+    "total": null,
+    "normal": 85,
+    "large": 5,
+    "disabled": 2,
+    "basis": "連絡会「大型：5台 普通車：85（身障者用2）台」を転記（松崎町ページに台数の公表なし）"
+  },
+  "utsunoya-toge": {
+    "total": null,
+    "normal": 76,
+    "large": 29,
+    "disabled": 6,
+    "basis": "整備局の両側合算（静岡側 普通39・大型24・駐車マス（身障者用）4／藤枝側 普通37・大型5・駐車マス2）。身障者用は整備局の「駐車マス」を転記"
+  },
+  "ippukudokoro-yokokawa": {
+    "total": null,
+    "normal": 40,
+    "large": 2,
+    "disabled": 1,
+    "basis": "連絡会「大型：2台 普通車：40（身障者用1）台」を転記（駅公式に台数の公表なし）"
+  },
+  "fore-nakakawane-chameikan": {
+    "total": null,
+    "normal": 36,
+    "large": 3,
+    "disabled": 2,
+    "basis": "連絡会「大型：3台 普通車：36（身障者用2）台」を転記（駅公式に台数の公表なし）"
+  },
+  "amagi-goe": {
+    "total": null,
+    "normal": 188,
+    "large": 8,
+    "disabled": 6,
+    "basis": "整備局の並記「大型車8台、普通車188台」と別項目「駐車マス6台」を転記（連絡会も普通188（身障者用6）で一致）"
+  },
+  "okuoi-otogi-no-sato": {
+    "total": null,
+    "normal": 85,
+    "large": 3,
+    "disabled": 3,
+    "basis": "連絡会「大型：3台 普通車：85（身障者用3）台」を転記（駅公式は台数を公表せず）"
+  },
+  "asagiri-kogen": {
+    "total": null,
+    "normal": 72,
+    "large": 11,
+    "disabled": 2,
+    "basis": "整備局「大型車11台・普通車72台（駐車マス2台は別項目）」を転記"
+  },
+  "kawane-onsen": {
+    "total": null,
+    "normal": 78,
+    "large": 4,
+    "disabled": 2,
+    "basis": "連絡会「大型：4台 普通車：78（身障者用2）台」を転記。整備局現行ページの普通250は施設全体の疑いで精査時に不採用。身障者用は整備局側が4で割れる（判断項目）"
+  },
+  "fujikawa-rakuza": {
+    "total": null,
+    "normal": 270,
+    "large": 9,
+    "disabled": 4,
+    "basis": "連絡会「大型：9台 普通車：270（身障者用4）台」を転記。整備局の普通306は高速側を含む疑いで精査時に不採用"
+  },
+  "gyokuro-no-sato": {
+    "total": null,
+    "normal": 91,
+    "large": 2,
+    "disabled": 1,
+    "basis": "連絡会「大型：2台 普通車：91（身障者用1）台」を転記（駅公式に台数の公表なし）"
+  },
+  "tenryu-aizu-hanamomo-no-sato": {
+    "total": null,
+    "normal": 47,
+    "large": 2,
+    "disabled": 1,
+    "basis": "連絡会「大型：2台 普通車：47（身障者用1）台」を転記（駅公式に台数の公表なし）"
+  },
+  "ito-marine-town": {
+    "total": 296,
+    "normal": null,
+    "large": null,
+    "disabled": null,
+    "basis": "駅公式トップの総数「無料駐車場296台」のみ転記。内訳は整備局266/14/駐車マス6（合計286）・連絡会298（身障者用6）/14（合計312）が総数と矛盾するため出さない（判断項目）"
+  },
+  "kaikoku-shimoda-minato": {
+    "total": null,
+    "normal": 207,
+    "large": 13,
+    "disabled": 6,
+    "basis": "駅公式「普通車：207台（身障者用6台）」の公表形を転記（整備局も207/13/身障者用6の並記で一致）。旧方式の所有者判断（201）からの巻き戻し（判断項目）"
+  },
+  "kakegawa": {
+    "total": null,
+    "normal": 222,
+    "large": 75,
+    "disabled": 6,
+    "basis": "掛川市の並記「小型車222台、大型車70台、特大車5台、身体障がい者用6台」を転記（大型は70+5の同一出典内合計。軽自動車4台は含めない）"
+  },
+  "fuji-oyama": {
+    "total": null,
+    "normal": 63,
+    "large": 42,
+    "disabled": 2,
+    "basis": "駅公式の施設案内「小型車63台・大型車42台・身障者用2台」を転記（整備局は普通64で1台多いが駅公式を優先）"
+  },
+  "shiomisaka": {
+    "total": null,
+    "normal": 113,
+    "large": 33,
+    "disabled": 4,
+    "basis": "駅公式の施設案内「普通車113台、身障者用4台、大型車33台」の並記を転記（自動二輪6台は含めない）"
+  },
+  "izu-no-heso": {
+    "total": null,
+    "normal": 109,
+    "large": 19,
+    "disabled": 5,
+    "basis": "整備局現行ページ「普通109・大型19（駐車マス5は別項目）」を転記"
+  },
+  "shimogamo-onsen-yunohana": {
+    "total": null,
+    "normal": 51,
+    "large": 3,
+    "disabled": 2,
+    "basis": "整備局の並記「大型車3台、普通車51台」に連絡会の身障者用2を併記（普通・大型は両出典が一致し矛盾なし）"
+  },
+  "subashiri": {
+    "total": null,
+    "normal": 111,
+    "large": 14,
+    "disabled": 3,
+    "basis": "駅公式の並記「大型14台／普通車111台／身障者用3台」を転記"
+  },
+  "kaze-no-marche-omaezaki": {
+    "total": null,
+    "normal": 116,
+    "large": 9,
+    "disabled": 2,
+    "basis": "整備局「普通116・大型9（駐車マス2は別項目）」を転記。運営者リリースの総数112は内訳と矛盾するため採用せず"
+  },
+  "kurura-heda": {
+    "total": null,
+    "normal": 42,
+    "large": 3,
+    "disabled": 2,
+    "basis": "整備局の並記「大型車3台、普通車42台」と別項目「駐車マス2台」を転記"
+  },
+  "izu-gateway-kannami": {
+    "total": null,
+    "normal": 201,
+    "large": 12,
+    "disabled": 3,
+    "basis": "駅公式の駐車場案内（P1 普通127・大型12・身障者用3／P2 普通74）を同一出典内で合計"
+  },
+  "izu-tsukigase": {
+    "total": 59,
+    "normal": 52,
+    "large": 5,
+    "disabled": 2,
+    "basis": "駅公式の総数「駐車場59台」と整備局の内訳（普通52・大型5・身障者用2）。52+5+2=59で整合"
+  },
+  "soratto-makinohara": {
+    "total": null,
+    "normal": 192,
+    "large": 6,
+    "disabled": 2,
+    "basis": "普通・大型は精査で確定した合算（第1駐車場 整備局・市 72/6＋第2〜第4駐車場 運営者リリース 20/60/40）。身障者用は整備局・市の「ゆずりあい駐車場2台」を仮置き（原文は身障者用ではない。判断項目）"
+  },
+  "yutorie-setoya": {
+    "total": null,
+    "normal": 158,
+    "large": 3,
+    "disabled": null,
+    "basis": "連絡会・整備局とも「普通車158台・大型3台」で一致。身障者用の公表なし"
+  }
+}

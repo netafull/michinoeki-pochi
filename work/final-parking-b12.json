@@ -1,0 +1,458 @@
+{
+  "echizen": {
+    "total": 168,
+    "normal": 157,
+    "large": 11,
+    "disabled": 4
+  },
+  "echizen-ono-arashima-no-sato": {
+    "total": null,
+    "normal": 169,
+    "large": 33,
+    "disabled": null
+  },
+  "echizen-takefu": {
+    "total": null,
+    "normal": 138,
+    "large": 28,
+    "disabled": null
+  },
+  "ichijodani-asakura-mizunoeki": {
+    "total": null,
+    "normal": 46,
+    "large": 3,
+    "disabled": 2
+  },
+  "kouno": {
+    "total": null,
+    "normal": 26,
+    "large": 12,
+    "disabled": 1
+  },
+  "kuzuryu": {
+    "total": null,
+    "normal": 65,
+    "large": 4,
+    "disabled": 2
+  },
+  "kyoryu-keikoku-katsuyama": {
+    "total": null,
+    "normal": 88,
+    "large": 11,
+    "disabled": null
+  },
+  "mikatagoko": {
+    "total": 47,
+    "normal": 40,
+    "large": 7,
+    "disabled": 3
+  },
+  "mikuni": {
+    "total": null,
+    "normal": 92,
+    "large": 10,
+    "disabled": 7
+  },
+  "minami-echizen-sankairi": {
+    "total": null,
+    "normal": 127,
+    "large": 8,
+    "disabled": null
+  },
+  "natasho": {
+    "total": null,
+    "normal": 37,
+    "large": 3,
+    "disabled": 3
+  },
+  "nishiyama-koen": {
+    "total": 83,
+    "normal": 74,
+    "large": 9,
+    "disabled": 2
+  },
+  "park-in-nyugaoka": {
+    "total": null,
+    "normal": 59,
+    "large": 7,
+    "disabled": 2
+  },
+  "rennyo-no-sato-awara": {
+    "total": null,
+    "normal": 106,
+    "large": 8,
+    "disabled": null
+  },
+  "sakai-fukui": {
+    "total": null,
+    "normal": 145,
+    "large": 9,
+    "disabled": 4
+  },
+  "seaside-takahama": {
+    "total": 150,
+    "normal": 131,
+    "large": 19,
+    "disabled": 8
+  },
+  "uminpia-ooi": {
+    "total": 33,
+    "normal": 29,
+    "large": 4,
+    "disabled": 3
+  },
+  "wakasa-kumagawa-juku": {
+    "total": null,
+    "normal": 74,
+    "large": 14,
+    "disabled": 4
+  },
+  "wakasa-mihama-hamabiyori": {
+    "total": null,
+    "normal": 108,
+    "large": 9,
+    "disabled": null
+  },
+  "wakasa-obama": {
+    "total": null,
+    "normal": 151,
+    "large": 7,
+    "disabled": 6
+  },
+  "zen-no-sato": {
+    "total": null,
+    "normal": 80,
+    "large": 3,
+    "disabled": 4
+  },
+  "minami": {
+    "total": null,
+    "normal": 28,
+    "large": 10,
+    "disabled": 2
+  },
+  "pascal-kiyomi": {
+    "total": null,
+    "normal": 120,
+    "large": 20,
+    "disabled": null
+  },
+  "meiho": {
+    "total": null,
+    "normal": 120,
+    "large": 4,
+    "disabled": 2
+  },
+  "hanakaido-tsukechi": {
+    "total": null,
+    "normal": 113,
+    "large": 8,
+    "disabled": 5
+  },
+  "mino-shirakawa": {
+    "total": null,
+    "normal": 90,
+    "large": 13,
+    "disabled": 7
+  },
+  "lasten-horado": {
+    "total": null,
+    "normal": 53,
+    "large": 3,
+    "disabled": 4
+  },
+  "hakusan-bunka-no-sato-nagataki": {
+    "total": null,
+    "normal": 106,
+    "large": 3,
+    "disabled": 4
+  },
+  "okuhida-kamitakara": {
+    "total": null,
+    "normal": 29,
+    "large": 6,
+    "disabled": 1
+  },
+  "shizumo": {
+    "total": null,
+    "normal": 46,
+    "large": 12,
+    "disabled": 2
+  },
+  "rock-garden-hichiso": {
+    "total": null,
+    "normal": 54,
+    "large": 15,
+    "disabled": 4
+  },
+  "hoshi-no-furusato-fujihashi": {
+    "total": null,
+    "normal": 120,
+    "large": 9,
+    "disabled": 3
+  },
+  "shirakawago": {
+    "total": null,
+    "normal": 161,
+    "large": 4,
+    "disabled": 3
+  },
+  "heisei": {
+    "total": null,
+    "normal": 150,
+    "large": 5,
+    "disabled": 3
+  },
+  "alp-hida-furukawa": {
+    "total": null,
+    "normal": 120,
+    "large": 27,
+    "disabled": 2
+  },
+  "hida-kanayama-nukumori": {
+    "total": null,
+    "normal": 33,
+    "large": 4,
+    "disabled": 3
+  },
+  "kamiyahagi-fukuju-no-sato": {
+    "total": null,
+    "normal": 22,
+    "large": 8,
+    "disabled": 2
+  },
+  "montdeus-hida-isurugi": {
+    "total": null,
+    "normal": 28,
+    "large": 10,
+    "disabled": 2
+  },
+  "minami-hida-osaka": {
+    "total": null,
+    "normal": 34,
+    "large": 2,
+    "disabled": 1
+  },
+  "yume-sansan-tanigumi": {
+    "total": null,
+    "normal": 26,
+    "large": 1,
+    "disabled": 2
+  },
+  "toki-minoyaki-kaido": {
+    "total": null,
+    "normal": 53,
+    "large": 5,
+    "disabled": 2
+  },
+  "fuyugaki-no-sato-itonuki": {
+    "total": null,
+    "normal": 72,
+    "large": 5,
+    "disabled": 2
+  },
+  "nanamori-kiyomi": {
+    "total": null,
+    "normal": 89,
+    "large": 4,
+    "disabled": 2
+  },
+  "kirira-sakashita": {
+    "total": null,
+    "normal": 78,
+    "large": 5,
+    "disabled": 3
+  },
+  "clair-hirata": {
+    "total": null,
+    "normal": 21,
+    "large": 17,
+    "disabled": 2
+  },
+  "maze-miki-no-sato": {
+    "total": null,
+    "normal": 49,
+    "large": null,
+    "disabled": 2
+  },
+  "hida-kaido-nagisa": {
+    "total": null,
+    "normal": 65,
+    "large": 6,
+    "disabled": null
+  },
+  "hida-asahimura": {
+    "total": null,
+    "normal": 93,
+    "large": 3,
+    "disabled": 2
+  },
+  "soba-no-sato-rassei-misato": {
+    "total": null,
+    "normal": 31,
+    "large": 6,
+    "disabled": 2
+  },
+  "oribe-no-sato-motosu": {
+    "total": null,
+    "normal": 136,
+    "large": 8,
+    "disabled": 4
+  },
+  "hida-takane-kobo": {
+    "total": null,
+    "normal": 48,
+    "large": 5,
+    "disabled": 2
+  },
+  "dainichidake": {
+    "total": null,
+    "normal": 29,
+    "large": 7,
+    "disabled": 4
+  },
+  "sakura-no-sato-shokawa": {
+    "total": null,
+    "normal": 156,
+    "large": 5,
+    "disabled": 2
+  },
+  "mugegawa": {
+    "total": null,
+    "normal": 48,
+    "large": 8,
+    "disabled": 6
+  },
+  "kokon-denju-no-sato-yamato": {
+    "total": null,
+    "normal": 196,
+    "large": 8,
+    "disabled": 5
+  },
+  "minokamo": {
+    "total": null,
+    "normal": 206,
+    "large": 33,
+    "disabled": 20
+  },
+  "cha-no-sato-higashishirakawa": {
+    "total": null,
+    "normal": 15,
+    "large": 2,
+    "disabled": 2
+  },
+  "wara": {
+    "total": null,
+    "normal": 93,
+    "large": 3,
+    "disabled": 1
+  },
+  "usuzumi-sakura-no-sato-neo": {
+    "total": null,
+    "normal": 33,
+    "large": 2,
+    "disabled": 2
+  },
+  "shino-oribe": {
+    "total": null,
+    "normal": 38,
+    "large": 11,
+    "disabled": 2
+  },
+  "kashimo": {
+    "total": null,
+    "normal": 31,
+    "large": 4,
+    "disabled": 1
+  },
+  "yashagaike-no-sato-sakauchi": {
+    "total": null,
+    "normal": 21,
+    "large": 2,
+    "disabled": 2
+  },
+  "obachan-ichi-yamaoka": {
+    "total": null,
+    "normal": 55,
+    "large": 6,
+    "disabled": 2
+  },
+  "tsukimi-no-sato-nanno": {
+    "total": null,
+    "normal": 103,
+    "large": 27,
+    "disabled": 2
+  },
+  "yanaizu": {
+    "total": null,
+    "normal": 62,
+    "large": 6,
+    "disabled": 3
+  },
+  "itsuki-no-yakata-kawaue": {
+    "total": null,
+    "normal": 21,
+    "large": 2,
+    "disabled": 1
+  },
+  "sora-dome-kamioka": {
+    "total": null,
+    "normal": 109,
+    "large": 7,
+    "disabled": null
+  },
+  "shirao-fureai-park": {
+    "total": null,
+    "normal": 46,
+    "large": 5,
+    "disabled": 2
+  },
+  "mino-niwaka-chaya": {
+    "total": null,
+    "normal": 66,
+    "large": 10,
+    "disabled": 2
+  },
+  "hida-hakusan": {
+    "total": null,
+    "normal": 36,
+    "large": 3,
+    "disabled": 2
+  },
+  "hanyuri-no-sato-tomika": {
+    "total": null,
+    "normal": 34,
+    "large": 4,
+    "disabled": 1
+  },
+  "kanitte": {
+    "total": null,
+    "normal": 50,
+    "large": 16,
+    "disabled": 2
+  },
+  "ikeda-onsen": {
+    "total": null,
+    "normal": 59,
+    "large": 9,
+    "disabled": 2
+  },
+  "seiryu-shirakawa-cuore-no-sato": {
+    "total": null,
+    "normal": 263,
+    "large": 6,
+    "disabled": 12
+  },
+  "seiryu-no-sato-shirotori": {
+    "total": null,
+    "normal": 72,
+    "large": 3,
+    "disabled": null
+  },
+  "palette-pia-ono": {
+    "total": null,
+    "normal": 236,
+    "large": 10,
+    "disabled": null
+  }
+}
