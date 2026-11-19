@@ -17607,7 +17607,7 @@
     },
     "tokushima": {
       "name": "徳島県",
-      "published": false,
+      "published": true,
       "stations": [
         {
           "slug": "sadamitsu-yuyukan",
@@ -17990,7 +17990,7 @@
     },
     "kagawa": {
       "name": "香川県",
-      "published": false,
+      "published": true,
       "stations": [
         {
           "slug": "seto-ohashi-kinen-koen",
@@ -18380,7 +18380,7 @@
     },
     "ehime": {
       "name": "愛媛県",
-      "published": false,
+      "published": true,
       "stations": [
         {
           "slug": "sadamisaki-hanto-museum",
@@ -19001,7 +19001,7 @@
     },
     "kochi": {
       "name": "高知県",
-      "published": false,
+      "published": true,
       "stations": [
         {
           "slug": "oosugi",
