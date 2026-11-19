@@ -8488,8 +8488,8 @@
           "official_url": "https://michieki-miyajima.jp/",
           "hours": "〈レストラン〉10:30～15:00（ラストオーダー14:30） 〈売店〉9:00～16:00",
           "closed": "水曜日（祝日の場合は翌日）、年末年始",
-          "parking_normal": 36,
-          "parking_large": 1,
+          "parking_normal": null,
+          "parking_large": null,
           "lat": 35.1791637,
           "lng": 137.6826773,
           "ev": true,
@@ -8498,7 +8498,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19361",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_total": 37
         },
         {
           "slug": "horai-mikawa-mitsuishi",
@@ -8518,7 +8519,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19362",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 1
         },
         {
           "slug": "tahara-mekkun-house",
@@ -8538,7 +8540,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19363",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 3
         },
         {
           "slug": "irago-crystal-porto",
@@ -8558,7 +8561,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19364",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 2
         },
         {
           "slug": "tsugu-kogen-green-park",
@@ -8568,7 +8572,7 @@
           "official_url": "http://www.green-park.net/",
           "hours": "9:00～17:00 冬期9:00～16:00",
           "closed": "水曜日・木曜日（ゴールデンウイーク・夏休み・年末年始・祝日は除く）",
-          "parking_normal": 47,
+          "parking_normal": 46,
           "parking_large": null,
           "lat": 35.2003459,
           "lng": 137.6048058,
@@ -8578,7 +8582,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19365",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 2
         },
         {
           "slug": "donguri-no-sato-inabu",
@@ -8588,7 +8593,7 @@
           "official_url": "http://www.dongurinosato.com/",
           "hours": "9:00～17:00（平日） 9:00～18:00（土日祝）",
           "closed": "木曜日（12月～3月、祝日の場合は翌日）、年末年始（12月27日～1月1日）",
-          "parking_normal": 107,
+          "parking_normal": 108,
           "parking_large": 12,
           "lat": 35.2139048,
           "lng": 137.5030694,
@@ -8598,7 +8603,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19366",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 3
         },
         {
           "slug": "agri-station-nagura",
@@ -8638,7 +8644,8 @@
           "restaurant": false,
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19368",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 11
         },
         {
           "slug": "tsukude-tezukuri-mura",
@@ -8648,7 +8655,7 @@
           "official_url": "https://www.tedukurimura.com",
           "hours": "9:00～17:00",
           "closed": "木曜日（祝日の場合は営業）、年末年始（12月31日～1月3日）",
-          "parking_normal": 105,
+          "parking_normal": 104,
           "parking_large": 4,
           "lat": 34.9631966,
           "lng": 137.420692,
@@ -8658,7 +8665,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19369",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 4
         },
         {
           "slug": "fureai-no-sato-hasu-park",
@@ -8678,7 +8686,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19370",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 11
         },
         {
           "slug": "akabane-loco-station",
@@ -8698,7 +8707,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19371",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 2
         },
         {
           "slug": "fudegaki-no-sato-kota",
@@ -8718,7 +8728,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19372",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 2
         },
         {
           "slug": "nishio-okanoyama",
@@ -8738,7 +8749,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19373",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 4
         },
         {
           "slug": "seto-shinano",
@@ -8758,7 +8770,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19374",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 2
         },
         {
           "slug": "fujikawa-juku",
@@ -8778,7 +8791,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19375",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 3
         },
         {
           "slug": "mokkuru-shinshiro",
@@ -8798,7 +8812,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19376",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 2
         },
         {
           "slug": "toyohashi",
@@ -8818,7 +8833,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19930",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_total": 258
         },
         {
           "slug": "shitara",
@@ -8838,7 +8854,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19956",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 1
         },
         {
           "slug": "machi-terrace-nisshin",
@@ -8859,7 +8876,8 @@
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/22526",
           "checked": "2026-11-18",
-          "ev_source_url": "https://www.evsmart.net/spot/aichi/l232301/v37619"
+          "ev_source_url": "https://www.evsmart.net/spot/aichi/l232301/v37619",
+          "parking_disabled": 4
         }
       ]
     },
@@ -8885,7 +8903,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19377",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 4
         },
         {
           "slug": "komono",
@@ -8895,7 +8914,7 @@
           "official_url": "https://www.kankomie.or.jp/spot/1806",
           "hours": "9:00～17:00",
           "closed": "年末年始（12月29日～1月3日）",
-          "parking_normal": 37,
+          "parking_normal": 40,
           "parking_large": 2,
           "lat": 35.013663,
           "lng": 136.5030552,
@@ -8905,7 +8924,8 @@
           "restaurant": false,
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19378",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 2
         },
         {
           "slug": "kihocho-umigame-koen",
@@ -8966,7 +8986,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19381",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 2
         },
         {
           "slug": "okuise-kitsutsukikan",
@@ -8986,7 +9007,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19382",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 4
         },
         {
           "slug": "kumano-kinokuni",
@@ -9006,7 +9028,8 @@
           "restaurant": false,
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19383",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 1
         },
         {
           "slug": "chakura-eki",
@@ -9016,7 +9039,7 @@
           "official_url": "https://www.everglades.jp/chakrastation/",
           "hours": "9:00～17:00",
           "closed": "火曜日・年末年始（祝日の場合は翌日）",
-          "parking_normal": 19,
+          "parking_normal": 15,
           "parking_large": 2,
           "lat": 34.4603762,
           "lng": 136.3982131,
@@ -9026,7 +9049,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19384",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 2
         },
         {
           "slug": "okuise-odai",
@@ -9036,8 +9060,8 @@
           "official_url": "http://www.okuise-odai.jp/",
           "hours": "8:00～18:00",
           "closed": "年始（1月1日・2日）",
-          "parking_normal": 77,
-          "parking_large": 4,
+          "parking_normal": 46,
+          "parking_large": 2,
           "lat": 34.3938706,
           "lng": 136.4085972,
           "ev": true,
@@ -9047,7 +9071,8 @@
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19385",
           "checked": "2026-11-18",
-          "ev_source_url": "https://www.ev-smart.net/charging/mie/fa2f679ca7ec"
+          "ev_source_url": "https://www.ev-smart.net/charging/mie/fa2f679ca7ec",
+          "parking_disabled": 2
         },
         {
           "slug": "misugi",
@@ -9057,7 +9082,7 @@
           "official_url": "https://www.kankomie.or.jp/spot/detail_3967.html",
           "hours": "9:00～17:00",
           "closed": "年中無休",
-          "parking_normal": 59,
+          "parking_normal": 64,
           "parking_large": 5,
           "lat": 34.5116756,
           "lng": 136.3068072,
@@ -9078,7 +9103,7 @@
           "official_url": "https://www.anzen-kameyama.jp/servicearea",
           "hours": "9:00～18:00",
           "closed": "年中無休",
-          "parking_normal": 51,
+          "parking_normal": 50,
           "parking_large": 8,
           "lat": 34.849508,
           "lng": 136.3926996,
@@ -9088,7 +9113,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19387",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 5
         },
         {
           "slug": "ise-shima",
@@ -9098,7 +9124,7 @@
           "official_url": "https://www.kankomie.or.jp/spot/detail_3980.html",
           "hours": "休憩舎 9:00～18:00・物産館 9:00～17:00",
           "closed": "年中無休",
-          "parking_normal": 19,
+          "parking_normal": 26,
           "parking_large": 2,
           "lat": 34.3594609,
           "lng": 136.7989126,
@@ -9108,7 +9134,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19388",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 1
         },
         {
           "slug": "kii-nagashima-manbou",
@@ -9128,7 +9155,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19389",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 2
         },
         {
           "slug": "ayama",
@@ -9148,7 +9176,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19390",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 2
         },
         {
           "slug": "iga",
@@ -9168,7 +9197,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19391",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 3
         },
         {
           "slug": "tsu-kawage",
@@ -9179,7 +9209,7 @@
           "hours": "7:00～19:00〔施設により異なる〕",
           "closed": "年中無休",
           "parking_normal": 57,
-          "parking_large": 16,
+          "parking_large": 14,
           "lat": 34.7967069,
           "lng": 136.5179906,
           "ev": true,
@@ -9188,7 +9218,8 @@
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19850",
-          "checked": "2026-11-18"
+          "checked": "2026-11-18",
+          "parking_disabled": 2
         },
         {
           "slug": "kumano-hana-no-iwaya",
@@ -9198,8 +9229,8 @@
           "official_url": "http://hananoiwaya.com/otunacyaya/cyaya_index.html",
           "hours": "10:00～16:00（季節により変更あり）",
           "closed": "年中無休",
-          "parking_normal": 41,
-          "parking_large": 6,
+          "parking_normal": 25,
+          "parking_large": 3,
           "lat": 33.878939,
           "lng": 136.092541,
           "ev": true,
@@ -9209,7 +9240,8 @@
           "shop": true,
           "source_url": "https://www.michi-no-eki.jp/stations/views/19865",
           "checked": "2026-11-18",
-          "ev_source_url": "https://www.ev-smart.net/charging/mie/aa5c0ac94512"
+          "ev_source_url": "https://www.ev-smart.net/charging/mie/aa5c0ac94512",
+          "parking_disabled": 1
         },
         {
           "slug": "kumano-itaya-kurobei-no-sato",
@@ -9219,7 +9251,7 @@
           "official_url": "http://kurobee.net",
           "hours": "平日：9:30～16:00 土日祝：9:30～17:00",
           "closed": "第2・第3火曜日",
-          "parking_normal": 38,
+          "parking_normal": 43,
           "parking_large": 3,
           "lat": 33.876518,
           "lng": 135.915236,
