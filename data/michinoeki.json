@@ -424,7 +424,8 @@
           "shop": true,
           "slug": "tomiura",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19125",
-          "tel": "0470-33-4611"
+          "tel": "0470-33-4611",
+          "parking_disabled": 2
         },
         {
           "address": "千葉県南房総市川田82-2",
@@ -443,7 +444,8 @@
           "slug": "miyoshimura",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19126",
           "tel": "0470-36-4116",
-          "ev_source_url": "https://www.evsmart.net/spot/chiba/l122343/v34437"
+          "ev_source_url": "https://www.evsmart.net/spot/chiba/l122343/v34437",
+          "parking_disabled": 1
         },
         {
           "address": "千葉県八千代市島田2076",
@@ -461,7 +463,9 @@
           "shop": true,
           "slug": "yachiyo",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19127",
-          "tel": "047-406-4778"
+          "tel": "047-406-4778",
+          "parking_total": 109,
+          "parking_disabled": 3
         },
         {
           "address": "千葉県安房郡鋸南町吉浜517-1",
@@ -479,7 +483,8 @@
           "shop": true,
           "slug": "kyonan",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19128",
-          "tel": "0470-55-4518"
+          "tel": "0470-55-4518",
+          "parking_disabled": 1
         },
         {
           "address": "千葉県鴨川市江見太夫崎22",
@@ -497,7 +502,8 @@
           "shop": true,
           "slug": "kamogawa-ocean-park",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19129",
-          "tel": "04-7096-1911"
+          "tel": "04-7096-1911",
+          "parking_disabled": 3
         },
         {
           "address": "千葉県南房総市白子1501",
@@ -535,7 +541,8 @@
           "slug": "fureai-park-kimitsu",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19131",
           "tel": "0439-39-3939",
-          "ev_source_url": "https://maruchiba.jp/spot/detail_10455.html"
+          "ev_source_url": "https://maruchiba.jp/spot/detail_10455.html",
+          "parking_disabled": 4
         },
         {
           "address": "千葉県柏市箕輪新田59-2",
@@ -572,7 +579,9 @@
           "shop": true,
           "slug": "takeyura-otaki",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19133",
-          "tel": "0470-82-5566"
+          "tel": "0470-82-5566",
+          "parking_total": 102,
+          "parking_disabled": 2
         },
         {
           "address": "千葉県香取郡多古町多古1069-1",
@@ -591,7 +600,8 @@
           "slug": "tako",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19134",
           "tel": "0479-79-3456",
-          "ev_source_url": "https://maruchiba.jp/spot/detail_10199.html"
+          "ev_source_url": "https://maruchiba.jp/spot/detail_10199.html",
+          "parking_disabled": 2
         },
         {
           "address": "千葉県市原市浅井小向492-1",
@@ -609,7 +619,8 @@
           "shop": true,
           "slug": "azu-no-sato-ichihara",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19135",
-          "tel": "0436-37-8891"
+          "tel": "0436-37-8891",
+          "parking_disabled": 3
         },
         {
           "address": "千葉県香取市沢1372-1",
@@ -628,7 +639,8 @@
           "slug": "kurimoto",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19136",
           "tel": "0478-70-5151",
-          "ev_source_url": "https://www.ev-smart.net/charging/chiba/d2ef4190d659"
+          "ev_source_url": "https://www.ev-smart.net/charging/chiba/d2ef4190d659",
+          "parking_disabled": 1
         },
         {
           "address": "千葉県南房総市千倉町千田1051",
@@ -666,7 +678,8 @@
           "slug": "furari-tomiyama",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19138",
           "tel": "0470-57-2601",
-          "ev_source_url": "https://www.furaritomiyama.jp/facility/index.html"
+          "ev_source_url": "https://www.furaritomiyama.jp/facility/index.html",
+          "parking_disabled": 1
         },
         {
           "address": "千葉県南房総市富浦町大津320",
@@ -703,7 +716,8 @@
           "slug": "orai-hasunuma",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19140",
           "tel": "0475-80-5020",
-          "ev_source_url": "https://maruchiba.jp/spot/detail_10246.html"
+          "ev_source_url": "https://maruchiba.jp/spot/detail_10246.html",
+          "parking_disabled": 4
         },
         {
           "address": "千葉県長生郡長柄町六地蔵138-1",
@@ -721,7 +735,8 @@
           "shop": true,
           "slug": "nagara",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19141",
-          "tel": "0475-35-4741"
+          "tel": "0475-35-4741",
+          "parking_disabled": 2
         },
         {
           "address": "千葉県長生郡睦沢町森2-1",
@@ -739,7 +754,8 @@
           "shop": true,
           "slug": "mutsuzawa",
           "source_url": "https://mutsuzawa-swt.jp/facility",
-          "tel": "0475-36-7400"
+          "tel": "0475-36-7400",
+          "parking_disabled": 3
         },
         {
           "address": "千葉県南房総市白浜町滝口9240",
@@ -775,7 +791,8 @@
           "shop": true,
           "slug": "mizu-no-sato-sawara",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19145",
-          "tel": "0478-50-1183"
+          "tel": "0478-50-1183",
+          "parking_disabled": 4
         },
         {
           "address": "千葉県山武郡芝山町小池2568",
@@ -831,7 +848,8 @@
           "shop": true,
           "slug": "hakko-no-sato-kozaki",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19148",
-          "tel": "0478-70-1711"
+          "tel": "0478-70-1711",
+          "parking_disabled": 2
         },
         {
           "address": "千葉県旭市イの5238",
@@ -849,7 +867,8 @@
           "shop": true,
           "slug": "kirari-asahi",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19826",
-          "tel": "0479-62-0888"
+          "tel": "0479-62-0888",
+          "parking_disabled": 3
         },
         {
           "address": "千葉県安房郡鋸南町保田724",
@@ -867,7 +886,8 @@
           "shop": true,
           "slug": "hota-shogakko",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19827",
-          "tel": "0470-29-5530"
+          "tel": "0470-29-5530",
+          "parking_disabled": 2
         },
         {
           "address": "千葉県東金市田間1300-3",
@@ -880,12 +900,13 @@
           "official_url": "https://minorinosato-togane.com/",
           "onsen_ashiyu": false,
           "parking_large": 6,
-          "parking_normal": 239,
+          "parking_normal": 247,
           "restaurant": true,
           "shop": true,
           "slug": "minori-no-sato-togane",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19845",
-          "tel": "0475-53-3615"
+          "tel": "0475-53-3615",
+          "parking_disabled": 5
         },
         {
           "address": "千葉県木更津市下郡1369-1",
@@ -923,7 +944,8 @@
           "slug": "ichikawa",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19905",
           "tel": "047-382-5211",
-          "ev_source_url": "https://www.michinoeki-ichikawa.jp/access/"
+          "ev_source_url": "https://www.michinoeki-ichikawa.jp/access/",
+          "parking_disabled": 2
         },
         {
           "address": "千葉県館山市稲274",
@@ -941,7 +963,8 @@
           "shop": true,
           "slug": "greenfarm-tateyama",
           "source_url": "https://www.michi-no-eki.jp/stations/views/22268",
-          "tel": "0470-29-7015"
+          "tel": "0470-29-7015",
+          "parking_disabled": 3
         }
       ]
     },
@@ -966,7 +989,8 @@
           "slug": "hachioji-takiyama",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19149",
           "tel": "042-696-1201",
-          "ev_source_url": "https://www.michinoeki-hachioji.net/"
+          "ev_source_url": "https://www.michinoeki-hachioji.net/",
+          "parking_disabled": 2
         }
       ]
     },
@@ -991,7 +1015,8 @@
           "slug": "hakone-toge",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19150",
           "tel": "0460-83-7310",
-          "ev_source_url": "https://evsmart.net/spot/kanagawa/l143821/v30224/"
+          "ev_source_url": "https://evsmart.net/spot/kanagawa/l143821/v30224/",
+          "parking_disabled": 1
         },
         {
           "address": "神奈川県足柄上郡山北町湯触317",
@@ -1010,7 +1035,8 @@
           "slug": "yamakita",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19151",
           "tel": "0465-77-2882",
-          "ev_source_url": "https://www.evsmart.net/spot/kanagawa/l143642/v35196"
+          "ev_source_url": "https://www.evsmart.net/spot/kanagawa/l143642/v35196",
+          "parking_disabled": 3
         },
         {
           "address": "神奈川県愛甲郡清川村煤ヶ谷2129",
@@ -1029,7 +1055,8 @@
           "slug": "kiyokawa",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19846",
           "tel": "080-7016-3549",
-          "ev_source_url": "https://www.evsmart.net/spot/kanagawa/l144029/v30225"
+          "ev_source_url": "https://www.evsmart.net/spot/kanagawa/l144029/v30225",
+          "parking_disabled": 1
         },
         {
           "address": "神奈川県南足柄市竹松1117番地1",
@@ -1048,7 +1075,9 @@
           "slug": "ashigara-kintaro",
           "source_url": "https://www.michi-no-eki.jp/stations/views/19946",
           "tel": "0465-70-1815",
-          "ev_source_url": "https://www.michinoeki-ashigara.com/facility/"
+          "ev_source_url": "https://www.michinoeki-ashigara.com/facility/",
+          "parking_total": 106,
+          "parking_disabled": 2
         },
         {
           "address": "神奈川県茅ヶ崎市柳島1546番地1",
@@ -1067,7 +1096,8 @@
           "slug": "shonan-chigasaki",
           "source_url": "https://www.michi-no-eki.jp/stations/views/22687",
           "tel": "0467-33-6360",
-          "ev_source_url": "https://evsmart.net/spot/kanagawa/l142077/v33720"
+          "ev_source_url": "https://evsmart.net/spot/kanagawa/l142077/v33720",
+          "parking_total": 188
         },
         {
           "address": "神奈川県足柄上郡松田町寄3415番地",
@@ -1080,12 +1110,13 @@
           "official_url": "https://yadoriki.com/yadoriki-terrace/",
           "onsen_ashiyu": null,
           "parking_large": null,
-          "parking_normal": 13,
+          "parking_normal": null,
           "restaurant": true,
           "shop": true,
           "slug": "yadoriki-terrace",
           "source_url": "https://www.michi-no-eki.jp/stations/views/23221",
-          "tel": "080-9572-4799"
+          "tel": "080-9572-4799",
+          "parking_total": 13
         }
       ]
     },
