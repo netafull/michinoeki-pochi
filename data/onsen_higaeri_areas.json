@@ -1,0 +1,2264 @@
+{
+ "source": "onsen-pochi data/spas.json・data/higaeri.json",
+ "exported": "2026-11-20",
+ "note": "center は温泉地の中心（元の12温泉地は無い）。facilities は日帰り施設ごとの座標",
+ "areas": [
+  {
+   "slug": "kusatsu",
+   "name": "草津",
+   "url": "https://onsen.netaful.jp/higaeri/kusatsu/",
+   "center": null,
+   "facilities": [
+    {
+     "name": "大滝乃湯",
+     "lat": 36.62315,
+     "lng": 138.60046
+    },
+    {
+     "name": "御座之湯",
+     "lat": 36.62264,
+     "lng": 138.59608
+    },
+    {
+     "name": "白旗の湯",
+     "lat": 36.6223,
+     "lng": 138.59694
+    },
+    {
+     "name": "地蔵の湯",
+     "lat": 36.62252,
+     "lng": 138.59782
+    },
+    {
+     "name": "草津ナウリゾートホテル",
+     "lat": 36.62056,
+     "lng": 138.59611
+    }
+   ]
+  },
+  {
+   "slug": "kinosaki",
+   "name": "城崎",
+   "url": "https://onsen.netaful.jp/higaeri/kinosaki/",
+   "center": {
+    "lat": 35.6256,
+    "lng": 134.8097
+   },
+   "facilities": [
+    {
+     "name": "一の湯",
+     "lat": 35.62616,
+     "lng": 134.80953
+    },
+    {
+     "name": "御所の湯",
+     "lat": 35.6259,
+     "lng": 134.8074
+    },
+    {
+     "name": "地蔵湯",
+     "lat": 35.62687,
+     "lng": 134.81264
+    },
+    {
+     "name": "柳湯",
+     "lat": 35.62641,
+     "lng": 134.81022
+    },
+    {
+     "name": "鴻の湯",
+     "lat": 35.62629,
+     "lng": 134.8045
+    },
+    {
+     "name": "まんだら湯",
+     "lat": 35.62349,
+     "lng": 134.80655
+    }
+   ]
+  },
+  {
+   "slug": "hakone",
+   "name": "箱根",
+   "url": "https://onsen.netaful.jp/higaeri/hakone/",
+   "center": null,
+   "facilities": [
+    {
+     "name": "箱根湯寮",
+     "lat": 35.2347,
+     "lng": 139.09454
+    },
+    {
+     "name": "天山湯治郷",
+     "lat": 35.22495,
+     "lng": 139.08865
+    },
+    {
+     "name": "湯の里おかだ",
+     "lat": 35.22709,
+     "lng": 139.09092
+    },
+    {
+     "name": "湯遊び処 箱根の湯",
+     "lat": 35.22469,
+     "lng": 139.09016
+    },
+    {
+     "name": "箱根小涌園ユネッサン",
+     "lat": 35.23935,
+     "lng": 139.04516
+    },
+    {
+     "name": "箱根小涌園 元湯 森の湯",
+     "lat": 35.24092,
+     "lng": 139.0392
+    },
+    {
+     "name": "絶景日帰り温泉 龍宮殿本館",
+     "lat": 35.21181,
+     "lng": 139.00996
+    },
+    {
+     "name": "天成園",
+     "lat": 35.2269,
+     "lng": 139.069
+    },
+    {
+     "name": "ホテルグリーンプラザ箱根",
+     "lat": 35.24526,
+     "lng": 138.99446
+    }
+   ]
+  },
+  {
+   "slug": "atami",
+   "name": "熱海",
+   "url": "https://onsen.netaful.jp/higaeri/atami/",
+   "center": null,
+   "facilities": [
+    {
+     "name": "山田湯",
+     "lat": 35.0905,
+     "lng": 139.06993
+    },
+    {
+     "name": "熱海駅前温泉浴場（田原浴場）",
+     "lat": 35.10258,
+     "lng": 139.07843
+    },
+    {
+     "name": "マリンスパあたみ",
+     "lat": 35.0908,
+     "lng": 139.0742
+    },
+    {
+     "name": "オーシャンスパ Fuua",
+     "lat": 35.08818,
+     "lng": 139.07936
+    },
+    {
+     "name": "KKRホテル熱海",
+     "lat": 35.10174,
+     "lng": 139.08164
+    },
+    {
+     "name": "大江戸温泉物語 Premium あたみ",
+     "lat": 35.09936,
+     "lng": 139.07558
+    },
+    {
+     "name": "月の栖熱海聚楽ホテル",
+     "lat": 35.10129,
+     "lng": 139.07809
+    }
+   ]
+  },
+  {
+   "slug": "ikaho",
+   "name": "伊香保",
+   "url": "https://onsen.netaful.jp/higaeri/ikaho/",
+   "center": null,
+   "facilities": [
+    {
+     "name": "石段の湯",
+     "lat": 36.49784,
+     "lng": 138.91608
+    },
+    {
+     "name": "伊香保露天風呂",
+     "lat": 36.49102,
+     "lng": 138.91594
+    },
+    {
+     "name": "大江戸温泉物語 Premium 伊香保",
+     "lat": 36.49265,
+     "lng": 138.91139
+    },
+    {
+     "name": "お宿 玉樹",
+     "lat": 36.4991,
+     "lng": 138.91762
+    }
+   ]
+  },
+  {
+   "slug": "beppu",
+   "name": "別府",
+   "url": "https://onsen.netaful.jp/higaeri/beppu/",
+   "center": null,
+   "facilities": [
+    {
+     "name": "竹瓦温泉",
+     "lat": 33.27736,
+     "lng": 131.50595
+    },
+    {
+     "name": "不老泉",
+     "lat": 33.27721,
+     "lng": 131.5002
+    },
+    {
+     "name": "海門寺温泉",
+     "lat": 33.2805,
+     "lng": 131.50314
+    },
+    {
+     "name": "永石温泉",
+     "lat": 33.27317,
+     "lng": 131.50356
+    },
+    {
+     "name": "田の湯温泉",
+     "lat": 33.27803,
+     "lng": 131.49828
+    },
+    {
+     "name": "堀田温泉",
+     "lat": 33.288556,
+     "lng": 131.4610512
+    },
+    {
+     "name": "柴石温泉",
+     "lat": 33.3257753,
+     "lng": 131.4730033
+    },
+    {
+     "name": "鉄輪むし湯",
+     "lat": 33.31638,
+     "lng": 131.47807
+    },
+    {
+     "name": "駅前高等温泉",
+     "lat": 33.27908,
+     "lng": 131.50212
+    },
+    {
+     "name": "四の湯温泉",
+     "lat": 33.32078,
+     "lng": 131.49187
+    },
+    {
+     "name": "亀川筋湯温泉",
+     "lat": 33.32531,
+     "lng": 131.49368
+    }
+   ]
+  },
+  {
+   "slug": "arima",
+   "name": "有馬",
+   "url": "https://onsen.netaful.jp/higaeri/arima/",
+   "center": {
+    "lat": 34.7974,
+    "lng": 135.2478
+   },
+   "facilities": [
+    {
+     "name": "金の湯",
+     "lat": 34.79663,
+     "lng": 135.24776
+    },
+    {
+     "name": "銀の湯",
+     "lat": 34.79429,
+     "lng": 135.24774
+    },
+    {
+     "name": "太閤の湯",
+     "lat": 34.79781,
+     "lng": 135.25116
+    },
+    {
+     "name": "陶泉 御所坊",
+     "lat": 34.79674,
+     "lng": 135.24725
+    },
+    {
+     "name": "有馬グランドホテル",
+     "lat": 34.79835,
+     "lng": 135.24495
+    }
+   ]
+  },
+  {
+   "slug": "dogo",
+   "name": "道後",
+   "url": "https://onsen.netaful.jp/higaeri/dogo/",
+   "center": {
+    "lat": 33.8519,
+    "lng": 132.7863
+   },
+   "facilities": [
+    {
+     "name": "道後温泉本館",
+     "lat": 33.85211,
+     "lng": 132.78619
+    },
+    {
+     "name": "道後温泉 椿の湯",
+     "lat": 33.85263,
+     "lng": 132.7852
+    },
+    {
+     "name": "道後温泉別館 飛鳥乃湯泉",
+     "lat": 33.85185,
+     "lng": 132.78557
+    },
+    {
+     "name": "道後プリンスホテル",
+     "lat": 33.84911,
+     "lng": 132.79038
+    }
+   ]
+  },
+  {
+   "slug": "gero",
+   "name": "下呂",
+   "url": "https://onsen.netaful.jp/higaeri/gero/",
+   "center": null,
+   "facilities": [
+    {
+     "name": "白鷺乃湯",
+     "lat": 35.80929,
+     "lng": 137.24127
+    },
+    {
+     "name": "クアガーデン露天風呂",
+     "lat": 35.8104,
+     "lng": 137.23912
+    },
+    {
+     "name": "幸乃湯",
+     "lat": 35.80862,
+     "lng": 137.23885
+    },
+    {
+     "name": "水明館",
+     "lat": 35.80538,
+     "lng": 137.24123
+    },
+    {
+     "name": "吉泉館竹翠亭",
+     "lat": 35.80808,
+     "lng": 137.23842
+    }
+   ]
+  },
+  {
+   "slug": "yugawara",
+   "name": "湯河原",
+   "url": "https://onsen.netaful.jp/higaeri/yugawara/",
+   "center": null,
+   "facilities": [
+    {
+     "name": "こごめの湯",
+     "lat": 35.14737,
+     "lng": 139.07111
+    },
+    {
+     "name": "湯河原惣湯 惣湯テラス",
+     "lat": 35.14692,
+     "lng": 139.07111
+    },
+    {
+     "name": "みやかみの湯",
+     "lat": 35.1409,
+     "lng": 139.09108
+    },
+    {
+     "name": "ゆとろ嵯峨沢の湯",
+     "lat": 35.15301,
+     "lng": 139.11624
+    },
+    {
+     "name": "ニューウェルシティ湯河原 いずみの湯",
+     "lat": 35.13518,
+     "lng": 139.09248
+    }
+   ]
+  },
+  {
+   "slug": "nasu",
+   "name": "那須",
+   "url": "https://onsen.netaful.jp/higaeri/nasu/",
+   "center": null,
+   "facilities": [
+    {
+     "name": "鹿の湯",
+     "lat": 37.08931,
+     "lng": 140.00526
+    },
+    {
+     "name": "小鹿の湯",
+     "lat": 37.09477,
+     "lng": 140.00229
+    },
+    {
+     "name": "源泉 那須山 令和の湯",
+     "lat": 37.01932,
+     "lng": 140.03262
+    },
+    {
+     "name": "大丸温泉旅館",
+     "lat": 37.1229188,
+     "lng": 139.9845197
+    },
+    {
+     "name": "北温泉旅館",
+     "lat": 37.1258,
+     "lng": 139.98651
+    },
+    {
+     "name": "ホテルエピナール那須",
+     "lat": 37.04874,
+     "lng": 140.02327
+    }
+   ]
+  },
+  {
+   "slug": "kinugawa",
+   "name": "鬼怒川",
+   "url": "https://onsen.netaful.jp/higaeri/kinugawa/",
+   "center": null,
+   "facilities": [
+    {
+     "name": "湯西川水の郷",
+     "lat": 36.967349,
+     "lng": 139.6095573
+    },
+    {
+     "name": "道の駅 湯西川",
+     "lat": 36.94028,
+     "lng": 139.65147
+    },
+    {
+     "name": "大江戸温泉物語 Premium 鬼怒川観光ホテル",
+     "lat": 36.82935,
+     "lng": 139.71762
+    },
+    {
+     "name": "鬼怒川パークホテルズ",
+     "lat": 36.82632,
+     "lng": 139.71606
+    }
+   ]
+  },
+  {
+   "slug": "minakami",
+   "name": "水上",
+   "url": "https://onsen.netaful.jp/higaeri/minakami/",
+   "center": {
+    "lat": 36.7686,
+    "lng": 138.9985
+   },
+   "facilities": [
+    {
+     "name": "三峰の湯",
+     "lat": 36.697593,
+     "lng": 139.0087409
+    },
+    {
+     "name": "ふれあい交流館",
+     "lat": 36.76924,
+     "lng": 138.97
+    },
+    {
+     "name": "まんてん星の湯",
+     "lat": 36.72872,
+     "lng": 138.88315
+    },
+    {
+     "name": "奥平温泉 遊神館",
+     "lat": 36.67666,
+     "lng": 138.86028
+    },
+    {
+     "name": "湯テルメ谷川",
+     "lat": 36.78521,
+     "lng": 138.95796
+    },
+    {
+     "name": "法師温泉 長寿館",
+     "lat": 36.74404,
+     "lng": 138.83052
+    },
+    {
+     "name": "宝川温泉 汪泉閣",
+     "lat": 36.84776,
+     "lng": 139.04783
+    }
+   ]
+  },
+  {
+   "slug": "yufuin",
+   "name": "由布院",
+   "url": "https://onsen.netaful.jp/higaeri/yufuin/",
+   "center": null,
+   "facilities": [
+    {
+     "name": "乙丸温泉館",
+     "lat": 33.26323,
+     "lng": 131.35814
+    },
+    {
+     "name": "クアージュゆふいん（湯布院健康温泉館）",
+     "lat": 33.26085,
+     "lng": 131.35982
+    },
+    {
+     "name": "ゆのつぼ温泉",
+     "lat": 33.26651,
+     "lng": 131.36334
+    },
+    {
+     "name": "杜の湯 ゆふいん泰葉",
+     "lat": 33.27868,
+     "lng": 131.362
+    }
+   ]
+  },
+  {
+   "slug": "unzen",
+   "name": "雲仙",
+   "url": "https://onsen.netaful.jp/higaeri/unzen/",
+   "center": {
+    "lat": 32.7355,
+    "lng": 130.261
+   },
+   "facilities": [
+    {
+     "name": "湯の里温泉共同浴場",
+     "lat": 32.74273,
+     "lng": 130.2532
+    },
+    {
+     "name": "雲仙よか湯",
+     "lat": 32.73559,
+     "lng": 130.26011
+    },
+    {
+     "name": "国民宿舎 青雲荘",
+     "lat": 32.73042,
+     "lng": 130.26025
+    },
+    {
+     "name": "大江戸温泉物語 雲仙東洋館",
+     "lat": 32.74479,
+     "lng": 130.26099
+    },
+    {
+     "name": "雲仙福田屋",
+     "lat": 32.73165,
+     "lng": 130.25419
+    }
+   ]
+  },
+  {
+   "slug": "kirishima",
+   "name": "霧島",
+   "url": "https://onsen.netaful.jp/higaeri/kirishima/",
+   "center": {
+    "lat": 31.875,
+    "lng": 130.85
+   },
+   "facilities": [
+    {
+     "name": "霧島市温泉健康増進交流センター 神乃湯",
+     "lat": 31.87716,
+     "lng": 130.87072
+    },
+    {
+     "name": "霧島市営関平温泉",
+     "lat": 31.89476,
+     "lng": 130.79063
+    },
+    {
+     "name": "さくらさくら温泉",
+     "lat": 31.87794,
+     "lng": 130.87036
+    },
+    {
+     "name": "霧島ホテル",
+     "lat": 31.89758,
+     "lng": 130.83887
+    },
+    {
+     "name": "霧島国際ホテル",
+     "lat": 31.88978,
+     "lng": 130.82526
+    },
+    {
+     "name": "日当山温泉 花の湯",
+     "lat": 31.7638,
+     "lng": 130.75882
+    }
+   ]
+  },
+  {
+   "slug": "kurokawa",
+   "name": "黒川・杖立",
+   "url": "https://onsen.netaful.jp/higaeri/kurokawa/",
+   "center": null,
+   "facilities": [
+    {
+     "name": "瀬の本高原ホテル",
+     "lat": 33.07023,
+     "lng": 131.14144
+    },
+    {
+     "name": "旅館 こうの湯",
+     "lat": 33.07064,
+     "lng": 131.14197
+    },
+    {
+     "name": "旅館 奥の湯",
+     "lat": 33.06986,
+     "lng": 131.14233
+    },
+    {
+     "name": "元湯",
+     "lat": 33.16764,
+     "lng": 131.0262
+    },
+    {
+     "name": "薬師湯",
+     "lat": 33.16746,
+     "lng": 131.02663
+    },
+    {
+     "name": "御前湯",
+     "lat": 33.16723,
+     "lng": 131.02566
+    },
+    {
+     "name": "吉祥の湯",
+     "lat": 33.17827,
+     "lng": 131.03726
+    }
+   ]
+  },
+  {
+   "slug": "aso",
+   "name": "阿蘇",
+   "url": "https://onsen.netaful.jp/higaeri/aso/",
+   "center": null,
+   "facilities": [
+    {
+     "name": "雲海薬師温泉",
+     "lat": 32.97705,
+     "lng": 131.04724
+    },
+    {
+     "name": "宝湯",
+     "lat": 32.97465,
+     "lng": 131.04236
+    },
+    {
+     "name": "阿蘇内牧音泉 湯楽",
+     "lat": 32.96699,
+     "lng": 131.05145
+    },
+    {
+     "name": "阿蘇坊中温泉 夢の湯",
+     "lat": 32.93634,
+     "lng": 131.07747
+    },
+    {
+     "name": "湯巡追荘",
+     "lat": 32.97017,
+     "lng": 131.03622
+    },
+    {
+     "name": "五岳ホテル",
+     "lat": 32.96777,
+     "lng": 131.05109
+    },
+    {
+     "name": "亀の井ホテル 阿蘇",
+     "lat": 32.92654,
+     "lng": 131.10915
+    }
+   ]
+  },
+  {
+   "slug": "ibusuki",
+   "name": "指宿",
+   "url": "https://onsen.netaful.jp/higaeri/ibusuki/",
+   "center": {
+    "lat": 31.2527,
+    "lng": 130.6425
+   },
+   "facilities": [
+    {
+     "name": "砂むし会館「砂楽」",
+     "lat": 31.22959,
+     "lng": 130.65186
+    },
+    {
+     "name": "山川砂むし温泉「砂湯里」",
+     "lat": 31.18919,
+     "lng": 130.63321
+    },
+    {
+     "name": "ヘルシーランド露天風呂「たまて箱温泉」",
+     "lat": 31.18882,
+     "lng": 130.63409
+    },
+    {
+     "name": "ヘルシーランド温泉保養館",
+     "lat": 31.1896,
+     "lng": 130.63373
+    },
+    {
+     "name": "休暇村指宿",
+     "lat": 31.26035,
+     "lng": 130.66007
+    },
+    {
+     "name": "指宿シーサイドホテル",
+     "lat": 31.24864,
+     "lng": 130.65149
+    },
+    {
+     "name": "指宿白水館",
+     "lat": 31.2517,
+     "lng": 130.6533
+    }
+   ]
+  },
+  {
+   "slug": "shiobara",
+   "name": "塩原",
+   "url": "https://onsen.netaful.jp/higaeri/shiobara/",
+   "center": {
+    "lat": 36.981,
+    "lng": 139.813
+   },
+   "facilities": [
+    {
+     "name": "塩原あかつきの湯",
+     "lat": 36.95996,
+     "lng": 139.924
+    },
+    {
+     "name": "湯守田中屋",
+     "lat": 36.96628,
+     "lng": 139.86
+    },
+    {
+     "name": "秘湯の宿 元泉館",
+     "lat": 36.96738,
+     "lng": 139.76971
+    },
+    {
+     "name": "奥塩原高原ホテル",
+     "lat": 36.95777,
+     "lng": 139.76842
+    }
+   ]
+  },
+  {
+   "slug": "shima",
+   "name": "四万",
+   "url": "https://onsen.netaful.jp/higaeri/shima/",
+   "center": {
+    "lat": 36.684,
+    "lng": 138.779
+   },
+   "facilities": [
+    {
+     "name": "四万清流の湯",
+     "lat": 36.6745035,
+     "lng": 138.7842033
+    },
+    {
+     "name": "河原の湯",
+     "lat": 36.6857,
+     "lng": 138.77462
+    },
+    {
+     "name": "御夢想の湯",
+     "lat": 36.6968,
+     "lng": 138.77338
+    },
+    {
+     "name": "上の湯",
+     "lat": 36.6897,
+     "lng": 138.76498
+    },
+    {
+     "name": "積善館",
+     "lat": 36.68963,
+     "lng": 138.76468
+    },
+    {
+     "name": "四万やまぐち館",
+     "lat": 36.6802,
+     "lng": 138.78218
+    }
+   ]
+  },
+  {
+   "slug": "ito",
+   "name": "伊東",
+   "url": "https://onsen.netaful.jp/higaeri/ito/",
+   "center": null,
+   "facilities": [
+    {
+     "name": "松原大黒天神の湯",
+     "lat": 34.97278,
+     "lng": 139.09639
+    },
+    {
+     "name": "和田寿老人の湯",
+     "lat": 34.9688,
+     "lng": 139.09848
+    },
+    {
+     "name": "毘沙門天芝の湯",
+     "lat": 34.96899,
+     "lng": 139.10455
+    },
+    {
+     "name": "岡布袋の湯",
+     "lat": 34.96604,
+     "lng": 139.09303
+    },
+    {
+     "name": "鎌田福禄寿の湯",
+     "lat": 34.95528,
+     "lng": 139.08641
+    },
+    {
+     "name": "東海館",
+     "lat": 34.97181,
+     "lng": 139.09712
+    },
+    {
+     "name": "朝日の湯 シーサイドスパ",
+     "lat": 34.98466,
+     "lng": 139.09363
+    },
+    {
+     "name": "陽気館",
+     "lat": 34.96706,
+     "lng": 139.0905
+    }
+   ]
+  },
+  {
+   "slug": "higashiizu",
+   "name": "東伊豆",
+   "url": "https://onsen.netaful.jp/higaeri/higashiizu/",
+   "center": null,
+   "facilities": [
+    {
+     "name": "黒根岩風呂",
+     "lat": 34.83362,
+     "lng": 139.07601
+    },
+    {
+     "name": "熱川プリンスホテル",
+     "lat": 34.8174,
+     "lng": 139.06525
+    },
+    {
+     "name": "稲取東海ホテル湯苑",
+     "lat": 34.76615,
+     "lng": 139.03761
+    },
+    {
+     "name": "稲取銀水荘",
+     "lat": 34.76747,
+     "lng": 139.03654
+    }
+   ]
+  },
+  {
+   "slug": "shuzenji",
+   "name": "修善寺",
+   "url": "https://onsen.netaful.jp/higaeri/shuzenji/",
+   "center": {
+    "lat": 34.9731,
+    "lng": 138.934
+   },
+   "facilities": [
+    {
+     "name": "筥湯",
+     "lat": 34.97045,
+     "lng": 138.92853
+    },
+    {
+     "name": "瑞の里 〇久旅館",
+     "lat": 34.96953,
+     "lng": 138.92072
+    },
+    {
+     "name": "ラフォーレリゾート修善寺「森の湯」",
+     "lat": 34.95335,
+     "lng": 138.92528
+    }
+   ]
+  },
+  {
+   "slug": "kawaguchiko",
+   "name": "河口湖",
+   "url": "https://onsen.netaful.jp/higaeri/kawaguchiko/",
+   "center": {
+    "lat": 35.5,
+    "lng": 138.764
+   },
+   "facilities": [
+    {
+     "name": "富士眺望の湯 ゆらり",
+     "lat": 35.48139,
+     "lng": 138.70666
+    },
+    {
+     "name": "開運の湯 ロイヤルホテル河口湖",
+     "lat": 35.50565,
+     "lng": 138.76015
+    },
+    {
+     "name": "たかの友梨 スパ＆ホテル 桜庵",
+     "lat": 35.48441,
+     "lng": 138.73239
+    },
+    {
+     "name": "富士西湖温泉 いずみの湯",
+     "lat": 35.4955,
+     "lng": 138.67551
+    },
+    {
+     "name": "山岸旅館",
+     "lat": 35.50307,
+     "lng": 138.76775
+    }
+   ]
+  },
+  {
+   "slug": "echigo-yuzawa",
+   "name": "越後湯沢",
+   "url": "https://onsen.netaful.jp/higaeri/echigo-yuzawa/",
+   "center": null,
+   "facilities": [
+    {
+     "name": "山の湯",
+     "lat": 36.94254,
+     "lng": 138.79822
+    },
+    {
+     "name": "駒子の湯",
+     "lat": 36.94373,
+     "lng": 138.80446
+    },
+    {
+     "name": "岩の湯",
+     "lat": 36.90337,
+     "lng": 138.84621
+    },
+    {
+     "name": "街道の湯",
+     "lat": 36.9006,
+     "lng": 138.77723
+    },
+    {
+     "name": "宿場の湯",
+     "lat": 36.84304,
+     "lng": 138.77901
+    },
+    {
+     "name": "ぽんしゅ館 酒風呂 湯の沢",
+     "lat": 36.9356,
+     "lng": 138.80995
+    },
+    {
+     "name": "NASPAニューオータニ",
+     "lat": 36.93177,
+     "lng": 138.79897
+    },
+    {
+     "name": "湯沢東映ホテル",
+     "lat": 36.9388,
+     "lng": 138.80324
+    }
+   ]
+  },
+  {
+   "slug": "nozawa",
+   "name": "野沢",
+   "url": "https://onsen.netaful.jp/higaeri/nozawa/",
+   "center": {
+    "lat": 36.923,
+    "lng": 138.4455
+   },
+   "facilities": [
+    {
+     "name": "麻釜温泉公園 ふるさとの湯",
+     "lat": 36.92451,
+     "lng": 138.44722
+    },
+    {
+     "name": "野沢温泉スパリーナ",
+     "lat": 36.9188,
+     "lng": 138.4462
+    }
+   ]
+  },
+  {
+   "slug": "yudanaka-shibu",
+   "name": "湯田中・渋",
+   "url": "https://onsen.netaful.jp/higaeri/yudanaka-shibu/",
+   "center": {
+    "lat": 36.737,
+    "lng": 138.426
+   },
+   "facilities": [
+    {
+     "name": "湯田中駅前温泉 楓の湯",
+     "lat": 36.74172,
+     "lng": 138.41489
+    },
+    {
+     "name": "九番湯 渋大湯",
+     "lat": 36.7337,
+     "lng": 138.43343
+    },
+    {
+     "name": "ホテルゆだなか（吉の湯）",
+     "lat": 36.74265,
+     "lng": 138.41397
+    },
+    {
+     "name": "つるや旅館",
+     "lat": 36.73725,
+     "lng": 138.41628
+    },
+    {
+     "name": "一茶のこみち 美湯の宿",
+     "lat": 36.73886,
+     "lng": 138.41942
+    }
+   ]
+  },
+  {
+   "slug": "wakura",
+   "name": "和倉",
+   "url": "https://onsen.netaful.jp/higaeri/wakura/",
+   "center": {
+    "lat": 37.1146,
+    "lng": 136.9026
+   },
+   "facilities": [
+    {
+     "name": "和倉温泉総湯",
+     "lat": 37.08874,
+     "lng": 136.91673
+    },
+    {
+     "name": "ゆけむりの宿 美湾荘",
+     "lat": 37.08898,
+     "lng": 136.91862
+    }
+   ]
+  },
+  {
+   "slug": "katayamazu",
+   "name": "片山津",
+   "url": "https://onsen.netaful.jp/higaeri/katayamazu/",
+   "center": {
+    "lat": 36.361,
+    "lng": 136.3517
+   },
+   "facilities": [
+    {
+     "name": "片山津温泉 総湯",
+     "lat": 36.3452,
+     "lng": 136.36853
+    },
+    {
+     "name": "アパホテル＆リゾート 加賀片山津温泉 佳水郷",
+     "lat": 36.35218,
+     "lng": 136.36275
+    },
+    {
+     "name": "大江戸温泉物語 片山津温泉ながやま",
+     "lat": 36.34343,
+     "lng": 136.37428
+    }
+   ]
+  },
+  {
+   "slug": "yamashiro",
+   "name": "山代",
+   "url": "https://onsen.netaful.jp/higaeri/yamashiro/",
+   "center": {
+    "lat": 36.2814,
+    "lng": 136.3563
+   },
+   "facilities": [
+    {
+     "name": "山代温泉 総湯",
+     "lat": 36.28868,
+     "lng": 136.36081
+    },
+    {
+     "name": "山代温泉 古総湯",
+     "lat": 36.28895,
+     "lng": 136.36145
+    },
+    {
+     "name": "ゆのくに天祥",
+     "lat": 36.29382,
+     "lng": 136.36407
+    },
+    {
+     "name": "ゆ湯の宿 白山菖蒲亭",
+     "lat": 36.2842,
+     "lng": 136.35542
+    }
+   ]
+  },
+  {
+   "slug": "yamanaka",
+   "name": "山中",
+   "url": "https://onsen.netaful.jp/higaeri/yamanaka/",
+   "center": {
+    "lat": 36.257,
+    "lng": 136.373
+   },
+   "facilities": [
+    {
+     "name": "菊の湯（第一浴場）",
+     "lat": 36.2467,
+     "lng": 136.37293
+    },
+    {
+     "name": "菊の湯（第二浴場）",
+     "lat": 36.2662382,
+     "lng": 136.3586395
+    },
+    {
+     "name": "大江戸温泉物語 山中彩朝楽",
+     "lat": 36.23503,
+     "lng": 136.3658
+    },
+    {
+     "name": "大江戸温泉物語 Premium 山中グランドホテル",
+     "lat": 36.2541,
+     "lng": 136.36968
+    }
+   ]
+  },
+  {
+   "slug": "awara",
+   "name": "あわら",
+   "url": "https://onsen.netaful.jp/higaeri/awara/",
+   "center": {
+    "lat": 36.221,
+    "lng": 136.192
+   },
+   "facilities": [
+    {
+     "name": "セントピアあわら",
+     "lat": 36.22587,
+     "lng": 136.19406
+    },
+    {
+     "name": "清風荘",
+     "lat": 36.22377,
+     "lng": 136.19109
+    },
+    {
+     "name": "長谷川",
+     "lat": 36.23006,
+     "lng": 136.19482
+    },
+    {
+     "name": "美松",
+     "lat": 36.22833,
+     "lng": 136.18602
+    }
+   ]
+  },
+  {
+   "slug": "yumura",
+   "name": "湯村",
+   "url": "https://onsen.netaful.jp/higaeri/yumura/",
+   "center": {
+    "lat": 35.556,
+    "lng": 134.489
+   },
+   "facilities": [
+    {
+     "name": "薬師湯",
+     "lat": 35.55686,
+     "lng": 134.48798
+    },
+    {
+     "name": "リフレッシュパークゆむら",
+     "lat": 35.55702,
+     "lng": 134.49166
+    },
+    {
+     "name": "大江戸温泉物語 三好屋",
+     "lat": 35.5451,
+     "lng": 134.48307
+    }
+   ]
+  },
+  {
+   "slug": "katsuura",
+   "name": "南紀勝浦",
+   "url": "https://onsen.netaful.jp/higaeri/katsuura/",
+   "center": {
+    "lat": 33.628,
+    "lng": 135.95
+   },
+   "facilities": [
+    {
+     "name": "天然温泉公衆浴場 はまゆ",
+     "lat": 33.63067,
+     "lng": 135.94635
+    },
+    {
+     "name": "ゆりの山温泉",
+     "lat": 33.61404,
+     "lng": 135.92235
+    },
+    {
+     "name": "きよもん湯",
+     "lat": 33.6175,
+     "lng": 135.92694
+    },
+    {
+     "name": "ホテル浦島",
+     "lat": 33.62024,
+     "lng": 135.94716
+    },
+    {
+     "name": "休暇村南紀勝浦",
+     "lat": 33.65914,
+     "lng": 135.98428
+    },
+    {
+     "name": "海のホテル一の滝",
+     "lat": 33.63769,
+     "lng": 135.93701
+    }
+   ]
+  },
+  {
+   "slug": "shirahama",
+   "name": "白浜",
+   "url": "https://onsen.netaful.jp/higaeri/shirahama/",
+   "center": {
+    "lat": 33.684,
+    "lng": 135.347
+   },
+   "facilities": [
+    {
+     "name": "崎の湯",
+     "lat": 33.67696,
+     "lng": 135.33702
+    },
+    {
+     "name": "牟婁の湯",
+     "lat": 33.67731,
+     "lng": 135.34207
+    },
+    {
+     "name": "白良湯",
+     "lat": 33.6825,
+     "lng": 135.34485
+    },
+    {
+     "name": "露天風呂しらすな",
+     "lat": 33.68126,
+     "lng": 135.34528
+    },
+    {
+     "name": "とれとれの湯",
+     "lat": 33.68139,
+     "lng": 135.37312
+    },
+    {
+     "name": "HOTEL SHIRAHAMAKAN（白浜館）",
+     "lat": 33.6827,
+     "lng": 135.3458
+    },
+    {
+     "name": "SHIRAHAMA KEY TERRACE ホテルシーモア",
+     "lat": 33.67611,
+     "lng": 135.33728
+    }
+   ]
+  },
+  {
+   "slug": "yunomine",
+   "name": "熊野本宮温泉郷",
+   "url": "https://onsen.netaful.jp/higaeri/yunomine/",
+   "center": {
+    "lat": 33.8317,
+    "lng": 135.7634
+   },
+   "facilities": [
+    {
+     "name": "湯の峰温泉公衆浴場",
+     "lat": 33.8288,
+     "lng": 135.75782
+    },
+    {
+     "name": "つぼ湯",
+     "lat": 33.82919,
+     "lng": 135.75772
+    },
+    {
+     "name": "川湯温泉公衆浴場",
+     "lat": 33.81317,
+     "lng": 135.77242
+    },
+    {
+     "name": "仙人風呂",
+     "lat": 33.81206,
+     "lng": 135.77579
+    },
+    {
+     "name": "わたらせ温泉大露天風呂",
+     "lat": 33.81835,
+     "lng": 135.76468
+    }
+   ]
+  },
+  {
+   "slug": "misasa",
+   "name": "三朝",
+   "url": "https://onsen.netaful.jp/higaeri/misasa/",
+   "center": {
+    "lat": 35.4222,
+    "lng": 133.8928
+   },
+   "facilities": [
+    {
+     "name": "河原風呂",
+     "lat": 35.41024,
+     "lng": 133.89468
+    },
+    {
+     "name": "株湯",
+     "lat": 35.40757,
+     "lng": 133.89784
+    },
+    {
+     "name": "依山楼岩崎",
+     "lat": 35.41689,
+     "lng": 133.90118
+    },
+    {
+     "name": "旅館大橋",
+     "lat": 35.41165,
+     "lng": 133.89148
+    },
+    {
+     "name": "BARCOS RYOKAN 三朝荘",
+     "lat": 35.40958,
+     "lng": 133.8947
+    }
+   ]
+  },
+  {
+   "slug": "kaike",
+   "name": "皆生",
+   "url": "https://onsen.netaful.jp/higaeri/kaike/",
+   "center": {
+    "lat": 35.456,
+    "lng": 133.359
+   },
+   "facilities": [
+    {
+     "name": "皆生温泉 汐の湯",
+     "lat": 35.458,
+     "lng": 133.36017
+    },
+    {
+     "name": "おーゆ・ランド",
+     "lat": 35.45535,
+     "lng": 133.36063
+    },
+    {
+     "name": "海潮園",
+     "lat": 35.45806,
+     "lng": 133.36171
+    },
+    {
+     "name": "皆生つるや",
+     "lat": 35.45554,
+     "lng": 133.36204
+    },
+    {
+     "name": "皆生グランドホテル 天水",
+     "lat": 35.45865,
+     "lng": 133.35684
+    }
+   ]
+  },
+  {
+   "slug": "tamatsukuri",
+   "name": "玉造",
+   "url": "https://onsen.netaful.jp/higaeri/tamatsukuri/",
+   "center": {
+    "lat": 35.4411,
+    "lng": 133.0105
+   },
+   "facilities": [
+    {
+     "name": "玉造温泉ゆ〜ゆ",
+     "lat": 35.41626,
+     "lng": 133.01073
+    },
+    {
+     "name": "松乃湯",
+     "lat": 35.41675,
+     "lng": 133.00873
+    },
+    {
+     "name": "曲水の庭 ホテル玉泉",
+     "lat": 35.42011,
+     "lng": 133.01025
+    },
+    {
+     "name": "玉造国際ホテル RIVAGE CHORAKU",
+     "lat": 35.43718,
+     "lng": 133.01161
+    }
+   ]
+  },
+  {
+   "slug": "takeo",
+   "name": "武雄",
+   "url": "https://onsen.netaful.jp/higaeri/takeo/",
+   "center": {
+    "lat": 33.192,
+    "lng": 130.02
+   },
+   "facilities": [
+    {
+     "name": "武雄温泉 元湯",
+     "lat": 33.1963,
+     "lng": 130.01438
+    },
+    {
+     "name": "武雄温泉 蓬莱湯",
+     "lat": 33.19619,
+     "lng": 130.01449
+    },
+    {
+     "name": "武雄温泉 鷺乃湯",
+     "lat": 33.19673,
+     "lng": 130.01454
+    },
+    {
+     "name": "ホテル春慶屋",
+     "lat": 33.19582,
+     "lng": 130.01463
+    },
+    {
+     "name": "御船山楽園ホテル らかんの湯",
+     "lat": 33.1861,
+     "lng": 130.01775
+    }
+   ]
+  },
+  {
+   "slug": "ureshino",
+   "name": "嬉野",
+   "url": "https://onsen.netaful.jp/higaeri/ureshino/",
+   "center": {
+    "lat": 33.106,
+    "lng": 129.993
+   },
+   "facilities": [
+    {
+     "name": "嬉野温泉公衆浴場 シーボルトの湯",
+     "lat": 33.09693,
+     "lng": 129.98622
+    },
+    {
+     "name": "うれしの源泉 百年の湯",
+     "lat": 33.09823,
+     "lng": 129.98145
+    },
+    {
+     "name": "うれしの木立の湯",
+     "lat": 33.09377,
+     "lng": 129.98509
+    }
+   ]
+  },
+  {
+   "slug": "yuda",
+   "name": "湯田",
+   "url": "https://onsen.netaful.jp/higaeri/yuda/",
+   "center": {
+    "lat": 34.1633,
+    "lng": 131.4528
+   },
+   "facilities": [
+    {
+     "name": "湯田温泉こんこんパーク",
+     "lat": 34.16715,
+     "lng": 131.45734
+    },
+    {
+     "name": "おんせんの森",
+     "lat": 34.16394,
+     "lng": 131.45343
+    },
+    {
+     "name": "西の雅 常盤",
+     "lat": 34.16352,
+     "lng": 131.45503
+    },
+    {
+     "name": "湯の宿 味の宿 梅乃屋",
+     "lat": 34.16569,
+     "lng": 131.45532
+    },
+    {
+     "name": "ホテル喜良久",
+     "lat": 34.16457,
+     "lng": 131.45552
+    }
+   ]
+  },
+  {
+   "slug": "tsukioka",
+   "name": "月岡",
+   "url": "https://onsen.netaful.jp/higaeri/tsukioka/",
+   "center": {
+    "lat": 37.88,
+    "lng": 139.3105
+   },
+   "facilities": [
+    {
+     "name": "共同浴場 美人の泉",
+     "lat": 37.87778,
+     "lng": 139.31032
+    },
+    {
+     "name": "湯宿あかまつ",
+     "lat": 37.88178,
+     "lng": 139.30867
+    },
+    {
+     "name": "月岡邸",
+     "lat": 37.87947,
+     "lng": 139.30881
+    }
+   ]
+  },
+  {
+   "slug": "kanzanji",
+   "name": "舘山寺",
+   "url": "https://onsen.netaful.jp/higaeri/kanzanji/",
+   "center": {
+    "lat": 34.776,
+    "lng": 137.61
+   },
+   "facilities": [
+    {
+     "name": "華咲の湯",
+     "lat": 34.76202,
+     "lng": 137.61714
+    },
+    {
+     "name": "時わすれ 開華亭",
+     "lat": 34.76234,
+     "lng": 137.61944
+    },
+    {
+     "name": "KAREN 浜名湖 with Dog",
+     "lat": 34.77126,
+     "lng": 137.62068
+    },
+    {
+     "name": "ホテル鞠水亭",
+     "lat": 34.76286,
+     "lng": 137.62186
+    }
+   ]
+  },
+  {
+   "slug": "amanohashidate",
+   "name": "天橋立",
+   "url": "https://onsen.netaful.jp/higaeri/amanohashidate/",
+   "center": {
+    "lat": 35.571,
+    "lng": 135.1927
+   },
+   "facilities": [
+    {
+     "name": "天橋立温泉 智恵の湯",
+     "lat": 35.55729,
+     "lng": 135.18332
+    },
+    {
+     "name": "天橋立ホテル",
+     "lat": 35.55866,
+     "lng": 135.18337
+    },
+    {
+     "name": "ホテル北野屋",
+     "lat": 35.55555,
+     "lng": 135.17845
+    }
+   ]
+  },
+  {
+   "slug": "okuhida",
+   "name": "奥飛騨",
+   "url": "https://onsen.netaful.jp/higaeri/okuhida/",
+   "center": null,
+   "facilities": [
+    {
+     "name": "平湯の湯",
+     "lat": 36.19177,
+     "lng": 137.55469
+    },
+    {
+     "name": "ひらゆの森",
+     "lat": 36.18916,
+     "lng": 137.55133
+    },
+    {
+     "name": "奥飛騨ガーデンホテル焼岳",
+     "lat": 36.21958,
+     "lng": 137.55609
+    },
+    {
+     "name": "荒神の湯",
+     "lat": 36.25792,
+     "lng": 137.52046
+    },
+    {
+     "name": "新穂高の湯",
+     "lat": 36.30386,
+     "lng": 137.60266
+    },
+    {
+     "name": "中崎山荘奥飛騨の湯",
+     "lat": 36.30464,
+     "lng": 137.60228
+    }
+   ]
+  },
+  {
+   "slug": "asama",
+   "name": "浅間",
+   "url": "https://onsen.netaful.jp/higaeri/asama/",
+   "center": {
+    "lat": 36.2625,
+    "lng": 137.9895
+   },
+   "facilities": [
+    {
+     "name": "ホットプラザ浅間",
+     "lat": 36.26299,
+     "lng": 137.9888
+    },
+    {
+     "name": "仙気の湯",
+     "lat": 36.26231,
+     "lng": 137.99074
+    },
+    {
+     "name": "湯々庵 枇杷の湯",
+     "lat": 36.26588,
+     "lng": 137.99155
+    },
+    {
+     "name": "和泉荘",
+     "lat": 36.26125,
+     "lng": 137.98644
+    },
+    {
+     "name": "錦の湯 地本屋",
+     "lat": 36.26367,
+     "lng": 137.9903
+    },
+    {
+     "name": "ホテル玉之湯",
+     "lat": 36.26138,
+     "lng": 137.98631
+    }
+   ]
+  },
+  {
+   "slug": "shirahone",
+   "name": "白骨",
+   "url": "https://onsen.netaful.jp/higaeri/shirahone/",
+   "center": {
+    "lat": 36.1745,
+    "lng": 137.6445
+   },
+   "facilities": [
+    {
+     "name": "白骨温泉公共野天風呂",
+     "lat": 36.15223,
+     "lng": 137.62742
+    },
+    {
+     "name": "煤香庵",
+     "lat": 36.15254,
+     "lng": 137.62681
+    },
+    {
+     "name": "泡の湯",
+     "lat": 36.14629,
+     "lng": 137.62393
+    },
+    {
+     "name": "白船荘 新宅旅館",
+     "lat": 36.15299,
+     "lng": 137.62681
+    },
+    {
+     "name": "かつらの湯 丸永旅館",
+     "lat": 36.14606,
+     "lng": 137.62519
+    }
+   ]
+  },
+  {
+   "slug": "naruko",
+   "name": "鳴子",
+   "url": "https://onsen.netaful.jp/higaeri/naruko/",
+   "center": {
+    "lat": 38.7447,
+    "lng": 140.7236
+   },
+   "facilities": [
+    {
+     "name": "滝の湯",
+     "lat": 38.73898,
+     "lng": 140.718
+    },
+    {
+     "name": "しんとろの湯",
+     "lat": 38.72778,
+     "lng": 140.677
+    },
+    {
+     "name": "すぱ鬼首の湯",
+     "lat": 38.82717,
+     "lng": 140.63576
+    },
+    {
+     "name": "川渡温泉共同浴場",
+     "lat": 38.7318,
+     "lng": 140.76668
+    },
+    {
+     "name": "藤島旅館",
+     "lat": 38.72729,
+     "lng": 140.77016
+    },
+    {
+     "name": "鳴子観光ホテル",
+     "lat": 38.73865,
+     "lng": 140.71839
+    }
+   ]
+  },
+  {
+   "slug": "tendo",
+   "name": "天童",
+   "url": "https://onsen.netaful.jp/higaeri/tendo/",
+   "center": {
+    "lat": 38.356,
+    "lng": 140.377
+   },
+   "facilities": [
+    {
+     "name": "天童最上川温泉 ゆぴあ",
+     "lat": 38.3642,
+     "lng": 140.32193
+    },
+    {
+     "name": "ほほえみの空湯舟 つるや",
+     "lat": 38.35857,
+     "lng": 140.38294
+    },
+    {
+     "name": "美味求真の宿 天童ホテル",
+     "lat": 38.35978,
+     "lng": 140.38196
+    }
+   ]
+  },
+  {
+   "slug": "akiu",
+   "name": "秋保",
+   "url": "https://onsen.netaful.jp/higaeri/akiu/",
+   "center": null,
+   "facilities": [
+    {
+     "name": "秋保温泉共同浴場",
+     "lat": 38.2266493,
+     "lng": 140.7197858
+    },
+    {
+     "name": "市太郎の湯",
+     "lat": 38.231053,
+     "lng": 140.7089529
+    },
+    {
+     "name": "鹿乙の湯",
+     "lat": 38.22902,
+     "lng": 140.70883
+    },
+    {
+     "name": "秋保グランドホテル",
+     "lat": 38.22367,
+     "lng": 140.7308
+    },
+    {
+     "name": "ホテル瑞鳳",
+     "lat": 38.22176,
+     "lng": 140.73479
+    },
+    {
+     "name": "ホテルニュー水戸屋",
+     "lat": 38.22719,
+     "lng": 140.71918
+    }
+   ]
+  },
+  {
+   "slug": "zao",
+   "name": "蔵王",
+   "url": "https://onsen.netaful.jp/higaeri/zao/",
+   "center": {
+    "lat": 38.166,
+    "lng": 140.396
+   },
+   "facilities": [
+    {
+     "name": "上湯共同浴場",
+     "lat": 38.16868,
+     "lng": 140.39745
+    },
+    {
+     "name": "下湯共同浴場",
+     "lat": 38.16779,
+     "lng": 140.39604
+    },
+    {
+     "name": "川原湯共同浴場",
+     "lat": 38.16762,
+     "lng": 140.39724
+    },
+    {
+     "name": "蔵王温泉大露天風呂",
+     "lat": 38.16609,
+     "lng": 140.40188
+    },
+    {
+     "name": "源七露天の湯",
+     "lat": 38.16663,
+     "lng": 140.39894
+    },
+    {
+     "name": "すのこの湯 かわらや",
+     "lat": 38.16771,
+     "lng": 140.397
+    },
+    {
+     "name": "湯の花茶屋 新左衛門の湯",
+     "lat": 38.1645,
+     "lng": 140.39484
+    },
+    {
+     "name": "蔵王国際ホテル",
+     "lat": 38.1621,
+     "lng": 140.39697
+    }
+   ]
+  },
+  {
+   "slug": "iizaka",
+   "name": "飯坂",
+   "url": "https://onsen.netaful.jp/higaeri/iizaka/",
+   "center": {
+    "lat": 37.8431,
+    "lng": 140.4519
+   },
+   "facilities": [
+    {
+     "name": "鯖湖湯",
+     "lat": 37.83255,
+     "lng": 140.45216
+    },
+    {
+     "name": "波来湯",
+     "lat": 37.83138,
+     "lng": 140.45494
+    },
+    {
+     "name": "導専の湯",
+     "lat": 37.83085,
+     "lng": 140.45721
+    },
+    {
+     "name": "仙気の湯",
+     "lat": 37.83291,
+     "lng": 140.45561
+    },
+    {
+     "name": "大門の湯",
+     "lat": 37.8301,
+     "lng": 140.4478
+    },
+    {
+     "name": "十綱湯",
+     "lat": 37.82764,
+     "lng": 140.45245
+    },
+    {
+     "name": "摺上亭大鳥",
+     "lat": 37.84011,
+     "lng": 140.44443
+    },
+    {
+     "name": "吉川屋",
+     "lat": 37.84536,
+     "lng": 140.43655
+    }
+   ]
+  },
+  {
+   "slug": "bandai-atami",
+   "name": "磐梯熱海",
+   "url": "https://onsen.netaful.jp/higaeri/bandai-atami/",
+   "center": {
+    "lat": 37.4683,
+    "lng": 140.2606
+   },
+   "facilities": [
+    {
+     "name": "共同湯「霊泉」元湯",
+     "lat": 37.48229,
+     "lng": 140.26971
+    },
+    {
+     "name": "郡山ユラックス熱海",
+     "lat": 37.4799,
+     "lng": 140.27805
+    },
+    {
+     "name": "温泉プチホテル 湯kori",
+     "lat": 37.4813,
+     "lng": 140.27141
+    },
+    {
+     "name": "萩姫の湯 栄楽館",
+     "lat": 37.48151,
+     "lng": 140.27009
+    },
+    {
+     "name": "ホテル華の湯",
+     "lat": 37.49099,
+     "lng": 140.2583
+    }
+   ]
+  },
+  {
+   "slug": "higashiyama-aizu",
+   "name": "会津東山",
+   "url": "https://onsen.netaful.jp/higaeri/higashiyama-aizu/",
+   "center": {
+    "lat": 37.4783,
+    "lng": 139.9319
+   },
+   "facilities": [
+    {
+     "name": "御宿東鳳",
+     "lat": 37.47758,
+     "lng": 139.97031
+    },
+    {
+     "name": "原瀧",
+     "lat": 37.47452,
+     "lng": 139.96233
+    }
+   ]
+  },
+  {
+   "slug": "asamushi",
+   "name": "浅虫",
+   "url": "https://onsen.netaful.jp/higaeri/asamushi/",
+   "center": {
+    "lat": 40.899,
+    "lng": 140.863
+   },
+   "facilities": [
+    {
+     "name": "柳の湯",
+     "lat": 40.88774,
+     "lng": 140.86366
+    },
+    {
+     "name": "宿屋つばき",
+     "lat": 40.89091,
+     "lng": 140.86153
+    }
+   ]
+  },
+  {
+   "slug": "hakodate-yunokawa",
+   "name": "函館湯の川",
+   "url": "https://onsen.netaful.jp/higaeri/hakodate-yunokawa/",
+   "center": {
+    "lat": 41.7772,
+    "lng": 140.7875
+   },
+   "facilities": [
+    {
+     "name": "谷地頭温泉",
+     "lat": 41.75225,
+     "lng": 140.71442
+    },
+    {
+     "name": "湯元 啄木亭",
+     "lat": 41.77905,
+     "lng": 140.78273
+    },
+    {
+     "name": "湯の浜ホテル",
+     "lat": 41.77462,
+     "lng": 140.78545
+    },
+    {
+     "name": "KKRはこだて",
+     "lat": 41.77742,
+     "lng": 140.78812
+    }
+   ]
+  },
+  {
+   "slug": "toyako",
+   "name": "洞爺湖",
+   "url": "https://onsen.netaful.jp/higaeri/toyako/",
+   "center": {
+    "lat": 42.5655,
+    "lng": 140.8187
+   },
+   "facilities": [
+    {
+     "name": "洞爺湖万世閣ホテルレイクサイドテラス",
+     "lat": 42.56593,
+     "lng": 140.82423
+    },
+    {
+     "name": "洞爺観光ホテル",
+     "lat": 42.56568,
+     "lng": 140.81996
+    },
+    {
+     "name": "洞爺サンパレス リゾート＆スパ",
+     "lat": 42.56449,
+     "lng": 140.84003
+    }
+   ]
+  },
+  {
+   "slug": "noboribetsu",
+   "name": "登別",
+   "url": "https://onsen.netaful.jp/higaeri/noboribetsu/",
+   "center": {
+    "lat": 42.4979,
+    "lng": 141.1467
+   },
+   "facilities": [
+    {
+     "name": "夢元さぎり湯",
+     "lat": 42.49252,
+     "lng": 141.14267
+    },
+    {
+     "name": "第一滝本館",
+     "lat": 42.49476,
+     "lng": 141.14533
+    },
+    {
+     "name": "登別グランドホテル",
+     "lat": 42.49286,
+     "lng": 141.13751
+    },
+    {
+     "name": "登別万世閣",
+     "lat": 42.48142,
+     "lng": 141.1478
+    }
+   ]
+  },
+  {
+   "slug": "niseko",
+   "name": "ニセコ",
+   "url": "https://onsen.netaful.jp/higaeri/niseko/",
+   "center": null,
+   "facilities": [
+    {
+     "name": "ニセコ駅前温泉 綺羅乃湯",
+     "lat": 42.80832,
+     "lng": 140.68528
+    },
+    {
+     "name": "蘭越町交流促進センター 幽泉閣",
+     "lat": 42.79783,
+     "lng": 140.59752
+    },
+    {
+     "name": "ニセコ昆布温泉 ホテル甘露の森",
+     "lat": 42.82897,
+     "lng": 140.6394
+    },
+    {
+     "name": "蘭越町交流促進センター 雪秩父",
+     "lat": 42.8694911,
+     "lng": 140.5982484
+    },
+    {
+     "name": "ニセコ五色温泉旅館",
+     "lat": 42.87385,
+     "lng": 140.63747
+    },
+    {
+     "name": "ニセコ温泉郷 いこいの湯宿 いろは",
+     "lat": 42.82934,
+     "lng": 140.63838
+    },
+    {
+     "name": "ニセコアンヌプリ温泉 湯心亭",
+     "lat": 42.82975,
+     "lng": 140.63899
+    }
+   ]
+  },
+  {
+   "slug": "sounkyo",
+   "name": "層雲峡",
+   "url": "https://onsen.netaful.jp/higaeri/sounkyo/",
+   "center": {
+    "lat": 43.7125,
+    "lng": 142.9558
+   },
+   "facilities": [
+    {
+     "name": "黒岳の湯",
+     "lat": 43.72605,
+     "lng": 142.94675
+    },
+    {
+     "name": "朝陽リゾートホテル",
+     "lat": 43.72913,
+     "lng": 142.94279
+    },
+    {
+     "name": "ホテル大雪",
+     "lat": 43.72535,
+     "lng": 142.95048
+    },
+    {
+     "name": "層雲閣 MOUNTAIN RESORT 1923",
+     "lat": 43.72649,
+     "lng": 142.95342
+    }
+   ]
+  },
+  {
+   "slug": "akanko",
+   "name": "阿寒湖",
+   "url": "https://onsen.netaful.jp/higaeri/akanko/",
+   "center": {
+    "lat": 43.43,
+    "lng": 144.0957
+   },
+   "facilities": [
+    {
+     "name": "あかん遊久の里 鶴雅",
+     "lat": 43.43425,
+     "lng": 144.09058
+    },
+    {
+     "name": "ニュー阿寒ホテル",
+     "lat": 43.43313,
+     "lng": 144.09679
+    },
+    {
+     "name": "ホテル御前水",
+     "lat": 43.43391,
+     "lng": 144.09308
+    }
+   ]
+  },
+  {
+   "slug": "jozankei",
+   "name": "定山渓",
+   "url": "https://onsen.netaful.jp/higaeri/jozankei/",
+   "center": null,
+   "facilities": [
+    {
+     "name": "豊平峡温泉",
+     "lat": 42.94921,
+     "lng": 141.15669
+    },
+    {
+     "name": "湯の花 定山渓殿",
+     "lat": 42.9636,
+     "lng": 141.16061
+    },
+    {
+     "name": "湯元 小金湯",
+     "lat": 42.96553,
+     "lng": 141.2217
+    },
+    {
+     "name": "定山渓 鹿の湯",
+     "lat": 42.96635,
+     "lng": 141.16359
+    },
+    {
+     "name": "定山渓万世閣ホテルミリオーネ",
+     "lat": 42.9643,
+     "lng": 141.16374
+    },
+    {
+     "name": "定山渓ビューホテル",
+     "lat": 42.96933,
+     "lng": 141.16783
+    }
+   ]
+  }
+ ]
+}
