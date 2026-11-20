@@ -180,8 +180,14 @@ h3.ms-region { font-size: 1rem; line-height: 1.4; margin: 18px 0 8px; }
   border: 1px solid var(--line); border-radius: 14px; font-size: 0.9rem;
 }
 .ms-onsen-links h2 { font-size: 0.95rem; margin: 0 0 6px; }
-.ms-onsen-links ul { margin: 4px 0; padding-left: 1.2em; }
-.ms-onsen-links li { margin: 3px 0; }
+.ms-onsen-lead { margin: 4px 0 8px; }
+.ms-onsen-list { list-style: none; margin: 6px 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.ms-onsen-btn {
+  display: inline-block; padding: 8px 14px; border: 1px solid var(--accent);
+  border-radius: 999px; color: var(--accent); text-decoration: none; font-weight: 700;
+}
+.ms-onsen-btn:hover { background: var(--accent-soft); }
+.ms-onsen-dist { font-weight: 400; margin-left: 8px; }
 .ms-onsen-note { color: var(--muted); font-size: 0.82rem; margin: 4px 0; }
 
 

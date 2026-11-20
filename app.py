@@ -434,10 +434,12 @@ def _onsen_links_block(st):
     items = ""
     for a in entry["areas"]:
         name = a["area_name"] if "温泉" in a["area_name"] else a["area_name"] + "温泉"
-        items += ('<li><a href="%s">♨ %s</a> 約%skm</li>'
+        items += ('<li><a class="ms-onsen-btn" href="%s">♨ %s'
+                  '<span class="ms-onsen-dist">約%skm</span></a></li>'
                   % (e(a["url"], True), e(name), "%g" % a["distance_km"]))
     return ('<section class="ms-onsen-links"><h2>♨ 近くの温泉地（日帰り温泉）</h2>'
-            '<ul>%s</ul>'
+            '<p class="ms-onsen-lead">この駅から行きやすい、日帰り温泉のある温泉地です。</p>'
+            '<ul class="ms-onsen-list">%s</ul>'
             '<p class="ms-onsen-note">距離は、温泉地の日帰り施設のうち一番近いものまでの直線距離です。</p>'
             '</section>\n' % items)
 
