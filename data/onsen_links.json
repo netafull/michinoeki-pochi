@@ -1,0 +1,2097 @@
+{
+ "generated": "2026-11-20",
+ "definition": "駅から温泉地の日帰り施設のうち最寄りのものまでの直線距離が10km以内、近い順に最大3件",
+ "max_km": 10.0,
+ "max_items": 3,
+ "stations": {
+  "hakone-toge": {
+   "station_name": "箱根峠",
+   "url": "https://michinoeki.netaful.jp/station/hakone-toge/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "hakone",
+     "area_name": "箱根",
+     "url": "https://onsen.netaful.jp/higaeri/hakone/",
+     "distance_km": 3.2,
+     "nearest_facility": "絶景日帰り温泉 龍宮殿本館"
+    },
+    {
+     "area_slug": "yugawara",
+     "area_name": "湯河原",
+     "url": "https://onsen.netaful.jp/higaeri/yugawara/",
+     "distance_km": 6.7,
+     "nearest_facility": "こごめの湯"
+    }
+   ]
+  },
+  "amagi-goe": {
+   "station_name": "天城越え",
+   "url": "https://michinoeki.netaful.jp/station/amagi-goe/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "shuzenji",
+     "area_name": "修善寺",
+     "url": "https://onsen.netaful.jp/higaeri/shuzenji/",
+     "distance_km": 9.7,
+     "nearest_facility": "ラフォーレリゾート修善寺「森の湯」"
+    }
+   ]
+  },
+  "ito-marine-town": {
+   "station_name": "伊東マリンタウン",
+   "url": "https://michinoeki.netaful.jp/station/ito-marine-town/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "ito",
+     "area_name": "伊東",
+     "url": "https://onsen.netaful.jp/higaeri/ito/",
+     "distance_km": 0.0,
+     "nearest_facility": "朝日の湯 シーサイドスパ"
+    }
+   ]
+  },
+  "izu-no-heso": {
+   "station_name": "伊豆のへそ",
+   "url": "https://michinoeki.netaful.jp/station/izu-no-heso/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "shuzenji",
+     "area_name": "修善寺",
+     "url": "https://onsen.netaful.jp/higaeri/shuzenji/",
+     "distance_km": 4.8,
+     "nearest_facility": "筥湯"
+    }
+   ]
+  },
+  "izu-tsukigase": {
+   "station_name": "伊豆月ケ瀬",
+   "url": "https://michinoeki.netaful.jp/station/izu-tsukigase/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "shuzenji",
+     "area_name": "修善寺",
+     "url": "https://onsen.netaful.jp/higaeri/shuzenji/",
+     "distance_km": 3.4,
+     "nearest_facility": "ラフォーレリゾート修善寺「森の湯」"
+    }
+   ]
+  },
+  "yunoka-shiobara": {
+   "station_name": "湯の香しおばら",
+   "url": "https://michinoeki.netaful.jp/station/yunoka-shiobara/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "shiobara",
+     "area_name": "塩原",
+     "url": "https://onsen.netaful.jp/higaeri/shiobara/",
+     "distance_km": 2.2,
+     "nearest_facility": "塩原あかつきの湯"
+    }
+   ]
+  },
+  "nasu-kogen-yuai-no-mori": {
+   "station_name": "那須高原友愛の森",
+   "url": "https://michinoeki.netaful.jp/station/nasu-kogen-yuai-no-mori/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "nasu",
+     "area_name": "那須",
+     "url": "https://onsen.netaful.jp/higaeri/nasu/",
+     "distance_km": 1.2,
+     "nearest_facility": "ホテルエピナール那須"
+    }
+   ]
+  },
+  "meiji-no-mori-kuroiso": {
+   "station_name": "明治の森・黒磯",
+   "url": "https://michinoeki.netaful.jp/station/meiji-no-mori-kuroiso/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "nasu",
+     "area_name": "那須",
+     "url": "https://onsen.netaful.jp/higaeri/nasu/",
+     "distance_km": 5.0,
+     "nearest_facility": "源泉 那須山 令和の湯"
+    },
+    {
+     "area_slug": "shiobara",
+     "area_name": "塩原",
+     "url": "https://onsen.netaful.jp/higaeri/shiobara/",
+     "distance_km": 7.4,
+     "nearest_facility": "塩原あかつきの湯"
+    }
+   ]
+  },
+  "nasunogahara-hakubutsukan": {
+   "station_name": "那須野が原博物館",
+   "url": "https://michinoeki.netaful.jp/station/nasunogahara-hakubutsukan/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "shiobara",
+     "area_name": "塩原",
+     "url": "https://onsen.netaful.jp/higaeri/shiobara/",
+     "distance_km": 7.5,
+     "nearest_facility": "塩原あかつきの湯"
+    }
+   ]
+  },
+  "yunishigawa": {
+   "station_name": "湯西川",
+   "url": "https://michinoeki.netaful.jp/station/yunishigawa/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "kinugawa",
+     "area_name": "鬼怒川",
+     "url": "https://onsen.netaful.jp/higaeri/kinugawa/",
+     "distance_km": 0.0,
+     "nearest_facility": "道の駅 湯西川"
+    }
+   ]
+  },
+  "yusui-no-sato-shioya": {
+   "station_name": "湧水の郷しおや",
+   "url": "https://michinoeki.netaful.jp/station/yusui-no-sato-shioya/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "kinugawa",
+     "area_name": "鬼怒川",
+     "url": "https://onsen.netaful.jp/higaeri/kinugawa/",
+     "distance_km": 8.9,
+     "nearest_facility": "鬼怒川パークホテルズ"
+    }
+   ]
+  },
+  "kuni": {
+   "station_name": "六合",
+   "url": "https://michinoeki.netaful.jp/station/kuni/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "kusatsu",
+     "area_name": "草津",
+     "url": "https://onsen.netaful.jp/higaeri/kusatsu/",
+     "distance_km": 3.0,
+     "nearest_facility": "大滝乃湯"
+    }
+   ]
+  },
+  "onoko": {
+   "station_name": "おのこ",
+   "url": "https://michinoeki.netaful.jp/station/onoko/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "ikaho",
+     "area_name": "伊香保",
+     "url": "https://onsen.netaful.jp/higaeri/ikaho/",
+     "distance_km": 6.3,
+     "nearest_facility": "お宿 玉樹"
+    }
+   ]
+  },
+  "minakami-suikokan": {
+   "station_name": "みなかみ水紀行館",
+   "url": "https://michinoeki.netaful.jp/station/minakami-suikokan/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "minakami",
+     "area_name": "水上",
+     "url": "https://onsen.netaful.jp/higaeri/minakami/",
+     "distance_km": 0.4,
+     "nearest_facility": "ふれあい交流館"
+    }
+   ]
+  },
+  "kusatsu-undochaya-koen": {
+   "station_name": "草津運動茶屋公園",
+   "url": "https://michinoeki.netaful.jp/station/kusatsu-undochaya-koen/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "kusatsu",
+     "area_name": "草津",
+     "url": "https://onsen.netaful.jp/higaeri/kusatsu/",
+     "distance_km": 0.9,
+     "nearest_facility": "草津ナウリゾートホテル"
+    }
+   ]
+  },
+  "komochi": {
+   "station_name": "こもち",
+   "url": "https://michinoeki.netaful.jp/station/komochi/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "ikaho",
+     "area_name": "伊香保",
+     "url": "https://onsen.netaful.jp/higaeri/ikaho/",
+     "distance_km": 9.0,
+     "nearest_facility": "お宿 玉樹"
+    }
+   ]
+  },
+  "tsukiyono-yaze-shinsui-koen": {
+   "station_name": "月夜野矢瀬親水公園",
+   "url": "https://michinoeki.netaful.jp/station/tsukiyono-yaze-shinsui-koen/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "minakami",
+     "area_name": "水上",
+     "url": "https://onsen.netaful.jp/higaeri/minakami/",
+     "distance_km": 2.4,
+     "nearest_facility": "三峰の湯"
+    }
+   ]
+  },
+  "takumi-no-sato": {
+   "station_name": "たくみの里",
+   "url": "https://michinoeki.netaful.jp/station/takumi-no-sato/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "minakami",
+     "area_name": "水上",
+     "url": "https://onsen.netaful.jp/higaeri/minakami/",
+     "distance_km": 3.2,
+     "nearest_facility": "まんてん星の湯"
+    }
+   ]
+  },
+  "reizan-takeyama": {
+   "station_name": "霊山たけやま",
+   "url": "https://michinoeki.netaful.jp/station/reizan-takeyama/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "shima",
+     "area_name": "四万",
+     "url": "https://onsen.netaful.jp/higaeri/shima/",
+     "distance_km": 7.0,
+     "nearest_facility": "四万清流の湯"
+    },
+    {
+     "area_slug": "minakami",
+     "area_name": "水上",
+     "url": "https://onsen.netaful.jp/higaeri/minakami/",
+     "distance_km": 7.3,
+     "nearest_facility": "奥平温泉 遊神館"
+    }
+   ]
+  },
+  "nakayama-bonchi": {
+   "station_name": "中山盆地",
+   "url": "https://michinoeki.netaful.jp/station/nakayama-bonchi/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "minakami",
+     "area_name": "水上",
+     "url": "https://onsen.netaful.jp/higaeri/minakami/",
+     "distance_km": 9.5,
+     "nearest_facility": "三峰の湯"
+    }
+   ]
+  },
+  "narusawa": {
+   "station_name": "なるさわ",
+   "url": "https://michinoeki.netaful.jp/station/narusawa/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "kawaguchiko",
+     "area_name": "河口湖",
+     "url": "https://onsen.netaful.jp/higaeri/kawaguchiko/",
+     "distance_km": 0.0,
+     "nearest_facility": "富士眺望の湯 ゆらり"
+    }
+   ]
+  },
+  "katsuyama": {
+   "station_name": "かつやま",
+   "url": "https://michinoeki.netaful.jp/station/katsuyama/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "kawaguchiko",
+     "area_name": "河口湖",
+     "url": "https://onsen.netaful.jp/higaeri/kawaguchiko/",
+     "distance_km": 2.2,
+     "nearest_facility": "たかの友梨 スパ＆ホテル 桜庵"
+    }
+   ]
+  },
+  "fujiyoshida": {
+   "station_name": "富士吉田",
+   "url": "https://michinoeki.netaful.jp/station/fujiyoshida/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "kawaguchiko",
+     "area_name": "河口湖",
+     "url": "https://onsen.netaful.jp/higaeri/kawaguchiko/",
+     "distance_km": 5.9,
+     "nearest_facility": "山岸旅館"
+    }
+   ]
+  },
+  "minamiuonuma": {
+   "station_name": "南魚沼",
+   "url": "https://michinoeki.netaful.jp/station/minamiuonuma/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "echigo-yuzawa",
+     "area_name": "越後湯沢",
+     "url": "https://onsen.netaful.jp/higaeri/echigo-yuzawa/",
+     "distance_km": 6.7,
+     "nearest_facility": "駒子の湯"
+    }
+   ]
+  },
+  "mitsumata": {
+   "station_name": "みつまた",
+   "url": "https://michinoeki.netaful.jp/station/mitsumata/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "echigo-yuzawa",
+     "area_name": "越後湯沢",
+     "url": "https://onsen.netaful.jp/higaeri/echigo-yuzawa/",
+     "distance_km": 1.8,
+     "nearest_facility": "街道の湯"
+    }
+   ]
+  },
+  "fuketsu-no-sato": {
+   "station_name": "風穴の里",
+   "url": "https://michinoeki.netaful.jp/station/fuketsu-no-sato/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "shirahone",
+     "area_name": "白骨",
+     "url": "https://onsen.netaful.jp/higaeri/shirahone/",
+     "distance_km": 9.3,
+     "nearest_facility": "白船荘 新宅旅館"
+    }
+   ]
+  },
+  "kitashinshu-yamanouchi": {
+   "station_name": "北信州やまのうち",
+   "url": "https://michinoeki.netaful.jp/station/kitashinshu-yamanouchi/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "yudanaka-shibu",
+     "area_name": "湯田中・渋",
+     "url": "https://onsen.netaful.jp/higaeri/yudanaka-shibu/",
+     "distance_km": 0.9,
+     "nearest_facility": "ホテルゆだなか（吉の湯）"
+    }
+   ]
+  },
+  "hana-no-eki-chikumagawa": {
+   "station_name": "花の駅 千曲川",
+   "url": "https://michinoeki.netaful.jp/station/hana-no-eki-chikumagawa/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "nozawa",
+     "area_name": "野沢",
+     "url": "https://onsen.netaful.jp/higaeri/nozawa/",
+     "distance_km": 6.1,
+     "nearest_facility": "野沢温泉スパリーナ"
+    }
+   ]
+  },
+  "nozawa-onsen": {
+   "station_name": "野沢温泉",
+   "url": "https://michinoeki.netaful.jp/station/nozawa-onsen/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "nozawa",
+     "area_name": "野沢",
+     "url": "https://onsen.netaful.jp/higaeri/nozawa/",
+     "distance_km": 3.0,
+     "nearest_facility": "麻釜温泉公園 ふるさとの湯"
+    }
+   ]
+  },
+  "shimogo": {
+   "station_name": "しもごう",
+   "url": "https://michinoeki.netaful.jp/station/shimogo/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "nasu",
+     "area_name": "那須",
+     "url": "https://onsen.netaful.jp/higaeri/nasu/",
+     "distance_km": 9.9,
+     "nearest_facility": "北温泉旅館"
+    }
+   ]
+  },
+  "bandai": {
+   "station_name": "ばんだい",
+   "url": "https://michinoeki.netaful.jp/station/bandai/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "higashiyama-aizu",
+     "area_name": "会津東山",
+     "url": "https://onsen.netaful.jp/higaeri/higashiyama-aizu/",
+     "distance_km": 9.6,
+     "nearest_facility": "御宿東鳳"
+    }
+   ]
+  },
+  "kunimi-atsukashi-no-sato": {
+   "station_name": "国見 あつかしの郷",
+   "url": "https://michinoeki.netaful.jp/station/kunimi-atsukashi-no-sato/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "iizaka",
+     "area_name": "飯坂",
+     "url": "https://onsen.netaful.jp/higaeri/iizaka/",
+     "distance_km": 9.0,
+     "nearest_facility": "導専の湯"
+    }
+   ]
+  },
+  "fukushima": {
+   "station_name": "ふくしま",
+   "url": "https://michinoeki.netaful.jp/station/fukushima/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "iizaka",
+     "area_name": "飯坂",
+     "url": "https://onsen.netaful.jp/higaeri/iizaka/",
+     "distance_km": 4.3,
+     "nearest_facility": "大門の湯"
+    }
+   ]
+  },
+  "nakajima-roman-toge": {
+   "station_name": "なかじまロマン峠",
+   "url": "https://michinoeki.netaful.jp/station/nakajima-roman-toge/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "wakura",
+     "area_name": "和倉",
+     "url": "https://onsen.netaful.jp/higaeri/wakura/",
+     "distance_km": 6.3,
+     "nearest_facility": "和倉温泉総湯"
+    }
+   ]
+  },
+  "yamanaka-onsen-yukemuri-kenko-mura": {
+   "station_name": "山中温泉 ゆけむり健康村",
+   "url": "https://michinoeki.netaful.jp/station/yamanaka-onsen-yukemuri-kenko-mura/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "yamanaka",
+     "area_name": "山中",
+     "url": "https://onsen.netaful.jp/higaeri/yamanaka/",
+     "distance_km": 0.4,
+     "nearest_facility": "大江戸温泉物語 山中彩朝楽"
+    },
+    {
+     "area_slug": "yamashiro",
+     "area_name": "山代",
+     "url": "https://onsen.netaful.jp/higaeri/yamashiro/",
+     "distance_km": 5.3,
+     "nearest_facility": "ゆ湯の宿 白山菖蒲亭"
+    }
+   ]
+  },
+  "notojima": {
+   "station_name": "のとじま",
+   "url": "https://michinoeki.netaful.jp/station/notojima/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "wakura",
+     "area_name": "和倉",
+     "url": "https://onsen.netaful.jp/higaeri/wakura/",
+     "distance_km": 8.7,
+     "nearest_facility": "ゆけむりの宿 美湾荘"
+    }
+   ]
+  },
+  "noto-shokusai-ichiba": {
+   "station_name": "能登食祭市場",
+   "url": "https://michinoeki.netaful.jp/station/noto-shokusai-ichiba/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "wakura",
+     "area_name": "和倉",
+     "url": "https://onsen.netaful.jp/higaeri/wakura/",
+     "distance_km": 6.3,
+     "nearest_facility": "ゆけむりの宿 美湾荘"
+    }
+   ]
+  },
+  "komatsu-kibagata": {
+   "station_name": "こまつ木場潟",
+   "url": "https://michinoeki.netaful.jp/station/komatsu-kibagata/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "katayamazu",
+     "area_name": "片山津",
+     "url": "https://onsen.netaful.jp/higaeri/katayamazu/",
+     "distance_km": 8.4,
+     "nearest_facility": "大江戸温泉物語 片山津温泉ながやま"
+    }
+   ]
+  },
+  "mikuni": {
+   "station_name": "みくに",
+   "url": "https://michinoeki.netaful.jp/station/mikuni/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "awara",
+     "area_name": "あわら",
+     "url": "https://onsen.netaful.jp/higaeri/awara/",
+     "distance_km": 6.4,
+     "nearest_facility": "清風荘"
+    }
+   ]
+  },
+  "sakai-fukui": {
+   "station_name": "さかい",
+   "url": "https://michinoeki.netaful.jp/station/sakai-fukui/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "awara",
+     "area_name": "あわら",
+     "url": "https://onsen.netaful.jp/higaeri/awara/",
+     "distance_km": 6.4,
+     "nearest_facility": "清風荘"
+    }
+   ]
+  },
+  "rennyo-no-sato-awara": {
+   "station_name": "蓮如の里あわら",
+   "url": "https://michinoeki.netaful.jp/station/rennyo-no-sato-awara/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "awara",
+     "area_name": "あわら",
+     "url": "https://onsen.netaful.jp/higaeri/awara/",
+     "distance_km": 8.3,
+     "nearest_facility": "長谷川"
+    },
+    {
+     "area_slug": "yamashiro",
+     "area_name": "山代",
+     "url": "https://onsen.netaful.jp/higaeri/yamashiro/",
+     "distance_km": 9.4,
+     "nearest_facility": "ゆ湯の宿 白山菖蒲亭"
+    },
+    {
+     "area_slug": "yamanaka",
+     "area_name": "山中",
+     "url": "https://onsen.netaful.jp/higaeri/yamanaka/",
+     "distance_km": 10.0,
+     "nearest_facility": "菊の湯（第二浴場）"
+    }
+   ]
+  },
+  "okuhida-kamitakara": {
+   "station_name": "奥飛騨温泉郷上宝",
+   "url": "https://michinoeki.netaful.jp/station/okuhida-kamitakara/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "okuhida",
+     "area_name": "奥飛騨",
+     "url": "https://onsen.netaful.jp/higaeri/okuhida/",
+     "distance_km": 2.5,
+     "nearest_facility": "荒神の湯"
+    }
+   ]
+  },
+  "maze-miki-no-sato": {
+   "station_name": "馬瀬美輝の里",
+   "url": "https://michinoeki.netaful.jp/station/maze-miki-no-sato/",
+   "coord_source": "geocoded",
+   "areas": [
+    {
+     "area_slug": "gero",
+     "area_name": "下呂",
+     "url": "https://onsen.netaful.jp/higaeri/gero/",
+     "distance_km": 4.0,
+     "nearest_facility": "吉泉館竹翠亭"
+    }
+   ]
+  },
+  "rotari-hanayama": {
+   "station_name": "路田里はなやま",
+   "url": "https://michinoeki.netaful.jp/station/rotari-hanayama/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "naruko",
+     "area_name": "鳴子",
+     "url": "https://onsen.netaful.jp/higaeri/naruko/",
+     "distance_km": 9.7,
+     "nearest_facility": "川渡温泉共同浴場"
+    }
+   ]
+  },
+  "ara-date-na-michinoeki": {
+   "station_name": "あ・ら・伊達な道の駅",
+   "url": "https://michinoeki.netaful.jp/station/ara-date-na-michinoeki/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "naruko",
+     "area_name": "鳴子",
+     "url": "https://onsen.netaful.jp/higaeri/naruko/",
+     "distance_km": 5.9,
+     "nearest_facility": "藤島旅館"
+    }
+   ]
+  },
+  "kahoku": {
+   "station_name": "河北",
+   "url": "https://michinoeki.netaful.jp/station/kahoku/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "tendo",
+     "area_name": "天童",
+     "url": "https://onsen.netaful.jp/higaeri/tendo/",
+     "distance_km": 5.5,
+     "nearest_facility": "天童最上川温泉 ゆぴあ"
+    }
+   ]
+  },
+  "sagae": {
+   "station_name": "寒河江",
+   "url": "https://michinoeki.netaful.jp/station/sagae/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "tendo",
+     "area_name": "天童",
+     "url": "https://onsen.netaful.jp/higaeri/tendo/",
+     "distance_km": 6.0,
+     "nearest_facility": "天童最上川温泉 ゆぴあ"
+    }
+   ]
+  },
+  "ooe": {
+   "station_name": "おおえ",
+   "url": "https://michinoeki.netaful.jp/station/ooe/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "tendo",
+     "area_name": "天童",
+     "url": "https://onsen.netaful.jp/higaeri/tendo/",
+     "distance_km": 9.5,
+     "nearest_facility": "天童最上川温泉 ゆぴあ"
+    }
+   ]
+  },
+  "tendo-onsen": {
+   "station_name": "天童温泉",
+   "url": "https://michinoeki.netaful.jp/station/tendo-onsen/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "tendo",
+     "area_name": "天童",
+     "url": "https://onsen.netaful.jp/higaeri/tendo/",
+     "distance_km": 0.6,
+     "nearest_facility": "ほほえみの空湯舟 つるや"
+    }
+   ]
+  },
+  "yamagata-zao": {
+   "station_name": "やまがた蔵王",
+   "url": "https://michinoeki.netaful.jp/station/yamagata-zao/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "zao",
+     "area_name": "蔵王",
+     "url": "https://onsen.netaful.jp/higaeri/zao/",
+     "distance_km": 7.7,
+     "nearest_facility": "下湯共同浴場"
+    }
+   ]
+  },
+  "asamushi-onsen": {
+   "station_name": "浅虫温泉",
+   "url": "https://michinoeki.netaful.jp/station/asamushi-onsen/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "asamushi",
+     "area_name": "浅虫",
+     "url": "https://onsen.netaful.jp/higaeri/asamushi/",
+     "distance_km": 0.1,
+     "nearest_facility": "宿屋つばき"
+    }
+   ]
+  },
+  "sobetsu-joho-kan-i": {
+   "station_name": "そうべつ情報館ｉ（アイ）",
+   "url": "https://michinoeki.netaful.jp/station/sobetsu-joho-kan-i/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "toyako",
+     "area_name": "洞爺湖",
+     "url": "https://onsen.netaful.jp/higaeri/toyako/",
+     "distance_km": 4.9,
+     "nearest_facility": "洞爺サンパレス リゾート＆スパ"
+    }
+   ]
+  },
+  "niseko-view-plaza": {
+   "station_name": "ニセコビュープラザ",
+   "url": "https://michinoeki.netaful.jp/station/niseko-view-plaza/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "niseko",
+     "area_name": "ニセコ",
+     "url": "https://onsen.netaful.jp/higaeri/niseko/",
+     "distance_km": 1.7,
+     "nearest_facility": "ニセコ駅前温泉 綺羅乃湯"
+    }
+   ]
+  },
+  "toyoura": {
+   "station_name": "とようら",
+   "url": "https://michinoeki.netaful.jp/station/toyoura/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "toyako",
+     "area_name": "洞爺湖",
+     "url": "https://onsen.netaful.jp/higaeri/toyako/",
+     "distance_km": 8.1,
+     "nearest_facility": "洞爺観光ホテル"
+    }
+   ]
+  },
+  "aputa": {
+   "station_name": "あぷた",
+   "url": "https://michinoeki.netaful.jp/station/aputa/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "toyako",
+     "area_name": "洞爺湖",
+     "url": "https://onsen.netaful.jp/higaeri/toyako/",
+     "distance_km": 5.3,
+     "nearest_facility": "洞爺観光ホテル"
+    }
+   ]
+  },
+  "umi-no-kyoto-miyazu": {
+   "station_name": "海の京都 宮津",
+   "url": "https://michinoeki.netaful.jp/station/umi-no-kyoto-miyazu/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "amanohashidate",
+     "area_name": "天橋立",
+     "url": "https://onsen.netaful.jp/higaeri/amanohashidate/",
+     "distance_km": 2.3,
+     "nearest_facility": "天橋立温泉 智恵の湯"
+    }
+   ]
+  },
+  "oku-kumano-kodo-hongu": {
+   "station_name": "奥熊野古道ほんぐう",
+   "url": "https://michinoeki.netaful.jp/station/oku-kumano-kodo-hongu/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "yunomine",
+     "area_name": "熊野本宮温泉郷",
+     "url": "https://onsen.netaful.jp/higaeri/yunomine/",
+     "distance_km": 4.0,
+     "nearest_facility": "つぼ湯"
+    }
+   ]
+  },
+  "tsubaki-hana-no-yu": {
+   "station_name": "椿はなの湯",
+   "url": "https://michinoeki.netaful.jp/station/tsubaki-hana-no-yu/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "shirahama",
+     "area_name": "白浜",
+     "url": "https://onsen.netaful.jp/higaeri/shirahama/",
+     "distance_km": 8.9,
+     "nearest_facility": "とれとれの湯"
+    }
+   ]
+  },
+  "nachi": {
+   "station_name": "なち",
+   "url": "https://michinoeki.netaful.jp/station/nachi/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "katsuura",
+     "area_name": "南紀勝浦",
+     "url": "https://onsen.netaful.jp/higaeri/katsuura/",
+     "distance_km": 0.7,
+     "nearest_facility": "海のホテル一の滝"
+    }
+   ]
+  },
+  "kuchikumano": {
+   "station_name": "くちくまの",
+   "url": "https://michinoeki.netaful.jp/station/kuchikumano/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "shirahama",
+     "area_name": "白浜",
+     "url": "https://onsen.netaful.jp/higaeri/shirahama/",
+     "distance_km": 4.0,
+     "nearest_facility": "とれとれの湯"
+    }
+   ]
+  },
+  "taiji": {
+   "station_name": "たいじ",
+   "url": "https://michinoeki.netaful.jp/station/taiji/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "katsuura",
+     "area_name": "南紀勝浦",
+     "url": "https://onsen.netaful.jp/higaeri/katsuura/",
+     "distance_km": 2.6,
+     "nearest_facility": "ゆりの山温泉"
+    }
+   ]
+  },
+  "ayu-no-sato-yatagawa": {
+   "station_name": "あゆの里矢田川",
+   "url": "https://michinoeki.netaful.jp/station/ayu-no-sato-yatagawa/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "yumura",
+     "area_name": "湯村",
+     "url": "https://onsen.netaful.jp/higaeri/yumura/",
+     "distance_km": 7.1,
+     "nearest_facility": "リフレッシュパークゆむら"
+    }
+   ]
+  },
+  "kobe-fruit-flower-park-osawa": {
+   "station_name": "神戸フルーツ・フラワーパーク 大沢",
+   "url": "https://michinoeki.netaful.jp/station/kobe-fruit-flower-park-osawa/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "arima",
+     "area_name": "有馬",
+     "url": "https://onsen.netaful.jp/higaeri/arima/",
+     "distance_km": 7.6,
+     "nearest_facility": "有馬グランドホテル"
+    }
+   ]
+  },
+  "sanin-kaigan-geopark-hamasaka-no-sato": {
+   "station_name": "山陰海岸ジオパーク浜坂の郷",
+   "url": "https://michinoeki.netaful.jp/station/sanin-kaigan-geopark-hamasaka-no-sato/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "yumura",
+     "area_name": "湯村",
+     "url": "https://onsen.netaful.jp/higaeri/yumura/",
+     "distance_km": 6.2,
+     "nearest_facility": "薬師湯"
+    }
+   ]
+  },
+  "misasa-rakuichi-rakuza": {
+   "station_name": "三朝・楽市楽座",
+   "url": "https://michinoeki.netaful.jp/station/misasa-rakuichi-rakuza/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "misasa",
+     "area_name": "三朝",
+     "url": "https://onsen.netaful.jp/higaeri/misasa/",
+     "distance_km": 6.3,
+     "nearest_facility": "BARCOS RYOKAN 三朝荘"
+    }
+   ]
+  },
+  "hawai": {
+   "station_name": "はわい",
+   "url": "https://michinoeki.netaful.jp/station/hawai/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "misasa",
+     "area_name": "三朝",
+     "url": "https://onsen.netaful.jp/higaeri/misasa/",
+     "distance_km": 8.7,
+     "nearest_facility": "依山楼岩崎"
+    }
+   ]
+  },
+  "encho-en": {
+   "station_name": "燕趙園",
+   "url": "https://michinoeki.netaful.jp/station/encho-en/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "misasa",
+     "area_name": "三朝",
+     "url": "https://onsen.netaful.jp/higaeri/misasa/",
+     "distance_km": 5.4,
+     "nearest_facility": "依山楼岩崎"
+    }
+   ]
+  },
+  "aiga-nagisa-koen": {
+   "station_name": "秋鹿なぎさ公園",
+   "url": "https://michinoeki.netaful.jp/station/aiga-nagisa-koen/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "tamatsukuri",
+     "area_name": "玉造",
+     "url": "https://onsen.netaful.jp/higaeri/tamatsukuri/",
+     "distance_km": 6.9,
+     "nearest_facility": "玉造国際ホテル RIVAGE CHORAKU"
+    }
+   ]
+  },
+  "ara-essa": {
+   "station_name": "あらエッサ",
+   "url": "https://michinoeki.netaful.jp/station/ara-essa/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "kaike",
+     "area_name": "皆生",
+     "url": "https://onsen.netaful.jp/higaeri/kaike/",
+     "distance_km": 6.7,
+     "nearest_facility": "おーゆ・ランド"
+    }
+   ]
+  },
+  "yamauchi": {
+   "station_name": "山内",
+   "url": "https://michinoeki.netaful.jp/station/yamauchi/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "takeo",
+     "area_name": "武雄",
+     "url": "https://onsen.netaful.jp/higaeri/takeo/",
+     "distance_km": 5.4,
+     "nearest_facility": "武雄温泉 元湯"
+    }
+   ]
+  },
+  "ureshino-maruku": {
+   "station_name": "うれしの まるく",
+   "url": "https://michinoeki.netaful.jp/station/ureshino-maruku/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "ureshino",
+     "area_name": "嬉野",
+     "url": "https://onsen.netaful.jp/higaeri/ureshino/",
+     "distance_km": 1.5,
+     "nearest_facility": "嬉野温泉公衆浴場 シーボルトの湯"
+    },
+    {
+     "area_slug": "takeo",
+     "area_name": "武雄",
+     "url": "https://onsen.netaful.jp/higaeri/takeo/",
+     "distance_km": 9.0,
+     "nearest_facility": "御船山楽園ホテル らかんの湯"
+    }
+   ]
+  },
+  "sonogi-no-sho": {
+   "station_name": "彼杵の荘",
+   "url": "https://michinoeki.netaful.jp/station/sonogi-no-sho/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "ureshino",
+     "area_name": "嬉野",
+     "url": "https://onsen.netaful.jp/higaeri/ureshino/",
+     "distance_km": 8.9,
+     "nearest_facility": "うれしの木立の湯"
+    }
+   ]
+  },
+  "oguni": {
+   "station_name": "小国",
+   "url": "https://michinoeki.netaful.jp/station/oguni/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "kurokawa",
+     "area_name": "黒川・杖立",
+     "url": "https://onsen.netaful.jp/higaeri/kurokawa/",
+     "distance_km": 6.1,
+     "nearest_facility": "薬師湯"
+    }
+   ]
+  },
+  "namino": {
+   "station_name": "波野",
+   "url": "https://michinoeki.netaful.jp/station/namino/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "aso",
+     "area_name": "阿蘇",
+     "url": "https://onsen.netaful.jp/higaeri/aso/",
+     "distance_km": 9.0,
+     "nearest_facility": "亀の井ホテル 阿蘇"
+    }
+   ]
+  },
+  "aso": {
+   "station_name": "阿蘇",
+   "url": "https://michinoeki.netaful.jp/station/aso/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "aso",
+     "area_name": "阿蘇",
+     "url": "https://onsen.netaful.jp/higaeri/aso/",
+     "distance_km": 0.4,
+     "nearest_facility": "阿蘇坊中温泉 夢の湯"
+    }
+   ]
+  },
+  "kamitsue": {
+   "station_name": "せせらぎ郷かみつえ",
+   "url": "https://michinoeki.netaful.jp/station/kamitsue/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "kurokawa",
+     "area_name": "黒川・杖立",
+     "url": "https://onsen.netaful.jp/higaeri/kurokawa/",
+     "distance_km": 8.5,
+     "nearest_facility": "御前湯"
+    }
+   ]
+  },
+  "yuhuin": {
+   "station_name": "ゆふいん",
+   "url": "https://michinoeki.netaful.jp/station/yuhuin/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "yufuin",
+     "area_name": "由布院",
+     "url": "https://onsen.netaful.jp/higaeri/yufuin/",
+     "distance_km": 2.9,
+     "nearest_facility": "乙丸温泉館"
+    }
+   ]
+  },
+  "oyama-oita": {
+   "station_name": "水辺の郷おおやま",
+   "url": "https://michinoeki.netaful.jp/station/oyama-oita/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "kurokawa",
+     "area_name": "黒川・杖立",
+     "url": "https://onsen.netaful.jp/higaeri/kurokawa/",
+     "distance_km": 9.8,
+     "nearest_facility": "吉祥の湯"
+    }
+   ]
+  },
+  "tanourara": {
+   "station_name": "たのうらら",
+   "url": "https://michinoeki.netaful.jp/station/tanourara/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "beppu",
+     "area_name": "別府",
+     "url": "https://onsen.netaful.jp/higaeri/beppu/",
+     "distance_km": 5.2,
+     "nearest_facility": "竹瓦温泉"
+    }
+   ]
+  },
+  "kirishima": {
+   "station_name": "霧島",
+   "url": "https://michinoeki.netaful.jp/station/kirishima/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "kirishima",
+     "area_name": "霧島",
+     "url": "https://onsen.netaful.jp/higaeri/kirishima/",
+     "distance_km": 2.4,
+     "nearest_facility": "霧島市温泉健康増進交流センター 神乃湯"
+    }
+   ]
+  },
+  "ibusuki": {
+   "station_name": "いぶすき",
+   "url": "https://michinoeki.netaful.jp/station/ibusuki/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "ibusuki",
+     "area_name": "指宿",
+     "url": "https://onsen.netaful.jp/higaeri/ibusuki/",
+     "distance_km": 8.1,
+     "nearest_facility": "休暇村指宿"
+    }
+   ]
+  },
+  "yamakawako-katsuokaido": {
+   "station_name": "山川港活お海道",
+   "url": "https://michinoeki.netaful.jp/station/yamakawako-katsuokaido/",
+   "coord_source": "data",
+   "areas": [
+    {
+     "area_slug": "ibusuki",
+     "area_name": "指宿",
+     "url": "https://onsen.netaful.jp/higaeri/ibusuki/",
+     "distance_km": 1.5,
+     "nearest_facility": "ヘルシーランド温泉保養館"
+    }
+   ]
+  }
+ },
+ "areas": {
+  "hakone": {
+   "area_name": "箱根",
+   "url": "https://onsen.netaful.jp/higaeri/hakone/",
+   "stations": [
+    {
+     "station_slug": "hakone-toge",
+     "station_name": "箱根峠",
+     "url": "https://michinoeki.netaful.jp/station/hakone-toge/",
+     "distance_km": 3.2,
+     "nearest_facility": "絶景日帰り温泉 龍宮殿本館"
+    }
+   ]
+  },
+  "yugawara": {
+   "area_name": "湯河原",
+   "url": "https://onsen.netaful.jp/higaeri/yugawara/",
+   "stations": [
+    {
+     "station_slug": "hakone-toge",
+     "station_name": "箱根峠",
+     "url": "https://michinoeki.netaful.jp/station/hakone-toge/",
+     "distance_km": 6.7,
+     "nearest_facility": "こごめの湯"
+    }
+   ]
+  },
+  "shuzenji": {
+   "area_name": "修善寺",
+   "url": "https://onsen.netaful.jp/higaeri/shuzenji/",
+   "stations": [
+    {
+     "station_slug": "izu-tsukigase",
+     "station_name": "伊豆月ケ瀬",
+     "url": "https://michinoeki.netaful.jp/station/izu-tsukigase/",
+     "distance_km": 3.4,
+     "nearest_facility": "ラフォーレリゾート修善寺「森の湯」"
+    },
+    {
+     "station_slug": "izu-no-heso",
+     "station_name": "伊豆のへそ",
+     "url": "https://michinoeki.netaful.jp/station/izu-no-heso/",
+     "distance_km": 4.8,
+     "nearest_facility": "筥湯"
+    },
+    {
+     "station_slug": "amagi-goe",
+     "station_name": "天城越え",
+     "url": "https://michinoeki.netaful.jp/station/amagi-goe/",
+     "distance_km": 9.7,
+     "nearest_facility": "ラフォーレリゾート修善寺「森の湯」"
+    }
+   ]
+  },
+  "ito": {
+   "area_name": "伊東",
+   "url": "https://onsen.netaful.jp/higaeri/ito/",
+   "stations": [
+    {
+     "station_slug": "ito-marine-town",
+     "station_name": "伊東マリンタウン",
+     "url": "https://michinoeki.netaful.jp/station/ito-marine-town/",
+     "distance_km": 0.0,
+     "nearest_facility": "朝日の湯 シーサイドスパ"
+    }
+   ]
+  },
+  "shiobara": {
+   "area_name": "塩原",
+   "url": "https://onsen.netaful.jp/higaeri/shiobara/",
+   "stations": [
+    {
+     "station_slug": "yunoka-shiobara",
+     "station_name": "湯の香しおばら",
+     "url": "https://michinoeki.netaful.jp/station/yunoka-shiobara/",
+     "distance_km": 2.2,
+     "nearest_facility": "塩原あかつきの湯"
+    },
+    {
+     "station_slug": "meiji-no-mori-kuroiso",
+     "station_name": "明治の森・黒磯",
+     "url": "https://michinoeki.netaful.jp/station/meiji-no-mori-kuroiso/",
+     "distance_km": 7.4,
+     "nearest_facility": "塩原あかつきの湯"
+    },
+    {
+     "station_slug": "nasunogahara-hakubutsukan",
+     "station_name": "那須野が原博物館",
+     "url": "https://michinoeki.netaful.jp/station/nasunogahara-hakubutsukan/",
+     "distance_km": 7.5,
+     "nearest_facility": "塩原あかつきの湯"
+    }
+   ]
+  },
+  "nasu": {
+   "area_name": "那須",
+   "url": "https://onsen.netaful.jp/higaeri/nasu/",
+   "stations": [
+    {
+     "station_slug": "nasu-kogen-yuai-no-mori",
+     "station_name": "那須高原友愛の森",
+     "url": "https://michinoeki.netaful.jp/station/nasu-kogen-yuai-no-mori/",
+     "distance_km": 1.2,
+     "nearest_facility": "ホテルエピナール那須"
+    },
+    {
+     "station_slug": "meiji-no-mori-kuroiso",
+     "station_name": "明治の森・黒磯",
+     "url": "https://michinoeki.netaful.jp/station/meiji-no-mori-kuroiso/",
+     "distance_km": 5.0,
+     "nearest_facility": "源泉 那須山 令和の湯"
+    },
+    {
+     "station_slug": "shimogo",
+     "station_name": "しもごう",
+     "url": "https://michinoeki.netaful.jp/station/shimogo/",
+     "distance_km": 9.9,
+     "nearest_facility": "北温泉旅館"
+    }
+   ]
+  },
+  "kinugawa": {
+   "area_name": "鬼怒川",
+   "url": "https://onsen.netaful.jp/higaeri/kinugawa/",
+   "stations": [
+    {
+     "station_slug": "yunishigawa",
+     "station_name": "湯西川",
+     "url": "https://michinoeki.netaful.jp/station/yunishigawa/",
+     "distance_km": 0.0,
+     "nearest_facility": "道の駅 湯西川"
+    },
+    {
+     "station_slug": "yusui-no-sato-shioya",
+     "station_name": "湧水の郷しおや",
+     "url": "https://michinoeki.netaful.jp/station/yusui-no-sato-shioya/",
+     "distance_km": 8.9,
+     "nearest_facility": "鬼怒川パークホテルズ"
+    }
+   ]
+  },
+  "kusatsu": {
+   "area_name": "草津",
+   "url": "https://onsen.netaful.jp/higaeri/kusatsu/",
+   "stations": [
+    {
+     "station_slug": "kusatsu-undochaya-koen",
+     "station_name": "草津運動茶屋公園",
+     "url": "https://michinoeki.netaful.jp/station/kusatsu-undochaya-koen/",
+     "distance_km": 0.9,
+     "nearest_facility": "草津ナウリゾートホテル"
+    },
+    {
+     "station_slug": "kuni",
+     "station_name": "六合",
+     "url": "https://michinoeki.netaful.jp/station/kuni/",
+     "distance_km": 3.0,
+     "nearest_facility": "大滝乃湯"
+    }
+   ]
+  },
+  "ikaho": {
+   "area_name": "伊香保",
+   "url": "https://onsen.netaful.jp/higaeri/ikaho/",
+   "stations": [
+    {
+     "station_slug": "onoko",
+     "station_name": "おのこ",
+     "url": "https://michinoeki.netaful.jp/station/onoko/",
+     "distance_km": 6.3,
+     "nearest_facility": "お宿 玉樹"
+    },
+    {
+     "station_slug": "komochi",
+     "station_name": "こもち",
+     "url": "https://michinoeki.netaful.jp/station/komochi/",
+     "distance_km": 9.0,
+     "nearest_facility": "お宿 玉樹"
+    }
+   ]
+  },
+  "minakami": {
+   "area_name": "水上",
+   "url": "https://onsen.netaful.jp/higaeri/minakami/",
+   "stations": [
+    {
+     "station_slug": "minakami-suikokan",
+     "station_name": "みなかみ水紀行館",
+     "url": "https://michinoeki.netaful.jp/station/minakami-suikokan/",
+     "distance_km": 0.4,
+     "nearest_facility": "ふれあい交流館"
+    },
+    {
+     "station_slug": "tsukiyono-yaze-shinsui-koen",
+     "station_name": "月夜野矢瀬親水公園",
+     "url": "https://michinoeki.netaful.jp/station/tsukiyono-yaze-shinsui-koen/",
+     "distance_km": 2.4,
+     "nearest_facility": "三峰の湯"
+    },
+    {
+     "station_slug": "takumi-no-sato",
+     "station_name": "たくみの里",
+     "url": "https://michinoeki.netaful.jp/station/takumi-no-sato/",
+     "distance_km": 3.2,
+     "nearest_facility": "まんてん星の湯"
+    }
+   ]
+  },
+  "shima": {
+   "area_name": "四万",
+   "url": "https://onsen.netaful.jp/higaeri/shima/",
+   "stations": [
+    {
+     "station_slug": "reizan-takeyama",
+     "station_name": "霊山たけやま",
+     "url": "https://michinoeki.netaful.jp/station/reizan-takeyama/",
+     "distance_km": 7.0,
+     "nearest_facility": "四万清流の湯"
+    }
+   ]
+  },
+  "kawaguchiko": {
+   "area_name": "河口湖",
+   "url": "https://onsen.netaful.jp/higaeri/kawaguchiko/",
+   "stations": [
+    {
+     "station_slug": "narusawa",
+     "station_name": "なるさわ",
+     "url": "https://michinoeki.netaful.jp/station/narusawa/",
+     "distance_km": 0.0,
+     "nearest_facility": "富士眺望の湯 ゆらり"
+    },
+    {
+     "station_slug": "katsuyama",
+     "station_name": "かつやま",
+     "url": "https://michinoeki.netaful.jp/station/katsuyama/",
+     "distance_km": 2.2,
+     "nearest_facility": "たかの友梨 スパ＆ホテル 桜庵"
+    },
+    {
+     "station_slug": "fujiyoshida",
+     "station_name": "富士吉田",
+     "url": "https://michinoeki.netaful.jp/station/fujiyoshida/",
+     "distance_km": 5.9,
+     "nearest_facility": "山岸旅館"
+    }
+   ]
+  },
+  "echigo-yuzawa": {
+   "area_name": "越後湯沢",
+   "url": "https://onsen.netaful.jp/higaeri/echigo-yuzawa/",
+   "stations": [
+    {
+     "station_slug": "mitsumata",
+     "station_name": "みつまた",
+     "url": "https://michinoeki.netaful.jp/station/mitsumata/",
+     "distance_km": 1.8,
+     "nearest_facility": "街道の湯"
+    },
+    {
+     "station_slug": "minamiuonuma",
+     "station_name": "南魚沼",
+     "url": "https://michinoeki.netaful.jp/station/minamiuonuma/",
+     "distance_km": 6.7,
+     "nearest_facility": "駒子の湯"
+    }
+   ]
+  },
+  "shirahone": {
+   "area_name": "白骨",
+   "url": "https://onsen.netaful.jp/higaeri/shirahone/",
+   "stations": [
+    {
+     "station_slug": "fuketsu-no-sato",
+     "station_name": "風穴の里",
+     "url": "https://michinoeki.netaful.jp/station/fuketsu-no-sato/",
+     "distance_km": 9.3,
+     "nearest_facility": "白船荘 新宅旅館"
+    }
+   ]
+  },
+  "yudanaka-shibu": {
+   "area_name": "湯田中・渋",
+   "url": "https://onsen.netaful.jp/higaeri/yudanaka-shibu/",
+   "stations": [
+    {
+     "station_slug": "kitashinshu-yamanouchi",
+     "station_name": "北信州やまのうち",
+     "url": "https://michinoeki.netaful.jp/station/kitashinshu-yamanouchi/",
+     "distance_km": 0.9,
+     "nearest_facility": "ホテルゆだなか（吉の湯）"
+    }
+   ]
+  },
+  "nozawa": {
+   "area_name": "野沢",
+   "url": "https://onsen.netaful.jp/higaeri/nozawa/",
+   "stations": [
+    {
+     "station_slug": "nozawa-onsen",
+     "station_name": "野沢温泉",
+     "url": "https://michinoeki.netaful.jp/station/nozawa-onsen/",
+     "distance_km": 3.0,
+     "nearest_facility": "麻釜温泉公園 ふるさとの湯"
+    },
+    {
+     "station_slug": "hana-no-eki-chikumagawa",
+     "station_name": "花の駅 千曲川",
+     "url": "https://michinoeki.netaful.jp/station/hana-no-eki-chikumagawa/",
+     "distance_km": 6.1,
+     "nearest_facility": "野沢温泉スパリーナ"
+    }
+   ]
+  },
+  "higashiyama-aizu": {
+   "area_name": "会津東山",
+   "url": "https://onsen.netaful.jp/higaeri/higashiyama-aizu/",
+   "stations": [
+    {
+     "station_slug": "bandai",
+     "station_name": "ばんだい",
+     "url": "https://michinoeki.netaful.jp/station/bandai/",
+     "distance_km": 9.6,
+     "nearest_facility": "御宿東鳳"
+    }
+   ]
+  },
+  "iizaka": {
+   "area_name": "飯坂",
+   "url": "https://onsen.netaful.jp/higaeri/iizaka/",
+   "stations": [
+    {
+     "station_slug": "fukushima",
+     "station_name": "ふくしま",
+     "url": "https://michinoeki.netaful.jp/station/fukushima/",
+     "distance_km": 4.3,
+     "nearest_facility": "大門の湯"
+    },
+    {
+     "station_slug": "kunimi-atsukashi-no-sato",
+     "station_name": "国見 あつかしの郷",
+     "url": "https://michinoeki.netaful.jp/station/kunimi-atsukashi-no-sato/",
+     "distance_km": 9.0,
+     "nearest_facility": "導専の湯"
+    }
+   ]
+  },
+  "wakura": {
+   "area_name": "和倉",
+   "url": "https://onsen.netaful.jp/higaeri/wakura/",
+   "stations": [
+    {
+     "station_slug": "nakajima-roman-toge",
+     "station_name": "なかじまロマン峠",
+     "url": "https://michinoeki.netaful.jp/station/nakajima-roman-toge/",
+     "distance_km": 6.3,
+     "nearest_facility": "和倉温泉総湯"
+    },
+    {
+     "station_slug": "noto-shokusai-ichiba",
+     "station_name": "能登食祭市場",
+     "url": "https://michinoeki.netaful.jp/station/noto-shokusai-ichiba/",
+     "distance_km": 6.3,
+     "nearest_facility": "ゆけむりの宿 美湾荘"
+    },
+    {
+     "station_slug": "notojima",
+     "station_name": "のとじま",
+     "url": "https://michinoeki.netaful.jp/station/notojima/",
+     "distance_km": 8.7,
+     "nearest_facility": "ゆけむりの宿 美湾荘"
+    }
+   ]
+  },
+  "yamanaka": {
+   "area_name": "山中",
+   "url": "https://onsen.netaful.jp/higaeri/yamanaka/",
+   "stations": [
+    {
+     "station_slug": "yamanaka-onsen-yukemuri-kenko-mura",
+     "station_name": "山中温泉 ゆけむり健康村",
+     "url": "https://michinoeki.netaful.jp/station/yamanaka-onsen-yukemuri-kenko-mura/",
+     "distance_km": 0.4,
+     "nearest_facility": "大江戸温泉物語 山中彩朝楽"
+    },
+    {
+     "station_slug": "rennyo-no-sato-awara",
+     "station_name": "蓮如の里あわら",
+     "url": "https://michinoeki.netaful.jp/station/rennyo-no-sato-awara/",
+     "distance_km": 10.0,
+     "nearest_facility": "菊の湯（第二浴場）"
+    }
+   ]
+  },
+  "yamashiro": {
+   "area_name": "山代",
+   "url": "https://onsen.netaful.jp/higaeri/yamashiro/",
+   "stations": [
+    {
+     "station_slug": "yamanaka-onsen-yukemuri-kenko-mura",
+     "station_name": "山中温泉 ゆけむり健康村",
+     "url": "https://michinoeki.netaful.jp/station/yamanaka-onsen-yukemuri-kenko-mura/",
+     "distance_km": 5.3,
+     "nearest_facility": "ゆ湯の宿 白山菖蒲亭"
+    },
+    {
+     "station_slug": "rennyo-no-sato-awara",
+     "station_name": "蓮如の里あわら",
+     "url": "https://michinoeki.netaful.jp/station/rennyo-no-sato-awara/",
+     "distance_km": 9.4,
+     "nearest_facility": "ゆ湯の宿 白山菖蒲亭"
+    }
+   ]
+  },
+  "katayamazu": {
+   "area_name": "片山津",
+   "url": "https://onsen.netaful.jp/higaeri/katayamazu/",
+   "stations": [
+    {
+     "station_slug": "komatsu-kibagata",
+     "station_name": "こまつ木場潟",
+     "url": "https://michinoeki.netaful.jp/station/komatsu-kibagata/",
+     "distance_km": 8.4,
+     "nearest_facility": "大江戸温泉物語 片山津温泉ながやま"
+    }
+   ]
+  },
+  "awara": {
+   "area_name": "あわら",
+   "url": "https://onsen.netaful.jp/higaeri/awara/",
+   "stations": [
+    {
+     "station_slug": "mikuni",
+     "station_name": "みくに",
+     "url": "https://michinoeki.netaful.jp/station/mikuni/",
+     "distance_km": 6.4,
+     "nearest_facility": "清風荘"
+    },
+    {
+     "station_slug": "sakai-fukui",
+     "station_name": "さかい",
+     "url": "https://michinoeki.netaful.jp/station/sakai-fukui/",
+     "distance_km": 6.4,
+     "nearest_facility": "清風荘"
+    },
+    {
+     "station_slug": "rennyo-no-sato-awara",
+     "station_name": "蓮如の里あわら",
+     "url": "https://michinoeki.netaful.jp/station/rennyo-no-sato-awara/",
+     "distance_km": 8.3,
+     "nearest_facility": "長谷川"
+    }
+   ]
+  },
+  "okuhida": {
+   "area_name": "奥飛騨",
+   "url": "https://onsen.netaful.jp/higaeri/okuhida/",
+   "stations": [
+    {
+     "station_slug": "okuhida-kamitakara",
+     "station_name": "奥飛騨温泉郷上宝",
+     "url": "https://michinoeki.netaful.jp/station/okuhida-kamitakara/",
+     "distance_km": 2.5,
+     "nearest_facility": "荒神の湯"
+    }
+   ]
+  },
+  "gero": {
+   "area_name": "下呂",
+   "url": "https://onsen.netaful.jp/higaeri/gero/",
+   "stations": [
+    {
+     "station_slug": "maze-miki-no-sato",
+     "station_name": "馬瀬美輝の里",
+     "url": "https://michinoeki.netaful.jp/station/maze-miki-no-sato/",
+     "distance_km": 4.0,
+     "nearest_facility": "吉泉館竹翠亭"
+    }
+   ]
+  },
+  "naruko": {
+   "area_name": "鳴子",
+   "url": "https://onsen.netaful.jp/higaeri/naruko/",
+   "stations": [
+    {
+     "station_slug": "ara-date-na-michinoeki",
+     "station_name": "あ・ら・伊達な道の駅",
+     "url": "https://michinoeki.netaful.jp/station/ara-date-na-michinoeki/",
+     "distance_km": 5.9,
+     "nearest_facility": "藤島旅館"
+    },
+    {
+     "station_slug": "rotari-hanayama",
+     "station_name": "路田里はなやま",
+     "url": "https://michinoeki.netaful.jp/station/rotari-hanayama/",
+     "distance_km": 9.7,
+     "nearest_facility": "川渡温泉共同浴場"
+    }
+   ]
+  },
+  "tendo": {
+   "area_name": "天童",
+   "url": "https://onsen.netaful.jp/higaeri/tendo/",
+   "stations": [
+    {
+     "station_slug": "tendo-onsen",
+     "station_name": "天童温泉",
+     "url": "https://michinoeki.netaful.jp/station/tendo-onsen/",
+     "distance_km": 0.6,
+     "nearest_facility": "ほほえみの空湯舟 つるや"
+    },
+    {
+     "station_slug": "kahoku",
+     "station_name": "河北",
+     "url": "https://michinoeki.netaful.jp/station/kahoku/",
+     "distance_km": 5.5,
+     "nearest_facility": "天童最上川温泉 ゆぴあ"
+    },
+    {
+     "station_slug": "sagae",
+     "station_name": "寒河江",
+     "url": "https://michinoeki.netaful.jp/station/sagae/",
+     "distance_km": 6.0,
+     "nearest_facility": "天童最上川温泉 ゆぴあ"
+    }
+   ]
+  },
+  "zao": {
+   "area_name": "蔵王",
+   "url": "https://onsen.netaful.jp/higaeri/zao/",
+   "stations": [
+    {
+     "station_slug": "yamagata-zao",
+     "station_name": "やまがた蔵王",
+     "url": "https://michinoeki.netaful.jp/station/yamagata-zao/",
+     "distance_km": 7.7,
+     "nearest_facility": "下湯共同浴場"
+    }
+   ]
+  },
+  "asamushi": {
+   "area_name": "浅虫",
+   "url": "https://onsen.netaful.jp/higaeri/asamushi/",
+   "stations": [
+    {
+     "station_slug": "asamushi-onsen",
+     "station_name": "浅虫温泉",
+     "url": "https://michinoeki.netaful.jp/station/asamushi-onsen/",
+     "distance_km": 0.1,
+     "nearest_facility": "宿屋つばき"
+    }
+   ]
+  },
+  "toyako": {
+   "area_name": "洞爺湖",
+   "url": "https://onsen.netaful.jp/higaeri/toyako/",
+   "stations": [
+    {
+     "station_slug": "sobetsu-joho-kan-i",
+     "station_name": "そうべつ情報館ｉ（アイ）",
+     "url": "https://michinoeki.netaful.jp/station/sobetsu-joho-kan-i/",
+     "distance_km": 4.9,
+     "nearest_facility": "洞爺サンパレス リゾート＆スパ"
+    },
+    {
+     "station_slug": "aputa",
+     "station_name": "あぷた",
+     "url": "https://michinoeki.netaful.jp/station/aputa/",
+     "distance_km": 5.3,
+     "nearest_facility": "洞爺観光ホテル"
+    },
+    {
+     "station_slug": "toyoura",
+     "station_name": "とようら",
+     "url": "https://michinoeki.netaful.jp/station/toyoura/",
+     "distance_km": 8.1,
+     "nearest_facility": "洞爺観光ホテル"
+    }
+   ]
+  },
+  "niseko": {
+   "area_name": "ニセコ",
+   "url": "https://onsen.netaful.jp/higaeri/niseko/",
+   "stations": [
+    {
+     "station_slug": "niseko-view-plaza",
+     "station_name": "ニセコビュープラザ",
+     "url": "https://michinoeki.netaful.jp/station/niseko-view-plaza/",
+     "distance_km": 1.7,
+     "nearest_facility": "ニセコ駅前温泉 綺羅乃湯"
+    }
+   ]
+  },
+  "amanohashidate": {
+   "area_name": "天橋立",
+   "url": "https://onsen.netaful.jp/higaeri/amanohashidate/",
+   "stations": [
+    {
+     "station_slug": "umi-no-kyoto-miyazu",
+     "station_name": "海の京都 宮津",
+     "url": "https://michinoeki.netaful.jp/station/umi-no-kyoto-miyazu/",
+     "distance_km": 2.3,
+     "nearest_facility": "天橋立温泉 智恵の湯"
+    }
+   ]
+  },
+  "yunomine": {
+   "area_name": "熊野本宮温泉郷",
+   "url": "https://onsen.netaful.jp/higaeri/yunomine/",
+   "stations": [
+    {
+     "station_slug": "oku-kumano-kodo-hongu",
+     "station_name": "奥熊野古道ほんぐう",
+     "url": "https://michinoeki.netaful.jp/station/oku-kumano-kodo-hongu/",
+     "distance_km": 4.0,
+     "nearest_facility": "つぼ湯"
+    }
+   ]
+  },
+  "shirahama": {
+   "area_name": "白浜",
+   "url": "https://onsen.netaful.jp/higaeri/shirahama/",
+   "stations": [
+    {
+     "station_slug": "kuchikumano",
+     "station_name": "くちくまの",
+     "url": "https://michinoeki.netaful.jp/station/kuchikumano/",
+     "distance_km": 4.0,
+     "nearest_facility": "とれとれの湯"
+    },
+    {
+     "station_slug": "tsubaki-hana-no-yu",
+     "station_name": "椿はなの湯",
+     "url": "https://michinoeki.netaful.jp/station/tsubaki-hana-no-yu/",
+     "distance_km": 8.9,
+     "nearest_facility": "とれとれの湯"
+    }
+   ]
+  },
+  "katsuura": {
+   "area_name": "南紀勝浦",
+   "url": "https://onsen.netaful.jp/higaeri/katsuura/",
+   "stations": [
+    {
+     "station_slug": "nachi",
+     "station_name": "なち",
+     "url": "https://michinoeki.netaful.jp/station/nachi/",
+     "distance_km": 0.7,
+     "nearest_facility": "海のホテル一の滝"
+    },
+    {
+     "station_slug": "taiji",
+     "station_name": "たいじ",
+     "url": "https://michinoeki.netaful.jp/station/taiji/",
+     "distance_km": 2.6,
+     "nearest_facility": "ゆりの山温泉"
+    }
+   ]
+  },
+  "yumura": {
+   "area_name": "湯村",
+   "url": "https://onsen.netaful.jp/higaeri/yumura/",
+   "stations": [
+    {
+     "station_slug": "sanin-kaigan-geopark-hamasaka-no-sato",
+     "station_name": "山陰海岸ジオパーク浜坂の郷",
+     "url": "https://michinoeki.netaful.jp/station/sanin-kaigan-geopark-hamasaka-no-sato/",
+     "distance_km": 6.2,
+     "nearest_facility": "薬師湯"
+    },
+    {
+     "station_slug": "ayu-no-sato-yatagawa",
+     "station_name": "あゆの里矢田川",
+     "url": "https://michinoeki.netaful.jp/station/ayu-no-sato-yatagawa/",
+     "distance_km": 7.1,
+     "nearest_facility": "リフレッシュパークゆむら"
+    }
+   ]
+  },
+  "arima": {
+   "area_name": "有馬",
+   "url": "https://onsen.netaful.jp/higaeri/arima/",
+   "stations": [
+    {
+     "station_slug": "kobe-fruit-flower-park-osawa",
+     "station_name": "神戸フルーツ・フラワーパーク 大沢",
+     "url": "https://michinoeki.netaful.jp/station/kobe-fruit-flower-park-osawa/",
+     "distance_km": 7.6,
+     "nearest_facility": "有馬グランドホテル"
+    }
+   ]
+  },
+  "misasa": {
+   "area_name": "三朝",
+   "url": "https://onsen.netaful.jp/higaeri/misasa/",
+   "stations": [
+    {
+     "station_slug": "encho-en",
+     "station_name": "燕趙園",
+     "url": "https://michinoeki.netaful.jp/station/encho-en/",
+     "distance_km": 5.4,
+     "nearest_facility": "依山楼岩崎"
+    },
+    {
+     "station_slug": "misasa-rakuichi-rakuza",
+     "station_name": "三朝・楽市楽座",
+     "url": "https://michinoeki.netaful.jp/station/misasa-rakuichi-rakuza/",
+     "distance_km": 6.3,
+     "nearest_facility": "BARCOS RYOKAN 三朝荘"
+    },
+    {
+     "station_slug": "hawai",
+     "station_name": "はわい",
+     "url": "https://michinoeki.netaful.jp/station/hawai/",
+     "distance_km": 8.7,
+     "nearest_facility": "依山楼岩崎"
+    }
+   ]
+  },
+  "tamatsukuri": {
+   "area_name": "玉造",
+   "url": "https://onsen.netaful.jp/higaeri/tamatsukuri/",
+   "stations": [
+    {
+     "station_slug": "aiga-nagisa-koen",
+     "station_name": "秋鹿なぎさ公園",
+     "url": "https://michinoeki.netaful.jp/station/aiga-nagisa-koen/",
+     "distance_km": 6.9,
+     "nearest_facility": "玉造国際ホテル RIVAGE CHORAKU"
+    }
+   ]
+  },
+  "kaike": {
+   "area_name": "皆生",
+   "url": "https://onsen.netaful.jp/higaeri/kaike/",
+   "stations": [
+    {
+     "station_slug": "ara-essa",
+     "station_name": "あらエッサ",
+     "url": "https://michinoeki.netaful.jp/station/ara-essa/",
+     "distance_km": 6.7,
+     "nearest_facility": "おーゆ・ランド"
+    }
+   ]
+  },
+  "takeo": {
+   "area_name": "武雄",
+   "url": "https://onsen.netaful.jp/higaeri/takeo/",
+   "stations": [
+    {
+     "station_slug": "yamauchi",
+     "station_name": "山内",
+     "url": "https://michinoeki.netaful.jp/station/yamauchi/",
+     "distance_km": 5.4,
+     "nearest_facility": "武雄温泉 元湯"
+    },
+    {
+     "station_slug": "ureshino-maruku",
+     "station_name": "うれしの まるく",
+     "url": "https://michinoeki.netaful.jp/station/ureshino-maruku/",
+     "distance_km": 9.0,
+     "nearest_facility": "御船山楽園ホテル らかんの湯"
+    }
+   ]
+  },
+  "ureshino": {
+   "area_name": "嬉野",
+   "url": "https://onsen.netaful.jp/higaeri/ureshino/",
+   "stations": [
+    {
+     "station_slug": "ureshino-maruku",
+     "station_name": "うれしの まるく",
+     "url": "https://michinoeki.netaful.jp/station/ureshino-maruku/",
+     "distance_km": 1.5,
+     "nearest_facility": "嬉野温泉公衆浴場 シーボルトの湯"
+    },
+    {
+     "station_slug": "sonogi-no-sho",
+     "station_name": "彼杵の荘",
+     "url": "https://michinoeki.netaful.jp/station/sonogi-no-sho/",
+     "distance_km": 8.9,
+     "nearest_facility": "うれしの木立の湯"
+    }
+   ]
+  },
+  "kurokawa": {
+   "area_name": "黒川・杖立",
+   "url": "https://onsen.netaful.jp/higaeri/kurokawa/",
+   "stations": [
+    {
+     "station_slug": "oguni",
+     "station_name": "小国",
+     "url": "https://michinoeki.netaful.jp/station/oguni/",
+     "distance_km": 6.1,
+     "nearest_facility": "薬師湯"
+    },
+    {
+     "station_slug": "kamitsue",
+     "station_name": "せせらぎ郷かみつえ",
+     "url": "https://michinoeki.netaful.jp/station/kamitsue/",
+     "distance_km": 8.5,
+     "nearest_facility": "御前湯"
+    },
+    {
+     "station_slug": "oyama-oita",
+     "station_name": "水辺の郷おおやま",
+     "url": "https://michinoeki.netaful.jp/station/oyama-oita/",
+     "distance_km": 9.8,
+     "nearest_facility": "吉祥の湯"
+    }
+   ]
+  },
+  "aso": {
+   "area_name": "阿蘇",
+   "url": "https://onsen.netaful.jp/higaeri/aso/",
+   "stations": [
+    {
+     "station_slug": "aso",
+     "station_name": "阿蘇",
+     "url": "https://michinoeki.netaful.jp/station/aso/",
+     "distance_km": 0.4,
+     "nearest_facility": "阿蘇坊中温泉 夢の湯"
+    },
+    {
+     "station_slug": "namino",
+     "station_name": "波野",
+     "url": "https://michinoeki.netaful.jp/station/namino/",
+     "distance_km": 9.0,
+     "nearest_facility": "亀の井ホテル 阿蘇"
+    }
+   ]
+  },
+  "yufuin": {
+   "area_name": "由布院",
+   "url": "https://onsen.netaful.jp/higaeri/yufuin/",
+   "stations": [
+    {
+     "station_slug": "yuhuin",
+     "station_name": "ゆふいん",
+     "url": "https://michinoeki.netaful.jp/station/yuhuin/",
+     "distance_km": 2.9,
+     "nearest_facility": "乙丸温泉館"
+    }
+   ]
+  },
+  "beppu": {
+   "area_name": "別府",
+   "url": "https://onsen.netaful.jp/higaeri/beppu/",
+   "stations": [
+    {
+     "station_slug": "tanourara",
+     "station_name": "たのうらら",
+     "url": "https://michinoeki.netaful.jp/station/tanourara/",
+     "distance_km": 5.2,
+     "nearest_facility": "竹瓦温泉"
+    }
+   ]
+  },
+  "kirishima": {
+   "area_name": "霧島",
+   "url": "https://onsen.netaful.jp/higaeri/kirishima/",
+   "stations": [
+    {
+     "station_slug": "kirishima",
+     "station_name": "霧島",
+     "url": "https://michinoeki.netaful.jp/station/kirishima/",
+     "distance_km": 2.4,
+     "nearest_facility": "霧島市温泉健康増進交流センター 神乃湯"
+    }
+   ]
+  },
+  "ibusuki": {
+   "area_name": "指宿",
+   "url": "https://onsen.netaful.jp/higaeri/ibusuki/",
+   "stations": [
+    {
+     "station_slug": "yamakawako-katsuokaido",
+     "station_name": "山川港活お海道",
+     "url": "https://michinoeki.netaful.jp/station/yamakawako-katsuokaido/",
+     "distance_km": 1.5,
+     "nearest_facility": "ヘルシーランド温泉保養館"
+    },
+    {
+     "station_slug": "ibusuki",
+     "station_name": "いぶすき",
+     "url": "https://michinoeki.netaful.jp/station/ibusuki/",
+     "distance_km": 8.1,
+     "nearest_facility": "休暇村指宿"
+    }
+   ]
+  }
+ }
+}
