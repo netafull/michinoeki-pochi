@@ -25964,7 +25964,7 @@
     },
     "okinawa": {
       "name": "沖縄県",
-      "published": false,
+      "published": true,
       "stations": [
         {
           "address": "沖縄県名護市許田17-1",
