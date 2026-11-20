@@ -294,7 +294,8 @@ def _series_nav():
     """フッターの関連サイト（チップ表示）。"""
     links = "\n".join('<a href="%s">%s<span class="lbl"> %s</span></a>'
                       % (html.escape(u, quote=True), html.escape(n), html.escape(d)) for n, d, u in SERIES_SITES)
-    return '<nav class="sites"><span class="lbl">関連サイト</span>\n%s\n</nav>\n' % links
+    return ('<nav class="sites"><span class="lbl">関連サイト</span>\n%s\n</nav>\n'
+            '<p><a href="https://pochi.netaful.jp/">ポチシリーズ一覧：ポチフル</a></p>\n') % links
 
 
 def _site_head(is_top):
