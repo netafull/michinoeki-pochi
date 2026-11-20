@@ -24986,7 +24986,7 @@
     },
     "miyazaki": {
       "name": "宮崎県",
-      "published": false,
+      "published": true,
       "stations": [
         {
           "address": "宮崎県宮崎市高岡町花見304-5",
