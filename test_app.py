@@ -303,9 +303,9 @@ class PublishingGate(unittest.TestCase):
                  'href="/fukui/"', 'href="/gifu/"', 'href="/mie/"', 'href="/shiga/"']
         positions = [text.index(o) for o in order]
         self.assertEqual(positions, sorted(positions))
-        # 日本地図タイル：全県のタイルがあり、公開済みだけがリンクになる
+        # 日本地図タイル：全県のタイルがあり、全県公開が完了したので未公開タイルはない
         self.assertIn('class="ms-map"', text)
-        self.assertIn('ms-map-tile--off', text)
+        self.assertNotIn('ms-map-tile--off', text)
         self.assertIn('href="/hokkaido/"', text)
         self.assertIn('href="/kyoto/"', text)
         self.assertIn('href="/hyogo/"', text)
