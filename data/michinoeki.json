@@ -23499,7 +23499,7 @@
     },
     "kumamoto": {
       "name": "熊本県",
-      "published": false,
+      "published": true,
       "stations": [
         {
           "address": "熊本県阿蘇郡小国町大字宮原1754-17",
