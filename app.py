@@ -100,6 +100,20 @@ JAPAN_MAP_TILES = (
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_PATH = os.path.join(BASE_DIR, "data", "michinoeki.json")
+ONSEN_LINKS_PATH = os.path.join(BASE_DIR, "data", "onsen_links.json")
+
+
+def _load_onsen_links():
+    """道の駅×日帰り温泉の対応表（data/onsen_links.json）。駅slug→温泉地リスト。
+    無ければ空（駅ページに温泉地セクションを出さない）。作り方は scripts/build_onsen_links.py。"""
+    try:
+        with open(ONSEN_LINKS_PATH, encoding="utf-8") as f:
+            return json.load(f).get("stations", {})
+    except (OSError, ValueError):
+        return {}
+
+
+ONSEN_LINKS = _load_onsen_links()
 
 # 注意書き（日帰り温泉ポチと同じ文面。料金・営業時間は変わるため、公式確認を必ず促す）
 CAUTION = ("料金・営業時間・休館日などは変更される場合があります。"
@@ -410,6 +424,24 @@ def _station_card(pref_slug, st, show_pref=False):
     return out + "</li>"
 
 
+def _onsen_links_block(st):
+    """近くの温泉地（日帰り温泉）への導線。対応表にある駅だけに出す。
+    距離は温泉地の日帰り施設のうち一番近いものまでの直線距離（data/onsen_links.json）。"""
+    entry = ONSEN_LINKS.get(st["slug"])
+    if not entry:
+        return ""
+    e = html.escape
+    items = ""
+    for a in entry["areas"]:
+        name = a["area_name"] if "温泉" in a["area_name"] else a["area_name"] + "温泉"
+        items += ('<li><a href="%s">%s</a> 約%skm</li>'
+                  % (e(a["url"], True), e(name), "%g" % a["distance_km"]))
+    return ('<section class="ms-onsen-links"><h2>近くの温泉地（日帰り温泉）</h2>'
+            '<ul>%s</ul>'
+            '<p class="ms-onsen-note">距離は、温泉地の日帰り施設のうち一番近いものまでの直線距離です。</p>'
+            '</section>\n' % items)
+
+
 def _sources_block(st):
     """出典ブロック。一次情報で確認していることと確認日だけを細く残す（リンク列は並べない）。
     出典URLは1本だけ「出典」として出す。"""
@@ -590,6 +622,7 @@ def station(slug):
                  % e(st["official_url"], True))
     if card:
         content += '<div class="ms-card ms-card--station">%s</div>\n' % card
+    content += _onsen_links_block(st)
     content += _sources_block(st)
     return _render("%s | %s" % (title, SITE_NAME), desc, canonical, content,
                    _crumbs(("%sの道の駅" % pref_name, "%s/%s/" % (SITE_URL, pref_slug)), (title, canonical)))

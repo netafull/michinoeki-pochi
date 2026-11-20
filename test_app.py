@@ -146,6 +146,20 @@ class Rendering(unittest.TestCase):
         self.assertIn("必ず各施設の公式ページで最新の情報をご確認ください", text)
         self.assertIn("BreadcrumbList", text)
 
+    def test_station_page_onsen_links(self):
+        code, text = self.get("/station/kusatsu-undochaya-koen/")
+        self.assertEqual(code, 200)
+        self.assertIn("近くの温泉地（日帰り温泉）", text)
+        self.assertIn('href="https://onsen.netaful.jp/higaeri/kusatsu/"', text)
+        self.assertIn("草津温泉</a> 約0.9km", text)
+        code, text = self.get("/station/hakone-toge/")
+        self.assertEqual(code, 200)
+        self.assertIn('href="https://onsen.netaful.jp/higaeri/hakone/"', text)
+        self.assertIn('href="https://onsen.netaful.jp/higaeri/yugawara/"', text)
+        code, text = self.get("/station/ogawamachi/")
+        self.assertEqual(code, 200)
+        self.assertNotIn("近くの温泉地（日帰り温泉）", text)
+
     def test_station_page_shows_unknown_for_null_closed(self):
         code, text = self.get("/station/chichibu/")  # closed が null
         self.assertEqual(code, 200)
