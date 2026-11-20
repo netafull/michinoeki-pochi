@@ -33,12 +33,12 @@ from flask import Flask, Response, abort
 # ---------- サイト名・基本設定 ----------
 SITE_NAME = "道の駅ポチ"
 TAGLINE = "道の駅の駐車場・設備を、まとめて探す"
-DESCRIPTION = ("全国の道の駅について、住所・電話・営業時間・駐車場台数・EV充電や温泉などの設備を、"
+DESCRIPTION = ("全国の道の駅について、住所・営業時間・駐車場台数・EV充電や温泉などの設備を、"
                "各駅の公式サイトや道の駅連絡会などの一次情報で確認してまとめています。")
 SITE_URL = os.environ.get("SITE_URL", "https://michinoeki.netaful.jp").rstrip("/")
 
 # 共通ページテンプレート・文言を最後に変えた日（sitemap.xml の lastmod の下限）。テンプレートや文言を変えたら手で更新する
-PAGES_UPDATED = "2026-11-19"
+PAGES_UPDATED = "2026-11-20"
 
 # フッターの関連サイト（ポチシリーズ。道の駅ポチ自身は載せない。名前・説明は他のポチの config.json と同じ）
 SERIES_SITES = (
@@ -548,7 +548,7 @@ def station(slug):
     pref_name = STORE.prefectures[pref_slug]["name"]
     e = html.escape
     title = "道の駅 %s" % st["name"]
-    desc = "%sの道の駅「%s」の基本情報です。住所・電話・営業時間・駐車場台数と、EV充電や温泉などの設備を公式の案内をもとにまとめました。" % (
+    desc = "%sの道の駅「%s」の基本情報です。住所・営業時間・駐車場台数と、EV充電や温泉などの設備を公式の案内をもとにまとめました。" % (
         pref_name, st["name"])
     canonical = "%s/station/%s/" % (SITE_URL, slug)
 
@@ -557,8 +557,6 @@ def station(slug):
         maps = "https://www.google.com/maps/search/?api=1&query=" + urllib.parse.quote(st["address"])
         rows += ('<div><dt>住所</dt><dd><a href="%s" target="_blank" rel="noopener">📍 %s</a></dd></div>'
                  % (e(maps, True), e(st["address"])))
-    if st["tel"]:
-        rows += '<div><dt>電話</dt><dd><a href="tel:%s">📞 %s</a></dd></div>' % (e(st["tel"], True), e(st["tel"]))
     if st["hours"]:
         rows += '<div><dt>営業時間</dt><dd>%s</dd></div>' % e(st["hours"])
     else:
