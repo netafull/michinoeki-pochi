@@ -25429,7 +25429,7 @@
     },
     "kagoshima": {
       "name": "鹿児島県",
-      "published": false,
+      "published": true,
       "stations": [
         {
           "address": "鹿児島県鹿児島市喜入町6094-1",
