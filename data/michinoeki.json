@@ -24382,7 +24382,7 @@
     },
     "oita": {
       "name": "大分県",
-      "published": false,
+      "published": true,
       "stations": [
         {
           "address": "大分県豊後大野市緒方町原尻936-1",
