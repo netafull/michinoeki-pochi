@@ -25969,7 +25969,7 @@
         {
           "address": "沖縄県名護市許田17-1",
           "checked": "2026-11-20",
-          "closed": null,
+          "closed": "年中無休",
           "dogrun": null,
           "ev": false,
           "ev_source_url": null,
@@ -26009,7 +26009,7 @@
           "restaurant": true,
           "shop": true,
           "slug": "ogimi",
-          "source_url": "https://www.michi-no-eki.jp/stations/views/19814",
+          "source_url": "https://www.yambaru-vc.com/",
           "tel": "0980-44-2233"
         },
         {
@@ -26032,7 +26032,7 @@
           "restaurant": true,
           "shop": true,
           "slug": "yuiyui-kunigami",
-          "source_url": "https://www.michi-no-eki.jp/stations/views/19815",
+          "source_url": "https://kunigami-kanko.com/sightseeing-spots/%e9%81%93%e3%81%ae%e9%a7%85-%e3%82%86%e3%81%84%e3%82%86%e3%81%84%e5%9b%bd%e9%a0%ad/",
           "tel": "0980-41-5555"
         },
         {
@@ -26055,7 +26055,7 @@
           "restaurant": true,
           "shop": true,
           "slug": "kadena",
-          "source_url": "https://www.michi-no-eki.jp/stations/views/19816",
+          "source_url": "https://michinoeki-kadena.jp/access.html",
           "tel": "098-957-5678"
         },
         {
@@ -26078,7 +26078,7 @@
           "restaurant": false,
           "shop": false,
           "slug": "kina-bansho",
-          "source_url": "https://www.michi-no-eki.jp/stations/views/19817",
+          "source_url": "https://www.vill.yomitan.okinawa.jp/soshiki/shoko_kanko/gyomu/shisetsu/1325.html",
           "tel": "098-958-2944"
         },
         {
@@ -26094,10 +26094,10 @@
           "name": "豊崎",
           "official_url": "https://www.city.tomigusuku.lg.jp/kanko_bunka_sports/kankojoho/1/1/3779.html",
           "onsen_ashiyu": false,
-          "parking_disabled": 4,
-          "parking_large": 13,
-          "parking_normal": 159,
-          "parking_total": null,
+          "parking_disabled": null,
+          "parking_large": null,
+          "parking_normal": null,
+          "parking_total": 176,
           "restaurant": true,
           "shop": true,
           "slug": "toyosaki",
@@ -26107,11 +26107,11 @@
         {
           "address": "沖縄県糸満市西崎町4-19-1",
           "checked": "2026-11-20",
-          "closed": null,
+          "closed": "年中無休",
           "dogrun": null,
-          "ev": false,
+          "ev": null,
           "ev_source_url": null,
-          "hours": "9:00～18:00",
+          "hours": "9:30～18:00",
           "lat": 26.138497,
           "lng": 127.661156,
           "name": "いとまん",
@@ -26130,7 +26130,7 @@
         {
           "address": "沖縄県国頭郡宜野座村字漢那1633",
           "checked": "2026-11-20",
-          "closed": null,
+          "closed": "年中無休",
           "dogrun": null,
           "ev": false,
           "ev_source_url": null,
@@ -26147,7 +26147,7 @@
           "restaurant": true,
           "shop": true,
           "slug": "ginoza",
-          "source_url": "https://www.michi-no-eki.jp/stations/views/19820",
+          "source_url": "https://mitinoeki-ginoza.com/access/",
           "tel": "098-968-8787"
         },
         {
@@ -26170,7 +26170,7 @@
           "restaurant": true,
           "shop": true,
           "slug": "sunrise-higashi",
-          "source_url": "https://www.michi-no-eki.jp/stations/views/19954",
+          "source_url": "https://sunrise-higashi.okinawa/user_data/facility-information",
           "tel": "0980-43-2270"
         },
         {
