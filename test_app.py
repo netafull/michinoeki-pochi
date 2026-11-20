@@ -1,4 +1,4 @@
-"""道の駅ポチのテスト。ネットワーク不要。実データ（全1,234駅、公開42県1,145駅）で確認する。
+"""道の駅ポチのテスト。ネットワーク不要。実データ（全1,234駅、公開43県1,156駅）で確認する。
 
 公開は県単位のゲート（データの published）で制御する。表示系のテストは、
 実データを全県 published=true に読み替えたストアに差し替えて確認し、
@@ -629,8 +629,9 @@ class StaticBuild(unittest.TestCase):
             self.assertTrue(exists("fukuoka", "index.html"))
             self.assertTrue(exists("nagasaki", "index.html"))
             self.assertTrue(exists("kumamoto", "index.html"))
+            self.assertTrue(exists("saga", "index.html"))
             station_dirs = sorted(os.listdir(os.path.join(out, "station")))
-            self.assertEqual(len(station_dirs), 1145)
+            self.assertEqual(len(station_dirs), 1156)
             for d in station_dirs:
                 self.assertTrue(exists("station", d, "index.html"), d)
             for g in ("ev", "onsen", "dogrun", "restaurant", "shop"):

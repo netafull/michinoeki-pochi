@@ -22958,7 +22958,7 @@
     },
     "saga": {
       "name": "佐賀県",
-      "published": false,
+      "published": true,
       "stations": [
         {
           "address": "佐賀県鹿島市大字音成甲4427-6",
