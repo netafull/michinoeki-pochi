@@ -4,6 +4,7 @@
 実データを全県 published=true に読み替えたストアに差し替えて確認し、
 ゲート自体の挙動（未公開なら404・トップは精査中のお知らせ）は実データのまま確認する。
 """
+import datetime
 import json
 import os
 import re
@@ -597,6 +598,49 @@ class ZeroGenre(unittest.TestCase):
                 appmod.STORE = old
 
 
+class FeedJson(unittest.TestCase):
+    """ポチフル向け /feed.json（feed-spec v1）。実データ・2026-11-21 時点の checked 分布で確認する。"""
+
+    @classmethod
+    def setUpClass(cls):
+        cls._old_store = appmod.STORE
+        appmod.STORE = _all_published_store()
+        cls.client = appmod.app.test_client()
+
+    @classmethod
+    def tearDownClass(cls):
+        appmod.STORE = cls._old_store
+
+    def test_feed_items_window_cap_and_spread(self):
+        items = appmod._feed_items(datetime.date(2026, 11, 21))
+        self.assertEqual(len(items), 20)
+        dates = [it["date"] for it in items]
+        self.assertEqual(dates, sorted(dates, reverse=True))
+        self.assertTrue(all("2026-11-18" <= d <= "2026-11-21" for d in dates))
+        self.assertEqual(len({it["id"] for it in items}), 20)
+        for it in items:
+            self.assertTrue(it["id"].startswith("michinoeki:"))
+            self.assertEqual(it["source"], "michinoeki")
+            self.assertEqual(it["source_name"], "道の駅ポチ")
+            self.assertTrue(it["url"].startswith("https://michinoeki.netaful.jp/station/"))
+            self.assertIsNone(it["image"])
+            self.assertIsNone(it["icon"])
+        # 最新日（2026-11-20）は九州8県が精査された日。同じ日の中では県ごとに
+        # 1駅ずつ出るので、先頭8件は県名（note）がすべて異なる。
+        first_day = [it for it in items if it["date"] == "2026-11-20"]
+        self.assertGreaterEqual(len(first_day), 8)
+        self.assertEqual(len({it["note"] for it in first_day[:8]}), 8)
+
+    def test_feed_route(self):
+        r = self.client.get("/feed.json")
+        self.assertEqual(r.status_code, 200)
+        payload = json.loads(r.get_data(as_text=True))
+        self.assertEqual(payload["version"], 1)
+        self.assertEqual(payload["site"], "michinoeki")
+        self.assertEqual(payload["site_name"], "道の駅ポチ")
+        self.assertIsInstance(payload["items"], list)
+
+
 class StaticBuild(unittest.TestCase):
     """静的書き出し（scripts/build_static.py）が全ルート分そろうこと。"""
 
@@ -657,6 +701,7 @@ class StaticBuild(unittest.TestCase):
                 self.assertTrue(exists("genre", g, "index.html"), g)
             self.assertTrue(exists("sitemap.xml"))
             self.assertTrue(exists("robots.txt"))
+            self.assertTrue(exists("feed.json"))
             self.assertTrue(exists("static", "style.css"))
             self.assertTrue(exists("static", "app.js"))
             self.assertTrue(exists(".nojekyll"))
