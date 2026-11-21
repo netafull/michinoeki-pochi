@@ -33,7 +33,7 @@ def collect_routes(store):
         routes.append("/station/%s/" % st["slug"])
     for genre_slug in store.live_genres():
         routes.append("/genre/%s/" % genre_slug)
-    routes += ["/sitemap.xml", "/robots.txt"]
+    routes += ["/sitemap.xml", "/robots.txt", "/feed.json"]
     return routes
 
 
@@ -101,7 +101,7 @@ def build(out_dir):
     n_pref = sum(1 for r in routes if r.count("/") == 2 and not r.startswith(("/station/", "/genre/")))
     n_genre = sum(1 for r in routes if r.startswith("/genre/"))
     print("[build_static] 書き出し完了: %s" % out_dir)
-    print("  ページ: %d（トップ1・県%d・駅%d・ジャンル%d・sitemap.xml・robots.txt）"
+    print("  ページ: %d（トップ1・県%d・駅%d・ジャンル%d・sitemap.xml・robots.txt・feed.json）"
           % (len(pages), n_pref, n_station, n_genre))
     print("  静的ファイル: %d（%s）" % (len(static_files), "、".join(sorted(static_files))))
     print("  CNAME: %s / .nojekyll: あり" % CNAME)

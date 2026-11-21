@@ -679,6 +679,71 @@ def robots():
     return Response("User-agent: *\nAllow: /\nSitemap: %s/sitemap.xml\n" % SITE_URL, mimetype="text/plain")
 
 
+# ---------- ポチフル（ポチフルディスカバー）向け新着 feed ----------
+# 形式は pochi-full/feed-spec.md（v1）に合わせる。items は「最近チェックした駅」で、
+# checked が今日（JST）から3日以内の駅だけを、checked の新しい順に最大20件。
+# checked は精査した日ごとにまとまるため、同じ日の中では都道府県ごとに1駅ずつ
+# 順番に出して、特定の県だけで20件が埋まらないようにする。
+FEED_KEEP_DAYS = 3
+FEED_MAX_ITEMS = 20
+
+
+def _feed_items(today):
+    floor = today - datetime.timedelta(days=FEED_KEEP_DAYS)
+    by_date = {}
+    for pref_slug, st in STORE.public_stations():
+        checked = st.get("checked")
+        if not _is_date(checked):
+            continue
+        if datetime.date.fromisoformat(checked) < floor:
+            continue
+        by_date.setdefault(checked, []).append((pref_slug, st))
+
+    items = []
+    for checked in sorted(by_date, reverse=True):
+        rows = by_date[checked]
+        pref_order = []
+        for pref_slug, _st in rows:
+            if pref_slug not in pref_order:
+                pref_order.append(pref_slug)
+        buckets = {p: [st for ps, st in rows if ps == p] for p in pref_order}
+        while any(buckets[p] for p in pref_order) and len(items) < FEED_MAX_ITEMS:
+            for p in pref_order:
+                if not buckets[p] or len(items) >= FEED_MAX_ITEMS:
+                    continue
+                st = buckets[p].pop(0)
+                items.append({
+                    "id": "michinoeki:%s" % st["slug"],
+                    "title": st["name"],
+                    "url": "%s/station/%s/" % (SITE_URL, st["slug"]),
+                    "date": checked,
+                    "note": STORE.prefectures[p]["name"],
+                    "image": None,
+                    "image_link": None,
+                    "source": "michinoeki",
+                    "source_name": SITE_NAME,
+                    "icon": None,
+                })
+        if len(items) >= FEED_MAX_ITEMS:
+            break
+    return items
+
+
+@app.route("/feed.json")
+def feed_json():
+    now = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9)))
+    payload = {
+        "version": 1,
+        "site": "michinoeki",
+        "site_name": SITE_NAME,
+        "site_url": SITE_URL + "/",
+        "generated": now.isoformat(timespec="seconds"),
+        "items": _feed_items(now.date()),
+    }
+    return Response(json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
+                    mimetype="application/json")
+
+
 @app.errorhandler(404)
 def not_found(_err):
     content = ('<section class="hero"><h1>ページが見つかりません</h1>'
