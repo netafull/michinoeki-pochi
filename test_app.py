@@ -216,7 +216,8 @@ class Rendering(unittest.TestCase):
             foot = text.split('<footer class="site-footer">', 1)[1]
             self.assertIn("非公式サイトです", foot)
             self.assertIn("最新の情報は各駅の公式サイトでご確認ください", foot)
-            self.assertIn('<a href="https://netaful.jp/policy.html">メディアポリシー</a>', foot)
+            self.assertNotIn('netaful.jp/policy.html', foot)
+            self.assertIn('当サイトはアクセス解析（Googleアナリティクス）を使っています。Cookieを使うことがあります。', foot)
             nav = foot.split('<nav class="sites">', 1)[1].split("</nav>", 1)[0]
             hosts = re.findall(r'href="https://([a-z]+)\.netaful\.jp/"', nav)
             self.assertEqual(hosts, ["book", "kaden", "apple", "manga", "shinkan", "conbini", "fastfood", "cafe",
