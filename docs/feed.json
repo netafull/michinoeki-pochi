@@ -3,8 +3,20 @@
   "site": "michinoeki",
   "site_name": "道の駅ポチ",
   "site_url": "https://michinoeki.netaful.jp/",
-  "generated": "2026-11-21T12:14:45+09:00",
+  "generated": "2026-11-22T16:45:43+09:00",
   "items": [
+    {
+      "id": "michinoeki:kuratake-amakusa-sengoku-museum",
+      "title": "くらたけ天草戦国ミュージアム",
+      "url": "https://michinoeki.netaful.jp/station/kuratake-amakusa-sengoku-museum/",
+      "date": "2026-11-22",
+      "note": "熊本県",
+      "image": null,
+      "image_link": null,
+      "source": "michinoeki",
+      "source_name": "道の駅ポチ",
+      "icon": null
+    },
     {
       "id": "michinoeki:harazuru",
       "title": "原鶴",
@@ -227,18 +239,6 @@
       "url": "https://michinoeki.netaful.jp/station/konchu-no-sato-tabira/",
       "date": "2026-11-20",
       "note": "長崎県",
-      "image": null,
-      "image_link": null,
-      "source": "michinoeki",
-      "source_name": "道の駅ポチ",
-      "icon": null
-    },
-    {
-      "id": "michinoeki:kyokushi",
-      "title": "旭志",
-      "url": "https://michinoeki.netaful.jp/station/kyokushi/",
-      "date": "2026-11-20",
-      "note": "熊本県",
       "image": null,
       "image_link": null,
       "source": "michinoeki",

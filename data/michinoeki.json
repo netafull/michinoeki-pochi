@@ -24354,11 +24354,11 @@
         },
         {
           "address": "熊本県天草市倉岳町棚底1619-2",
-          "checked": "2026-11-20",
+          "checked": "2026-11-22",
           "closed": "12月30日～1月1日",
           "dogrun": null,
-          "ev": true,
-          "ev_source_url": "https://www.qsr.mlit.go.jp/n-michi/michi_no_eki/kobetu/kuratake/kuratake2.html",
+          "ev": null,
+          "ev_source_url": null,
           "hours": "9:00～17:00",
           "lat": 32.4098708,
           "lng": 130.3399906,
@@ -24369,14 +24369,11 @@
           "parking_large": 2,
           "parking_normal": 69,
           "parking_total": 71,
-          "restaurant": true,
-          "shop": null,
+          "restaurant": false,
+          "shop": false,
           "slug": "kuratake-amakusa-sengoku-museum",
           "source_url": "https://www.qsr.mlit.go.jp/n-michi/michi_no_eki/kobetu/kuratake/kuratake.html",
-          "tel": "0969-64-3111",
-          "opening": "2026年11月22日開業予定",
-          "opening_note": "道の駅としての開業前です（2026年11月22日開駅予定）。営業時間・設備は開駅時点の公表情報を載せています。",
-          "opening_url": "https://www.qsr.mlit.go.jp/n-michi/michi_no_eki/kobetu/kuratake/kuratake.html"
+          "tel": "0969-64-3111"
         }
       ]
     },

@@ -168,7 +168,7 @@ class Rendering(unittest.TestCase):
         self.assertIn('<dt>休館日</dt><dd class="ms-unknown">未確認</dd>', text)
 
     def test_genre_pages(self):
-        for slug, count in (("ev", 723), ("onsen", 173), ("dogrun", 79), ("restaurant", 1062), ("shop", 1212)):
+        for slug, count in (("ev", 722), ("onsen", 173), ("dogrun", 79), ("restaurant", 1061), ("shop", 1212)):
             code, text = self.get("/genre/%s/" % slug)
             self.assertEqual(code, 200, slug)
             self.assertEqual(text.count('class="ms-card"'), count, slug)
@@ -599,7 +599,7 @@ class ZeroGenre(unittest.TestCase):
 
 
 class FeedJson(unittest.TestCase):
-    """ポチフル向け /feed.json（feed-spec v1）。実データ・2026-11-21 時点の checked 分布で確認する。"""
+    """ポチフル向け /feed.json（feed-spec v1）。実データ・2026-11-22 時点の checked 分布で確認する。"""
 
     @classmethod
     def setUpClass(cls):
@@ -612,11 +612,11 @@ class FeedJson(unittest.TestCase):
         appmod.STORE = cls._old_store
 
     def test_feed_items_window_cap_and_spread(self):
-        items = appmod._feed_items(datetime.date(2026, 11, 21))
+        items = appmod._feed_items(datetime.date(2026, 11, 22))
         self.assertEqual(len(items), 20)
         dates = [it["date"] for it in items]
         self.assertEqual(dates, sorted(dates, reverse=True))
-        self.assertTrue(all("2026-11-18" <= d <= "2026-11-21" for d in dates))
+        self.assertTrue(all("2026-11-19" <= d <= "2026-11-22" for d in dates))
         self.assertEqual(len({it["id"] for it in items}), 20)
         for it in items:
             self.assertTrue(it["id"].startswith("michinoeki:"))
