@@ -57,6 +57,7 @@ SERIES_SITES = (
     ("温泉宿ポチ", "温泉地の空室を、すぐ探す", "https://onsen.netaful.jp/"),
     ("離島宿ポチ", "島の空室を、すぐ探す", "https://ritou.netaful.jp/"),
     ("新発売ポチ", "新商品を発売日でまとめて", "https://shinhatsubai.netaful.jp/"),
+    ("ニュースポチ", "ブログの新着をまとめて", "https://news.netaful.jp/"),
 )
 
 # トップの都道府県一覧の地方区分（各区分の中は北から南、JISの県コード順）。
