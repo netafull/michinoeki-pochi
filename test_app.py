@@ -221,7 +221,7 @@ class Rendering(unittest.TestCase):
             nav = foot.split('<nav class="sites">', 1)[1].split("</nav>", 1)[0]
             hosts = re.findall(r'href="https://([a-z]+)\.netaful\.jp/"', nav)
             self.assertEqual(hosts, ["book", "kaden", "apple", "manga", "shinkan", "conbini", "fastfood", "cafe",
-                                     "famires", "sushi", "cupmen", "hotel", "onsen", "ritou", "shinhatsubai"])
+                                     "famires", "sushi", "cupmen", "hotel", "onsen", "ritou", "shinhatsubai", "news"])
             self.assertNotIn("michinoeki.netaful.jp", nav)
             self.assertNotIn("道の駅ポチ", nav)
             self.assertIn('<a href="https://ritou.netaful.jp/">離島宿ポチ<span class="lbl"> 島の空室を、すぐ探す</span></a>', nav)
