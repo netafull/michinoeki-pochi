@@ -24376,7 +24376,7 @@
           "parking_large": 2,
           "parking_normal": 69,
           "parking_total": 71,
-          "restaurant": true,
+          "restaurant": null,
           "shop": null,
           "slug": "kuratake-amakusa-sengoku-museum",
           "source_url": "https://www.qsr.mlit.go.jp/n-michi/michi_no_eki/kobetu/kuratake/kuratake.html",
