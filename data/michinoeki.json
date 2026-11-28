@@ -18979,14 +18979,15 @@
           "parking_large": 9,
           "lat": 34.47284808,
           "lng": 134.2736405,
-          "ev": null,
+          "ev": true,
           "onsen_ashiyu": true,
           "dogrun": null,
           "restaurant": true,
           "shop": true,
           "source_url": "http://www.olive-pk.jp/",
           "checked": "2026-11-19",
-          "parking_disabled": 3
+          "parking_disabled": 3,
+          "ev_source_url": "https://evsmart.net/spot/kagawa/l373249/v2788"
         },
         {
           "slug": "shodoshima-furusato-mura",
@@ -19000,14 +19001,15 @@
           "parking_large": 4,
           "lat": 34.47101922,
           "lng": 134.2361538,
-          "ev": null,
+          "ev": true,
           "onsen_ashiyu": false,
           "dogrun": null,
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.shodoshima.jp/news/topics/5142.html",
           "checked": "2026-11-19",
-          "parking_disabled": 2
+          "parking_disabled": 2,
+          "ev_source_url": "https://evsmart.net/spot/kagawa/l373249/v9139"
         },
         {
           "slug": "sora-no-yume-mominoki-park",
@@ -19174,14 +19176,15 @@
           "parking_large": 3,
           "lat": 34.11003683897089,
           "lng": 133.7980270199494,
-          "ev": null,
+          "ev": true,
           "onsen_ashiyu": true,
           "dogrun": null,
           "restaurant": true,
           "shop": true,
           "source_url": "https://takaradanosato.co.jp/",
           "checked": "2026-11-19",
-          "parking_disabled": 4
+          "parking_disabled": 4,
+          "ev_source_url": "https://evsmart.net/spot/kagawa/l372081/v31994"
         },
         {
           "slug": "osakajo-zanseki-kinen-koen",
@@ -19309,14 +19312,15 @@
           "parking_large": 13,
           "lat": 33.9019237,
           "lng": 133.3098559,
-          "ev": null,
+          "ev": true,
           "onsen_ashiyu": true,
           "dogrun": null,
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.skr.mlit.go.jp/road/rstation/eki/eh02_besshi.html",
           "checked": "2026-11-19",
-          "parking_disabled": 7
+          "parking_disabled": 7,
+          "ev_source_url": "https://evsmart.net/spot/ehime/l382051/v35281"
         },
         {
           "slug": "hiyoshi-yume-sanchi",
@@ -19373,13 +19377,14 @@
           "parking_large": 2,
           "lat": 33.68511817,
           "lng": 132.6340324,
-          "ev": null,
+          "ev": true,
           "onsen_ashiyu": false,
           "dogrun": null,
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.futamiseaside.com/",
-          "checked": "2026-11-19"
+          "checked": "2026-11-19",
+          "ev_source_url": "https://evsmart.net/spot/ehime/l382108/v28545"
         },
         {
           "slug": "uchiko-fresh-park-karari",
@@ -19753,7 +19758,7 @@
           "parking_large": 5,
           "lat": 33.22242256,
           "lng": 132.5582355,
-          "ev": null,
+          "ev": true,
           "onsen_ashiyu": false,
           "dogrun": null,
           "restaurant": true,
@@ -19761,7 +19766,8 @@
           "source_url": "http://www.kisaiyahiroba.com/",
           "checked": "2026-11-19",
           "parking_total": 228,
-          "parking_disabled": 2
+          "parking_disabled": 2,
+          "ev_source_url": "https://evsmart.net/spot/ehime/l382035/v34185"
         },
         {
           "slug": "kiri-no-mori",
@@ -19775,14 +19781,15 @@
           "parking_large": 2,
           "lat": 33.92418679,
           "lng": 133.6411104,
-          "ev": null,
+          "ev": true,
           "onsen_ashiyu": true,
           "dogrun": null,
           "restaurant": true,
           "shop": true,
           "source_url": "https://www.skr.mlit.go.jp/road/rstation/eki/eh24_kirinomori.html",
           "checked": "2026-11-19",
-          "parking_disabled": 7
+          "parking_disabled": 7,
+          "ev_source_url": "https://evsmart.net/spot/ehime/l382132/v34123"
         },
         {
           "slug": "yawatahama-minatto",
@@ -24373,10 +24380,7 @@
           "shop": null,
           "slug": "kuratake-amakusa-sengoku-museum",
           "source_url": "https://www.qsr.mlit.go.jp/n-michi/michi_no_eki/kobetu/kuratake/kuratake.html",
-          "tel": "0969-64-3111",
-          "opening": "2026年11月22日開業予定",
-          "opening_note": "道の駅としての開業前です（2026年11月22日開駅予定）。営業時間・設備は開駅時点の公表情報を載せています。",
-          "opening_url": "https://www.qsr.mlit.go.jp/n-michi/michi_no_eki/kobetu/kuratake/kuratake.html"
+          "tel": "0969-64-3111"
         }
       ]
     },
